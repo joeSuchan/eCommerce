@@ -1,0 +1,78 @@
+[
+    {
+        "_id": 1,
+       
+        "firstname": "Srujana",
+        "lastname": "Gattu",
+        "email": "S533622@nwmissouri.edu",
+        "age":25,
+        "street1": "1121N College Drive",
+        "street2": "Horizon west apartments",
+        "city": "Maryville",
+        "state":"MO",
+        "country": "USA",
+        "zip": 64468
+       
+    },
+    {
+        "_id": 2,
+       
+        "firstname": "Dristi",
+        "lastname": "Marasini",
+        "email": "S111111@nwmissouri.edu",
+        "age":25,
+        "street1": "1121N College Drive",
+        "street2": "Horizon west apartments",
+        "city": "Maryville",
+        "state":"MO",
+        "country": "USA",
+        "zip": 64468
+       
+    },
+
+    {
+        "_id": 3,
+       
+        "firstname": "Karthik",
+        "lastname": "Reddy",
+        "email": "S222222@nwmissouri.edu",
+        "age":25,
+        "street1": "1121N College Drive",
+        "street2": "Horizon west apartments",
+        "city": "Maryville",
+        "state":"MO",
+        "country": "USA",
+        "zip": 64468
+       
+    },
+    {
+        "_id": 4,
+       
+        "firstname": "Rithwik",
+        "lastname": "Tenny",
+        "email": "S333333@nwmissouri.edu",
+        "age":25,
+        "street1": "1121N College Drive",
+        "street2": "Horizon west apartments",
+        "city": "Maryville",
+        "state":"MO",
+        "country": "USA",
+        "zip": 64468
+       
+    },
+    {
+        "_id": 5,
+       
+        "firstname": "Meghana",
+        "lastname": "Putta",
+        "email": "S444444@nwmissouri.edu",
+        "age":25,
+        "street1": "1121N College Drive",
+        "street2": "Horizon west apartments",
+        "city": "Maryville",
+        "state":"MO",
+        "country": "USA",
+        "zip": 64468
+       
+    }
+]

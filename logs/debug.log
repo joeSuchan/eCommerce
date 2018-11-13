@@ -1,0 +1,541 @@
+2018-11-13T04:30:35.812Z - info: Environment variables loaded.
+2018-11-13T04:30:35.872Z - error: uncaughtException: Cannot find module './public/index.js' date=Mon Nov 12 2018 22:30:35 GMT-0600 (Central Standard Time), pid=165920, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=71319552, heapTotal=60731392, heapUsed=40142672, external=19801210, loadavg=[0, 0, 0], uptime=822328.4221305
+Error: Cannot find module './public/index.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:66:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:31:59.634Z - error: uncaughtException: public is not defined date=Mon Nov 12 2018 22:31:59 GMT-0600 (Central Standard Time), pid=174196, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=70926336, heapTotal=60731392, heapUsed=39701336, external=19691000, loadavg=[0, 0, 0], uptime=822412.1846976
+ReferenceError: public is not defined
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:67:14)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:31:59.595Z - info: Environment variables loaded.
+2018-11-13T04:32:08.296Z - info: Environment variables loaded.
+2018-11-13T04:32:08.331Z - error: uncaughtException: Router.use() requires a middleware function but got a Object date=Mon Nov 12 2018 22:32:08 GMT-0600 (Central Standard Time), pid=157340, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72724480, heapTotal=61779968, heapUsed=31944248, external=18496211, loadavg=[0, 0, 0], uptime=822420.8822242
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\S533622\Documents\44563\ecommerce\node_modules\express\lib\router\index.js:458:13)
+    at Function.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\node_modules\express\lib\application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\S533622\Documents\44563\ecommerce\node_modules\express\lib\application.js:217:7)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:67:5)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:32:48.712Z - info: Environment variables loaded.
+2018-11-13T04:32:48.754Z - error: uncaughtException: Router.use() requires a middleware function but got a Object date=Mon Nov 12 2018 22:32:48 GMT-0600 (Central Standard Time), pid=177772, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72663040, heapTotal=62304256, heapUsed=31936368, external=18500985, loadavg=[0, 0, 0], uptime=822461.298393
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\S533622\Documents\44563\ecommerce\node_modules\express\lib\router\index.js:458:13)
+    at Function.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\node_modules\express\lib\application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\S533622\Documents\44563\ecommerce\node_modules\express\lib\application.js:217:7)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:67:5)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:38:25.163Z - error: uncaughtException: Cannot find module '../data/puppies.json' date=Mon Nov 12 2018 22:38:25 GMT-0600 (Central Standard Time), pid=183752, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=73121792, heapTotal=62304256, heapUsed=33525672, external=18679086, loadavg=[0, 0, 0], uptime=822797.7112033
+Error: Cannot find module '../data/puppies.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\utils\seeder.js:4:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:73:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:38:25.091Z - info: Environment variables loaded.
+2018-11-13T04:38:25.099Z - debug: START routing
+2018-11-13T04:38:25.099Z - debug: END routing
+2018-11-13T04:38:25.099Z - info: Loaded routing.
+2018-11-13T04:40:25.621Z - info: Environment variables loaded.
+2018-11-13T04:40:25.691Z - error: uncaughtException: Cannot find module '../data/custoi.json' date=Mon Nov 12 2018 22:40:25 GMT-0600 (Central Standard Time), pid=184252, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=73134080, heapTotal=62828544, heapUsed=33425800, external=18679086, loadavg=[0, 0, 0], uptime=822918.239917
+Error: Cannot find module '../data/custoi.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\utils\seeder.js:4:17)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:73:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:40:25.630Z - debug: START routing
+2018-11-13T04:40:25.630Z - debug: END routing
+2018-11-13T04:40:25.630Z - info: Loaded routing.
+2018-11-13T04:40:28.662Z - info: Environment variables loaded.
+2018-11-13T04:40:28.750Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 22:40:28 GMT-0600 (Central Standard Time), pid=185228, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=73494528, heapTotal=63877120, heapUsed=31510032, external=18472455, loadavg=[0, 0, 0], uptime=822921.301351
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\utils\seeder.js:8:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:73:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:40:28.673Z - debug: START routing
+2018-11-13T04:40:28.673Z - debug: END routing
+2018-11-13T04:40:28.673Z - info: Loaded routing.
+2018-11-13T04:40:49.706Z - error: uncaughtException: Cannot find module '../data/customers.json' date=Mon Nov 12 2018 22:40:49 GMT-0600 (Central Standard Time), pid=187600, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=73420800, heapTotal=62304256, heapUsed=33536296, external=18679086, loadavg=[0, 0, 0], uptime=822942.2542957
+Error: Cannot find module '../data/customers.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\utils\seeder.js:8:19)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:73:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:40:49.641Z - info: Environment variables loaded.
+2018-11-13T04:40:49.649Z - debug: START routing
+2018-11-13T04:40:49.649Z - debug: END routing
+2018-11-13T04:40:49.649Z - info: Loaded routing.
+2018-11-13T04:41:11.782Z - info: Environment variables loaded.
+2018-11-13T04:41:11.861Z - error: uncaughtException: Cannot find module '../data/products.json' date=Mon Nov 12 2018 22:41:11 GMT-0600 (Central Standard Time), pid=189200, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72998912, heapTotal=62304256, heapUsed=33744400, external=18683860, loadavg=[0, 0, 0], uptime=822964.4108699
+Error: Cannot find module '../data/products.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\utils\seeder.js:9:18)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:73:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:41:11.795Z - debug: START routing
+2018-11-13T04:41:11.795Z - debug: END routing
+2018-11-13T04:41:11.795Z - info: Loaded routing.
+2018-11-13T04:41:13.992Z - error: uncaughtException: Cannot find module '../data/orders.json' date=Mon Nov 12 2018 22:41:13 GMT-0600 (Central Standard Time), pid=189348, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=73199616, heapTotal=62828544, heapUsed=32973376, external=18642631, loadavg=[0, 0, 0], uptime=822966.5432329
+Error: Cannot find module '../data/orders.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\utils\seeder.js:10:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:73:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:41:13.925Z - info: Environment variables loaded.
+2018-11-13T04:41:13.934Z - debug: START routing
+2018-11-13T04:41:13.934Z - debug: END routing
+2018-11-13T04:41:13.934Z - info: Loaded routing.
+2018-11-13T04:41:17.781Z - error: uncaughtException: c is not defined date=Mon Nov 12 2018 22:41:17 GMT-0600 (Central Standard Time), pid=185276, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=73543680, heapTotal=63352832, heapUsed=33779448, external=18692052, loadavg=[0, 0, 0], uptime=822970.3302174
+ReferenceError: c is not defined
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\utils\seeder.js:10:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:73:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:41:17.687Z - info: Environment variables loaded.
+2018-11-13T04:41:17.699Z - debug: START routing
+2018-11-13T04:41:17.699Z - debug: END routing
+2018-11-13T04:41:17.699Z - info: Loaded routing.
+2018-11-13T04:41:20.759Z - info: Environment variables loaded.
+2018-11-13T04:41:20.844Z - error: uncaughtException: Cannot find module '../data/orderLineItems.json' date=Mon Nov 12 2018 22:41:20 GMT-0600 (Central Standard Time), pid=184880, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=73420800, heapTotal=62828544, heapUsed=34276352, external=18692052, loadavg=[0, 0, 0], uptime=822973.3877831
+Error: Cannot find module '../data/orderLineItems.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\utils\seeder.js:11:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:73:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:41:20.767Z - debug: START routing
+2018-11-13T04:41:20.768Z - debug: END routing
+2018-11-13T04:41:20.768Z - info: Loaded routing.
+2018-11-13T04:41:22.440Z - info: Environment variables loaded.
+2018-11-13T04:41:22.525Z - error: uncaughtException: Cannot find module '../data/orderLineItems.json' date=Mon Nov 12 2018 22:41:22 GMT-0600 (Central Standard Time), pid=188840, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=73564160, heapTotal=62828544, heapUsed=34300168, external=18692052, loadavg=[0, 0, 0], uptime=822975.0507624
+Error: Cannot find module '../data/orderLineItems.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\utils\seeder.js:11:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:73:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:41:22.448Z - debug: START routing
+2018-11-13T04:41:22.448Z - debug: END routing
+2018-11-13T04:41:22.448Z - info: Loaded routing.
+2018-11-13T04:41:24.479Z - info: Environment variables loaded.
+2018-11-13T04:41:24.551Z - error: uncaughtException: products is not defined date=Mon Nov 12 2018 22:41:24 GMT-0600 (Central Standard Time), pid=188672, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=73277440, heapTotal=62304256, heapUsed=34036936, external=18705546, loadavg=[0, 0, 0], uptime=822977.1003773
+ReferenceError: products is not defined
+    at module.exports (C:\Users\S533622\Documents\44563\ecommerce\utils\seeder.js:50:22)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:73:29)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:41:24.487Z - debug: START routing
+2018-11-13T04:41:24.488Z - debug: END routing
+2018-11-13T04:41:24.488Z - info: Loaded routing.
+2018-11-13T04:41:24.517Z - info: START seeder.
+2018-11-13T04:41:24.520Z - debug: 5 puppies seeded
+2018-11-13T04:41:24.522Z - debug: 5 customers seeded
+2018-11-13T04:41:35.917Z - info: Environment variables loaded.
+2018-11-13T04:41:35.993Z - error: uncaughtException: products is not defined date=Mon Nov 12 2018 22:41:35 GMT-0600 (Central Standard Time), pid=189508, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=73265152, heapTotal=63352832, heapUsed=33281760, external=18637138, loadavg=[0, 0, 0], uptime=822988.5428772
+ReferenceError: products is not defined
+    at module.exports (C:\Users\S533622\Documents\44563\ecommerce\utils\seeder.js:50:22)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:73:29)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:41:35.925Z - debug: START routing
+2018-11-13T04:41:35.925Z - debug: END routing
+2018-11-13T04:41:35.925Z - info: Loaded routing.
+2018-11-13T04:41:35.951Z - info: START seeder.
+2018-11-13T04:41:35.956Z - debug: 5 puppies seeded
+2018-11-13T04:41:35.960Z - debug: 5 customers seeded
+2018-11-13T04:42:07.094Z - info: Environment variables loaded.
+2018-11-13T04:42:07.171Z - error: uncaughtException: puppies is not defined date=Mon Nov 12 2018 22:42:07 GMT-0600 (Central Standard Time), pid=190360, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=73187328, heapTotal=63352832, heapUsed=34441968, external=18700872, loadavg=[0, 0, 0], uptime=823019.7190143
+ReferenceError: puppies is not defined
+    at module.exports (C:\Users\S533622\Documents\44563\ecommerce\utils\seeder.js:23:21)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:73:29)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:42:07.103Z - debug: START routing
+2018-11-13T04:42:07.103Z - debug: END routing
+2018-11-13T04:42:07.103Z - info: Loaded routing.
+2018-11-13T04:42:07.137Z - info: START seeder.
+2018-11-13T04:42:30.032Z - info: Environment variables loaded.
+2018-11-13T04:42:30.118Z - error: uncaughtException: puppies is not defined date=Mon Nov 12 2018 22:42:30 GMT-0600 (Central Standard Time), pid=193336, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72466432, heapTotal=61255680, heapUsed=41281080, external=19882695, loadavg=[0, 0, 0], uptime=823042.662882
+ReferenceError: puppies is not defined
+    at module.exports (C:\Users\S533622\Documents\44563\ecommerce\utils\seeder.js:23:21)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:73:29)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:42:30.041Z - debug: START routing
+2018-11-13T04:42:30.041Z - debug: END routing
+2018-11-13T04:42:30.041Z - info: Loaded routing.
+2018-11-13T04:42:30.078Z - info: START seeder.
+2018-11-13T04:42:37.124Z - info: Environment variables loaded.
+2018-11-13T04:42:37.209Z - error: uncaughtException: puppies is not defined date=Mon Nov 12 2018 22:42:37 GMT-0600 (Central Standard Time), pid=114176, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=73252864, heapTotal=62828544, heapUsed=33661000, external=18687906, loadavg=[0, 0, 0], uptime=823049.7587713
+ReferenceError: puppies is not defined
+    at module.exports (C:\Users\S533622\Documents\44563\ecommerce\utils\seeder.js:23:21)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:73:29)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:42:37.132Z - debug: START routing
+2018-11-13T04:42:37.132Z - debug: END routing
+2018-11-13T04:42:37.132Z - info: Loaded routing.
+2018-11-13T04:42:37.177Z - info: START seeder.
+2018-11-13T04:43:29.081Z - info: Environment variables loaded.
+2018-11-13T04:43:29.164Z - error: uncaughtException: puppies is not defined date=Mon Nov 12 2018 22:43:29 GMT-0600 (Central Standard Time), pid=191944, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=73195520, heapTotal=63352832, heapUsed=33198608, external=18651451, loadavg=[0, 0, 0], uptime=823101.7080724
+ReferenceError: puppies is not defined
+    at module.exports (C:\Users\S533622\Documents\44563\ecommerce\utils\seeder.js:26:40)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:73:29)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:43:29.088Z - debug: START routing
+2018-11-13T04:43:29.089Z - debug: END routing
+2018-11-13T04:43:29.089Z - info: Loaded routing.
+2018-11-13T04:43:29.118Z - info: START seeder.
+2018-11-13T04:43:31.413Z - info: Environment variables loaded.
+2018-11-13T04:43:31.474Z - error: uncaughtException: puppies is not defined date=Mon Nov 12 2018 22:43:31 GMT-0600 (Central Standard Time), pid=193492, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=73396224, heapTotal=62828544, heapUsed=33652800, external=18687906, loadavg=[0, 0, 0], uptime=823104.0257209
+ReferenceError: puppies is not defined
+    at module.exports (C:\Users\S533622\Documents\44563\ecommerce\utils\seeder.js:26:40)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:73:29)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:43:31.421Z - debug: START routing
+2018-11-13T04:43:31.421Z - debug: END routing
+2018-11-13T04:43:31.421Z - info: Loaded routing.
+2018-11-13T04:43:31.448Z - info: START seeder.
+2018-11-13T04:43:33.391Z - info: Environment variables loaded.
+2018-11-13T04:43:33.464Z - error: uncaughtException: Cannot read property 'find' of undefined date=Mon Nov 12 2018 22:43:33 GMT-0600 (Central Standard Time), pid=194220, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=73719808, heapTotal=62828544, heapUsed=33695440, external=18683860, loadavg=[0, 0, 0], uptime=823106.0161971
+TypeError: Cannot read property 'find' of undefined
+    at module.exports (C:\Users\S533622\Documents\44563\ecommerce\utils\seeder.js:26:35)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:73:29)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:43:33.399Z - debug: START routing
+2018-11-13T04:43:33.400Z - debug: END routing
+2018-11-13T04:43:33.400Z - info: Loaded routing.
+2018-11-13T04:43:33.440Z - info: START seeder.
+2018-11-13T04:43:39.659Z - info: Environment variables loaded.
+2018-11-13T04:43:39.720Z - error: uncaughtException: Cannot read property 'query' of undefined date=Mon Nov 12 2018 22:43:39 GMT-0600 (Central Standard Time), pid=184596, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=73175040, heapTotal=62304256, heapUsed=34295672, external=18692052, loadavg=[0, 0, 0], uptime=823112.2725272
+TypeError: Cannot read property 'query' of undefined
+    at module.exports (C:\Users\S533622\Documents\44563\ecommerce\utils\seeder.js:27:35)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:73:29)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:43:39.667Z - debug: START routing
+2018-11-13T04:43:39.667Z - debug: END routing
+2018-11-13T04:43:39.667Z - info: Loaded routing.
+2018-11-13T04:43:39.696Z - info: START seeder.
+2018-11-13T04:43:44.124Z - error: uncaughtException: products is not defined date=Mon Nov 12 2018 22:43:44 GMT-0600 (Central Standard Time), pid=195408, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=73781248, heapTotal=63352832, heapUsed=33431040, external=18660271, loadavg=[0, 0, 0], uptime=823116.6754044
+ReferenceError: products is not defined
+    at module.exports (C:\Users\S533622\Documents\44563\ecommerce\utils\seeder.js:50:22)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:73:29)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:43:44.052Z - info: Environment variables loaded.
+2018-11-13T04:43:44.061Z - debug: START routing
+2018-11-13T04:43:44.061Z - debug: END routing
+2018-11-13T04:43:44.061Z - info: Loaded routing.
+2018-11-13T04:43:44.091Z - info: START seeder.
+2018-11-13T04:43:44.097Z - debug: 5 customers seeded
+2018-11-13T04:44:23.935Z - info: Environment variables loaded.
+2018-11-13T04:44:24.003Z - error: uncaughtException: products is not defined date=Mon Nov 12 2018 22:44:23 GMT-0600 (Central Standard Time), pid=195156, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72929280, heapTotal=61255680, heapUsed=41425104, external=19891515, loadavg=[0, 0, 0], uptime=823156.5534136
+ReferenceError: products is not defined
+    at module.exports (C:\Users\S533622\Documents\44563\ecommerce\utils\seeder.js:50:22)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:73:29)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:44:23.943Z - debug: START routing
+2018-11-13T04:44:23.944Z - debug: END routing
+2018-11-13T04:44:23.944Z - info: Loaded routing.
+2018-11-13T04:44:23.972Z - info: START seeder.
+2018-11-13T04:44:23.976Z - debug: 5 customers seeded
+2018-11-13T04:44:30.467Z - info: Environment variables loaded.
+2018-11-13T04:44:30.507Z - error: uncaughtException: Invalid or unexpected token date=Mon Nov 12 2018 22:44:30 GMT-0600 (Central Standard Time), pid=195596, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=71655424, heapTotal=60731392, heapUsed=40643744, external=19809402, loadavg=[0, 0, 0], uptime=823163.0579523
+C:\Users\S533622\Documents\44563\ecommerce\utils\seeder.js:45
+/*
+^^
+
+SyntaxError: Invalid or unexpected token
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:73:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-13T04:44:30.477Z - debug: START routing
+2018-11-13T04:44:30.477Z - debug: END routing
+2018-11-13T04:44:30.477Z - info: Loaded routing.
+2018-11-13T04:44:37.769Z - info: Environment variables loaded.
+2018-11-13T04:44:37.777Z - debug: START routing
+2018-11-13T04:44:37.778Z - debug: END routing
+2018-11-13T04:44:37.778Z - info: Loaded routing.
+2018-11-13T04:44:37.803Z - info: START seeder.
+2018-11-13T04:44:37.806Z - debug: 5 customers seeded
+2018-11-13T04:44:37.806Z - info: END Seeder. Sample data read and verified.
+2018-11-13T04:44:52.646Z - info: Environment variables loaded.
+2018-11-13T04:44:52.654Z - debug: START routing
+2018-11-13T04:44:52.654Z - debug: END routing
+2018-11-13T04:44:52.654Z - info: Loaded routing.
+2018-11-13T04:44:52.687Z - info: START seeder.
+2018-11-13T04:44:52.693Z - debug: 5 customers seeded
+2018-11-13T04:44:52.693Z - info: END Seeder. Sample data read and verified.
+2018-11-13T05:01:20.358Z - info: Environment variables loaded.
+2018-11-13T05:01:20.365Z - debug: START routing
+2018-11-13T05:01:20.365Z - debug: END routing
+2018-11-13T05:01:20.365Z - info: Loaded routing.
+2018-11-13T05:01:20.390Z - info: START seeder.
+2018-11-13T05:01:20.392Z - debug: 5 customers seeded
+2018-11-13T05:01:20.392Z - info: END Seeder. Sample data read and verified.
