@@ -1,0 +1,50 @@
+[
+    {
+        "_id": 1,
+        "productKey": "Coffee Mug",
+        "description": "Best mug ever!",
+        "unitPrice": 9.99,
+        "color": "black",
+        "rating": 5
+    },
+    {
+        "_id": 2,
+        "productKey": "Tshirt",
+        "description": "Even better shirt",
+        "unitPrice": 24.99,
+        "color": "red",
+        "rating": 4
+    },
+    {
+        "_id": 3,
+        "productKey": "Boots",
+        "description": "Best boots ever!",
+        "unitPrice": 10.99,
+        "color": "blue",
+        "rating": 5
+    },
+    {
+        "_id": 4,
+        "productKey": "Jacket",
+        "description": "Even better jacket",
+        "unitPrice": 20.99,
+        "color": "pink",
+        "rating": 4
+    },
+    {
+        "_id": 5,
+        "productKey": "Cap",
+        "description": "Best cap ever!",
+        "unitPrice": 5.99,
+        "color": "yellow",
+        "rating": 5
+    },
+    {
+        "_id": 6,
+        "productKey": "Umbrella",
+        "description": "Even better umbrella",
+        "unitPrice": 15.99,
+        "color": "green",
+        "rating": 4
+    }
+]
