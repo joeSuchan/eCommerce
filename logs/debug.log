@@ -615,3 +615,9 @@ SyntaxError: C:\Users\S533909\44563\ecommerce\data\products.json: Unexpected tok
 2018-11-14T02:10:40.049Z - info: Loaded routing.
 2018-11-14T02:10:40.103Z - info: START seeder.
 2018-11-14T02:10:40.110Z - debug: 6 products seeded
+2018-11-14T02:14:16.702Z - info: Environment variables loaded.
+2018-11-14T02:14:16.711Z - debug: START routing
+2018-11-14T02:14:16.712Z - debug: END routing
+2018-11-14T02:14:16.712Z - info: Loaded routing.
+2018-11-14T02:14:16.739Z - info: START seeder.
+2018-11-14T02:14:16.743Z - debug: 6 products seeded

@@ -1,3 +1,10 @@
+/** 
+*  Product model
+*  Describes the characteristics of each attribute in product resource.
+*
+* @author Meghana Putta <S533909@nwmissouri.edu>
+*
+*/
 const mongoose = require('mongoose')
 
 const ProductSchema = new mongoose.Schema({
