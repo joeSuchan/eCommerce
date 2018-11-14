@@ -20,6 +20,16 @@ const ProductSchema = new mongoose.Schema({
     default: 9.99,
     min: 0,
     max: 100000
+  },
+  color: {
+    type: String,
+    required: true,
+    default: 'color' 
+  },
+  rating: {
+    type: Number,
+    required: true,
+    default: 'rating'
   }
 })
 module.exports = mongoose.model('Product', ProductSchema)
