@@ -539,3 +539,67 @@ SyntaxError: Invalid or unexpected token
 2018-11-13T05:01:20.390Z - info: START seeder.
 2018-11-13T05:01:20.392Z - debug: 5 customers seeded
 2018-11-13T05:01:20.392Z - info: END Seeder. Sample data read and verified.
+2018-11-14T01:21:45.148Z - info: Environment variables loaded.
+2018-11-14T01:21:45.170Z - debug: START routing
+2018-11-14T01:21:45.172Z - debug: END routing
+2018-11-14T01:21:45.172Z - info: Loaded routing.
+2018-11-14T01:21:45.234Z - info: START seeder.
+2018-11-14T01:21:45.241Z - debug: 5 customers seeded
+2018-11-14T01:21:45.241Z - info: END Seeder. Sample data read and verified.
+2018-11-14T01:24:08.335Z - error: uncaughtException: products is not defined date=Tue Nov 13 2018 19:24:08 GMT-0600 (Central Standard Time), pid=16228, uid=null, gid=null, cwd=C:\Users\S533909\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533909\44563\ecommerce\app.js], rss=72409088, heapTotal=61329408, heapUsed=41334264, external=19924735, loadavg=[0, 0, 0], uptime=29016.838173
+ReferenceError: products is not defined
+    at module.exports (C:\Users\S533909\44563\ecommerce\utils\seeder.js:50:22)
+    at Object.<anonymous> (C:\Users\S533909\44563\ecommerce\app.js:73:29)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-14T01:24:08.258Z - info: Environment variables loaded.
+2018-11-14T01:24:08.270Z - debug: START routing
+2018-11-14T01:24:08.270Z - debug: END routing
+2018-11-14T01:24:08.271Z - info: Loaded routing.
+2018-11-14T01:24:08.307Z - info: START seeder.
+2018-11-14T01:27:35.290Z - info: Environment variables loaded.
+2018-11-14T01:27:35.306Z - debug: START routing
+2018-11-14T01:27:35.307Z - debug: END routing
+2018-11-14T01:27:35.307Z - info: Loaded routing.
+2018-11-14T01:27:35.365Z - info: START seeder.
+2018-11-14T01:27:35.371Z - debug: 2 products seeded
+2018-11-14T01:36:05.463Z - info: Environment variables loaded.
+2018-11-14T01:36:05.550Z - error: uncaughtException: C:\Users\S533909\44563\ecommerce\data\products.json: Unexpected token ] in JSON at position 562 date=Tue Nov 13 2018 19:36:05 GMT-0600 (Central Standard Time), pid=10760, uid=null, gid=null, cwd=C:\Users\S533909\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533909\44563\ecommerce\app.js], rss=73052160, heapTotal=62902272, heapUsed=31941712, external=18565384, loadavg=[0, 0, 0], uptime=29734.0535708
+SyntaxError: C:\Users\S533909\44563\ecommerce\data\products.json: Unexpected token ] in JSON at position 562
+    at JSON.parse (<anonymous>)
+    at Object.Module._extensions..json (module.js:672:27)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533909\44563\ecommerce\utils\seeder.js:9:18)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533909\44563\ecommerce\app.js:73:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+2018-11-14T01:36:05.480Z - debug: START routing
+2018-11-14T01:36:05.481Z - debug: END routing
+2018-11-14T01:36:05.481Z - info: Loaded routing.
+2018-11-14T01:36:48.740Z - info: Environment variables loaded.
+2018-11-14T01:36:48.754Z - debug: START routing
+2018-11-14T01:36:48.755Z - debug: END routing
+2018-11-14T01:36:48.755Z - info: Loaded routing.
+2018-11-14T01:36:48.791Z - info: START seeder.
+2018-11-14T01:36:48.797Z - debug: 4 products seeded
