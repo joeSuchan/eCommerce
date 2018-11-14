@@ -1,0 +1,26 @@
+[
+    {
+        "_id": 1,
+        "productKey": "Coffee Mug",
+        "description": "Best mug ever!",
+        "unitPrice": 9.99
+    },
+    {
+        "_id": 2,
+        "productKey": "Tshirt",
+        "description": "Even better shirt",
+        "unitPrice": 24.99
+    },
+    {
+        "_id": 3,
+        "productKey": "Boots",
+        "description": "Best boots ever!",
+        "unitPrice": 10.99
+    },
+    {
+        "_id": 4,
+        "productKey": "Jacket",
+        "description": "Even better jacket",
+        "unitPrice": 20.99
+    }
+]
