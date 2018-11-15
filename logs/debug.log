@@ -638,3 +638,53 @@ SyntaxError: C:\Users\S533909\44563\ecommerce\data\products.json: Unexpected tok
 2018-11-14T02:14:16.739Z - info: START seeder.
 2018-11-14T02:14:16.743Z - debug: 6 products seeded
 >>>>>>> 53d7b156a4a8a37ca05c634d15e1f1d0209e8c3a
+2018-11-15T21:09:03.225Z - info: Environment variables loaded.
+2018-11-15T21:09:03.289Z - error: uncaughtException: Cannot find module '../controllers/controller.js' date=Thu Nov 15 2018 15:09:03 GMT-0600 (Central Standard Time), pid=198204, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=70914048, heapTotal=60731392, heapUsed=39666848, external=19682808, loadavg=[0, 0, 0], uptime=1055035.8205575
+Error: Cannot find module '../controllers/controller.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\routes\index.js:45:26)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:66:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-15T21:09:03.241Z - debug: START routing
+2018-11-15T21:11:24.104Z - info: Environment variables loaded.
+2018-11-15T21:11:24.150Z - error: uncaughtException: Cannot find module '../controllers/controller.js' date=Thu Nov 15 2018 15:11:24 GMT-0600 (Central Standard Time), pid=55228, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72941568, heapTotal=62828544, heapUsed=32920904, external=18500985, loadavg=[0, 0, 0], uptime=1055176.6829042
+Error: Cannot find module '../controllers/controller.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\routes\index.js:45:26)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:66:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-15T21:11:24.111Z - debug: START routing

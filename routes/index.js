@@ -19,9 +19,30 @@ router.get('/', (req, res, next) => {
   res.render('index.ejs', { title: 'Express App' })
 })
 
+
+router.get("/index", function (req, res) {
+  //res.sendFile(path.join(__dirname + '/assets/index.html'))
+  res.render("index.ejs")
+ })
+
+ router.get("/products", function (req, res) {
+  res.render("products.ejs")
+ })
+
+ router.get("/order", function (req, res) {
+  res.render("order.ejs")
+ })
+
+ router.get("/orderLine", function (req, res) {
+  res.render("orderLine.ejs")
+ })
+ router.get(function (req, res) {
+  res.render('404')
+})
+
 // Defer path requests to a particular controller
-//router.use('/about', require('../controllers/about.js'))
-//router.use('/puppy', require('../controllers/puppy.js'))
+//router.use('/about', require('../controllers/about.js')
+router.use('/customers', require('../controllers/controller.js'))
 
 LOG.debug('END routing')
 module.exports = router
