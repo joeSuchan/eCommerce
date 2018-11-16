@@ -638,6 +638,7 @@ SyntaxError: C:\Users\S533909\44563\ecommerce\data\products.json: Unexpected tok
 2018-11-14T02:14:16.739Z - info: START seeder.
 2018-11-14T02:14:16.743Z - debug: 6 products seeded
 >>>>>>> 53d7b156a4a8a37ca05c634d15e1f1d0209e8c3a
+<<<<<<< HEAD
 2018-11-15T21:09:03.225Z - info: Environment variables loaded.
 2018-11-15T21:09:03.289Z - error: uncaughtException: Cannot find module '../controllers/controller.js' date=Thu Nov 15 2018 15:09:03 GMT-0600 (Central Standard Time), pid=198204, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=70914048, heapTotal=60731392, heapUsed=39666848, external=19682808, loadavg=[0, 0, 0], uptime=1055035.8205575
 Error: Cannot find module '../controllers/controller.js'
@@ -688,3 +689,42 @@ Error: Cannot find module '../controllers/controller.js'
     at startup (bootstrap_node.js:204:16)
     at bootstrap_node.js:625:3
 2018-11-15T21:11:24.111Z - debug: START routing
+=======
+2018-11-15T23:01:18.677Z - info: Environment variables loaded.
+2018-11-15T23:01:18.684Z - debug: START routing
+2018-11-15T23:01:18.686Z - debug: END routing
+2018-11-15T23:01:18.686Z - info: Loaded routing.
+2018-11-15T23:01:18.711Z - info: START seeder.
+2018-11-15T23:01:18.714Z - debug: 6 products seeded
+2018-11-15T23:01:33.741Z - debug: GET /
+2018-11-15T23:01:33.747Z - debug: Request to /
+2018-11-15T23:01:33.945Z - debug: GET /favicon.ico
+2018-11-15T23:08:02.214Z - info: Environment variables loaded.
+2018-11-15T23:08:02.222Z - debug: START routing
+2018-11-15T23:08:02.222Z - debug: END routing
+2018-11-15T23:08:02.222Z - info: Loaded routing.
+2018-11-15T23:08:02.247Z - info: START seeder.
+2018-11-15T23:08:02.250Z - debug: 6 products seeded
+2018-11-15T23:08:20.529Z - debug: GET /
+2018-11-15T23:08:20.533Z - debug: Request to /
+2018-11-15T23:08:23.522Z - debug: GET /
+2018-11-15T23:08:23.522Z - debug: Request to /
+2018-11-15T23:08:24.162Z - debug: GET /
+2018-11-15T23:08:24.164Z - debug: Request to /
+2018-11-15T23:08:24.642Z - debug: GET /
+2018-11-15T23:08:24.643Z - debug: Request to /
+2018-11-15T23:08:24.929Z - debug: GET /
+2018-11-15T23:08:24.930Z - debug: Request to /
+2018-11-15T23:08:25.116Z - debug: GET /
+2018-11-15T23:08:25.117Z - debug: Request to /
+2018-11-15T23:08:25.297Z - debug: GET /
+2018-11-15T23:08:25.298Z - debug: Request to /
+2018-11-15T23:08:25.563Z - debug: GET /
+2018-11-15T23:08:25.564Z - debug: Request to /
+2018-11-15T23:08:25.725Z - debug: GET /
+2018-11-15T23:08:25.726Z - debug: Request to /
+2018-11-15T23:08:25.921Z - debug: GET /
+2018-11-15T23:08:25.923Z - debug: Request to /
+2018-11-15T23:08:26.111Z - debug: GET /
+2018-11-15T23:08:26.113Z - debug: Request to /
+>>>>>>> cec845039ec8088a9c017ebcd305c1c2e0c7a966
