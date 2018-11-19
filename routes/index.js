@@ -18,7 +18,10 @@ router.get('/', (req, res, next) => {
   LOG.debug('Request to /')
   res.render('index.ejs', { title: 'Express App' })
 })
-
+router.get("/customer", function (req, res) {
+  //res.sendFile(path.join(__dirname + '/assets/index.html'))
+  res.render("customer.ejs")
+ })
 
 router.get("/index", function (req, res) {
   //res.sendFile(path.join(__dirname + '/assets/index.html'))
@@ -42,7 +45,7 @@ router.get("/index", function (req, res) {
 
 // Defer path requests to a particular controller
 //router.use('/about', require('../controllers/about.js')
-router.use('/customers', require('../controllers/controller.js'))
+router.use('/customers', require('../controllers/customer.js'))
 
 LOG.debug('END routing')
 module.exports = router

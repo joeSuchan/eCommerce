@@ -728,3 +728,381 @@ Error: Cannot find module '../controllers/controller.js'
 2018-11-15T23:08:26.111Z - debug: GET /
 2018-11-15T23:08:26.113Z - debug: Request to /
 >>>>>>> cec845039ec8088a9c017ebcd305c1c2e0c7a966
+2018-11-19T22:19:40.647Z - info: Environment variables loaded.
+2018-11-19T22:19:40.678Z - error: uncaughtException: Cannot find module '../controllers/controller.js' date=Mon Nov 19 2018 16:19:40 GMT-0600 (Central Standard Time), pid=7288, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72728576, heapTotal=62304256, heapUsed=32184928, external=18488019, loadavg=[0, 0, 0], uptime=19533.1724058
+Error: Cannot find module '../controllers/controller.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\routes\index.js:45:26)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:66:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-19T22:19:40.659Z - debug: START routing
+2018-11-19T22:22:42.684Z - info: Environment variables loaded.
+2018-11-19T22:22:42.721Z - error: uncaughtException: Cannot find module '../controllers/cust.js' date=Mon Nov 19 2018 16:22:42 GMT-0600 (Central Standard Time), pid=22728, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72810496, heapTotal=62828544, heapUsed=32104688, external=18488019, loadavg=[0, 0, 0], uptime=19715.2111181
+Error: Cannot find module '../controllers/cust.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\routes\index.js:45:26)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:66:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-19T22:22:42.695Z - debug: START routing
+2018-11-19T22:22:46.389Z - info: Environment variables loaded.
+2018-11-19T22:22:46.418Z - error: uncaughtException: number is not defined date=Mon Nov 19 2018 16:22:46 GMT-0600 (Central Standard Time), pid=5448, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72892416, heapTotal=62828544, heapUsed=31712384, external=18464873, loadavg=[0, 0, 0], uptime=19718.9107881
+ReferenceError: number is not defined
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\models\customer.js:16:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\controllers\customer.js:9:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\routes\index.js:45:26)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+2018-11-19T22:22:46.398Z - debug: START routing
+2018-11-19T22:22:50.929Z - info: Environment variables loaded.
+2018-11-19T22:22:50.960Z - error: uncaughtException: number is not defined date=Mon Nov 19 2018 16:22:50 GMT-0600 (Central Standard Time), pid=8652, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72851456, heapTotal=62828544, heapUsed=32195704, external=18501328, loadavg=[0, 0, 0], uptime=19723.4511371
+ReferenceError: number is not defined
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\models\customer.js:16:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\controllers\customer.js:9:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\routes\index.js:45:26)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+2018-11-19T22:22:50.936Z - debug: START routing
+2018-11-19T22:23:06.307Z - info: Environment variables loaded.
+2018-11-19T22:23:06.332Z - error: uncaughtException: number is not defined date=Mon Nov 19 2018 16:23:06 GMT-0600 (Central Standard Time), pid=2468, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=73146368, heapTotal=62828544, heapUsed=30855736, external=18411963, loadavg=[0, 0, 0], uptime=19738.8242254
+ReferenceError: number is not defined
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\models\customer.js:16:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\controllers\customer.js:9:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\routes\index.js:45:26)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+2018-11-19T22:23:06.314Z - debug: START routing
+2018-11-19T22:25:41.029Z - info: Environment variables loaded.
+2018-11-19T22:25:41.056Z - error: uncaughtException: number is not defined date=Mon Nov 19 2018 16:25:41 GMT-0600 (Central Standard Time), pid=12140, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72790016, heapTotal=63352832, heapUsed=31719800, external=18464873, loadavg=[0, 0, 0], uptime=19893.5484438
+ReferenceError: number is not defined
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\models\customer.js:39:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\controllers\customer.js:9:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\routes\index.js:45:26)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+2018-11-19T22:25:41.036Z - debug: START routing
+2018-11-19T22:25:54.448Z - info: Environment variables loaded.
+2018-11-19T22:25:54.472Z - error: uncaughtException: number is not defined date=Mon Nov 19 2018 16:25:54 GMT-0600 (Central Standard Time), pid=22972, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=73183232, heapTotal=63877120, heapUsed=30481040, external=18326689, loadavg=[0, 0, 0], uptime=19906.9662467
+ReferenceError: number is not defined
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\models\customer.js:39:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\controllers\customer.js:9:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\routes\index.js:45:26)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+2018-11-19T22:25:54.455Z - debug: START routing
+2018-11-19T22:26:42.200Z - info: Environment variables loaded.
+2018-11-19T22:26:42.206Z - debug: START routing
+2018-11-19T22:26:42.234Z - debug: END routing
+2018-11-19T22:26:42.234Z - info: Loaded routing.
+2018-11-19T22:26:42.266Z - info: START seeder.
+2018-11-19T22:26:42.269Z - debug: 6 products seeded
+2018-11-19T22:26:47.670Z - info: Environment variables loaded.
+2018-11-19T22:26:47.678Z - debug: START routing
+2018-11-19T22:26:47.697Z - debug: END routing
+2018-11-19T22:26:47.697Z - info: Loaded routing.
+2018-11-19T22:26:47.722Z - info: START seeder.
+2018-11-19T22:26:47.725Z - debug: 6 products seeded
+2018-11-19T22:27:04.882Z - info: Environment variables loaded.
+2018-11-19T22:27:04.890Z - debug: START routing
+2018-11-19T22:27:04.908Z - debug: END routing
+2018-11-19T22:27:04.908Z - info: Loaded routing.
+2018-11-19T22:27:04.935Z - info: START seeder.
+2018-11-19T22:27:04.938Z - debug: 6 products seeded
+2018-11-19T22:27:27.525Z - info: Environment variables loaded.
+2018-11-19T22:27:27.532Z - debug: START routing
+2018-11-19T22:27:27.549Z - debug: END routing
+2018-11-19T22:27:27.549Z - info: Loaded routing.
+2018-11-19T22:27:27.575Z - info: START seeder.
+2018-11-19T22:27:27.578Z - debug: 6 products seeded
+2018-11-19T22:27:33.815Z - debug: GET /
+2018-11-19T22:27:33.823Z - debug: Request to /
+2018-11-19T22:27:33.881Z - debug: GET /CSS/main.css
+2018-11-19T22:27:34.199Z - debug: GET /CSS/shirts.jpg
+2018-11-19T22:27:34.375Z - debug: GET /images/favicon-32x32.png
+2018-11-19T22:27:43.874Z - debug: GET /
+2018-11-19T22:27:43.875Z - debug: Request to /
+2018-11-19T22:27:45.416Z - debug: GET /products
+2018-11-19T22:27:45.552Z - debug: GET /favicon.ico
+2018-11-19T22:27:50.407Z - debug: GET /customer
+2018-11-19T22:27:52.411Z - debug: GET /orders
+2018-11-19T22:27:53.658Z - debug: GET /orderLineItem
+2018-11-19T22:27:54.901Z - debug: GET /products
+2018-11-19T22:28:06.132Z - debug: GET /
+2018-11-19T22:28:06.134Z - debug: Request to /
+2018-11-19T22:29:19.681Z - info: Environment variables loaded.
+2018-11-19T22:29:19.689Z - debug: START routing
+2018-11-19T22:29:19.707Z - debug: END routing
+2018-11-19T22:29:19.707Z - info: Loaded routing.
+2018-11-19T22:29:19.742Z - info: START seeder.
+2018-11-19T22:29:19.745Z - debug: 6 products seeded
+2018-11-19T22:29:25.373Z - debug: GET /
+2018-11-19T22:29:25.376Z - debug: Request to /
+2018-11-19T22:29:50.802Z - debug: GET /Bit%20bucket
+2018-11-19T22:29:51.289Z - debug: GET /CSS/shirts.jpg
+2018-11-19T22:30:07.530Z - debug: GET /customer
+2018-11-19T22:30:08.024Z - debug: GET /CSS/shirts.jpg
+2018-11-19T22:30:16.565Z - debug: GET /customer
+2018-11-19T22:30:17.059Z - debug: GET /CSS/shirts.jpg
+2018-11-19T22:30:22.226Z - debug: GET /products
+2018-11-19T22:33:27.732Z - debug: GET /products
+2018-11-19T22:33:45.738Z - debug: GET /orders
+2018-11-19T22:33:46.949Z - debug: GET /customer
+2018-11-19T22:33:48.419Z - debug: GET /products
+2018-11-19T22:36:52.665Z - info: Environment variables loaded.
+2018-11-19T22:36:52.672Z - debug: START routing
+2018-11-19T22:36:52.690Z - debug: END routing
+2018-11-19T22:36:52.690Z - info: Loaded routing.
+2018-11-19T22:36:52.725Z - info: START seeder.
+2018-11-19T22:36:52.729Z - debug: 6 products seeded
+2018-11-19T22:37:03.628Z - debug: GET /products
+2018-11-19T22:37:08.512Z - debug: GET /products
+2018-11-19T22:37:12.820Z - debug: GET /customer
+2018-11-19T22:37:14.874Z - debug: GET /orders
+2018-11-19T22:37:16.362Z - debug: GET /orderLineItem
+2018-11-19T22:37:18.121Z - debug: GET /customer
+2018-11-19T22:37:19.908Z - debug: GET /products
+2018-11-19T22:37:28.627Z - debug: GET /
+2018-11-19T22:37:28.642Z - debug: Request to /
+2018-11-19T22:37:31.198Z - debug: GET /products
+2018-11-19T22:37:35.827Z - debug: GET /customer
+2018-11-19T22:39:21.658Z - info: Environment variables loaded.
+2018-11-19T22:39:21.666Z - debug: START routing
+2018-11-19T22:39:21.684Z - debug: END routing
+2018-11-19T22:39:21.685Z - info: Loaded routing.
+2018-11-19T22:39:21.720Z - info: START seeder.
+2018-11-19T22:39:21.725Z - debug: 6 products seeded
+2018-11-19T22:39:28.649Z - info: Environment variables loaded.
+2018-11-19T22:39:28.656Z - debug: START routing
+2018-11-19T22:39:28.678Z - debug: END routing
+2018-11-19T22:39:28.678Z - info: Loaded routing.
+2018-11-19T22:39:28.703Z - info: START seeder.
+2018-11-19T22:39:28.706Z - debug: 6 products seeded
+2018-11-19T22:39:36.612Z - info: Environment variables loaded.
+2018-11-19T22:39:36.620Z - debug: START routing
+2018-11-19T22:39:36.637Z - debug: END routing
+2018-11-19T22:39:36.637Z - info: Loaded routing.
+2018-11-19T22:39:36.672Z - info: START seeder.
+2018-11-19T22:39:36.674Z - debug: 6 products seeded
+2018-11-19T22:39:45.418Z - info: Environment variables loaded.
+2018-11-19T22:39:45.429Z - debug: START routing
+2018-11-19T22:39:45.455Z - debug: END routing
+2018-11-19T22:39:45.455Z - info: Loaded routing.
+2018-11-19T22:39:45.490Z - info: START seeder.
+2018-11-19T22:39:45.498Z - debug: 6 products seeded
+2018-11-19T22:39:48.405Z - info: Environment variables loaded.
+2018-11-19T22:39:48.413Z - debug: START routing
+2018-11-19T22:39:48.431Z - debug: END routing
+2018-11-19T22:39:48.431Z - info: Loaded routing.
+2018-11-19T22:39:48.461Z - info: START seeder.
+2018-11-19T22:39:48.464Z - debug: 6 products seeded
+2018-11-19T22:39:56.629Z - info: Environment variables loaded.
+2018-11-19T22:39:56.636Z - debug: START routing
+2018-11-19T22:39:56.654Z - debug: END routing
+2018-11-19T22:39:56.654Z - info: Loaded routing.
+2018-11-19T22:39:56.685Z - info: START seeder.
+2018-11-19T22:39:56.687Z - debug: 6 products seeded
+2018-11-19T22:39:58.982Z - info: Environment variables loaded.
+2018-11-19T22:39:58.989Z - debug: START routing
+2018-11-19T22:39:59.011Z - debug: END routing
+2018-11-19T22:39:59.011Z - info: Loaded routing.
+2018-11-19T22:39:59.037Z - info: START seeder.
+2018-11-19T22:39:59.041Z - debug: 6 products seeded
+2018-11-19T22:40:06.236Z - info: Environment variables loaded.
+2018-11-19T22:40:06.242Z - debug: START routing
+2018-11-19T22:40:06.261Z - debug: END routing
+2018-11-19T22:40:06.261Z - info: Loaded routing.
+2018-11-19T22:40:06.287Z - info: START seeder.
+2018-11-19T22:40:06.290Z - debug: 6 products seeded
+2018-11-19T22:40:11.241Z - debug: GET /customer
+2018-11-19T22:40:15.578Z - debug: GET /products
+2018-11-19T22:41:54.852Z - info: Environment variables loaded.
+2018-11-19T22:41:54.861Z - debug: START routing
+2018-11-19T22:41:54.884Z - debug: END routing
+2018-11-19T22:41:54.884Z - info: Loaded routing.
+2018-11-19T22:41:54.919Z - info: START seeder.
+2018-11-19T22:41:54.925Z - debug: 6 products seeded
+2018-11-19T22:41:58.337Z - info: Environment variables loaded.
+2018-11-19T22:41:58.346Z - debug: START routing
+2018-11-19T22:41:58.366Z - debug: END routing
+2018-11-19T22:41:58.366Z - info: Loaded routing.
+2018-11-19T22:41:58.395Z - info: START seeder.
+2018-11-19T22:41:58.398Z - debug: 6 products seeded
+2018-11-19T22:42:09.942Z - info: Environment variables loaded.
+2018-11-19T22:42:09.949Z - debug: START routing
+2018-11-19T22:42:09.967Z - debug: END routing
+2018-11-19T22:42:09.967Z - info: Loaded routing.
+2018-11-19T22:42:09.997Z - info: START seeder.
+2018-11-19T22:42:09.999Z - debug: 6 products seeded
+2018-11-19T22:42:22.136Z - debug: GET /
+2018-11-19T22:42:22.142Z - debug: Request to /
+2018-11-19T22:42:22.501Z - debug: GET /CSS/shirts.jpg
+2018-11-19T22:42:24.597Z - debug: GET /products
+2018-11-19T22:42:30.353Z - debug: GET /customer
+2018-11-19T22:42:34.283Z - debug: GET /orders
+2018-11-19T22:42:36.460Z - debug: GET /orderLineItem
+2018-11-19T22:42:40.480Z - debug: GET /orders
+2018-11-19T22:42:41.716Z - debug: GET /customer
+2018-11-19T22:42:45.485Z - debug: GET /
+2018-11-19T22:42:45.487Z - debug: Request to /
+2018-11-19T22:42:51.705Z - debug: GET /products
+2018-11-19T22:42:54.047Z - debug: GET /products
+2018-11-19T22:45:20.035Z - info: Environment variables loaded.
+2018-11-19T22:45:20.073Z - debug: START routing
+2018-11-19T22:45:20.194Z - debug: END routing
+2018-11-19T22:45:20.194Z - info: Loaded routing.
+2018-11-19T22:45:20.239Z - info: START seeder.
+2018-11-19T22:45:20.242Z - debug: 6 products seeded
+2018-11-19T22:45:22.425Z - debug: GET /
+2018-11-19T22:45:22.431Z - debug: Request to /
+2018-11-19T22:45:22.974Z - debug: GET /CSS/shirts.jpg
+2018-11-19T22:45:24.643Z - debug: GET /customer
+2018-11-19T22:45:29.622Z - debug: GET /products
+2018-11-19T22:45:33.285Z - debug: GET /orders
+2018-11-19T22:46:03.318Z - info: Environment variables loaded.
+2018-11-19T22:46:03.329Z - debug: START routing
+2018-11-19T22:46:03.363Z - debug: END routing
+2018-11-19T22:46:03.363Z - info: Loaded routing.
+2018-11-19T22:46:03.408Z - info: START seeder.
+2018-11-19T22:46:03.413Z - debug: 6 products seeded
+2018-11-19T22:46:05.391Z - info: Environment variables loaded.
+2018-11-19T22:46:05.402Z - debug: START routing
+2018-11-19T22:46:05.443Z - debug: END routing
+2018-11-19T22:46:05.443Z - info: Loaded routing.
+2018-11-19T22:46:05.500Z - info: START seeder.
+2018-11-19T22:46:05.507Z - debug: 6 products seeded
+2018-11-19T22:46:14.205Z - info: Environment variables loaded.
+2018-11-19T22:46:14.217Z - debug: START routing
+2018-11-19T22:46:14.256Z - debug: END routing
+2018-11-19T22:46:14.257Z - info: Loaded routing.
+2018-11-19T22:46:14.301Z - info: START seeder.
+2018-11-19T22:46:14.307Z - debug: 6 products seeded
+2018-11-19T22:46:22.533Z - info: Environment variables loaded.
+2018-11-19T22:46:22.540Z - debug: START routing
+2018-11-19T22:46:22.560Z - debug: END routing
+2018-11-19T22:46:22.560Z - info: Loaded routing.
+2018-11-19T22:46:22.586Z - info: START seeder.
+2018-11-19T22:46:22.590Z - debug: 6 products seeded
+2018-11-19T22:46:28.010Z - debug: GET /
+2018-11-19T22:46:28.016Z - debug: Request to /
+2018-11-19T22:46:29.796Z - debug: GET /customer
+2018-11-19T22:46:38.372Z - debug: GET /customer
+2018-11-19T22:46:41.985Z - debug: GET /products
+2018-11-19T22:46:45.939Z - debug: GET /orders

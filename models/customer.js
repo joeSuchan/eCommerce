@@ -13,7 +13,7 @@ const mongoose = require('mongoose')
 const CustomerSchema = new mongoose.Schema({
 
     _id: {
-        type: number,
+        type: String,
         required: true,
         description: "The unique identifier to identify a Customer"
     },
@@ -36,7 +36,7 @@ const CustomerSchema = new mongoose.Schema({
         unique: true
     },
     age: {
-        type: number,
+        type: String,
         required: true
        
     },
