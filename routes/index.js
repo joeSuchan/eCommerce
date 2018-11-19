@@ -45,7 +45,12 @@ router.get("/index", function (req, res) {
 
 // Defer path requests to a particular controller
 //router.use('/about', require('../controllers/about.js')
+<<<<<<< HEAD
 router.use('/customers', require('../controllers/customer.js'))
 
+=======
+//router.use('/customers', require('../controllers/controller.js'))
+router.use('/product', require('../controllers/product.js'))
+>>>>>>> 350304c70a375a73831bc89df15e8882db683fbf
 LOG.debug('END routing')
 module.exports = router

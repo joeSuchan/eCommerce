@@ -1106,3 +1106,28 @@ ReferenceError: number is not defined
 2018-11-19T22:46:38.372Z - debug: GET /customer
 2018-11-19T22:46:41.985Z - debug: GET /products
 2018-11-19T22:46:45.939Z - debug: GET /orders
+2018-11-19T22:48:40.379Z - error: uncaughtException: Unexpected token << date=Mon Nov 19 2018 16:48:40 GMT-0600 (Central Standard Time), pid=20624, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=73191424, heapTotal=62828544, heapUsed=32822968, external=18500985, loadavg=[0, 0, 0], uptime=21272.8699474
+C:\Users\S533622\Documents\44563\ecommerce\routes\index.js:48
+<<<<<<< HEAD
+  ^^
+
+SyntaxError: Unexpected token <<
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:66:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-19T22:48:40.350Z - info: Environment variables loaded.
