@@ -2181,3 +2181,232 @@ SyntaxError: Unexpected token <<
     at Function.Module.runMain (module.js:694:10)
     at startup (bootstrap_node.js:204:16)
     at bootstrap_node.js:625:3
+2018-11-19T22:59:41.450Z - info: Environment variables loaded.
+2018-11-19T22:59:41.476Z - error: uncaughtException: Unexpected token << date=Mon Nov 19 2018 16:59:41 GMT-0600 (Central Standard Time), pid=13600, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72351744, heapTotal=60207104, heapUsed=40413048, external=19846821, loadavg=[0, 0, 0], uptime=21933.96822
+C:\Users\S533622\Documents\44563\ecommerce\routes\index.js:48
+<<<<<<< HEAD
+  ^^
+
+SyntaxError: Unexpected token <<
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:66:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-19T23:01:59.031Z - info: Environment variables loaded.
+2018-11-19T23:01:59.071Z - error: uncaughtException: Unexpected token << date=Mon Nov 19 2018 17:01:59 GMT-0600 (Central Standard Time), pid=15164, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72962048, heapTotal=62828544, heapUsed=31114368, external=18415038, loadavg=[0, 0, 0], uptime=22071.5604241
+C:\Users\S533622\Documents\44563\ecommerce\routes\index.js:48
+<<<<<<< HEAD
+  ^^
+
+SyntaxError: Unexpected token <<
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:66:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-19T23:01:59.056Z - info: Environment variables loaded.
+2018-11-19T23:01:59.102Z - error: uncaughtException: Unexpected token << date=Mon Nov 19 2018 17:01:59 GMT-0600 (Central Standard Time), pid=22124, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72921088, heapTotal=63352832, heapUsed=31519440, external=18451564, loadavg=[0, 0, 0], uptime=22071.5893471
+C:\Users\S533622\Documents\44563\ecommerce\routes\index.js:48
+<<<<<<< HEAD
+  ^^
+
+SyntaxError: Unexpected token <<
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:66:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-19T23:02:05.134Z - info: Environment variables loaded.
+2018-11-19T23:02:05.181Z - error: uncaughtException: Unexpected token >>> date=Mon Nov 19 2018 17:02:05 GMT-0600 (Central Standard Time), pid=9360, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72826880, heapTotal=62828544, heapUsed=31142288, external=18415038, loadavg=[0, 0, 0], uptime=22077.6673953
+C:\Users\S533622\Documents\44563\ecommerce\routes\index.js:54
+>>>>>>> 350304c70a375a73831bc89df15e8882db683fbf
+   ^^^
+
+SyntaxError: Unexpected token >>>
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:66:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-19T23:02:05.172Z - info: Environment variables loaded.
+2018-11-19T23:02:05.205Z - error: uncaughtException: Unexpected token >>> date=Mon Nov 19 2018 17:02:05 GMT-0600 (Central Standard Time), pid=17628, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72683520, heapTotal=63352832, heapUsed=31110216, external=18415038, loadavg=[0, 0, 0], uptime=22077.6963169
+C:\Users\S533622\Documents\44563\ecommerce\routes\index.js:54
+>>>>>>> 350304c70a375a73831bc89df15e8882db683fbf
+   ^^^
+
+SyntaxError: Unexpected token >>>
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:66:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-19T23:02:09.814Z - info: Environment variables loaded.
+2018-11-19T23:02:09.824Z - debug: START routing
+2018-11-19T23:02:09.854Z - debug: END routing
+2018-11-19T23:02:09.854Z - info: Loaded routing.
+2018-11-19T23:02:09.878Z - info: START seeder.
+2018-11-19T23:02:09.881Z - debug: 6 products seeded
+2018-11-19T23:02:09.814Z - info: Environment variables loaded.
+2018-11-19T23:02:09.909Z - error: uncaughtException: listen EADDRINUSE :::8089 date=Mon Nov 19 2018 17:02:09 GMT-0600 (Central Standard Time), pid=15164, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=74612736, heapTotal=62828544, heapUsed=34650976, external=18793028, loadavg=[0, 0, 0], uptime=22082.3994859
+Error: listen EADDRINUSE :::8089
+    at Server.setupListenHandle [as _listen2] (net.js:1360:14)
+    at listenInCluster (net.js:1401:12)
+    at Server.listen (net.js:1485:7)
+    at Function.listen (C:\Users\S533622\Documents\44563\ecommerce\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:76:5)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-19T23:02:09.824Z - debug: START routing
+2018-11-19T23:02:09.857Z - debug: END routing
+2018-11-19T23:02:09.858Z - info: Loaded routing.
+2018-11-19T23:02:09.881Z - info: START seeder.
+2018-11-19T23:02:09.884Z - debug: 6 products seeded
+2018-11-19T23:02:12.969Z - info: Environment variables loaded.
+2018-11-19T23:02:12.977Z - debug: START routing
+2018-11-19T23:02:13.002Z - debug: END routing
+2018-11-19T23:02:13.002Z - info: Loaded routing.
+2018-11-19T23:02:13.033Z - info: START seeder.
+2018-11-19T23:02:13.038Z - debug: 6 products seeded
+2018-11-19T23:02:12.984Z - info: Environment variables loaded.
+2018-11-19T23:02:13.077Z - error: uncaughtException: listen EADDRINUSE :::8089 date=Mon Nov 19 2018 17:02:13 GMT-0600 (Central Standard Time), pid=15612, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=74342400, heapTotal=62828544, heapUsed=35614488, external=18842449, loadavg=[0, 0, 0], uptime=22085.5670117
+Error: listen EADDRINUSE :::8089
+    at Server.setupListenHandle [as _listen2] (net.js:1360:14)
+    at listenInCluster (net.js:1401:12)
+    at Server.listen (net.js:1485:7)
+    at Function.listen (C:\Users\S533622\Documents\44563\ecommerce\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:76:5)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-19T23:02:12.991Z - debug: START routing
+2018-11-19T23:02:13.017Z - debug: END routing
+2018-11-19T23:02:13.017Z - info: Loaded routing.
+2018-11-19T23:02:13.045Z - info: START seeder.
+2018-11-19T23:02:13.048Z - debug: 6 products seeded
+2018-11-19T23:02:19.935Z - info: Environment variables loaded.
+2018-11-19T23:02:19.943Z - debug: START routing
+2018-11-19T23:02:19.973Z - debug: END routing
+2018-11-19T23:02:19.974Z - info: Loaded routing.
+2018-11-19T23:02:19.994Z - info: START seeder.
+2018-11-19T23:02:19.997Z - debug: 6 products seeded
+2018-11-19T23:02:32.616Z - debug: GET /
+2018-11-19T23:02:32.623Z - debug: Request to /
+2018-11-19T23:02:33.009Z - debug: GET /CSS/shirts.jpg
+2018-11-19T23:02:43.130Z - debug: GET /customer
+2018-11-19T23:02:47.858Z - debug: GET /customer
+2018-11-19T23:02:51.686Z - debug: GET /customer
+2018-11-19T23:04:11.417Z - info: Environment variables loaded.
+2018-11-19T23:04:11.424Z - debug: START routing
+2018-11-19T23:04:11.448Z - debug: END routing
+2018-11-19T23:04:11.448Z - info: Loaded routing.
+2018-11-19T23:04:11.468Z - info: START seeder.
+2018-11-19T23:04:11.471Z - debug: 6 products seeded
+2018-11-19T23:04:12.903Z - debug: GET /
+2018-11-19T23:04:12.908Z - debug: Request to /
+2018-11-19T23:04:13.322Z - debug: GET /CSS/shirts.jpg
+2018-11-19T23:04:33.804Z - debug: GET /
+2018-11-19T23:04:33.805Z - debug: Request to /
+2018-11-19T23:07:36.775Z - debug: GET /
+2018-11-19T23:07:36.776Z - debug: Request to /
+2018-11-19T23:07:42.786Z - debug: GET /
+2018-11-19T23:07:42.786Z - debug: Request to /
+2018-11-19T23:07:53.351Z - debug: GET /
+2018-11-19T23:07:53.352Z - debug: Request to /
+2018-11-19T23:12:39.166Z - error: uncaughtException: listen EADDRINUSE :::8089 date=Mon Nov 19 2018 17:12:39 GMT-0600 (Central Standard Time), pid=10268, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=73986048, heapTotal=63352832, heapUsed=32968176, external=18641535, loadavg=[0, 0, 0], uptime=22711.6554842
+Error: listen EADDRINUSE :::8089
+    at Server.setupListenHandle [as _listen2] (net.js:1360:14)
+    at listenInCluster (net.js:1401:12)
+    at Server.listen (net.js:1485:7)
+    at Function.listen (C:\Users\S533622\Documents\44563\ecommerce\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:76:5)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-19T23:12:39.079Z - info: Environment variables loaded.
+2018-11-19T23:12:39.086Z - debug: START routing
+2018-11-19T23:12:39.114Z - debug: END routing
+2018-11-19T23:12:39.114Z - info: Loaded routing.
+2018-11-19T23:12:39.135Z - info: START seeder.
+2018-11-19T23:12:39.138Z - debug: 6 products seeded
