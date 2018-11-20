@@ -10,7 +10,7 @@ const Model = require('../models/customer.js')
 const LOG = require('../utils/logger.js')
 const find = require('lodash.find')
 const remove = require('lodash.remove')
-const notfoundstring = 'customers'
+const notfoundstring = 'customer'
 
 // RESPOND WITH JSON DATA  --------------------------------------------
 // GET all JSON
@@ -40,7 +40,7 @@ api.get('/create', (req, res) => {
 	LOG.info(`Handling GET /create${req}`)
 	const item = new Model()
 	LOG.debug(JSON.stringify(item))
-	res.render('customer/create',
+	res.render('customers/create',
 	  {
 		title: 'Create customer',
 		layout: 'layout.ejs',
@@ -49,103 +49,90 @@ api.get('/create', (req, res) => {
   })
   
 
-// GET /delete/:id
-api.get('/delete/:id', (req, res) => {
-	LOG.info(`Handling GET /delete ${req}`)
-	const id = parseInt(req.params.id, 10) // base 10
-	const data = req.app.locals.customers.query
-	const item = find(data, { _id: id })
-	if (!item) { return res.end(notfoundstring) }
-	LOG.info(`RETURNING VIEW FOR ${JSON.stringify(item)}`)
-	return res.render('customer/delete',
-	  {
-		title: 'Delete customer',
-		layout: 'layout.ejs',
-		customer: item
-	  })
-  })
 // GET /details/:id
 api.get('/details/:id', (req, res) => {
-	LOG.info(`Handling GET /details/:id ${req}`)
-	const id = parseInt(req.params.id, 10) // base 10
-	const data = req.app.locals.customers.query
-	const item = find(data, { _id: id })
-	if (!item) { return res.end(notfoundstring) }
-	LOG.info(`RETURNING VIEW FOR ${JSON.stringify(item)}`)
-	return res.render('customer/details.ejs',
-	  {
-		title: 'customer Details',
-		layout: 'layout.ejs',
-		customer: item
-	  })
-  })
-	api.get('/edit/:id', (req, res) => {
-		LOG.info(`Handling GET /edit/:id ${req}`)
-		const id = parseInt(req.params.id, 10) // base 10
-		const data = req.app.locals.customers.query
-		const item = find(data, { _id: id })
-		if (!item) { return res.end(notfoundstring) }
-		LOG.info(`RETURNING VIEW FOR${JSON.stringify(item)}`)
-		return res.render('customer/edit.ejs',
-			{
-				title: 'customer',
-				layout: 'layout.ejs',
-				customer: item
-			})
-	})
+  LOG.info(`Handling GET /details/:id ${req}`)
+  const id = parseInt(req.params.id, 10) // base 10
+  const data = req.app.locals.customers.query
+  const item = find(data, { _id: id })
+  if (!item) { return res.end(notfoundstring) }
+  LOG.info(`RETURNING VIEW FOR ${JSON.stringify(item)}`)
+  return res.render('customers/details.ejs',
+    {
+      title: 'customer Details',
+      layout: 'layout.ejs',
+      customer: item
+    })
+})
+
+// GET one
+api.get('/edit/:id', (req, res) => {
+  LOG.info(`Handling GET /edit/:id ${req}`)
+  const id = parseInt(req.params.id, 10) // base 10
+  const data = req.app.locals.customers.query
+  const item = find(data, { _id: id })
+  if (!item) { return res.end(notfoundstring) }
+  LOG.info(`RETURNING VIEW FOR${JSON.stringify(item)}`)
+  return res.render('customers/edit.ejs',
+    {
+      title: 'customer',
+      layout: 'layout.ejs',
+      customer: item
+    })
+})
 
 // HANDLE EXECUTE DATA MODIFICATION REQUESTS --------------------------------------------
 
 // POST new
-
 api.post('/save', (req, res) => {
-	LOG.info(`Handling POST ${req}`)
-	LOG.debug(JSON.stringify(req.body))
-	const data = req.app.locals.customers.query
-	const item = new Model()
-	LOG.info(`NEW ID ${req.body._id}`)
-	item._id = parseInt(req.body._id, 10) // base 10
-	item.fisrtname = req.body.fisrtname
-	item.lastname = req.body.lastname
-	item.email = req.body.email
-	item.age = parseInt(req.body.age, 10)
-	item.street1 = req.body.street1
-	item.street2 = req.body.street2
-	item.city = req.body.city
-	item.state = req.body.state
-	item.country = req.body.country
-	item.zip = req.body.zip
-	
-	  data.push(item)
-	  LOG.info(`SAVING NEW CUSTOMER ${JSON.stringify(item)}`)
-	  return res.redirect('/customer')
-	
-  })
-  api.post('/save/:id', (req, res) => {
-	LOG.info(`Handling SAVE request ${req}`)
-	const id = parseInt(req.params.id, 10) // base 10
-	LOG.info(`Handling SAVING ID=${id}`)
-	const data = req.app.locals.customers.query
-	const item = find(data, { _id: id })
-	if (!item) { return res.end(notfoundstring) }
-	LOG.info(`ORIGINAL VALUES ${JSON.stringify(item)}`)
-	LOG.info(`UPDATED VALUES: ${JSON.stringify(req.body)}`)
-	item.fisrtname = req.body.fisrtname
-	item.lastname = req.body.lastname
-	item.email = req.body.email
-	item.age = parseInt(req.body.age, 10)
-	item.street1 = req.body.street1
-	item.street2 = req.body.street2
-	item.city = req.body.city
-	item.state = req.body.state
-	item.country = req.body.country
-	item.zip = req.body.zip
+  LOG.info(`Handling POST ${req}`)
+  LOG.debug(JSON.stringify(req.body))
+  const data = req.app.locals.customers.query
+  const item = new Model()
+  LOG.info(`NEW ID ${req.body._id}`)
+  item._id = parseInt(req.body._id, 10) // base 10
+  item.email = req.body.email
+  item.Firstname = req.body.Firstname
+  item.Lastname = req.body.Lastname
+  item.street1 = req.body.street1
+  item.street2 = req.body.street2
+  item.city = req.body.city
+  item.state = req.body.state
+  item.zip = req.body.zip
+  item.country = req.body.country
 
-	  LOG.info(`SAVING UPDATED customer ${JSON.stringify(item)}`)
-	  return res.redirect('/customer')
-	
-	})
-	// DELETE id (uses HTML5 form method POST)
+    data.push(item)
+    LOG.info(`SAVING NEW customer ${JSON.stringify(item)}`)
+    return res.redirect('/customers')
+  
+})
+
+// POST update
+api.post('/save/:id', (req, res) => {
+  LOG.info(`Handling SAVE request ${req}`)
+  const id = parseInt(req.params.id, 10) // base 10
+  LOG.info(`Handling SAVING ID=${id}`)
+  const data = req.app.locals.customers.query
+  const item = find(data, { _id: id })
+  if (!item) { return res.end(notfoundstring) }
+  LOG.info(`ORIGINAL VALUES ${JSON.stringify(item)}`)
+  LOG.info(`UPDATED VALUES: ${JSON.stringify(req.body)}`)
+  item.email = req.body.email
+  item.Firstname = req.body.Firstname
+  item.Lastname = req.body.Lastname
+  item.street1 = req.body.street1
+  item.street2 = req.body.street2
+  item.city = req.body.city
+  item.state = req.body.state
+  item.zip = req.body.zip
+  item.country = req.body.country
+  
+    LOG.info(`SAVING UPDATED customer ${JSON.stringify(item)}`)
+    return res.redirect('/customers')
+  
+})
+
+// DELETE id (uses HTML5 form method POST)
 api.post('/delete/:id', (req, res) => {
   LOG.info(`Handling DELETE request ${req}`)
   const id = parseInt(req.params.id, 10) // base 10
@@ -162,7 +149,7 @@ api.post('/delete/:id', (req, res) => {
     const item = remove(data, { _id: id })
     console.log(`Permanently deleted item ${JSON.stringify(item)}`)
   }
-  return res.redirect('/customer')
+  return res.redirect('/customers')
 })
 
 module.exports = api

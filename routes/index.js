@@ -17,9 +17,9 @@ router.get("/", function (req, res) {
   
   res.render("index.ejs")
  });
-router.get("/customer", function (req, res) {
+router.get("/customers", function (req, res) {
   //res.sendFile(path.join(__dirname + '/assets/index.html'))
-  res.render("customer.ejs")
+  res.render("customers/index.ejs")
  })
 
 // router.get("/index", function (req, res) {
