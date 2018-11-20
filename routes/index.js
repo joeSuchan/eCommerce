@@ -17,9 +17,9 @@ router.get("/", function (req, res) {
   
   res.render("index.ejs")
  });
-router.get("/customer", function (req, res) {
+router.get("/customers", function (req, res) {
   //res.sendFile(path.join(__dirname + '/assets/index.html'))
-  res.render("customer.ejs")
+  res.render("customers/index.ejs")
  })
 
 // router.get("/index", function (req, res) {
@@ -49,7 +49,7 @@ router.use('/customers', require('../controllers/customer.js'))
 
 
 //router.use('/customers', require('../controllers/controller.js'))
-router.use('/product', require('../controllers/product.js'))
+router.use('/products', require('../controllers/products.js'))
 
 LOG.debug('END routing')
 module.exports = router

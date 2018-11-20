@@ -1,5 +1,52 @@
-<% include header %>
-
-<p> Customers Index </p>
-
-<% include footer %>
+<br/>
+<br/>
+<div class="container-fluid">
+  <div class=row>
+    <div class="col col-md-12">
+      <a href="customers/create" class="btn btn-primary new">
+        Create a new customer
+      </a>
+      <h2>Recent customer entries</h2>
+      <p>There are
+        <%= customers.query.length %> customers.
+    </p>
+    <% for ( let i = 0; i < customers.query.length; i++) {   
+      customer = customers.query[i];   %>
+      <div class="panel panel-default">
+        <div class="panel-heading"></div>
+        <div class="text-muted pull-right"></div>
+        <div class="panel-body">
+          ID:
+          <%=customer._id %>
+          <br> Email:
+          <%=customer.email %>
+          <br> FirstName:
+          <%=customer.firstname %>
+          <br> LastName:
+          <%=customer.lastname %>
+          <br> Age:
+          <%=customer.age %>
+           <br>Street Address:
+          <%=customer.street1 %>
+           <br>Street Address2:
+          <%=customer.street2 %>
+           <br>City:
+          <%=customer.city %>
+           <br>State:
+          <%=customer.state %>
+          <br>Zip-Code:
+          <%=customer.zip %>
+          <br>country:
+          <%=customer.country %> 
+    <br>
+    <br>
+    <a href="customers/delete/<%= customers._id %>" class="btn btn-danger"> Delete </a>
+    <a href="customers/details/<%= customers._id %>" class="btn btn-info"> Details </a>
+    <a href="customers/edit/<%= customers._id %>" class="btn btn-warning"> Edit </a>
+  </div>
+  </div>
+    <% } %>
+ 
+</div>
+</div>
+</div>
