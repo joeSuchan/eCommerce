@@ -13,7 +13,7 @@ const mongoose = require('mongoose')
 const CustomerSchema = new mongoose.Schema({
 
     _id: {
-        type: String,
+        type: Number,
         required: true,
         description: "The unique identifier to identify a Customer"
     },
@@ -36,7 +36,7 @@ const CustomerSchema = new mongoose.Schema({
         unique: true
     },
     age: {
-        type: String,
+        type: Number,
         required: true
        
     },
@@ -75,4 +75,4 @@ const CustomerSchema = new mongoose.Schema({
 
 
 })
-module.exports = mongoose.model('Customer', CustomerSchema)
+module.exports = mongoose.model('customer', CustomerSchema)

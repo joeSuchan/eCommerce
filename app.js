@@ -42,7 +42,7 @@ app.set('view engine', 'ejs')
 app.engine('ejs', engines.ejs)
 
 // configure middleware.....................................................
-//app.use(favicon(path.join(__dirname, '/public/images/favicon.ico')))
+app.use(favicon(path.join(__dirname, '/public/images/favicon.ico')))
 app.use(expressStatusMonitor())
 
 // log calls
@@ -59,22 +59,38 @@ app.use(express.static(path.join(__dirname, 'public'), { maxAge: 31557600000 }))
 app.use(expressLayouts)
 app.use(errorHandler()) // load error handler
 
-app.get("/",function(req,res){
-  res.render("index.ejs")
-})
-// app.get("/index",function(req,res){
+// app.get("/",function(req,res){
 //   res.render("index.ejs")
 // })
-app.get("/customer",function(req,res){
-  res.render("customer.ejs")
-})
+// // app.get("/index",function(req,res){
+// //   res.render("index.ejs")
+// // })
+// app.get("/customers",function(req,res){
+//   res.render("customer.ejs")
+// })
+// // initialize data ............................................
+// require('./utils/seeder.js')(app)  // load seed data
+
+// // start Express app
+// app.listen(app.get('port'), () => {
+//   console.log('App is running at http://localhost:%d in %s mode',app.get('port'),app.get('env'))
+//   console.log('  Press CTRL-C to stop\n')
+// })
+const routes = require('./routes/index.js')
+app.use('/', routes)  // load routing
+LOG.info('Loaded routing.')
+
+app.use((req, res) => { res.status(404).render('404.ejs') }) // handle page not found errors
+
 // initialize data ............................................
 require('./utils/seeder.js')(app)  // load seed data
 
 // start Express app
 app.listen(app.get('port'), () => {
-  console.log('App is running at http://localhost:%d in %s mode',app.get('port'),app.get('env'))
+  console.log('App is running at http://localhost:%d in %s mode', app.get('port'), app.get('env'))
   console.log('  Press CTRL-C to stop\n')
 })
+
+module.exports = app
 
 

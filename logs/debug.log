@@ -2629,6 +2629,7 @@ Error: listen EACCES C:\Users\S533622\Documents\44563\ecommerce\views
 2018-11-20T00:03:20.801Z - info: END Seeder. Sample data read and verified.
 2018-11-20T00:03:28.739Z - debug: GET /
 2018-11-20T00:03:29.211Z - debug: GET /CSS/shirts.jpg
+<<<<<<< HEAD
 2018-11-20T05:36:45.696Z - info: Environment variables loaded.
 2018-11-20T05:36:45.757Z - info: START seeder.
 2018-11-20T05:36:45.760Z - debug: 6 products seeded
@@ -2638,3 +2639,1654 @@ Error: listen EACCES C:\Users\S533622\Documents\44563\ecommerce\views
 2018-11-20T05:37:08.580Z - debug: GET /CSS/main.css
 2018-11-20T05:37:08.718Z - debug: GET /CSS/shirts.jpg
 2018-11-20T05:37:08.780Z - debug: GET /favicon.ico
+=======
+2018-11-20T00:12:52.880Z - info: Environment variables loaded.
+2018-11-20T00:12:52.913Z - info: START seeder.
+2018-11-20T00:12:52.916Z - debug: 6 products seeded
+2018-11-20T00:12:52.917Z - debug: 5 customers seeded
+2018-11-20T00:12:52.917Z - info: END Seeder. Sample data read and verified.
+2018-11-20T00:13:00.265Z - debug: GET /
+2018-11-20T00:13:00.700Z - debug: GET /CSS/shirts.jpg
+2018-11-20T00:13:21.522Z - debug: GET /
+2018-11-20T00:15:07.377Z - debug: GET /CSS/shirts.jpg
+2018-11-20T00:21:45.124Z - info: Environment variables loaded.
+2018-11-20T00:21:45.160Z - info: START seeder.
+2018-11-20T00:21:45.164Z - debug: 6 products seeded
+2018-11-20T00:21:45.165Z - debug: 5 customers seeded
+2018-11-20T00:21:45.165Z - info: END Seeder. Sample data read and verified.
+2018-11-20T00:21:51.013Z - debug: GET /
+2018-11-20T00:21:51.447Z - debug: GET /CSS/shirts.jpg
+2018-11-20T00:21:57.677Z - debug: GET /
+2018-11-20T00:21:59.447Z - debug: GET /customer
+2018-11-20T00:22:03.100Z - debug: GET /products
+2018-11-20T00:22:06.351Z - debug: GET /orders
+2018-11-20T00:22:09.580Z - debug: GET /orderLineItem
+2018-11-20T00:22:15.915Z - debug: GET /customer
+2018-11-20T00:22:21.166Z - debug: GET /products
+2018-11-20T00:22:26.044Z - debug: GET /customer
+2018-11-20T00:23:31.817Z - info: Environment variables loaded.
+2018-11-20T00:23:31.853Z - info: START seeder.
+2018-11-20T00:23:31.858Z - debug: 6 products seeded
+2018-11-20T00:23:31.860Z - debug: 5 customers seeded
+2018-11-20T00:23:31.860Z - info: END Seeder. Sample data read and verified.
+2018-11-20T00:23:34.812Z - debug: GET /
+2018-11-20T00:23:36.758Z - debug: GET /customers
+2018-11-20T00:23:40.949Z - debug: GET /customer
+2018-11-20T00:24:16.238Z - info: Environment variables loaded.
+2018-11-20T00:24:16.283Z - info: START seeder.
+2018-11-20T00:24:16.287Z - debug: 6 products seeded
+2018-11-20T00:24:16.289Z - debug: 5 customers seeded
+2018-11-20T00:24:16.289Z - info: END Seeder. Sample data read and verified.
+2018-11-20T00:24:22.984Z - debug: GET /customer
+2018-11-20T00:24:25.148Z - debug: GET /customer
+2018-11-20T00:24:28.482Z - debug: GET /products
+2018-11-20T00:24:32.313Z - debug: GET /customer
+2018-11-20T00:25:29.048Z - debug: GET /customer
+2018-11-20T00:26:53.315Z - info: Environment variables loaded.
+2018-11-20T00:26:53.353Z - info: START seeder.
+2018-11-20T00:26:53.356Z - debug: 6 products seeded
+2018-11-20T00:26:53.358Z - debug: 5 customers seeded
+2018-11-20T00:26:53.358Z - info: END Seeder. Sample data read and verified.
+2018-11-20T00:26:57.242Z - debug: GET /customer
+2018-11-20T00:27:00.877Z - debug: GET /
+2018-11-20T00:27:02.013Z - debug: GET /customers
+2018-11-20T00:27:05.077Z - debug: GET /products
+2018-11-20T00:27:08.375Z - debug: GET /orders
+2018-11-20T00:27:10.897Z - debug: GET /orderLineItem
+2018-11-20T00:29:53.145Z - debug: GET /customers
+2018-11-20T00:30:00.383Z - debug: GET /
+2018-11-20T00:30:00.527Z - debug: GET /CSS/shirts.jpg
+2018-11-20T00:30:02.404Z - debug: GET /
+2018-11-20T00:30:03.489Z - debug: GET /customers
+2018-11-20T00:30:29.594Z - debug: GET /customers
+2018-11-20T00:47:28.619Z - info: Environment variables loaded.
+2018-11-20T00:47:28.650Z - info: START seeder.
+2018-11-20T00:47:28.653Z - debug: 6 products seeded
+2018-11-20T00:47:28.655Z - debug: 5 customers seeded
+2018-11-20T00:47:28.655Z - info: END Seeder. Sample data read and verified.
+2018-11-20T00:47:33.672Z - debug: GET /
+2018-11-20T00:47:33.980Z - debug: GET /CSS/shirts.jpg
+2018-11-20T00:47:36.106Z - debug: GET /customers
+2018-11-20T00:47:39.304Z - debug: GET /customers
+2018-11-20T00:47:43.016Z - debug: GET /products
+2018-11-20T00:47:52.590Z - debug: GET /customers
+2018-11-20T00:47:56.011Z - debug: GET /customers
+2018-11-20T00:48:07.471Z - debug: GET /
+2018-11-20T00:48:10.282Z - debug: GET /customers
+2018-11-20T00:50:39.103Z - debug: GET /customers
+2018-11-20T00:51:53.155Z - info: Environment variables loaded.
+2018-11-20T00:51:53.191Z - info: START seeder.
+2018-11-20T00:51:53.193Z - debug: 6 products seeded
+2018-11-20T00:51:53.195Z - debug: 5 customers seeded
+2018-11-20T00:51:53.195Z - info: END Seeder. Sample data read and verified.
+2018-11-20T00:52:01.410Z - debug: GET /
+2018-11-20T00:52:01.970Z - debug: GET /CSS/shirts.jpg
+2018-11-20T00:52:03.682Z - debug: GET /customers
+2018-11-20T00:56:26.435Z - info: Environment variables loaded.
+2018-11-20T00:56:26.464Z - info: START seeder.
+2018-11-20T00:56:26.468Z - debug: 6 products seeded
+2018-11-20T00:56:26.468Z - info: END Seeder. Sample data read and verified.
+2018-11-20T00:56:28.903Z - info: Environment variables loaded.
+2018-11-20T00:56:28.937Z - info: START seeder.
+2018-11-20T00:56:28.940Z - debug: 5 customers seeded
+2018-11-20T00:56:28.941Z - debug: 6 products seeded
+2018-11-20T00:56:28.941Z - info: END Seeder. Sample data read and verified.
+2018-11-20T00:56:32.158Z - info: Environment variables loaded.
+2018-11-20T00:56:32.185Z - info: START seeder.
+2018-11-20T00:56:32.188Z - debug: 5 customers seeded
+2018-11-20T00:56:32.189Z - debug: 6 products seeded
+2018-11-20T00:56:32.189Z - info: END Seeder. Sample data read and verified.
+2018-11-20T00:57:20.674Z - info: Environment variables loaded.
+2018-11-20T00:57:20.715Z - info: START seeder.
+2018-11-20T00:57:20.718Z - debug: 5 customers seeded
+2018-11-20T00:57:20.720Z - debug: 6 products seeded
+2018-11-20T00:57:20.720Z - info: END Seeder. Sample data read and verified.
+2018-11-20T00:57:25.201Z - info: Environment variables loaded.
+2018-11-20T00:57:25.234Z - info: START seeder.
+2018-11-20T00:57:25.237Z - debug: 5 customers seeded
+2018-11-20T00:57:25.239Z - debug: 6 products seeded
+2018-11-20T00:57:25.239Z - info: END Seeder. Sample data read and verified.
+2018-11-20T00:57:43.794Z - info: Environment variables loaded.
+2018-11-20T00:57:43.826Z - info: START seeder.
+2018-11-20T00:57:43.829Z - debug: 5 customers seeded
+2018-11-20T00:57:43.832Z - debug: 6 products seeded
+2018-11-20T00:57:43.833Z - info: END Seeder. Sample data read and verified.
+2018-11-20T00:57:51.135Z - info: Environment variables loaded.
+2018-11-20T00:57:51.164Z - info: START seeder.
+2018-11-20T00:57:51.167Z - debug: 5 customers seeded
+2018-11-20T00:57:51.169Z - debug: 6 products seeded
+2018-11-20T00:57:51.169Z - info: END Seeder. Sample data read and verified.
+2018-11-20T00:57:56.607Z - debug: GET /customers
+2018-11-20T00:58:01.841Z - debug: GET /customers
+2018-11-20T00:58:07.527Z - debug: GET /customer
+2018-11-20T00:58:28.379Z - debug: GET /
+2018-11-20T00:58:29.555Z - debug: GET /CSS/shirts.jpg
+2018-11-20T00:58:31.975Z - debug: GET /customer
+2018-11-20T00:58:37.676Z - debug: GET /customers
+2018-11-20T00:58:47.495Z - debug: GET /
+2018-11-20T01:00:07.264Z - debug: GET /customer
+2018-11-20T03:52:26.154Z - info: Environment variables loaded.
+2018-11-20T03:52:26.189Z - info: START seeder.
+2018-11-20T03:52:26.192Z - debug: 5 customers seeded
+2018-11-20T03:52:26.194Z - debug: 6 products seeded
+2018-11-20T03:52:26.194Z - info: END Seeder. Sample data read and verified.
+2018-11-20T03:52:35.043Z - debug: GET /
+2018-11-20T03:52:35.358Z - debug: GET /CSS/shirts.jpg
+2018-11-20T03:52:39.178Z - debug: GET /
+2018-11-20T03:52:41.988Z - debug: GET /customers
+2018-11-20T03:52:49.347Z - debug: GET /customer
+2018-11-20T03:53:40.833Z - debug: GET /customers
+2018-11-20T03:54:14.815Z - info: Environment variables loaded.
+2018-11-20T03:54:14.905Z - info: START seeder.
+2018-11-20T03:54:14.935Z - debug: 5 customers seeded
+2018-11-20T03:54:14.939Z - debug: 6 products seeded
+2018-11-20T03:54:14.939Z - info: END Seeder. Sample data read and verified.
+2018-11-20T03:54:27.137Z - info: Environment variables loaded.
+2018-11-20T03:54:27.166Z - info: START seeder.
+2018-11-20T03:54:27.172Z - debug: 5 customers seeded
+2018-11-20T03:54:27.174Z - debug: 6 products seeded
+2018-11-20T03:54:27.174Z - info: END Seeder. Sample data read and verified.
+2018-11-20T03:54:33.930Z - info: Environment variables loaded.
+2018-11-20T03:54:33.961Z - info: START seeder.
+2018-11-20T03:54:33.967Z - debug: 5 customers seeded
+2018-11-20T03:54:33.969Z - debug: 6 products seeded
+2018-11-20T03:54:33.969Z - info: END Seeder. Sample data read and verified.
+2018-11-20T03:54:58.249Z - debug: GET /customers
+2018-11-20T03:55:02.896Z - debug: GET /
+2018-11-20T03:55:03.048Z - debug: GET /CSS/shirts.jpg
+2018-11-20T03:55:04.603Z - debug: GET /customers
+2018-11-20T03:55:08.451Z - debug: GET /customer
+2018-11-20T03:55:32.836Z - debug: GET /customers
+2018-11-20T03:55:41.886Z - info: Environment variables loaded.
+2018-11-20T03:55:41.919Z - info: START seeder.
+2018-11-20T03:55:41.922Z - debug: 5 customers seeded
+2018-11-20T03:55:41.924Z - debug: 6 products seeded
+2018-11-20T03:55:41.924Z - info: END Seeder. Sample data read and verified.
+2018-11-20T03:55:47.227Z - debug: GET /customers
+2018-11-20T03:55:48.517Z - debug: GET /customers
+2018-11-20T03:55:49.365Z - debug: GET /customers
+2018-11-20T03:55:49.578Z - debug: GET /customers
+2018-11-20T03:55:54.107Z - debug: GET /customer
+2018-11-20T03:57:07.170Z - info: Environment variables loaded.
+2018-11-20T03:57:07.205Z - info: START seeder.
+2018-11-20T03:57:07.209Z - debug: 5 customers seeded
+2018-11-20T03:57:07.214Z - debug: 6 products seeded
+2018-11-20T03:57:07.214Z - info: END Seeder. Sample data read and verified.
+2018-11-20T03:57:11.642Z - info: Environment variables loaded.
+2018-11-20T03:57:11.670Z - info: START seeder.
+2018-11-20T03:57:11.673Z - debug: 5 customers seeded
+2018-11-20T03:57:11.675Z - debug: 6 products seeded
+2018-11-20T03:57:11.675Z - info: END Seeder. Sample data read and verified.
+2018-11-20T03:57:15.506Z - info: Environment variables loaded.
+2018-11-20T03:57:15.534Z - info: START seeder.
+2018-11-20T03:57:15.537Z - debug: 5 customers seeded
+2018-11-20T03:57:15.539Z - debug: 6 products seeded
+2018-11-20T03:57:15.539Z - info: END Seeder. Sample data read and verified.
+2018-11-20T03:57:19.389Z - info: Environment variables loaded.
+2018-11-20T03:57:19.419Z - info: START seeder.
+2018-11-20T03:57:19.422Z - debug: 5 customers seeded
+2018-11-20T03:57:19.424Z - debug: 6 products seeded
+2018-11-20T03:57:19.424Z - info: END Seeder. Sample data read and verified.
+2018-11-20T03:57:42.333Z - info: Environment variables loaded.
+2018-11-20T03:57:42.364Z - info: START seeder.
+2018-11-20T03:57:42.367Z - debug: 5 customers seeded
+2018-11-20T03:57:42.369Z - debug: 6 products seeded
+2018-11-20T03:57:42.369Z - info: END Seeder. Sample data read and verified.
+2018-11-20T03:58:13.611Z - info: Environment variables loaded.
+2018-11-20T03:58:13.684Z - info: START seeder.
+2018-11-20T03:58:13.693Z - debug: 5 customers seeded
+2018-11-20T03:58:13.696Z - debug: 6 products seeded
+2018-11-20T03:58:13.696Z - info: END Seeder. Sample data read and verified.
+2018-11-20T03:58:20.328Z - info: Environment variables loaded.
+2018-11-20T03:58:20.381Z - info: START seeder.
+2018-11-20T03:58:20.386Z - debug: 5 customers seeded
+2018-11-20T03:58:20.396Z - debug: 6 products seeded
+2018-11-20T03:58:20.396Z - info: END Seeder. Sample data read and verified.
+2018-11-20T03:58:36.611Z - info: Environment variables loaded.
+2018-11-20T03:58:36.658Z - info: START seeder.
+2018-11-20T03:58:36.663Z - debug: 5 customers seeded
+2018-11-20T03:58:36.664Z - debug: 6 products seeded
+2018-11-20T03:58:36.664Z - info: END Seeder. Sample data read and verified.
+2018-11-20T03:58:46.573Z - info: Environment variables loaded.
+2018-11-20T03:58:46.624Z - info: START seeder.
+2018-11-20T03:58:46.630Z - debug: 5 customers seeded
+2018-11-20T03:58:46.635Z - debug: 6 products seeded
+2018-11-20T03:58:46.635Z - info: END Seeder. Sample data read and verified.
+2018-11-20T03:58:55.893Z - debug: GET /customer
+2018-11-20T03:58:59.679Z - debug: GET /customers
+2018-11-20T03:59:05.300Z - debug: GET /
+2018-11-20T03:59:05.456Z - debug: GET /CSS/shirts.jpg
+2018-11-20T03:59:09.419Z - debug: GET /customers
+2018-11-20T03:59:14.394Z - debug: GET /customers/
+2018-11-20T03:59:39.912Z - debug: GET /customers
+2018-11-20T04:00:33.807Z - info: Environment variables loaded.
+2018-11-20T04:00:33.866Z - info: START seeder.
+2018-11-20T04:00:33.871Z - debug: 5 customers seeded
+2018-11-20T04:00:33.875Z - debug: 6 products seeded
+2018-11-20T04:00:33.875Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:00:55.860Z - info: Environment variables loaded.
+2018-11-20T04:00:55.951Z - info: START seeder.
+2018-11-20T04:00:55.961Z - debug: 5 customers seeded
+2018-11-20T04:00:55.965Z - debug: 6 products seeded
+2018-11-20T04:00:55.965Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:01:07.927Z - info: Environment variables loaded.
+2018-11-20T04:01:07.962Z - info: START seeder.
+2018-11-20T04:01:07.965Z - debug: 5 customers seeded
+2018-11-20T04:01:07.967Z - debug: 6 products seeded
+2018-11-20T04:01:07.967Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:01:12.035Z - debug: GET /customers
+2018-11-20T04:01:15.690Z - debug: GET /customer
+2018-11-20T04:01:20.151Z - debug: GET /customers
+2018-11-20T04:02:58.870Z - debug: GET /customers
+2018-11-20T04:03:10.226Z - debug: GET /customers
+2018-11-20T04:03:11.252Z - debug: GET /customers
+2018-11-20T04:03:11.471Z - debug: GET /customers
+2018-11-20T04:03:14.143Z - debug: GET /
+2018-11-20T04:03:14.325Z - debug: GET /CSS/shirts.jpg
+2018-11-20T04:03:16.640Z - debug: GET /views/customers
+2018-11-20T04:04:06.226Z - debug: GET /
+2018-11-20T04:04:06.787Z - debug: GET /CSS/shirts.jpg
+2018-11-20T04:04:18.630Z - debug: GET /customer
+2018-11-20T04:04:43.303Z - info: Environment variables loaded.
+2018-11-20T04:04:43.336Z - info: START seeder.
+2018-11-20T04:04:43.340Z - debug: 5 customers seeded
+2018-11-20T04:04:43.341Z - debug: 6 products seeded
+2018-11-20T04:04:43.341Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:04:51.829Z - info: Environment variables loaded.
+2018-11-20T04:04:51.860Z - info: START seeder.
+2018-11-20T04:04:51.864Z - debug: 5 customers seeded
+2018-11-20T04:04:51.868Z - debug: 6 products seeded
+2018-11-20T04:04:51.869Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:05:52.523Z - debug: GET /
+2018-11-20T04:05:52.873Z - debug: GET /CSS/shirts.jpg
+2018-11-20T04:05:53.030Z - debug: GET /images/favicon-32x32.png
+2018-11-20T04:05:54.267Z - debug: GET /customers
+2018-11-20T04:07:33.411Z - debug: GET /customers
+2018-11-20T04:07:34.328Z - debug: GET /customers
+2018-11-20T04:07:34.490Z - debug: GET /customers
+2018-11-20T04:07:34.668Z - debug: GET /customers
+2018-11-20T04:07:34.868Z - debug: GET /customers
+2018-11-20T04:07:35.081Z - debug: GET /customers
+2018-11-20T04:07:35.489Z - debug: GET /customers
+2018-11-20T04:07:35.661Z - debug: GET /customers
+2018-11-20T04:07:35.854Z - debug: GET /customers
+2018-11-20T04:07:36.052Z - debug: GET /customers
+2018-11-20T04:07:54.950Z - info: Environment variables loaded.
+2018-11-20T04:07:54.985Z - info: START seeder.
+2018-11-20T04:07:54.989Z - debug: 5 customers seeded
+2018-11-20T04:07:54.991Z - debug: 6 products seeded
+2018-11-20T04:07:54.991Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:07:55.071Z - debug: GET /customers
+2018-11-20T04:08:06.210Z - debug: GET /customers
+2018-11-20T04:08:12.678Z - debug: GET /custome
+2018-11-20T04:09:10.800Z - info: Environment variables loaded.
+2018-11-20T04:09:10.857Z - info: START seeder.
+2018-11-20T04:09:10.864Z - debug: 5 customers seeded
+2018-11-20T04:09:10.867Z - debug: 6 products seeded
+2018-11-20T04:09:10.867Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:09:12.178Z - info: Environment variables loaded.
+2018-11-20T04:09:12.216Z - info: START seeder.
+2018-11-20T04:09:12.219Z - debug: 5 customers seeded
+2018-11-20T04:09:12.220Z - debug: 6 products seeded
+2018-11-20T04:09:12.220Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:09:53.006Z - info: Environment variables loaded.
+2018-11-20T04:09:53.080Z - info: START seeder.
+2018-11-20T04:09:53.087Z - debug: 5 customers seeded
+2018-11-20T04:09:53.090Z - debug: 6 products seeded
+2018-11-20T04:09:53.090Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:10:01.058Z - info: Environment variables loaded.
+2018-11-20T04:10:01.118Z - info: START seeder.
+2018-11-20T04:10:01.127Z - debug: 5 customers seeded
+2018-11-20T04:10:01.130Z - debug: 6 products seeded
+2018-11-20T04:10:01.130Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:10:35.123Z - info: Environment variables loaded.
+2018-11-20T04:10:35.180Z - info: START seeder.
+2018-11-20T04:10:35.184Z - debug: 5 customers seeded
+2018-11-20T04:10:35.186Z - debug: 6 products seeded
+2018-11-20T04:10:35.186Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:10:44.553Z - info: Environment variables loaded.
+2018-11-20T04:10:44.611Z - info: START seeder.
+2018-11-20T04:10:44.617Z - debug: 5 customers seeded
+2018-11-20T04:10:44.622Z - debug: 6 products seeded
+2018-11-20T04:10:44.622Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:10:57.698Z - info: Environment variables loaded.
+2018-11-20T04:10:57.750Z - info: START seeder.
+2018-11-20T04:10:57.757Z - debug: 5 customers seeded
+2018-11-20T04:10:57.760Z - debug: 6 products seeded
+2018-11-20T04:10:57.760Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:11:00.937Z - info: Environment variables loaded.
+2018-11-20T04:11:00.970Z - info: START seeder.
+2018-11-20T04:11:00.973Z - debug: 5 customers seeded
+2018-11-20T04:11:00.975Z - debug: 6 products seeded
+2018-11-20T04:11:00.975Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:11:05.384Z - info: Environment variables loaded.
+2018-11-20T04:11:05.417Z - info: START seeder.
+2018-11-20T04:11:05.420Z - debug: 5 customers seeded
+2018-11-20T04:11:05.423Z - debug: 6 products seeded
+2018-11-20T04:11:05.423Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:11:10.807Z - info: Environment variables loaded.
+2018-11-20T04:11:10.835Z - info: START seeder.
+2018-11-20T04:11:10.838Z - debug: 5 customers seeded
+2018-11-20T04:11:10.840Z - debug: 6 products seeded
+2018-11-20T04:11:10.840Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:18:23.073Z - info: Environment variables loaded.
+2018-11-20T04:18:23.113Z - info: START seeder.
+2018-11-20T04:18:23.116Z - debug: 5 customers seeded
+2018-11-20T04:18:23.118Z - debug: 6 products seeded
+2018-11-20T04:18:23.118Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:18:32.825Z - debug: GET /customers
+2018-11-20T04:18:36.227Z - debug: GET /
+2018-11-20T04:18:36.689Z - debug: GET /CSS/shirts.jpg
+2018-11-20T04:18:38.559Z - debug: GET /views/customers
+2018-11-20T04:19:03.611Z - debug: GET /customers
+2018-11-20T04:19:09.266Z - debug: GET /customers/index
+2018-11-20T04:19:13.364Z - debug: GET /customers/index.ejs
+2018-11-20T04:20:45.799Z - info: Environment variables loaded.
+2018-11-20T04:20:45.867Z - info: START seeder.
+2018-11-20T04:20:45.874Z - debug: 5 customers seeded
+2018-11-20T04:20:45.878Z - debug: 6 products seeded
+2018-11-20T04:20:45.878Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:20:48.049Z - info: Environment variables loaded.
+2018-11-20T04:20:48.084Z - info: START seeder.
+2018-11-20T04:20:48.088Z - debug: 5 customers seeded
+2018-11-20T04:20:48.090Z - debug: 6 products seeded
+2018-11-20T04:20:48.090Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:22:59.362Z - info: Environment variables loaded.
+2018-11-20T04:23:01.908Z - info: Environment variables loaded.
+2018-11-20T04:23:01.915Z - debug: START routing
+2018-11-20T04:23:01.936Z - debug: END routing
+2018-11-20T04:23:01.937Z - info: Loaded routing.
+2018-11-20T04:23:01.960Z - info: START seeder.
+2018-11-20T04:23:01.963Z - debug: 5 customers seeded
+2018-11-20T04:23:01.965Z - debug: 6 products seeded
+2018-11-20T04:23:01.965Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:23:06.287Z - info: Environment variables loaded.
+2018-11-20T04:23:06.295Z - debug: START routing
+2018-11-20T04:23:06.321Z - debug: END routing
+2018-11-20T04:23:06.321Z - info: Loaded routing.
+2018-11-20T04:23:06.342Z - info: START seeder.
+2018-11-20T04:23:06.346Z - debug: 5 customers seeded
+2018-11-20T04:23:06.348Z - debug: 6 products seeded
+2018-11-20T04:23:06.348Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:23:17.842Z - info: Environment variables loaded.
+2018-11-20T04:23:17.850Z - debug: START routing
+2018-11-20T04:23:17.874Z - debug: END routing
+2018-11-20T04:23:17.874Z - info: Loaded routing.
+2018-11-20T04:23:17.903Z - info: START seeder.
+2018-11-20T04:23:17.906Z - debug: 5 customers seeded
+2018-11-20T04:23:17.910Z - debug: 6 products seeded
+2018-11-20T04:23:17.910Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:23:26.360Z - debug: GET /
+2018-11-20T04:23:26.871Z - debug: GET /CSS/shirts.jpg
+2018-11-20T04:23:28.337Z - debug: GET /customers
+2018-11-20T04:23:34.351Z - debug: GET /customers
+2018-11-20T04:25:37.681Z - debug: GET /customers
+2018-11-20T04:26:07.692Z - debug: GET /customers
+2018-11-20T04:26:08.048Z - debug: GET /CSS/shirts.jpg
+2018-11-20T04:26:18.695Z - debug: GET /customers/create
+2018-11-20T04:26:18.697Z - info: Handling GET /create[object Object]
+2018-11-20T04:26:18.701Z - debug: {"firstname":"First Name","lastname":"Last Name","street1":"Street 1","street2":"Street 2","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-11-20T04:26:49.199Z - debug: GET /customers/create
+2018-11-20T04:26:49.199Z - info: Handling GET /create[object Object]
+2018-11-20T04:26:49.200Z - debug: {"firstname":"First Name","lastname":"Last Name","street1":"Street 1","street2":"Street 2","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-11-20T04:26:49.232Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:26:49.525Z - debug: GET /CSS/shirts.jpg
+2018-11-20T04:26:49.538Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:27:14.921Z - debug: POST /customers/save
+2018-11-20T04:27:14.957Z - info: Handling POST [object Object]
+2018-11-20T04:27:14.957Z - debug: {"_id":"51","email":"srujanareddy2.gattu@gmail.com","Firstname":"First Name","Lastname":"Gattu","Age":"23","street1":"1115N College Drive","street2":"Apt 5","city":"Maryville","state":"MO","zip":"64468","country":"USA"}
+2018-11-20T04:28:39.616Z - debug: GET /customers/findall
+2018-11-20T04:28:45.891Z - debug: GET /customer/findall
+2018-11-20T04:28:45.914Z - debug: GET /customer/CSS/main.css
+2018-11-20T04:28:46.046Z - debug: GET /CSS/shirts.jpg
+2018-11-20T04:28:46.058Z - debug: GET /customer/CSS/main.css
+2018-11-20T04:28:48.426Z - debug: GET /customers
+2018-11-20T04:28:48.578Z - debug: GET /CSS/shirts.jpg
+2018-11-20T04:28:55.024Z - debug: GET /customers/findall
+2018-11-20T04:29:00.148Z - debug: GET /customers/findone/1
+2018-11-20T04:29:06.636Z - debug: GET /customers/create
+2018-11-20T04:29:06.637Z - info: Handling GET /create[object Object]
+2018-11-20T04:29:06.638Z - debug: {"firstname":"First Name","lastname":"Last Name","street1":"Street 1","street2":"Street 2","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-11-20T04:29:06.680Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:29:06.786Z - debug: GET /CSS/shirts.jpg
+2018-11-20T04:29:06.795Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:29:10.562Z - debug: GET /customers/edit/1
+2018-11-20T04:29:10.563Z - info: Handling GET /edit/:id [object Object]
+2018-11-20T04:29:22.017Z - debug: GET /customers/delete/2
+2018-11-20T04:29:22.018Z - info: Handling GET /delete [object Object]
+2018-11-20T04:29:50.048Z - info: Environment variables loaded.
+2018-11-20T04:29:50.060Z - debug: START routing
+2018-11-20T04:29:50.087Z - debug: END routing
+2018-11-20T04:29:50.087Z - info: Loaded routing.
+2018-11-20T04:29:50.120Z - info: START seeder.
+2018-11-20T04:29:50.124Z - debug: 5 customers seeded
+2018-11-20T04:29:50.130Z - debug: 6 products seeded
+2018-11-20T04:29:50.130Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:29:53.471Z - info: Environment variables loaded.
+2018-11-20T04:29:53.479Z - debug: START routing
+2018-11-20T04:29:53.505Z - debug: END routing
+2018-11-20T04:29:53.505Z - info: Loaded routing.
+2018-11-20T04:29:53.529Z - info: START seeder.
+2018-11-20T04:29:53.531Z - debug: 5 customers seeded
+2018-11-20T04:29:53.533Z - debug: 6 products seeded
+2018-11-20T04:29:53.533Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:30:03.039Z - info: Environment variables loaded.
+2018-11-20T04:30:03.050Z - debug: START routing
+2018-11-20T04:30:03.075Z - debug: END routing
+2018-11-20T04:30:03.075Z - info: Loaded routing.
+2018-11-20T04:30:03.106Z - info: START seeder.
+2018-11-20T04:30:03.109Z - debug: 5 customers seeded
+2018-11-20T04:30:03.111Z - debug: 6 products seeded
+2018-11-20T04:30:03.111Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:30:04.085Z - debug: GET /customers/delete/2
+2018-11-20T04:30:04.093Z - info: Handling GET /delete [object Object]
+2018-11-20T04:30:06.613Z - debug: GET /customers/
+2018-11-20T04:30:06.659Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:30:06.779Z - debug: GET /CSS/shirts.jpg
+2018-11-20T04:30:06.790Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:30:11.644Z - debug: GET /customers/findall
+2018-11-20T04:30:24.049Z - info: Environment variables loaded.
+2018-11-20T04:30:24.065Z - debug: START routing
+2018-11-20T04:30:24.116Z - debug: END routing
+2018-11-20T04:30:24.117Z - info: Loaded routing.
+2018-11-20T04:30:24.160Z - info: START seeder.
+2018-11-20T04:30:24.163Z - debug: 5 customers seeded
+2018-11-20T04:30:24.166Z - debug: 6 products seeded
+2018-11-20T04:30:24.166Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:30:30.933Z - info: Environment variables loaded.
+2018-11-20T04:30:30.943Z - debug: START routing
+2018-11-20T04:30:30.971Z - debug: END routing
+2018-11-20T04:30:30.971Z - info: Loaded routing.
+2018-11-20T04:30:30.996Z - info: START seeder.
+2018-11-20T04:30:31.001Z - debug: 5 customers seeded
+2018-11-20T04:30:31.004Z - debug: 6 products seeded
+2018-11-20T04:30:31.005Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:30:34.907Z - info: Environment variables loaded.
+2018-11-20T04:30:34.915Z - debug: START routing
+2018-11-20T04:30:34.942Z - debug: END routing
+2018-11-20T04:30:34.942Z - info: Loaded routing.
+2018-11-20T04:30:34.969Z - info: START seeder.
+2018-11-20T04:30:34.973Z - debug: 5 customers seeded
+2018-11-20T04:30:34.975Z - debug: 6 products seeded
+2018-11-20T04:30:34.975Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:30:38.375Z - info: Environment variables loaded.
+2018-11-20T04:30:38.383Z - debug: START routing
+2018-11-20T04:30:38.404Z - debug: END routing
+2018-11-20T04:30:38.404Z - info: Loaded routing.
+2018-11-20T04:30:38.429Z - info: START seeder.
+2018-11-20T04:30:38.432Z - debug: 5 customers seeded
+2018-11-20T04:30:38.435Z - debug: 6 products seeded
+2018-11-20T04:30:38.435Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:30:43.758Z - info: Environment variables loaded.
+2018-11-20T04:30:43.769Z - debug: START routing
+2018-11-20T04:30:43.797Z - debug: END routing
+2018-11-20T04:30:43.797Z - info: Loaded routing.
+2018-11-20T04:30:43.821Z - info: START seeder.
+2018-11-20T04:30:43.825Z - debug: 5 customers seeded
+2018-11-20T04:30:43.827Z - debug: 6 products seeded
+2018-11-20T04:30:43.827Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:30:52.439Z - info: Environment variables loaded.
+2018-11-20T04:30:52.452Z - debug: START routing
+2018-11-20T04:30:52.502Z - debug: END routing
+2018-11-20T04:30:52.502Z - info: Loaded routing.
+2018-11-20T04:30:52.551Z - info: START seeder.
+2018-11-20T04:30:52.558Z - debug: 5 customers seeded
+2018-11-20T04:30:52.562Z - debug: 6 products seeded
+2018-11-20T04:30:52.563Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:31:16.045Z - info: Environment variables loaded.
+2018-11-20T04:31:16.051Z - debug: START routing
+2018-11-20T04:31:16.081Z - debug: END routing
+2018-11-20T04:31:16.081Z - info: Loaded routing.
+2018-11-20T04:31:16.112Z - info: START seeder.
+2018-11-20T04:31:16.116Z - debug: 5 customers seeded
+2018-11-20T04:31:16.117Z - debug: 6 products seeded
+2018-11-20T04:31:16.118Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:31:17.560Z - debug: GET /customers/findall
+2018-11-20T04:31:20.479Z - debug: GET /customers/
+2018-11-20T04:31:20.532Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:31:20.667Z - debug: GET /CSS/shirts.jpg
+2018-11-20T04:31:20.679Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:31:27.592Z - debug: GET /customers/customers/create
+2018-11-20T04:31:27.623Z - debug: GET /customers/customers/CSS/main.css
+2018-11-20T04:31:27.798Z - debug: GET /CSS/shirts.jpg
+2018-11-20T04:31:27.817Z - debug: GET /customers/customers/CSS/main.css
+2018-11-20T04:31:32.518Z - debug: GET /customers
+2018-11-20T04:31:32.746Z - debug: GET /CSS/shirts.jpg
+2018-11-20T04:31:33.810Z - debug: GET /customers/create
+2018-11-20T04:31:33.811Z - info: Handling GET /create[object Object]
+2018-11-20T04:31:33.813Z - debug: {"firstname":"First Name","lastname":"Last Name","street1":"Street 1","street2":"Street 2","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-11-20T04:31:33.850Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:31:33.961Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:31:45.968Z - debug: POST /customers/save
+2018-11-20T04:31:46.005Z - info: Handling POST [object Object]
+2018-11-20T04:31:46.005Z - debug: {"_id":"51","email":"srujanareddy2.gattu@gmail.com545","Firstname":"First Name","Lastname":"Gattu","Age":"32","street1":"1115N College Drive","street2":"Apt 5","city":"Maryville","state":"MO","zip":"64468","country":"USA"}
+2018-11-20T04:31:46.006Z - info: NEW ID 51
+2018-11-20T04:31:46.010Z - info: SAVING NEW CUSTOMER {"firstname":"First Name","street1":"1115N College Drive","street2":"Apt 5","city":"Maryville","state":"MO","country":"USA","zip":"64468","_id":"51","email":"srujanareddy2.gattu@gmail.com545","age":"NaN"}
+2018-11-20T04:31:46.019Z - debug: GET /customers
+2018-11-20T04:31:56.403Z - debug: GET /customers/create
+2018-11-20T04:31:56.404Z - info: Handling GET /create[object Object]
+2018-11-20T04:31:56.405Z - debug: {"firstname":"First Name","lastname":"Last Name","street1":"Street 1","street2":"Street 2","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-11-20T04:31:56.437Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:31:56.777Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:32:08.000Z - debug: GET /customers
+2018-11-20T04:32:12.531Z - debug: GET /customers/delete/
+2018-11-20T04:32:12.552Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:32:12.726Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:32:36.738Z - debug: GET /customers/delete/
+2018-11-20T04:32:36.777Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:32:37.095Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:32:37.249Z - debug: GET /images/favicon-32x32.png
+2018-11-20T04:32:39.326Z - debug: GET /customers
+2018-11-20T04:32:42.631Z - debug: GET /customers/delete/
+2018-11-20T04:32:42.688Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:32:42.833Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:32:56.668Z - debug: GET /customers/delete/
+2018-11-20T04:32:56.702Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:32:57.043Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:32:57.164Z - debug: GET /images/favicon-32x32.png
+2018-11-20T04:32:57.866Z - debug: GET /customers/delete/
+2018-11-20T04:32:57.900Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:32:58.015Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:32:58.081Z - debug: GET /images/favicon-32x32.png
+2018-11-20T04:32:58.323Z - debug: GET /customers/delete/
+2018-11-20T04:32:58.364Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:32:58.465Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:32:58.515Z - debug: GET /images/favicon-32x32.png
+2018-11-20T04:32:58.604Z - debug: GET /customers/delete/
+2018-11-20T04:32:58.644Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:32:58.784Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:32:58.853Z - debug: GET /images/favicon-32x32.png
+2018-11-20T04:33:29.140Z - debug: GET /customers/
+2018-11-20T04:33:29.196Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:33:29.479Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:33:32.015Z - debug: GET /customers/customers/edit/
+2018-11-20T04:33:32.040Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:33:32.040Z - debug: GET /customers/customers/edit/CSS/main.css
+2018-11-20T04:33:32.158Z - debug: GET /customers/customers/edit/CSS/main.css
+2018-11-20T04:33:32.212Z - debug: GET /customers/images/favicon-32x32.png
+2018-11-20T04:34:08.217Z - debug: GET /customers/
+2018-11-20T04:34:08.251Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:34:08.531Z - debug: GET /CSS/shirts.jpg
+2018-11-20T04:34:08.540Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:34:11.136Z - debug: GET /customers/customers/edit/
+2018-11-20T04:34:11.155Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:34:11.163Z - debug: GET /customers/customers/edit/CSS/main.css
+2018-11-20T04:34:11.283Z - debug: GET /customers/customers/edit/CSS/main.css
+2018-11-20T04:34:21.628Z - debug: GET /customers/edit/
+2018-11-20T04:34:21.665Z - debug: GET /customers/edit/CSS/main.css
+2018-11-20T04:34:21.993Z - debug: GET /CSS/shirts.jpg
+2018-11-20T04:34:22.003Z - debug: GET /customers/edit/CSS/main.css
+2018-11-20T04:34:37.167Z - debug: GET /customers
+2018-11-20T04:34:37.499Z - debug: GET /CSS/shirts.jpg
+2018-11-20T04:34:40.818Z - debug: GET /customers/details/
+2018-11-20T04:34:40.843Z - debug: GET /customers/details/CSS/main.css
+2018-11-20T04:34:40.974Z - debug: GET /customers/details/CSS/main.css
+2018-11-20T04:36:07.119Z - debug: GET /customers/
+2018-11-20T04:36:07.157Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:36:07.448Z - debug: GET /CSS/shirts.jpg
+2018-11-20T04:36:07.459Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:36:09.582Z - debug: GET /customers/customers/edit/
+2018-11-20T04:36:09.611Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:36:09.613Z - debug: GET /customers/customers/edit/CSS/main.css
+2018-11-20T04:36:09.762Z - debug: GET /customers/customers/edit/CSS/main.css
+2018-11-20T04:36:14.742Z - debug: GET /customers/edit/
+2018-11-20T04:36:14.778Z - debug: GET /customers/edit/CSS/main.css
+2018-11-20T04:36:14.897Z - debug: GET /CSS/shirts.jpg
+2018-11-20T04:36:14.908Z - debug: GET /customers/edit/CSS/main.css
+2018-11-20T04:38:19.964Z - info: Environment variables loaded.
+2018-11-20T04:38:19.971Z - debug: START routing
+2018-11-20T04:38:19.996Z - debug: END routing
+2018-11-20T04:38:19.996Z - info: Loaded routing.
+2018-11-20T04:38:20.027Z - info: START seeder.
+2018-11-20T04:38:20.030Z - debug: 5 customers seeded
+2018-11-20T04:38:20.032Z - debug: 6 products seeded
+2018-11-20T04:38:20.032Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:38:27.187Z - debug: GET /customers/
+2018-11-20T04:38:27.236Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:38:27.528Z - debug: GET /CSS/shirts.jpg
+2018-11-20T04:38:27.539Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:38:30.038Z - debug: GET /customers/customers/edit/
+2018-11-20T04:38:30.065Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:38:30.068Z - debug: GET /customers/customers/edit/CSS/main.css
+2018-11-20T04:38:30.206Z - debug: GET /customers/customers/edit/CSS/main.css
+2018-11-20T04:38:36.972Z - debug: GET /customers/customers/edit/
+2018-11-20T04:38:36.997Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:38:37.010Z - debug: GET /customers/customers/edit/CSS/main.css
+2018-11-20T04:38:37.120Z - debug: GET /customers/customers/edit/CSS/main.css
+2018-11-20T04:38:43.236Z - debug: GET /customers/edit/
+2018-11-20T04:38:43.283Z - debug: GET /customers/edit/CSS/main.css
+2018-11-20T04:38:43.395Z - debug: GET /CSS/shirts.jpg
+2018-11-20T04:38:43.404Z - debug: GET /customers/edit/CSS/main.css
+2018-11-20T04:38:46.848Z - debug: GET /customers/edit
+2018-11-20T04:38:46.875Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:38:46.975Z - debug: GET /CSS/shirts.jpg
+2018-11-20T04:38:46.984Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:38:52.865Z - debug: GET /customers/edit/1
+2018-11-20T04:38:52.866Z - info: Handling GET /edit/:id [object Object]
+2018-11-20T04:39:18.583Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:39:20.847Z - debug: GET /customers
+2018-11-20T04:39:24.182Z - debug: GET /customers/delete/
+2018-11-20T04:39:24.205Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:39:24.338Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:39:27.833Z - debug: GET /customers/delete/1
+2018-11-20T04:39:27.834Z - info: Handling GET /delete [object Object]
+2018-11-20T04:40:30.017Z - info: Environment variables loaded.
+2018-11-20T04:40:30.034Z - debug: START routing
+2018-11-20T04:40:30.093Z - debug: END routing
+2018-11-20T04:40:30.093Z - info: Loaded routing.
+2018-11-20T04:40:30.132Z - info: START seeder.
+2018-11-20T04:40:30.140Z - debug: 5 customers seeded
+2018-11-20T04:40:30.144Z - debug: 6 products seeded
+2018-11-20T04:40:30.144Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:40:42.113Z - debug: GET /customers/delete/1
+2018-11-20T04:40:42.121Z - info: Handling GET /delete [object Object]
+2018-11-20T04:40:50.035Z - info: Environment variables loaded.
+2018-11-20T04:40:50.052Z - debug: START routing
+2018-11-20T04:40:50.117Z - debug: END routing
+2018-11-20T04:40:50.117Z - info: Loaded routing.
+2018-11-20T04:40:50.154Z - info: START seeder.
+2018-11-20T04:40:50.157Z - debug: 5 customers seeded
+2018-11-20T04:40:50.159Z - debug: 6 products seeded
+2018-11-20T04:40:50.159Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:42:14.796Z - debug: GET /customers/
+2018-11-20T04:42:14.852Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:42:15.144Z - debug: GET /CSS/shirts.jpg
+2018-11-20T04:42:15.156Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:42:17.564Z - debug: GET /customers/customers/edit/
+2018-11-20T04:42:17.591Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:42:17.604Z - debug: GET /customers/customers/edit/CSS/main.css
+2018-11-20T04:42:17.712Z - debug: GET /customers/customers/edit/CSS/main.css
+2018-11-20T04:42:22.037Z - debug: GET /customers/customers/edit/1
+2018-11-20T04:42:22.059Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:42:22.076Z - debug: GET /customers/customers/edit/CSS/main.css
+2018-11-20T04:42:22.175Z - debug: GET /customers/customers/edit/CSS/main.css
+2018-11-20T04:42:25.212Z - debug: GET /customers/edit/1
+2018-11-20T04:42:25.214Z - info: Handling GET /edit/:id [object Object]
+2018-11-20T04:44:13.546Z - info: Environment variables loaded.
+2018-11-20T04:44:13.556Z - debug: START routing
+2018-11-20T04:44:13.602Z - debug: END routing
+2018-11-20T04:44:13.602Z - info: Loaded routing.
+2018-11-20T04:44:13.649Z - info: START seeder.
+2018-11-20T04:44:13.655Z - debug: 5 customers seeded
+2018-11-20T04:44:13.658Z - debug: 6 products seeded
+2018-11-20T04:44:13.658Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:44:15.202Z - info: Environment variables loaded.
+2018-11-20T04:44:15.210Z - debug: START routing
+2018-11-20T04:44:15.233Z - debug: END routing
+2018-11-20T04:44:15.233Z - info: Loaded routing.
+2018-11-20T04:44:15.256Z - info: START seeder.
+2018-11-20T04:44:15.260Z - debug: 5 customers seeded
+2018-11-20T04:44:15.261Z - debug: 6 products seeded
+2018-11-20T04:44:15.262Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:44:24.974Z - info: Environment variables loaded.
+2018-11-20T04:44:24.986Z - debug: START routing
+2018-11-20T04:44:25.042Z - debug: END routing
+2018-11-20T04:44:25.043Z - info: Loaded routing.
+2018-11-20T04:44:25.087Z - info: START seeder.
+2018-11-20T04:44:25.093Z - debug: 5 customers seeded
+2018-11-20T04:44:25.096Z - debug: 6 products seeded
+2018-11-20T04:44:25.096Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:44:27.042Z - info: Environment variables loaded.
+2018-11-20T04:44:27.050Z - debug: START routing
+2018-11-20T04:44:27.078Z - debug: END routing
+2018-11-20T04:44:27.079Z - info: Loaded routing.
+2018-11-20T04:44:27.104Z - info: START seeder.
+2018-11-20T04:44:27.107Z - debug: 5 customers seeded
+2018-11-20T04:44:27.108Z - debug: 6 products seeded
+2018-11-20T04:44:27.108Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:44:54.777Z - info: Environment variables loaded.
+2018-11-20T04:44:54.797Z - debug: START routing
+2018-11-20T04:44:54.858Z - debug: END routing
+2018-11-20T04:44:54.858Z - info: Loaded routing.
+2018-11-20T04:44:54.885Z - info: START seeder.
+2018-11-20T04:44:54.889Z - debug: 5 customers seeded
+2018-11-20T04:44:54.891Z - debug: 6 products seeded
+2018-11-20T04:44:54.891Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:44:57.332Z - debug: GET /customers/delete/1
+2018-11-20T04:44:57.339Z - info: Handling GET /delete [object Object]
+2018-11-20T04:45:02.128Z - debug: GET /customers/edit/1
+2018-11-20T04:45:02.129Z - info: Handling GET /edit/:id [object Object]
+2018-11-20T04:45:04.803Z - debug: GET /customers/edit/
+2018-11-20T04:45:04.849Z - debug: GET /customers/edit/CSS/main.css
+2018-11-20T04:45:04.963Z - debug: GET /CSS/shirts.jpg
+2018-11-20T04:45:04.974Z - debug: GET /customers/edit/CSS/main.css
+2018-11-20T04:45:06.846Z - debug: GET /customers
+2018-11-20T04:45:06.976Z - debug: GET /CSS/shirts.jpg
+2018-11-20T04:45:09.499Z - debug: GET /customers/edit/
+2018-11-20T04:45:09.523Z - debug: GET /customers/edit/CSS/main.css
+2018-11-20T04:45:09.648Z - debug: GET /customers/edit/CSS/main.css
+2018-11-20T04:45:11.499Z - debug: GET /customers
+2018-11-20T04:46:22.651Z - debug: GET /customers/findall
+2018-11-20T04:46:27.055Z - debug: GET /customers/edit/1
+2018-11-20T04:46:27.056Z - info: Handling GET /edit/:id [object Object]
+2018-11-20T04:46:33.800Z - debug: GET /customers/delete/1
+2018-11-20T04:46:33.801Z - info: Handling GET /delete [object Object]
+2018-11-20T04:46:40.705Z - debug: GET /customers/create
+2018-11-20T04:46:40.705Z - info: Handling GET /create[object Object]
+2018-11-20T04:46:40.709Z - debug: {"firstname":"First Name","lastname":"Last Name","street1":"Street 1","street2":"Street 2","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-11-20T04:46:40.763Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:46:40.864Z - debug: GET /CSS/shirts.jpg
+2018-11-20T04:46:40.875Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:47:43.393Z - info: Environment variables loaded.
+2018-11-20T04:47:43.407Z - debug: START routing
+2018-11-20T04:47:43.436Z - debug: END routing
+2018-11-20T04:47:43.436Z - info: Loaded routing.
+2018-11-20T04:47:43.471Z - info: START seeder.
+2018-11-20T04:47:43.475Z - debug: 5 customers seeded
+2018-11-20T04:47:43.477Z - debug: 6 products seeded
+2018-11-20T04:47:43.477Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:48:37.047Z - info: Environment variables loaded.
+2018-11-20T04:48:37.056Z - debug: START routing
+2018-11-20T04:48:37.094Z - debug: END routing
+2018-11-20T04:48:37.094Z - info: Loaded routing.
+2018-11-20T04:48:37.129Z - info: START seeder.
+2018-11-20T04:48:37.135Z - debug: 5 customers seeded
+2018-11-20T04:48:37.137Z - debug: 6 products seeded
+2018-11-20T04:48:37.137Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:48:42.019Z - debug: GET /customers
+2018-11-20T04:48:45.675Z - debug: GET /customer/edit/1
+2018-11-20T04:48:45.701Z - debug: GET /customer/edit/CSS/main.css
+2018-11-20T04:48:45.994Z - debug: GET /CSS/shirts.jpg
+2018-11-20T04:48:46.004Z - debug: GET /customer/edit/CSS/main.css
+2018-11-20T04:48:48.721Z - debug: GET /CSS/shirts.jpg
+2018-11-20T04:48:50.570Z - debug: GET /customers/edit/
+2018-11-20T04:48:50.607Z - debug: GET /customers/edit/CSS/main.css
+2018-11-20T04:48:50.715Z - debug: GET /customers/edit/CSS/main.css
+2018-11-20T04:48:55.959Z - debug: GET /customers/edit/51
+2018-11-20T04:48:55.959Z - info: Handling GET /edit/:id [object Object]
+2018-11-20T04:48:59.499Z - debug: GET /customers
+2018-11-20T04:48:59.973Z - debug: GET /CSS/shirts.jpg
+2018-11-20T04:49:35.294Z - info: Environment variables loaded.
+2018-11-20T04:49:35.320Z - debug: START routing
+2018-11-20T04:49:35.380Z - debug: END routing
+2018-11-20T04:49:35.381Z - info: Loaded routing.
+2018-11-20T04:49:35.422Z - info: START seeder.
+2018-11-20T04:49:35.427Z - debug: 5 customers seeded
+2018-11-20T04:49:35.429Z - debug: 6 products seeded
+2018-11-20T04:49:35.429Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:50:32.444Z - info: Environment variables loaded.
+2018-11-20T04:50:32.461Z - debug: START routing
+2018-11-20T04:50:32.516Z - debug: END routing
+2018-11-20T04:50:32.516Z - info: Loaded routing.
+2018-11-20T04:50:32.571Z - info: START seeder.
+2018-11-20T04:50:32.577Z - debug: 5 customers seeded
+2018-11-20T04:50:32.582Z - debug: 6 products seeded
+2018-11-20T04:50:32.582Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:50:42.996Z - info: Environment variables loaded.
+2018-11-20T04:50:43.010Z - debug: START routing
+2018-11-20T04:50:43.073Z - debug: END routing
+2018-11-20T04:50:43.073Z - info: Loaded routing.
+2018-11-20T04:50:43.119Z - info: START seeder.
+2018-11-20T04:50:43.125Z - debug: 5 customers seeded
+2018-11-20T04:50:43.129Z - debug: 6 products seeded
+2018-11-20T04:50:43.129Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:50:49.935Z - info: Environment variables loaded.
+2018-11-20T04:50:49.948Z - debug: START routing
+2018-11-20T04:50:49.995Z - debug: END routing
+2018-11-20T04:50:49.995Z - info: Loaded routing.
+2018-11-20T04:50:50.038Z - info: START seeder.
+2018-11-20T04:50:50.042Z - debug: 5 customers seeded
+2018-11-20T04:50:50.046Z - debug: 6 products seeded
+2018-11-20T04:50:50.046Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:50:58.117Z - info: Environment variables loaded.
+2018-11-20T04:50:58.130Z - debug: START routing
+2018-11-20T04:50:58.174Z - debug: END routing
+2018-11-20T04:50:58.175Z - info: Loaded routing.
+2018-11-20T04:50:58.217Z - info: START seeder.
+2018-11-20T04:50:58.225Z - debug: 5 customers seeded
+2018-11-20T04:50:58.229Z - debug: 6 products seeded
+2018-11-20T04:50:58.229Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:51:05.075Z - info: Environment variables loaded.
+2018-11-20T04:51:05.089Z - debug: START routing
+2018-11-20T04:51:05.185Z - debug: END routing
+2018-11-20T04:51:05.185Z - info: Loaded routing.
+2018-11-20T04:51:05.277Z - info: START seeder.
+2018-11-20T04:51:05.289Z - debug: 5 customers seeded
+2018-11-20T04:51:05.295Z - debug: 6 products seeded
+2018-11-20T04:51:05.295Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:51:11.240Z - info: Environment variables loaded.
+2018-11-20T04:51:11.248Z - debug: START routing
+2018-11-20T04:51:11.274Z - debug: END routing
+2018-11-20T04:51:11.274Z - info: Loaded routing.
+2018-11-20T04:51:11.300Z - info: START seeder.
+2018-11-20T04:51:11.303Z - debug: 5 customers seeded
+2018-11-20T04:51:11.305Z - debug: 6 products seeded
+2018-11-20T04:51:11.305Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:51:16.997Z - debug: GET /customers
+2018-11-20T04:51:17.351Z - debug: GET /CSS/shirts.jpg
+2018-11-20T04:51:17.518Z - debug: GET /images/favicon-32x32.png
+2018-11-20T04:51:19.984Z - debug: GET /customers/delete/
+2018-11-20T04:51:20.028Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:51:20.163Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:51:28.212Z - debug: GET /customers/delete/1
+2018-11-20T04:51:28.253Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:51:28.355Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:51:56.289Z - info: Environment variables loaded.
+2018-11-20T04:51:56.299Z - debug: START routing
+2018-11-20T04:51:56.332Z - debug: END routing
+2018-11-20T04:51:56.332Z - info: Loaded routing.
+2018-11-20T04:51:56.366Z - info: START seeder.
+2018-11-20T04:51:56.369Z - debug: 5 customers seeded
+2018-11-20T04:51:56.375Z - debug: 6 products seeded
+2018-11-20T04:51:56.376Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:51:57.447Z - debug: GET /customers/delete/1
+2018-11-20T04:51:57.493Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:51:57.601Z - debug: GET /CSS/shirts.jpg
+2018-11-20T04:51:57.613Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:51:57.666Z - debug: GET /images/favicon-32x32.png
+2018-11-20T04:51:58.397Z - debug: GET /customers/delete/1
+2018-11-20T04:51:58.434Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:51:58.592Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:51:58.666Z - debug: GET /images/favicon-32x32.png
+2018-11-20T04:52:01.289Z - debug: GET /customers/delete/
+2018-11-20T04:52:01.313Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:52:01.430Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:52:05.413Z - info: Environment variables loaded.
+2018-11-20T04:52:05.422Z - debug: START routing
+2018-11-20T04:52:05.446Z - debug: END routing
+2018-11-20T04:52:05.446Z - info: Loaded routing.
+2018-11-20T04:52:05.473Z - info: START seeder.
+2018-11-20T04:52:05.479Z - debug: 5 customers seeded
+2018-11-20T04:52:05.481Z - debug: 6 products seeded
+2018-11-20T04:52:05.481Z - info: END Seeder. Sample data read and verified.
+2018-11-20T04:53:46.447Z - debug: GET /customers/
+2018-11-20T04:55:37.682Z - debug: GET /customers/
+2018-11-20T04:56:06.806Z - debug: GET /customers/
+2018-11-20T04:56:20.996Z - debug: GET /customers/
+2018-11-20T04:56:21.033Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:56:21.356Z - debug: GET /CSS/shirts.jpg
+2018-11-20T04:56:21.366Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:56:37.043Z - debug: GET /customers
+2018-11-20T04:56:37.365Z - debug: GET /CSS/shirts.jpg
+2018-11-20T04:58:03.324Z - debug: GET /customers/delete/
+2018-11-20T04:58:03.356Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:58:03.689Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:58:43.452Z - debug: GET /customers/
+2018-11-20T04:58:43.478Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:58:43.823Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:58:46.269Z - debug: GET /customers/customers/delete/
+2018-11-20T04:58:46.293Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:58:46.294Z - debug: GET /customers/customers/delete/CSS/main.css
+2018-11-20T04:58:46.420Z - debug: GET /customers/customers/delete/CSS/main.css
+2018-11-20T04:58:50.665Z - debug: GET /customers/customers/delete/1
+2018-11-20T04:58:50.691Z - debug: GET /customers/CSS/main.css
+2018-11-20T04:58:50.692Z - debug: GET /customers/customers/delete/CSS/main.css
+2018-11-20T04:58:50.828Z - debug: GET /customers/customers/delete/CSS/main.css
+2018-11-20T04:58:54.027Z - debug: GET /customers/delete/1
+2018-11-20T04:58:54.054Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:58:54.159Z - debug: GET /CSS/shirts.jpg
+2018-11-20T04:58:54.168Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:59:03.991Z - debug: GET /customers/delete/1
+2018-11-20T04:59:04.019Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:59:04.290Z - debug: GET /CSS/shirts.jpg
+2018-11-20T04:59:04.300Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:59:06.415Z - debug: GET /customers
+2018-11-20T04:59:06.568Z - debug: GET /CSS/shirts.jpg
+2018-11-20T04:59:11.779Z - debug: GET /customers/delete/
+2018-11-20T04:59:11.804Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:59:11.910Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:59:13.747Z - debug: GET /customers
+2018-11-20T04:59:15.770Z - debug: GET /customers/delete/
+2018-11-20T04:59:15.801Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:59:15.909Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:59:28.574Z - debug: GET /customers/delete/1
+2018-11-20T04:59:29.623Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:59:29.959Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T04:59:34.815Z - debug: GET /customer/delete/1
+2018-11-20T04:59:34.836Z - debug: GET /customer/delete/CSS/main.css
+2018-11-20T04:59:34.947Z - debug: GET /customer/delete/CSS/main.css
+2018-11-20T04:59:38.336Z - debug: GET /customer/delete/
+2018-11-20T04:59:38.364Z - debug: GET /customer/delete/CSS/main.css
+2018-11-20T04:59:38.476Z - debug: GET /customer/delete/CSS/main.css
+2018-11-20T05:00:02.283Z - debug: GET /customer/
+2018-11-20T05:00:02.310Z - debug: GET /customer/CSS/main.css
+2018-11-20T05:00:02.591Z - debug: GET /customer/CSS/main.css
+2018-11-20T05:00:03.998Z - debug: GET /customers
+2018-11-20T05:00:05.706Z - debug: GET /customers/delete/
+2018-11-20T05:00:05.728Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T05:00:05.854Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T05:00:12.748Z - info: Environment variables loaded.
+2018-11-20T05:00:12.756Z - debug: START routing
+2018-11-20T05:00:12.786Z - debug: END routing
+2018-11-20T05:00:12.786Z - info: Loaded routing.
+2018-11-20T05:00:12.807Z - info: START seeder.
+2018-11-20T05:00:12.811Z - debug: 5 customers seeded
+2018-11-20T05:00:12.813Z - debug: 6 products seeded
+2018-11-20T05:00:12.813Z - info: END Seeder. Sample data read and verified.
+2018-11-20T05:00:30.483Z - debug: GET /customers/
+2018-11-20T05:00:30.533Z - debug: GET /customers/CSS/main.css
+2018-11-20T05:00:30.913Z - debug: GET /customers/CSS/main.css
+2018-11-20T05:00:32.556Z - debug: GET /customers/customers/delete/
+2018-11-20T05:00:32.598Z - debug: GET /customers/CSS/main.css
+2018-11-20T05:00:32.600Z - debug: GET /customers/customers/delete/CSS/main.css
+2018-11-20T05:00:32.738Z - debug: GET /customers/customers/delete/CSS/main.css
+2018-11-20T05:00:36.811Z - debug: GET /customers/customers/delete/1
+2018-11-20T05:00:36.832Z - debug: GET /customers/CSS/main.css
+2018-11-20T05:00:36.850Z - debug: GET /customers/customers/delete/CSS/main.css
+2018-11-20T05:00:36.950Z - debug: GET /customers/customers/delete/CSS/main.css
+2018-11-20T05:00:40.669Z - debug: GET /customers/delete/1
+2018-11-20T05:00:40.694Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T05:00:40.803Z - debug: GET /CSS/shirts.jpg
+2018-11-20T05:00:40.812Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T05:02:43.474Z - debug: GET /customers/create
+2018-11-20T05:02:43.475Z - info: Handling GET /create[object Object]
+2018-11-20T05:02:43.479Z - debug: {"firstname":"First Name","lastname":"Last Name","street1":"Street 1","street2":"Street 2","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-11-20T05:02:43.525Z - debug: GET /customers/CSS/main.css
+2018-11-20T05:02:43.895Z - debug: GET /CSS/shirts.jpg
+2018-11-20T05:02:43.905Z - debug: GET /customers/CSS/main.css
+2018-11-20T05:02:44.062Z - debug: GET /images/favicon-32x32.png
+2018-11-20T05:02:47.599Z - debug: GET /customers/
+2018-11-20T05:02:47.627Z - debug: GET /customers/CSS/main.css
+2018-11-20T05:02:47.772Z - debug: GET /CSS/shirts.jpg
+2018-11-20T05:02:47.783Z - debug: GET /customers/CSS/main.css
+2018-11-20T05:02:49.876Z - debug: GET /customers/customers/create
+2018-11-20T05:02:49.908Z - debug: GET /customers/customers/CSS/main.css
+2018-11-20T05:02:50.012Z - debug: GET /CSS/shirts.jpg
+2018-11-20T05:02:50.022Z - debug: GET /customers/customers/CSS/main.css
+2018-11-20T05:02:55.362Z - debug: GET /customers/create
+2018-11-20T05:02:55.363Z - info: Handling GET /create[object Object]
+2018-11-20T05:02:55.363Z - debug: {"firstname":"First Name","lastname":"Last Name","street1":"Street 1","street2":"Street 2","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-11-20T05:02:55.389Z - debug: GET /customers/CSS/main.css
+2018-11-20T05:02:55.500Z - debug: GET /CSS/shirts.jpg
+2018-11-20T05:02:55.508Z - debug: GET /customers/CSS/main.css
+2018-11-20T05:05:20.235Z - debug: GET /customers/
+2018-11-20T05:05:20.271Z - debug: GET /customers/CSS/main.css
+2018-11-20T05:05:20.601Z - debug: GET /CSS/shirts.jpg
+2018-11-20T05:05:20.612Z - debug: GET /customers/CSS/main.css
+2018-11-20T05:05:24.439Z - debug: GET /customers/customers/create
+2018-11-20T05:05:24.464Z - debug: GET /customers/customers/CSS/main.css
+2018-11-20T05:05:24.586Z - debug: GET /CSS/shirts.jpg
+2018-11-20T05:05:24.595Z - debug: GET /customers/customers/CSS/main.css
+2018-11-20T05:05:28.566Z - debug: GET /customers/create
+2018-11-20T05:05:28.567Z - info: Handling GET /create[object Object]
+2018-11-20T05:05:28.568Z - debug: {"firstname":"First Name","lastname":"Last Name","street1":"Street 1","street2":"Street 2","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-11-20T05:05:41.424Z - debug: GET /customers/create
+2018-11-20T05:05:41.425Z - info: Handling GET /create[object Object]
+2018-11-20T05:05:41.425Z - debug: {"firstname":"First Name","lastname":"Last Name","street1":"Street 1","street2":"Street 2","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-11-20T05:05:41.466Z - debug: GET /customers/CSS/main.css
+2018-11-20T05:05:41.849Z - debug: GET /CSS/shirts.jpg
+2018-11-20T05:05:41.860Z - debug: GET /customers/CSS/main.css
+2018-11-20T05:07:53.265Z - debug: GET /customers/
+2018-11-20T05:07:53.312Z - debug: GET /customers/CSS/main.css
+2018-11-20T05:07:53.650Z - debug: GET /CSS/shirts.jpg
+2018-11-20T05:07:53.663Z - debug: GET /customers/CSS/main.css
+2018-11-20T05:07:58.590Z - debug: GET /customers/customers/delete/
+2018-11-20T05:07:58.612Z - debug: GET /customers/CSS/main.css
+2018-11-20T05:07:58.628Z - debug: GET /customers/customers/delete/CSS/main.css
+2018-11-20T05:07:58.796Z - debug: GET /customers/customers/delete/CSS/main.css
+2018-11-20T05:08:05.558Z - debug: GET /customers/delete/1
+2018-11-20T05:08:05.891Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T05:08:06.018Z - debug: GET /CSS/shirts.jpg
+2018-11-20T05:08:06.030Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T05:08:12.740Z - debug: GET /customers/customers/delete/1
+2018-11-20T05:08:12.762Z - debug: GET /customers/CSS/main.css
+2018-11-20T05:08:12.782Z - debug: GET /customers/customers/delete/CSS/main.css
+2018-11-20T05:08:12.923Z - debug: GET /customers/customers/delete/CSS/main.css
+2018-11-20T05:08:16.848Z - debug: GET /customers/customer/delete/1
+2018-11-20T05:08:16.879Z - debug: GET /customers/CSS/main.css
+2018-11-20T05:08:16.880Z - debug: GET /customers/customer/delete/CSS/main.css
+2018-11-20T05:08:16.990Z - debug: GET /customers/customer/delete/CSS/main.css
+2018-11-20T05:08:36.317Z - debug: GET /customers/create
+2018-11-20T05:08:36.318Z - info: Handling GET /create[object Object]
+2018-11-20T05:08:36.318Z - debug: {"firstname":"First Name","lastname":"Last Name","street1":"Street 1","street2":"Street 2","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-11-20T05:08:36.531Z - debug: GET /customers/CSS/main.css
+2018-11-20T05:08:36.853Z - debug: GET /CSS/shirts.jpg
+2018-11-20T05:08:36.863Z - debug: GET /customers/CSS/main.css
+2018-11-20T05:08:45.723Z - debug: POST /customers/save
+2018-11-20T05:08:45.798Z - info: Handling POST [object Object]
+2018-11-20T05:08:45.799Z - debug: {"_id":"51","email":"sdvs","Firstname":"First Name","Lastname":"Last Name","Age":"sdv","street1":"Street 1","street2":"Street 2","city":"Maryville","state":"MO","zip":"64468","country":"USA"}
+2018-11-20T05:08:45.799Z - info: NEW ID 51
+2018-11-20T05:08:45.805Z - info: SAVING NEW customer {"firstname":"First Name","lastname":"Last Name","street1":"Street 1","street2":"Street 2","city":"Maryville","state":"MO","country":"USA","zip":"64468","_id":"51","email":"sdvs"}
+2018-11-20T05:08:45.816Z - debug: GET /customers
+2018-11-20T05:08:46.007Z - debug: GET /CSS/shirts.jpg
+2018-11-20T05:08:49.778Z - debug: GET /customers/delete/
+2018-11-20T05:08:49.825Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T05:08:49.952Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T05:08:56.662Z - debug: GET /customers/delete/6
+2018-11-20T05:08:56.684Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T05:08:56.836Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T05:10:10.590Z - debug: GET /customers/
+2018-11-20T05:10:10.639Z - debug: GET /customers/CSS/main.css
+2018-11-20T05:10:11.024Z - debug: GET /customers/CSS/main.css
+2018-11-20T05:10:12.812Z - debug: GET /customers/customers/delete/
+2018-11-20T05:10:12.837Z - debug: GET /customers/CSS/main.css
+2018-11-20T05:10:12.851Z - debug: GET /customers/customers/delete/CSS/main.css
+2018-11-20T05:10:12.977Z - debug: GET /customers/customers/delete/CSS/main.css
+2018-11-20T05:10:17.560Z - debug: GET /customers/delete/
+2018-11-20T05:10:17.593Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T05:10:17.698Z - debug: GET /CSS/shirts.jpg
+2018-11-20T05:10:17.708Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T05:10:20.408Z - debug: GET /customers/delete/1
+2018-11-20T05:10:20.438Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T05:10:20.537Z - debug: GET /CSS/shirts.jpg
+2018-11-20T05:10:20.548Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T05:10:24.817Z - debug: GET /customers/delete/11
+2018-11-20T05:10:24.841Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T05:10:24.969Z - debug: GET /CSS/shirts.jpg
+2018-11-20T05:10:24.979Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T05:10:27.167Z - debug: GET /customers
+2018-11-20T05:10:27.295Z - debug: GET /CSS/shirts.jpg
+2018-11-20T05:10:33.524Z - debug: GET /customers/findall
+2018-11-20T05:10:39.202Z - debug: GET /customers/findone/2
+2018-11-20T05:10:47.680Z - debug: GET /customers/delete/2
+2018-11-20T05:10:47.709Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T05:10:47.840Z - debug: GET /CSS/shirts.jpg
+2018-11-20T05:10:47.851Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T16:52:28.446Z - info: Environment variables loaded.
+2018-11-20T16:52:28.462Z - debug: START routing
+2018-11-20T16:52:28.491Z - debug: END routing
+2018-11-20T16:52:28.491Z - info: Loaded routing.
+2018-11-20T16:52:28.529Z - info: START seeder.
+2018-11-20T16:52:28.532Z - debug: 5 customers seeded
+2018-11-20T16:52:28.538Z - debug: 6 products seeded
+2018-11-20T16:52:28.538Z - info: END Seeder. Sample data read and verified.
+2018-11-20T16:52:48.791Z - debug: GET /
+2018-11-20T16:52:49.533Z - debug: GET /CSS/shirts.jpg
+2018-11-20T16:52:52.743Z - debug: GET /customers
+2018-11-20T16:52:53.448Z - debug: GET /CSS/shirts.jpg
+2018-11-20T16:52:56.595Z - debug: GET /customers/delete/
+2018-11-20T16:52:56.619Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T16:52:56.739Z - debug: GET /CSS/shirts.jpg
+2018-11-20T16:52:56.749Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T16:53:03.847Z - debug: GET /customers/edit/
+2018-11-20T16:53:04.156Z - debug: GET /customers/edit/CSS/main.css
+2018-11-20T16:53:04.166Z - debug: GET /customers/edit/CSS/main.css
+2018-11-20T16:53:07.839Z - debug: GET /customers/details/
+2018-11-20T16:53:07.872Z - debug: GET /customers/details/CSS/main.css
+2018-11-20T16:53:08.029Z - debug: GET /customers/details/CSS/main.css
+2018-11-20T16:53:11.475Z - debug: GET /customers/delete/
+2018-11-20T16:53:11.510Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T16:53:11.628Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T16:54:56.083Z - debug: GET /customers
+2018-11-20T16:54:56.406Z - debug: GET /CSS/shirts.jpg
+2018-11-20T16:54:58.350Z - debug: GET /customers/delete/
+2018-11-20T16:54:58.390Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T16:54:58.496Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T16:55:04.211Z - debug: GET /products
+2018-11-20T16:55:07.207Z - debug: GET /customers
+2018-11-20T16:55:09.529Z - debug: GET /customers
+2018-11-20T16:55:10.588Z - debug: GET /products
+2018-11-20T16:55:11.766Z - debug: GET /orders
+2018-11-20T16:55:13.016Z - debug: GET /orderLineItem
+2018-11-20T16:55:14.410Z - debug: GET /customers
+2018-11-20T19:01:06.805Z - info: Environment variables loaded.
+2018-11-20T19:01:06.819Z - debug: START routing
+2018-11-20T19:01:06.844Z - debug: END routing
+2018-11-20T19:01:06.844Z - info: Loaded routing.
+2018-11-20T19:01:06.870Z - info: START seeder.
+2018-11-20T19:01:06.873Z - debug: 5 customers seeded
+2018-11-20T19:01:06.874Z - debug: 6 products seeded
+2018-11-20T19:01:06.874Z - info: END Seeder. Sample data read and verified.
+2018-11-20T19:02:07.069Z - debug: GET /
+2018-11-20T19:02:08.002Z - debug: GET /CSS/shirts.jpg
+2018-11-20T19:02:10.736Z - debug: GET /customers
+2018-11-20T19:02:14.858Z - debug: GET /customers/create
+2018-11-20T19:02:14.860Z - info: Handling GET /create[object Object]
+2018-11-20T19:02:14.863Z - debug: {"firstname":"First Name","lastname":"Last Name","street1":"Street 1","street2":"Street 2","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-11-20T19:02:14.903Z - debug: GET /customers/CSS/main.css
+2018-11-20T19:02:14.991Z - debug: GET /customers/CSS/main.css
+2018-11-20T19:02:26.139Z - debug: GET /customers/delete/
+2018-11-20T19:02:26.168Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T19:02:26.282Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T19:02:38.195Z - debug: GET /customers/details/
+2018-11-20T19:02:38.565Z - debug: GET /customers/details/CSS/main.css
+2018-11-20T19:02:38.598Z - debug: GET /customers/details/CSS/main.css
+2018-11-20T19:02:38.694Z - debug: GET /CSS/shirts.jpg
+2018-11-20T19:15:27.711Z - info: Environment variables loaded.
+2018-11-20T19:15:27.718Z - debug: START routing
+2018-11-20T19:15:27.739Z - debug: END routing
+2018-11-20T19:15:27.739Z - info: Loaded routing.
+2018-11-20T19:15:27.770Z - info: START seeder.
+2018-11-20T19:15:27.773Z - debug: 5 customers seeded
+2018-11-20T19:15:27.774Z - debug: 6 products seeded
+2018-11-20T19:15:27.774Z - info: END Seeder. Sample data read and verified.
+2018-11-20T19:15:38.756Z - info: Environment variables loaded.
+2018-11-20T19:15:38.763Z - debug: START routing
+2018-11-20T19:15:38.783Z - debug: END routing
+2018-11-20T19:15:38.783Z - info: Loaded routing.
+2018-11-20T19:15:38.810Z - info: START seeder.
+2018-11-20T19:15:38.813Z - debug: 5 customers seeded
+2018-11-20T19:15:38.814Z - debug: 6 products seeded
+2018-11-20T19:15:38.814Z - info: END Seeder. Sample data read and verified.
+2018-11-20T19:15:42.720Z - info: Environment variables loaded.
+2018-11-20T19:15:42.728Z - debug: START routing
+2018-11-20T19:15:42.752Z - debug: END routing
+2018-11-20T19:15:42.752Z - info: Loaded routing.
+2018-11-20T19:15:42.779Z - info: START seeder.
+2018-11-20T19:15:42.782Z - debug: 5 customers seeded
+2018-11-20T19:15:42.783Z - debug: 6 products seeded
+2018-11-20T19:15:42.783Z - info: END Seeder. Sample data read and verified.
+2018-11-20T19:15:45.814Z - info: Environment variables loaded.
+2018-11-20T19:15:45.823Z - debug: START routing
+2018-11-20T19:15:45.845Z - debug: END routing
+2018-11-20T19:15:45.845Z - info: Loaded routing.
+2018-11-20T19:15:45.876Z - info: START seeder.
+2018-11-20T19:15:45.879Z - debug: 5 customers seeded
+2018-11-20T19:15:45.880Z - debug: 6 products seeded
+2018-11-20T19:15:45.881Z - info: END Seeder. Sample data read and verified.
+2018-11-20T19:16:17.144Z - info: Environment variables loaded.
+2018-11-20T19:16:17.151Z - debug: START routing
+2018-11-20T19:16:17.178Z - debug: END routing
+2018-11-20T19:16:17.178Z - info: Loaded routing.
+2018-11-20T19:16:17.210Z - info: START seeder.
+2018-11-20T19:16:17.216Z - debug: 5 customers seeded
+2018-11-20T19:16:17.218Z - debug: 6 products seeded
+2018-11-20T19:16:17.218Z - info: END Seeder. Sample data read and verified.
+2018-11-20T19:16:24.664Z - info: Environment variables loaded.
+2018-11-20T19:16:24.673Z - debug: START routing
+2018-11-20T19:16:24.708Z - debug: END routing
+2018-11-20T19:16:24.708Z - info: Loaded routing.
+2018-11-20T19:16:24.745Z - info: START seeder.
+2018-11-20T19:16:24.749Z - debug: 5 customers seeded
+2018-11-20T19:16:24.751Z - debug: 6 products seeded
+2018-11-20T19:16:24.751Z - info: END Seeder. Sample data read and verified.
+2018-11-20T19:16:31.619Z - debug: GET /customers/details/
+2018-11-20T19:16:31.653Z - debug: GET /customers/details/CSS/main.css
+2018-11-20T19:16:31.913Z - debug: GET /CSS/shirts.jpg
+2018-11-20T19:16:31.921Z - debug: GET /customers/details/CSS/main.css
+2018-11-20T19:16:34.127Z - debug: GET /customers
+2018-11-20T19:16:34.251Z - debug: GET /CSS/shirts.jpg
+2018-11-20T19:16:36.265Z - debug: GET /customers/delete/
+2018-11-20T19:16:36.292Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T19:16:36.384Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T19:19:00.295Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:19:00 GMT-0600 (Central Standard Time), pid=21428, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=71544832, heapTotal=60731392, heapUsed=40339712, external=19792538, loadavg=[0, 0, 0], uptime=95092.7838188
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:19:00.272Z - info: Environment variables loaded.
+2018-11-20T19:20:57.437Z - info: Environment variables loaded.
+2018-11-20T19:20:57.462Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:20:57 GMT-0600 (Central Standard Time), pid=14224, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72630272, heapTotal=62828544, heapUsed=31825128, external=18479347, loadavg=[0, 0, 0], uptime=95209.9516965
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:25:23.608Z - info: Environment variables loaded.
+2018-11-20T19:25:23.632Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:25:23 GMT-0600 (Central Standard Time), pid=41996, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72802304, heapTotal=62828544, heapUsed=30058928, external=18296516, loadavg=[0, 0, 0], uptime=95476.1195761
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:25:29.619Z - info: Environment variables loaded.
+2018-11-20T19:25:29.640Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:25:29 GMT-0600 (Central Standard Time), pid=57588, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72708096, heapTotal=62828544, heapUsed=31828160, external=18479347, loadavg=[0, 0, 0], uptime=95482.1295197
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:25:45.799Z - info: Environment variables loaded.
+2018-11-20T19:25:45.824Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:25:45 GMT-0600 (Central Standard Time), pid=60180, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=70103040, heapTotal=60731392, heapUsed=39382416, external=19674136, loadavg=[0, 0, 0], uptime=95498.3115732
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:26:35.328Z - info: Environment variables loaded.
+2018-11-20T19:26:35.352Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:26:35 GMT-0600 (Central Standard Time), pid=8544, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72425472, heapTotal=62828544, heapUsed=31826528, external=18479347, loadavg=[0, 0, 0], uptime=95547.8404944
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:26:36.735Z - info: Environment variables loaded.
+2018-11-20T19:26:36.761Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:26:36 GMT-0600 (Central Standard Time), pid=44520, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72556544, heapTotal=62828544, heapUsed=31818080, external=18479347, loadavg=[0, 0, 0], uptime=95549.2484349
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:26:38.636Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:26:38 GMT-0600 (Central Standard Time), pid=53372, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72376320, heapTotal=62828544, heapUsed=31814792, external=18479347, loadavg=[0, 0, 0], uptime=95551.1208062
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:26:38.605Z - info: Environment variables loaded.
+2018-11-20T19:26:40.138Z - info: Environment variables loaded.
+2018-11-20T19:26:40.160Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:26:40 GMT-0600 (Central Standard Time), pid=10820, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72769536, heapTotal=62828544, heapUsed=30925144, external=18406366, loadavg=[0, 0, 0], uptime=95552.6487181
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:26:43.498Z - info: Environment variables loaded.
+2018-11-20T19:26:43.520Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:26:43 GMT-0600 (Central Standard Time), pid=42208, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72822784, heapTotal=62828544, heapUsed=30433976, external=18389982, loadavg=[0, 0, 0], uptime=95556.0088052
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:26:45.324Z - info: Environment variables loaded.
+2018-11-20T19:26:45.365Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:26:45 GMT-0600 (Central Standard Time), pid=17796, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72658944, heapTotal=63352832, heapUsed=30893168, external=18406366, loadavg=[0, 0, 0], uptime=95557.8484134
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:26:46.886Z - info: Environment variables loaded.
+2018-11-20T19:26:46.907Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:26:46 GMT-0600 (Central Standard Time), pid=3684, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72646656, heapTotal=63352832, heapUsed=31317080, external=18442892, loadavg=[0, 0, 0], uptime=95559.3962714
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:26:51.916Z - info: Environment variables loaded.
+2018-11-20T19:26:51.938Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:26:51 GMT-0600 (Central Standard Time), pid=63056, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72380416, heapTotal=62304256, heapUsed=31846544, external=18479347, loadavg=[0, 0, 0], uptime=95564.4275645
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:26:57.803Z - info: Environment variables loaded.
+2018-11-20T19:26:57.823Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:26:57 GMT-0600 (Central Standard Time), pid=5204, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72433664, heapTotal=62828544, heapUsed=31855328, external=18479347, loadavg=[0, 0, 0], uptime=95570.3132735
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:27:00.851Z - info: Environment variables loaded.
+2018-11-20T19:27:00.877Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:27:00 GMT-0600 (Central Standard Time), pid=60776, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72646656, heapTotal=62828544, heapUsed=31805544, external=18479347, loadavg=[0, 0, 0], uptime=95573.3629212
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:27:08.267Z - info: Environment variables loaded.
+2018-11-20T19:27:08.293Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:27:08 GMT-0600 (Central Standard Time), pid=9264, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72740864, heapTotal=62304256, heapUsed=32577648, external=18492313, loadavg=[0, 0, 0], uptime=95580.7781037
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:27:09.997Z - info: Environment variables loaded.
+2018-11-20T19:27:10.026Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:27:09 GMT-0600 (Central Standard Time), pid=35072, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72892416, heapTotal=62828544, heapUsed=31349656, external=18442892, loadavg=[0, 0, 0], uptime=95582.5078495
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:27:11.433Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:27:11 GMT-0600 (Central Standard Time), pid=3312, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72736768, heapTotal=62828544, heapUsed=30962232, external=18406366, loadavg=[0, 0, 0], uptime=95583.9196637
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:27:11.410Z - info: Environment variables loaded.
+2018-11-20T19:27:13.356Z - info: Environment variables loaded.
+2018-11-20T19:27:13.377Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:27:13 GMT-0600 (Central Standard Time), pid=16784, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72880128, heapTotal=62828544, heapUsed=32581264, external=18492313, loadavg=[0, 0, 0], uptime=95585.8665418
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:27:14.881Z - info: Environment variables loaded.
+2018-11-20T19:27:14.906Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:27:14 GMT-0600 (Central Standard Time), pid=8084, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72646656, heapTotal=62828544, heapUsed=31832616, external=18479347, loadavg=[0, 0, 0], uptime=95587.3935853
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:27:19.153Z - info: Environment variables loaded.
+2018-11-20T19:27:19.182Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:27:19 GMT-0600 (Central Standard Time), pid=20900, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72740864, heapTotal=62304256, heapUsed=30914728, external=18406366, loadavg=[0, 0, 0], uptime=95591.6676145
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:27:20.889Z - info: Environment variables loaded.
+2018-11-20T19:27:20.914Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:27:20 GMT-0600 (Central Standard Time), pid=11468, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72826880, heapTotal=62828544, heapUsed=31933224, external=18479347, loadavg=[0, 0, 0], uptime=95593.4000869
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:29:31.775Z - info: Environment variables loaded.
+2018-11-20T19:29:31.796Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:29:31 GMT-0600 (Central Standard Time), pid=14556, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72491008, heapTotal=63352832, heapUsed=31830936, external=18479347, loadavg=[0, 0, 0], uptime=95724.284913
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:30:27.909Z - info: Environment variables loaded.
+2018-11-20T19:30:27.936Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:30:27 GMT-0600 (Central Standard Time), pid=59632, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=73003008, heapTotal=62304256, heapUsed=30509496, external=18389982, loadavg=[0, 0, 0], uptime=95780.4233851
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:31:05.469Z - info: Environment variables loaded.
+2018-11-20T19:31:05.476Z - debug: START routing
+2018-11-20T19:31:05.500Z - debug: END routing
+2018-11-20T19:31:05.500Z - info: Loaded routing.
+2018-11-20T19:31:05.531Z - info: START seeder.
+2018-11-20T19:31:05.535Z - debug: 5 customers seeded
+2018-11-20T19:31:05.538Z - debug: 6 products seeded
+2018-11-20T19:31:05.538Z - info: END Seeder. Sample data read and verified.
+2018-11-20T19:31:13.046Z - info: Environment variables loaded.
+2018-11-20T19:31:13.053Z - debug: START routing
+2018-11-20T19:31:13.073Z - debug: END routing
+2018-11-20T19:31:13.073Z - info: Loaded routing.
+2018-11-20T19:31:13.106Z - info: START seeder.
+2018-11-20T19:31:13.110Z - debug: 5 customers seeded
+2018-11-20T19:31:13.111Z - debug: 6 products seeded
+2018-11-20T19:31:13.111Z - info: END Seeder. Sample data read and verified.
+2018-11-20T19:31:46.096Z - info: Environment variables loaded.
+2018-11-20T19:31:46.118Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:31:46 GMT-0600 (Central Standard Time), pid=26112, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72622080, heapTotal=62828544, heapUsed=30843656, external=18406366, loadavg=[0, 0, 0], uptime=95858.6059809
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:33:30.111Z - info: Environment variables loaded.
+2018-11-20T19:33:30.119Z - debug: START routing
+2018-11-20T19:33:30.139Z - debug: END routing
+2018-11-20T19:33:30.139Z - info: Loaded routing.
+2018-11-20T19:33:30.168Z - info: START seeder.
+2018-11-20T19:33:30.170Z - debug: 5 customers seeded
+2018-11-20T19:33:30.173Z - debug: 6 products seeded
+2018-11-20T19:33:30.174Z - info: END Seeder. Sample data read and verified.
+2018-11-20T19:33:39.815Z - debug: GET /customers
+2018-11-20T19:33:40.151Z - debug: GET /CSS/shirts.jpg
+2018-11-20T19:33:40.260Z - debug: GET /images/manifest.json
+2018-11-20T19:33:55.723Z - debug: GET /customers
+2018-11-20T19:33:56.161Z - debug: GET /images/manifest.json
+2018-11-20T19:33:57.879Z - debug: GET /
+2018-11-20T19:33:58.048Z - debug: GET /images/manifest.json
+2018-11-20T19:33:59.012Z - debug: GET /customers
+2018-11-20T19:33:59.164Z - debug: GET /images/manifest.json
+2018-11-20T19:34:02.062Z - debug: GET /customers/delete/
+2018-11-20T19:34:02.081Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T19:34:02.183Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T19:34:02.218Z - debug: GET /images/manifest.json
+2018-11-20T19:34:05.885Z - debug: GET /customers
+2018-11-20T19:34:06.057Z - debug: GET /images/manifest.json
+2018-11-20T19:34:12.196Z - debug: GET /customers/edit/
+2018-11-20T19:34:12.222Z - debug: GET /customers/edit/CSS/main.css
+2018-11-20T19:34:12.320Z - debug: GET /customers/edit/CSS/main.css
+2018-11-20T19:34:12.364Z - debug: GET /images/manifest.json
+2018-11-20T19:34:15.145Z - debug: GET /images/manifest.json
+2018-11-20T19:34:21.625Z - debug: GET /products
+2018-11-20T19:34:21.779Z - debug: GET /images/manifest.json
+2018-11-20T19:34:23.003Z - debug: GET /customers
+2018-11-20T19:34:23.146Z - debug: GET /images/manifest.json
+2018-11-20T19:34:28.909Z - debug: GET /orders
+2018-11-20T19:34:29.073Z - debug: GET /images/manifest.json
+2018-11-20T19:34:30.742Z - debug: GET /orderLineItem
+2018-11-20T19:34:30.884Z - debug: GET /images/manifest.json
+2018-11-20T19:34:32.463Z - debug: GET /customers
+2018-11-20T19:34:32.606Z - debug: GET /images/manifest.json
+2018-11-20T19:34:45.077Z - debug: GET /customers/edit/
+2018-11-20T19:34:45.138Z - debug: GET /customers/edit/CSS/main.css
+2018-11-20T19:34:45.505Z - debug: GET /CSS/shirts.jpg
+2018-11-20T19:34:45.513Z - debug: GET /customers/edit/CSS/main.css
+2018-11-20T19:34:45.660Z - debug: GET /images/manifest.json
+2018-11-20T19:36:59.799Z - debug: GET /customers/create
+2018-11-20T19:36:59.800Z - info: Handling GET /create[object Object]
+2018-11-20T19:36:59.803Z - debug: {"firstname":"First Name","lastname":"Last Name","street1":"Street 1","street2":"Street 2","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-11-20T19:36:59.849Z - debug: GET /customers/CSS/main.css
+2018-11-20T19:37:00.317Z - debug: GET /CSS/shirts.jpg
+2018-11-20T19:37:00.351Z - debug: GET /customers/CSS/main.css
+2018-11-20T19:37:00.510Z - debug: GET /images/manifest.json
+2018-11-20T19:40:38.079Z - debug: GET /customers/create
+2018-11-20T19:40:38.079Z - info: Handling GET /create[object Object]
+2018-11-20T19:40:38.080Z - debug: {"firstname":"First Name","lastname":"Last Name","street1":"Street 1","street2":"Street 2","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-11-20T19:40:38.130Z - debug: GET /customers/CSS/main.css
+2018-11-20T19:40:38.470Z - debug: GET /CSS/shirts.jpg
+2018-11-20T19:40:38.487Z - debug: GET /customers/CSS/main.css
+2018-11-20T19:40:38.669Z - debug: GET /images/manifest.json
+2018-11-20T19:41:06.680Z - debug: GET /customers
+2018-11-20T19:41:07.071Z - debug: GET /CSS/shirts.jpg
+2018-11-20T19:41:07.235Z - debug: GET /images/manifest.json
+2018-11-20T19:41:08.966Z - debug: GET /customers/delete/
+2018-11-20T19:41:08.993Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T19:41:09.405Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T19:41:09.521Z - debug: GET /images/manifest.json
+2018-11-20T19:41:22.561Z - debug: GET /customers/delete/
+2018-11-20T19:41:22.598Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T19:41:22.924Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T19:41:23.078Z - debug: GET /images/manifest.json
+2018-11-20T19:41:26.335Z - debug: GET /customers/delete/
+2018-11-20T19:41:26.370Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T19:41:26.718Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T19:41:26.863Z - debug: GET /images/manifest.json
+2018-11-20T19:41:26.893Z - debug: GET /images/favicon-32x32.png
+2018-11-20T19:41:26.904Z - debug: GET /images/favicon-16x16.png
+2018-11-20T19:41:26.916Z - debug: GET /images/favicon-96x96.png
+2018-11-20T19:41:26.927Z - debug: GET /images/android-icon-192x192.png
+2018-11-20T19:41:32.329Z - debug: GET /customers
+2018-11-20T19:41:32.807Z - debug: GET /images/manifest.json
+2018-11-20T19:42:48.226Z - debug: GET /customers
+2018-11-20T19:42:48.733Z - debug: GET /images/manifest.json
+2018-11-20T19:42:49.793Z - debug: GET /products
+2018-11-20T19:42:50.331Z - debug: GET /images/manifest.json
+2018-11-20T19:42:51.211Z - debug: GET /orders
+2018-11-20T19:42:51.691Z - debug: GET /images/manifest.json
+2018-11-20T19:42:52.487Z - debug: GET /orderLineItem
+2018-11-20T19:42:52.948Z - debug: GET /images/manifest.json
+2018-11-20T19:43:30.409Z - debug: GET /
+2018-11-20T19:43:30.787Z - debug: GET /images/manifest.json
+2018-11-20T19:43:47.853Z - debug: GET /customers
+2018-11-20T19:43:48.411Z - debug: GET /CSS/shirts.jpg
+2018-11-20T19:43:48.465Z - debug: GET /images/manifest.json
+2018-11-20T19:44:02.258Z - debug: GET /customers/delete/
+2018-11-20T19:44:02.622Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T19:44:02.654Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T19:44:02.753Z - debug: GET /CSS/shirts.jpg
+2018-11-20T19:44:02.787Z - debug: GET /images/manifest.json
+2018-11-20T19:44:17.712Z - debug: GET /customers/delete/1
+2018-11-20T19:44:18.688Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T19:44:18.775Z - debug: GET /CSS/shirts.jpg
+2018-11-20T19:44:18.785Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T19:44:18.821Z - debug: GET /images/manifest.json
+2018-11-20T19:53:35.533Z - info: Environment variables loaded.
+2018-11-20T19:53:35.543Z - debug: START routing
+2018-11-20T19:53:35.568Z - debug: END routing
+2018-11-20T19:53:35.568Z - info: Loaded routing.
+2018-11-20T19:53:35.596Z - info: START seeder.
+2018-11-20T19:53:35.599Z - debug: 5 customers seeded
+2018-11-20T19:53:35.601Z - debug: 6 products seeded
+2018-11-20T19:53:35.601Z - info: END Seeder. Sample data read and verified.
+>>>>>>> 27637b20d32ed7fb64b2240332870b4ada3c820f
