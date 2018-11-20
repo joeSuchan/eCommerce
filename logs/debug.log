@@ -2629,3 +2629,12 @@ Error: listen EACCES C:\Users\S533622\Documents\44563\ecommerce\views
 2018-11-20T00:03:20.801Z - info: END Seeder. Sample data read and verified.
 2018-11-20T00:03:28.739Z - debug: GET /
 2018-11-20T00:03:29.211Z - debug: GET /CSS/shirts.jpg
+2018-11-20T05:36:45.696Z - info: Environment variables loaded.
+2018-11-20T05:36:45.757Z - info: START seeder.
+2018-11-20T05:36:45.760Z - debug: 6 products seeded
+2018-11-20T05:36:45.763Z - debug: 5 customers seeded
+2018-11-20T05:36:45.763Z - info: END Seeder. Sample data read and verified.
+2018-11-20T05:37:08.493Z - debug: GET /
+2018-11-20T05:37:08.580Z - debug: GET /CSS/main.css
+2018-11-20T05:37:08.718Z - debug: GET /CSS/shirts.jpg
+2018-11-20T05:37:08.780Z - debug: GET /favicon.ico
