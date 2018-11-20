@@ -73,7 +73,7 @@ api.get('/edit/:id', (req, res) => {
   const item = find(data, { _id: id })
   if (!item) { return res.end(notfoundstring) }
   LOG.info(`RETURNING VIEW FOR${JSON.stringify(item)}`)
-  return res.render('customers/edit.ejs',
+  return res.render('customers/edit',
     {
       title: 'customer',
       layout: 'layout.ejs',
