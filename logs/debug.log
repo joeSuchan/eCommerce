@@ -2410,3 +2410,222 @@ Error: listen EADDRINUSE :::8089
 2018-11-19T23:12:39.114Z - info: Loaded routing.
 2018-11-19T23:12:39.135Z - info: START seeder.
 2018-11-19T23:12:39.138Z - debug: 6 products seeded
+2018-11-19T23:35:58.767Z - info: Environment variables loaded.
+2018-11-19T23:35:58.799Z - info: START seeder.
+2018-11-19T23:35:58.802Z - debug: 6 products seeded
+2018-11-19T23:35:58.804Z - debug: 5 customers seeded
+2018-11-19T23:35:58.804Z - info: END Seeder. Sample data read and verified.
+2018-11-19T23:36:35.737Z - info: Environment variables loaded.
+2018-11-19T23:36:35.773Z - info: START seeder.
+2018-11-19T23:36:35.776Z - debug: 6 products seeded
+2018-11-19T23:36:35.780Z - debug: 5 customers seeded
+2018-11-19T23:36:35.780Z - info: END Seeder. Sample data read and verified.
+2018-11-19T23:39:08.404Z - info: Environment variables loaded.
+2018-11-19T23:39:08.438Z - info: START seeder.
+2018-11-19T23:39:08.442Z - debug: 6 products seeded
+2018-11-19T23:39:08.443Z - debug: 5 customers seeded
+2018-11-19T23:39:08.443Z - info: END Seeder. Sample data read and verified.
+2018-11-19T23:44:00.613Z - info: Environment variables loaded.
+2018-11-19T23:44:00.649Z - info: START seeder.
+2018-11-19T23:44:00.652Z - debug: 6 products seeded
+2018-11-19T23:44:00.654Z - debug: 5 customers seeded
+2018-11-19T23:44:00.654Z - info: END Seeder. Sample data read and verified.
+2018-11-19T23:45:38.301Z - info: Environment variables loaded.
+2018-11-19T23:45:38.342Z - info: START seeder.
+2018-11-19T23:45:38.346Z - debug: 6 products seeded
+2018-11-19T23:45:38.347Z - debug: 5 customers seeded
+2018-11-19T23:45:38.348Z - info: END Seeder. Sample data read and verified.
+2018-11-19T23:46:13.821Z - info: Environment variables loaded.
+2018-11-19T23:46:13.856Z - info: START seeder.
+2018-11-19T23:46:13.858Z - debug: 6 products seeded
+2018-11-19T23:46:13.860Z - debug: 5 customers seeded
+2018-11-19T23:46:13.860Z - info: END Seeder. Sample data read and verified.
+2018-11-19T23:48:08.666Z - info: Environment variables loaded.
+2018-11-19T23:48:08.695Z - info: START seeder.
+2018-11-19T23:48:08.700Z - debug: 6 products seeded
+2018-11-19T23:48:08.701Z - debug: 5 customers seeded
+2018-11-19T23:48:08.701Z - info: END Seeder. Sample data read and verified.
+2018-11-19T23:48:13.726Z - info: Environment variables loaded.
+2018-11-19T23:48:13.753Z - info: START seeder.
+2018-11-19T23:48:13.756Z - debug: 6 products seeded
+2018-11-19T23:48:13.758Z - debug: 5 customers seeded
+2018-11-19T23:48:13.758Z - info: END Seeder. Sample data read and verified.
+2018-11-19T23:48:20.784Z - info: Environment variables loaded.
+2018-11-19T23:48:20.826Z - info: START seeder.
+2018-11-19T23:48:20.830Z - debug: 6 products seeded
+2018-11-19T23:48:20.832Z - debug: 5 customers seeded
+2018-11-19T23:48:20.832Z - info: END Seeder. Sample data read and verified.
+2018-11-19T23:48:26.222Z - info: Environment variables loaded.
+2018-11-19T23:48:26.250Z - info: START seeder.
+2018-11-19T23:48:26.253Z - debug: 6 products seeded
+2018-11-19T23:48:26.255Z - debug: 5 customers seeded
+2018-11-19T23:48:26.255Z - info: END Seeder. Sample data read and verified.
+2018-11-19T23:49:23.242Z - info: Environment variables loaded.
+2018-11-19T23:49:23.274Z - info: START seeder.
+2018-11-19T23:49:23.278Z - debug: 6 products seeded
+2018-11-19T23:49:23.279Z - debug: 5 customers seeded
+2018-11-19T23:49:23.279Z - info: END Seeder. Sample data read and verified.
+2018-11-19T23:49:38.288Z - info: Environment variables loaded.
+2018-11-19T23:49:38.323Z - info: START seeder.
+2018-11-19T23:49:38.326Z - debug: 6 products seeded
+2018-11-19T23:49:38.327Z - debug: 5 customers seeded
+2018-11-19T23:49:38.327Z - info: END Seeder. Sample data read and verified.
+2018-11-19T23:54:20.482Z - info: Environment variables loaded.
+2018-11-19T23:54:20.583Z - error: uncaughtException: Cannot read property 'length' of undefined date=Mon Nov 19 2018 17:54:20 GMT-0600 (Central Standard Time), pid=29688, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=73433088, heapTotal=63877120, heapUsed=31891376, external=18464357, loadavg=[0, 0, 0], uptime=25213.0622886
+TypeError: Cannot read property 'length' of undefined
+    at pathtoRegexp (C:\Users\S533622\Documents\44563\ecommerce\node_modules\path-to-regexp\index.js:63:49)
+    at new Layer (C:\Users\S533622\Documents\44563\ecommerce\node_modules\express\lib\router\layer.js:45:17)
+    at Function.route (C:\Users\S533622\Documents\44563\ecommerce\node_modules\express\lib\router\index.js:494:15)
+    at Function.app.(anonymous function) [as get] (C:\Users\S533622\Documents\44563\ecommerce\node_modules\express\lib\application.js:481:30)
+    at Server.app.listen (C:\Users\S533622\Documents\44563\ecommerce\app.js:76:70)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:106:13)
+    at Server.emit (events.js:208:7)
+    at emitListeningNT (net.js:1387:10)
+    at _combinedTickCallback (internal/process/next_tick.js:136:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+    at Function.Module.runMain (module.js:696:11)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-19T23:54:20.535Z - info: START seeder.
+2018-11-19T23:54:20.539Z - debug: 6 products seeded
+2018-11-19T23:54:20.541Z - debug: 5 customers seeded
+2018-11-19T23:54:20.541Z - info: END Seeder. Sample data read and verified.
+2018-11-19T23:54:25.725Z - info: Environment variables loaded.
+2018-11-19T23:54:25.793Z - info: START seeder.
+2018-11-19T23:54:25.798Z - debug: 6 products seeded
+2018-11-19T23:54:25.801Z - debug: 5 customers seeded
+2018-11-19T23:54:25.801Z - info: END Seeder. Sample data read and verified.
+2018-11-19T23:54:43.515Z - info: Environment variables loaded.
+2018-11-19T23:54:43.545Z - info: START seeder.
+2018-11-19T23:54:43.548Z - debug: 6 products seeded
+2018-11-19T23:54:43.549Z - debug: 5 customers seeded
+2018-11-19T23:54:43.549Z - info: END Seeder. Sample data read and verified.
+2018-11-19T23:54:47.295Z - info: Environment variables loaded.
+2018-11-19T23:54:47.324Z - info: START seeder.
+2018-11-19T23:54:47.332Z - debug: 6 products seeded
+2018-11-19T23:54:47.334Z - debug: 5 customers seeded
+2018-11-19T23:54:47.334Z - info: END Seeder. Sample data read and verified.
+2018-11-19T23:54:48.976Z - info: Environment variables loaded.
+2018-11-19T23:54:49.006Z - info: START seeder.
+2018-11-19T23:54:49.009Z - debug: 6 products seeded
+2018-11-19T23:54:49.010Z - debug: 5 customers seeded
+2018-11-19T23:54:49.010Z - info: END Seeder. Sample data read and verified.
+2018-11-19T23:54:51.883Z - info: Environment variables loaded.
+2018-11-19T23:54:51.959Z - error: uncaughtException: Cannot read property 'length' of undefined date=Mon Nov 19 2018 17:54:51 GMT-0600 (Central Standard Time), pid=1224, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=73703424, heapTotal=63352832, heapUsed=33891832, external=18696726, loadavg=[0, 0, 0], uptime=25244.4451324
+TypeError: Cannot read property 'length' of undefined
+    at pathtoRegexp (C:\Users\S533622\Documents\44563\ecommerce\node_modules\path-to-regexp\index.js:63:49)
+    at new Layer (C:\Users\S533622\Documents\44563\ecommerce\node_modules\express\lib\router\layer.js:45:17)
+    at Function.route (C:\Users\S533622\Documents\44563\ecommerce\node_modules\express\lib\router\index.js:494:15)
+    at Function.app.(anonymous function) [as get] (C:\Users\S533622\Documents\44563\ecommerce\node_modules\express\lib\application.js:481:30)
+    at Server.app.listen (C:\Users\S533622\Documents\44563\ecommerce\app.js:76:86)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:106:13)
+    at Server.emit (events.js:208:7)
+    at emitListeningNT (net.js:1387:10)
+    at _combinedTickCallback (internal/process/next_tick.js:136:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+    at Function.Module.runMain (module.js:696:11)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-19T23:54:51.917Z - info: START seeder.
+2018-11-19T23:54:51.923Z - debug: 6 products seeded
+2018-11-19T23:54:51.926Z - debug: 5 customers seeded
+2018-11-19T23:54:51.926Z - info: END Seeder. Sample data read and verified.
+2018-11-19T23:54:53.785Z - info: Environment variables loaded.
+2018-11-19T23:54:53.851Z - error: uncaughtException: env is not defined date=Mon Nov 19 2018 17:54:53 GMT-0600 (Central Standard Time), pid=29964, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72966144, heapTotal=63352832, heapUsed=33898152, external=18696726, loadavg=[0, 0, 0], uptime=25246.3400083
+ReferenceError: env is not defined
+    at Server.app.listen (C:\Users\S533622\Documents\44563\ecommerce\app.js:76:90)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:106:13)
+    at Server.emit (events.js:208:7)
+    at emitListeningNT (net.js:1387:10)
+    at _combinedTickCallback (internal/process/next_tick.js:136:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+    at Function.Module.runMain (module.js:696:11)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-19T23:54:53.815Z - info: START seeder.
+2018-11-19T23:54:53.818Z - debug: 6 products seeded
+2018-11-19T23:54:53.820Z - debug: 5 customers seeded
+2018-11-19T23:54:53.820Z - info: END Seeder. Sample data read and verified.
+2018-11-19T23:54:59.693Z - info: Environment variables loaded.
+2018-11-19T23:54:59.724Z - info: START seeder.
+2018-11-19T23:54:59.728Z - debug: 6 products seeded
+2018-11-19T23:54:59.729Z - debug: 5 customers seeded
+2018-11-19T23:54:59.729Z - info: END Seeder. Sample data read and verified.
+2018-11-19T23:55:35.460Z - info: Environment variables loaded.
+2018-11-19T23:55:35.508Z - info: START seeder.
+2018-11-19T23:55:35.514Z - debug: 6 products seeded
+2018-11-19T23:55:35.518Z - debug: 5 customers seeded
+2018-11-19T23:55:35.518Z - info: END Seeder. Sample data read and verified.
+2018-11-19T23:55:56.715Z - info: Environment variables loaded.
+2018-11-19T23:55:56.754Z - info: START seeder.
+2018-11-19T23:55:56.760Z - debug: 6 products seeded
+2018-11-19T23:55:56.764Z - debug: 5 customers seeded
+2018-11-19T23:55:56.764Z - info: END Seeder. Sample data read and verified.
+2018-11-19T23:56:10.525Z - info: Environment variables loaded.
+2018-11-19T23:56:10.580Z - info: START seeder.
+2018-11-19T23:56:10.606Z - debug: 6 products seeded
+2018-11-19T23:56:10.610Z - debug: 5 customers seeded
+2018-11-19T23:56:10.610Z - info: END Seeder. Sample data read and verified.
+2018-11-19T23:56:18.640Z - info: Environment variables loaded.
+2018-11-19T23:56:18.690Z - info: START seeder.
+2018-11-19T23:56:18.697Z - debug: 6 products seeded
+2018-11-19T23:56:18.703Z - debug: 5 customers seeded
+2018-11-19T23:56:18.703Z - info: END Seeder. Sample data read and verified.
+2018-11-19T23:56:21.610Z - info: Environment variables loaded.
+2018-11-19T23:56:21.681Z - error: uncaughtException: listen EACCES C:\Users\S533622\Documents\44563\ecommerce\views date=Mon Nov 19 2018 17:56:21 GMT-0600 (Central Standard Time), pid=31604, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=73658368, heapTotal=63352832, heapUsed=31867200, external=18464357, loadavg=[0, 0, 0], uptime=25334.1718746
+Error: listen EACCES C:\Users\S533622\Documents\44563\ecommerce\views
+    at Server.setupListenHandle [as _listen2] (net.js:1343:19)
+    at listenInCluster (net.js:1401:12)
+    at Server.listen (net.js:1496:5)
+    at Function.listen (C:\Users\S533622\Documents\44563\ecommerce\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:75:5)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-19T23:56:21.647Z - info: START seeder.
+2018-11-19T23:56:21.650Z - debug: 6 products seeded
+2018-11-19T23:56:21.653Z - debug: 5 customers seeded
+2018-11-19T23:56:21.653Z - info: END Seeder. Sample data read and verified.
+2018-11-19T23:56:55.217Z - info: Environment variables loaded.
+2018-11-19T23:56:55.325Z - info: START seeder.
+2018-11-19T23:56:55.341Z - debug: 6 products seeded
+2018-11-19T23:56:55.348Z - debug: 5 customers seeded
+2018-11-19T23:56:55.348Z - info: END Seeder. Sample data read and verified.
+2018-11-19T23:57:05.740Z - info: Environment variables loaded.
+2018-11-19T23:57:05.773Z - info: START seeder.
+2018-11-19T23:57:05.778Z - debug: 6 products seeded
+2018-11-19T23:57:05.779Z - debug: 5 customers seeded
+2018-11-19T23:57:05.779Z - info: END Seeder. Sample data read and verified.
+2018-11-19T23:57:18.981Z - debug: GET /
+2018-11-19T23:57:19.794Z - debug: GET /CSS/shirts.jpg
+2018-11-19T23:59:46.164Z - info: Environment variables loaded.
+2018-11-19T23:59:46.195Z - info: START seeder.
+2018-11-19T23:59:46.199Z - debug: 6 products seeded
+2018-11-19T23:59:46.201Z - debug: 5 customers seeded
+2018-11-19T23:59:46.201Z - info: END Seeder. Sample data read and verified.
+2018-11-19T23:59:56.079Z - info: Environment variables loaded.
+2018-11-19T23:59:56.119Z - info: START seeder.
+2018-11-19T23:59:56.122Z - debug: 6 products seeded
+2018-11-19T23:59:56.124Z - debug: 5 customers seeded
+2018-11-19T23:59:56.124Z - info: END Seeder. Sample data read and verified.
+2018-11-20T00:00:10.573Z - info: Environment variables loaded.
+2018-11-20T00:00:10.611Z - info: START seeder.
+2018-11-20T00:00:10.615Z - debug: 6 products seeded
+2018-11-20T00:00:10.617Z - debug: 5 customers seeded
+2018-11-20T00:00:10.618Z - info: END Seeder. Sample data read and verified.
+2018-11-20T00:00:16.368Z - debug: GET /
+2018-11-20T00:03:20.764Z - info: Environment variables loaded.
+2018-11-20T00:03:20.796Z - info: START seeder.
+2018-11-20T00:03:20.800Z - debug: 6 products seeded
+2018-11-20T00:03:20.801Z - debug: 5 customers seeded
+2018-11-20T00:03:20.801Z - info: END Seeder. Sample data read and verified.
+2018-11-20T00:03:28.739Z - debug: GET /
+2018-11-20T00:03:29.211Z - debug: GET /CSS/shirts.jpg

@@ -29,15 +29,11 @@ const LOG = require('./utils/logger.js')
 dotenv.load({ path: '.env' })
 LOG.info('Environment variables loaded.')
 
-// app variables
 const DEFAULT_PORT = 8089
-
 // create express app ..................................
 const app = express()
-
-// configure app.settings.............................
+//const port=process.env.PORT || 8081
 app.set('port', process.env.PORT || DEFAULT_PORT)
-
 // set the root view folder
 app.set('views', path.join(__dirname, 'views'))
 
@@ -63,19 +59,22 @@ app.use(express.static(path.join(__dirname, 'public'), { maxAge: 31557600000 }))
 app.use(expressLayouts)
 app.use(errorHandler()) // load error handler
 
-const routes = require('./routes/index.js')
-app.use('/', routes )  // load routing
-LOG.info('Loaded routing.')
-
-app.use((req, res) => { res.status(404).render('404.ejs') }) // handle page not found errors
-
+app.get("/",function(req,res){
+  res.render("index.ejs")
+})
+// app.get("/index",function(req,res){
+//   res.render("index.ejs")
+// })
+app.get("/customer",function(req,res){
+  res.render("customer.ejs")
+})
 // initialize data ............................................
 require('./utils/seeder.js')(app)  // load seed data
 
 // start Express app
 app.listen(app.get('port'), () => {
-  console.log('App is running at http://localhost:%d in %s mode', app.get('port'), app.get('env'))
+  console.log('App is running at http://localhost:%d in %s mode',app.get('port'),app.get('env'))
   console.log('  Press CTRL-C to stop\n')
 })
 
-module.exports = app
+
