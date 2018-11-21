@@ -62,9 +62,9 @@ app.use(errorHandler()) // load error handler
 // app.get("/",function(req,res){
 //   res.render("index.ejs")
 // })
-// // app.get("/index",function(req,res){
-// //   res.render("index.ejs")
-// // })
+app.get("/index",function(req,res){
+  res.render("index.ejs")
+})
 // app.get("/customers",function(req,res){
 //   res.render("customer.ejs")
 // })

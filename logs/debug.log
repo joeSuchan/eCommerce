@@ -4887,3 +4887,123 @@ SyntaxError: Unexpected token <<
     at Module.load (module.js:566:32)
     at tryModuleLoad (module.js:506:12)
 2018-11-21T00:12:29.694Z - debug: START routing
+2018-11-21T00:14:21.232Z - info: Environment variables loaded.
+2018-11-21T00:14:21.288Z - error: uncaughtException: Unexpected token << date=Tue Nov 20 2018 18:14:21 GMT-0600 (Central Standard Time), pid=47860, uid=null, gid=null, cwd=C:\Users\S533909\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533909\44563\ecommerce\app.js], rss=70467584, heapTotal=60805120, heapUsed=39377648, external=19723950, loadavg=[0, 0, 0], uptime=105803.7829071
+C:\Users\S533909\44563\ecommerce\controllers\customer.js:76
+<<<<<<< HEAD
+  ^^
+
+SyntaxError: Unexpected token <<
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533909\44563\ecommerce\routes\index.js:48:26)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533909\44563\ecommerce\app.js:79:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+2018-11-21T00:14:21.249Z - debug: START routing
+2018-11-21T00:15:59.157Z - info: Environment variables loaded.
+2018-11-21T00:15:59.205Z - error: uncaughtException: Unexpected token << date=Tue Nov 20 2018 18:15:59 GMT-0600 (Central Standard Time), pid=47596, uid=null, gid=null, cwd=C:\Users\S533909\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533909\44563\ecommerce\app.js], rss=72601600, heapTotal=62902272, heapUsed=30818624, external=18381611, loadavg=[0, 0, 0], uptime=105901.7030799
+C:\Users\S533909\44563\ecommerce\controllers\customer.js:76
+<<<<<<< HEAD
+  ^^
+
+SyntaxError: Unexpected token <<
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533909\44563\ecommerce\routes\index.js:48:26)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533909\44563\ecommerce\app.js:79:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+2018-11-21T00:15:59.174Z - debug: START routing
+2018-11-21T00:19:52.455Z - info: Environment variables loaded.
+2018-11-21T00:19:52.477Z - debug: START routing
+2018-11-21T00:19:52.545Z - debug: END routing
+2018-11-21T00:19:52.545Z - info: Loaded routing.
+2018-11-21T00:19:52.600Z - info: START seeder.
+2018-11-21T00:19:52.604Z - debug: 5 customers seeded
+2018-11-21T00:19:52.606Z - debug: 6 products seeded
+2018-11-21T00:19:52.606Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:20:02.055Z - debug: GET /
+2018-11-21T00:20:02.852Z - debug: GET /CSS/shirts.jpg
+2018-11-21T00:20:05.458Z - debug: GET /products
+2018-11-21T00:22:24.064Z - debug: GET /products/delete/6
+2018-11-21T00:22:24.078Z - info: Handling GET /delete/:id [object Object]
+2018-11-21T00:22:24.083Z - info: RETURNING VIEW FOR {"_id":6,"productKey":"Umbrella","description":"Even better umbrella","unitPrice":15.99,"color":"green","rating":4}
+2018-11-21T00:22:24.262Z - debug: GET /products/delete/CSS/main.css
+2018-11-21T00:22:24.313Z - debug: GET /products/delete/CSS/main.css
+2018-11-21T00:23:26.055Z - info: Environment variables loaded.
+2018-11-21T00:23:26.072Z - debug: START routing
+2018-11-21T00:23:26.149Z - debug: END routing
+2018-11-21T00:23:26.149Z - info: Loaded routing.
+2018-11-21T00:23:26.240Z - info: START seeder.
+2018-11-21T00:23:26.251Z - debug: 5 customers seeded
+2018-11-21T00:23:26.258Z - debug: 6 products seeded
+2018-11-21T00:23:26.258Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:23:34.166Z - debug: GET /products
+2018-11-21T00:23:34.465Z - debug: GET /images/manifest.json
+2018-11-21T00:23:38.131Z - debug: GET /products
+2018-11-21T00:23:38.467Z - debug: GET /images/manifest.json
+2018-11-21T00:23:39.796Z - debug: GET /products
+2018-11-21T00:23:40.261Z - debug: GET /images/manifest.json
+2018-11-21T00:23:41.568Z - debug: GET /customers
+2018-11-21T00:23:41.930Z - debug: GET /images/manifest.json
+2018-11-21T00:23:42.934Z - debug: GET /
+2018-11-21T00:23:43.299Z - debug: GET /images/manifest.json
+2018-11-21T00:23:45.294Z - debug: GET /products
+2018-11-21T00:23:45.566Z - debug: GET /images/manifest.json
+2018-11-21T00:25:39.046Z - info: Environment variables loaded.
+2018-11-21T00:25:39.058Z - debug: START routing
+2018-11-21T00:25:39.088Z - debug: END routing
+2018-11-21T00:25:39.088Z - info: Loaded routing.
+2018-11-21T00:25:39.135Z - info: START seeder.
+2018-11-21T00:25:39.141Z - debug: 5 customers seeded
+2018-11-21T00:25:39.145Z - debug: 6 products seeded
+2018-11-21T00:25:39.146Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:25:42.946Z - debug: GET /products
+2018-11-21T00:25:43.190Z - debug: GET /CSS/shirts.jpg
+2018-11-21T00:25:43.314Z - debug: GET /images/favicon-32x32.png
+2018-11-21T00:25:43.316Z - debug: GET /images/manifest.json
+2018-11-21T00:25:43.335Z - debug: GET /images/favicon-16x16.png
+2018-11-21T00:25:43.342Z - debug: GET /images/favicon-96x96.png
+2018-11-21T00:25:43.351Z - debug: GET /images/android-icon-192x192.png
+2018-11-21T00:25:49.835Z - debug: GET /
+2018-11-21T00:25:50.552Z - debug: GET /CSS/shirts.jpg
+2018-11-21T00:25:50.976Z - debug: GET /images/manifest.json
+2018-11-21T00:25:56.441Z - debug: GET /orders
+2018-11-21T00:25:56.770Z - debug: GET /images/manifest.json
+2018-11-21T00:25:58.396Z - debug: GET /
+2018-11-21T00:25:58.836Z - debug: GET /images/manifest.json
+2018-11-21T00:26:00.812Z - debug: GET /products
+2018-11-21T00:26:01.141Z - debug: GET /images/manifest.json
