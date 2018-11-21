@@ -2630,6 +2630,8 @@ Error: listen EACCES C:\Users\S533622\Documents\44563\ecommerce\views
 2018-11-20T00:03:28.739Z - debug: GET /
 2018-11-20T00:03:29.211Z - debug: GET /CSS/shirts.jpg
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 2018-11-20T05:36:45.696Z - info: Environment variables loaded.
 2018-11-20T05:36:45.757Z - info: START seeder.
 2018-11-20T05:36:45.760Z - debug: 6 products seeded
@@ -2640,6 +2642,7 @@ Error: listen EACCES C:\Users\S533622\Documents\44563\ecommerce\views
 2018-11-20T05:37:08.718Z - debug: GET /CSS/shirts.jpg
 2018-11-20T05:37:08.780Z - debug: GET /favicon.ico
 =======
+>>>>>>> a0f299722cb5042c8647b890b90434beb2b568f9
 2018-11-20T00:12:52.880Z - info: Environment variables loaded.
 2018-11-20T00:12:52.913Z - info: START seeder.
 2018-11-20T00:12:52.916Z - debug: 6 products seeded
@@ -3709,6 +3712,46 @@ Error: listen EACCES C:\Users\S533622\Documents\44563\ecommerce\views
 2018-11-20T16:55:11.766Z - debug: GET /orders
 2018-11-20T16:55:13.016Z - debug: GET /orderLineItem
 2018-11-20T16:55:14.410Z - debug: GET /customers
+<<<<<<< HEAD
+2018-11-20T21:34:28.054Z - info: Environment variables loaded.
+2018-11-20T21:34:28.064Z - debug: START routing
+2018-11-20T21:34:28.095Z - debug: END routing
+2018-11-20T21:34:28.096Z - info: Loaded routing.
+2018-11-20T21:34:28.128Z - info: START seeder.
+2018-11-20T21:34:28.131Z - debug: 5 customers seeded
+2018-11-20T21:34:28.133Z - debug: 6 products seeded
+2018-11-20T21:34:28.133Z - info: END Seeder. Sample data read and verified.
+2018-11-20T21:34:46.566Z - debug: GET /
+2018-11-20T21:34:46.691Z - debug: GET /CSS/main.css
+2018-11-20T21:34:46.757Z - debug: GET /CSS/shirts.jpg
+2018-11-20T21:34:46.917Z - debug: GET /images/favicon-32x32.png
+2018-11-20T21:34:51.658Z - debug: GET /products
+2018-11-20T21:34:56.227Z - debug: GET /
+2018-11-20T21:34:57.694Z - debug: GET /customers
+2018-11-20T21:35:03.677Z - debug: GET /products
+2018-11-20T21:35:05.743Z - debug: GET /customers
+2018-11-20T21:40:35.797Z - info: Environment variables loaded.
+2018-11-20T21:40:35.814Z - debug: START routing
+2018-11-20T21:40:35.874Z - debug: END routing
+2018-11-20T21:40:35.874Z - info: Loaded routing.
+2018-11-20T21:40:35.944Z - info: START seeder.
+2018-11-20T21:40:35.952Z - debug: 5 customers seeded
+2018-11-20T21:40:35.958Z - debug: 6 products seeded
+2018-11-20T21:40:35.958Z - info: END Seeder. Sample data read and verified.
+2018-11-20T21:40:45.383Z - debug: GET /customers
+2018-11-20T21:40:45.673Z - debug: GET /CSS/shirts.jpg
+2018-11-20T21:40:46.000Z - debug: GET /images/favicon-32x32.png
+2018-11-20T21:40:47.569Z - debug: GET /products
+2018-11-20T21:40:50.130Z - debug: GET /customers
+2018-11-20T21:41:03.087Z - debug: GET /products
+2018-11-20T21:52:49.501Z - error: uncaughtException: Cannot find module '../models/products.js' date=Tue Nov 20 2018 15:52:49 GMT-0600 (Central Standard Time), pid=35568, uid=null, gid=null, cwd=C:\Users\S533909\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533909\44563\ecommerce\app.js], rss=70684672, heapTotal=61853696, heapUsed=39392088, external=19661791, loadavg=[0, 0, 0], uptime=97312.0017196
+Error: Cannot find module '../models/products.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533909\44563\ecommerce\controllers\product.js:7:15)
+=======
 2018-11-20T19:01:06.805Z - info: Environment variables loaded.
 2018-11-20T19:01:06.819Z - debug: START routing
 2018-11-20T19:01:06.844Z - debug: END routing
@@ -3795,11 +3838,17 @@ Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563
     at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
     at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
     at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+>>>>>>> a0f299722cb5042c8647b890b90434beb2b568f9
     at Module._compile (module.js:653:30)
     at Object.Module._extensions..js (module.js:664:10)
     at Module.load (module.js:566:32)
     at tryModuleLoad (module.js:506:12)
     at Function.Module._load (module.js:498:3)
+<<<<<<< HEAD
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533909\44563\ecommerce\routes\index.js:52:25)
+=======
     at Function.Module.runMain (module.js:694:10)
     at startup (bootstrap_node.js:204:16)
     at bootstrap_node.js:625:3
@@ -3886,11 +3935,114 @@ Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563
     at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
     at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
     at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+>>>>>>> a0f299722cb5042c8647b890b90434beb2b568f9
     at Module._compile (module.js:653:30)
     at Object.Module._extensions..js (module.js:664:10)
     at Module.load (module.js:566:32)
     at tryModuleLoad (module.js:506:12)
     at Function.Module._load (module.js:498:3)
+<<<<<<< HEAD
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533909\44563\ecommerce\app.js:79:16)
+    at Module._compile (module.js:653:30)
+2018-11-20T21:52:49.440Z - info: Environment variables loaded.
+2018-11-20T21:52:49.450Z - debug: START routing
+2018-11-20T21:53:24.442Z - info: Environment variables loaded.
+2018-11-20T21:53:24.460Z - debug: START routing
+2018-11-20T21:53:24.514Z - debug: END routing
+2018-11-20T21:53:24.514Z - info: Loaded routing.
+2018-11-20T21:53:24.592Z - info: START seeder.
+2018-11-20T21:53:24.597Z - debug: 5 customers seeded
+2018-11-20T21:53:24.600Z - debug: 6 products seeded
+2018-11-20T21:53:24.601Z - info: END Seeder. Sample data read and verified.
+2018-11-20T21:53:41.895Z - debug: GET /
+2018-11-20T21:53:42.739Z - debug: GET /CSS/shirts.jpg
+2018-11-20T21:53:44.517Z - debug: GET /products
+2018-11-20T21:53:44.777Z - debug: GET /favicon.ico
+2018-11-20T21:55:28.277Z - info: Environment variables loaded.
+2018-11-20T21:55:28.286Z - debug: START routing
+2018-11-20T21:55:28.311Z - debug: END routing
+2018-11-20T21:55:28.311Z - info: Loaded routing.
+2018-11-20T21:55:28.353Z - info: START seeder.
+2018-11-20T21:55:28.361Z - debug: 5 customers seeded
+2018-11-20T21:55:28.368Z - debug: 6 products seeded
+2018-11-20T21:55:28.368Z - info: END Seeder. Sample data read and verified.
+2018-11-20T21:55:33.440Z - debug: GET /products
+2018-11-20T21:55:33.662Z - debug: GET /CSS/shirts.jpg
+2018-11-20T21:55:38.716Z - debug: GET /products
+2018-11-20T21:55:50.490Z - debug: GET /customers
+2018-11-20T21:55:52.628Z - debug: GET /products
+2018-11-20T22:06:32.376Z - info: Environment variables loaded.
+2018-11-20T22:06:32.393Z - debug: START routing
+2018-11-20T22:06:32.455Z - debug: END routing
+2018-11-20T22:06:32.456Z - info: Loaded routing.
+2018-11-20T22:06:32.525Z - info: START seeder.
+2018-11-20T22:06:32.553Z - debug: 5 customers seeded
+2018-11-20T22:06:32.556Z - debug: 6 products seeded
+2018-11-20T22:06:32.556Z - info: END Seeder. Sample data read and verified.
+2018-11-20T22:06:36.436Z - debug: GET /products
+2018-11-20T22:06:36.664Z - debug: GET /CSS/shirts.jpg
+2018-11-20T22:06:36.780Z - debug: GET /images/favicon-32x32.png
+2018-11-20T22:06:53.405Z - debug: GET /product/delete/6
+2018-11-20T22:06:53.566Z - debug: GET /product/delete/CSS/main.css
+2018-11-20T22:06:53.668Z - debug: GET /product/delete/CSS/main.css
+2018-11-20T22:06:57.616Z - debug: GET /products
+2018-11-20T22:07:03.780Z - debug: GET /product/delete/6
+2018-11-20T22:07:03.889Z - debug: GET /product/delete/CSS/main.css
+2018-11-20T22:07:04.014Z - debug: GET /product/delete/CSS/main.css
+2018-11-20T22:07:09.863Z - debug: GET /products
+2018-11-20T22:07:14.937Z - debug: GET /product/delete/6
+2018-11-20T22:07:15.060Z - debug: GET /product/delete/CSS/main.css
+2018-11-20T22:07:15.152Z - debug: GET /product/delete/CSS/main.css
+2018-11-20T22:07:33.982Z - debug: GET /
+2018-11-20T22:07:36.603Z - debug: GET /products
+2018-11-20T22:07:41.476Z - debug: GET /product/details/6
+2018-11-20T22:07:41.693Z - debug: GET /product/details/CSS/main.css
+2018-11-20T22:07:41.802Z - debug: GET /product/details/CSS/main.css
+2018-11-20T22:07:47.936Z - debug: GET /product/edit/6
+2018-11-20T22:07:48.024Z - debug: GET /product/edit/CSS/main.css
+2018-11-20T22:07:48.266Z - debug: GET /product/edit/CSS/main.css
+2018-11-20T22:07:51.628Z - debug: GET /customers
+2018-11-20T22:07:54.073Z - debug: GET /products
+2018-11-20T22:09:50.085Z - info: Environment variables loaded.
+2018-11-20T22:09:50.093Z - debug: START routing
+2018-11-20T22:09:50.126Z - debug: END routing
+2018-11-20T22:09:50.126Z - info: Loaded routing.
+2018-11-20T22:09:50.183Z - info: START seeder.
+2018-11-20T22:09:50.186Z - debug: 5 customers seeded
+2018-11-20T22:09:50.189Z - debug: 6 products seeded
+2018-11-20T22:09:50.189Z - info: END Seeder. Sample data read and verified.
+2018-11-20T22:09:54.906Z - debug: GET /products
+2018-11-20T22:09:55.102Z - debug: GET /CSS/shirts.jpg
+2018-11-20T22:09:55.170Z - debug: GET /images/favicon-32x32.png
+2018-11-20T22:09:56.964Z - debug: GET /products
+2018-11-20T22:09:58.770Z - debug: GET /product/delete/6
+2018-11-20T22:09:58.888Z - debug: GET /product/delete/CSS/main.css
+2018-11-20T22:09:59.021Z - debug: GET /product/delete/CSS/main.css
+2018-11-20T22:10:17.851Z - debug: GET /customers
+2018-11-20T22:10:19.244Z - debug: GET /products
+2018-11-20T22:10:24.246Z - debug: GET /product/delete/6
+2018-11-20T22:10:24.357Z - debug: GET /product/delete/CSS/main.css
+2018-11-20T22:10:24.462Z - debug: GET /product/delete/CSS/main.css
+2018-11-20T22:10:24.499Z - debug: GET /CSS/shirts.jpg
+2018-11-20T22:10:31.857Z - debug: GET /product/details/6
+2018-11-20T22:10:32.128Z - debug: GET /product/details/CSS/main.css
+2018-11-20T22:10:32.230Z - debug: GET /product/details/CSS/main.css
+2018-11-20T22:10:32.296Z - debug: GET /CSS/shirts.jpg
+2018-11-20T22:10:38.083Z - debug: GET /product/edit/6
+2018-11-20T22:10:38.308Z - debug: GET /product/edit/CSS/main.css
+2018-11-20T22:10:38.401Z - debug: GET /product/edit/CSS/main.css
+2018-11-20T22:10:38.433Z - debug: GET /CSS/shirts.jpg
+2018-11-20T22:13:46.410Z - info: Environment variables loaded.
+2018-11-20T22:13:46.490Z - error: uncaughtException: Cannot find module '../controllers/product.js' date=Tue Nov 20 2018 16:13:46 GMT-0600 (Central Standard Time), pid=3084, uid=null, gid=null, cwd=C:\Users\S533909\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533909\44563\ecommerce\app.js], rss=71716864, heapTotal=61329408, heapUsed=40813920, external=19856899, loadavg=[0, 0, 0], uptime=98568.9879798
+Error: Cannot find module '../controllers/product.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533909\44563\ecommerce\routes\index.js:52:25)
+=======
     at Function.Module.runMain (module.js:694:10)
     at startup (bootstrap_node.js:204:16)
     at bootstrap_node.js:625:3
@@ -3916,11 +4068,17 @@ Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563
     at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
     at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
     at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+>>>>>>> a0f299722cb5042c8647b890b90434beb2b568f9
     at Module._compile (module.js:653:30)
     at Object.Module._extensions..js (module.js:664:10)
     at Module.load (module.js:566:32)
     at tryModuleLoad (module.js:506:12)
     at Function.Module._load (module.js:498:3)
+<<<<<<< HEAD
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533909\44563\ecommerce\app.js:79:16)
+=======
     at Function.Module.runMain (module.js:694:10)
     at startup (bootstrap_node.js:204:16)
     at bootstrap_node.js:625:3
@@ -3931,6 +4089,7 @@ Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563
     at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
     at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
     at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+>>>>>>> a0f299722cb5042c8647b890b90434beb2b568f9
     at Module._compile (module.js:653:30)
     at Object.Module._extensions..js (module.js:664:10)
     at Module.load (module.js:566:32)
@@ -3939,6 +4098,16 @@ Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563
     at Function.Module.runMain (module.js:694:10)
     at startup (bootstrap_node.js:204:16)
     at bootstrap_node.js:625:3
+<<<<<<< HEAD
+2018-11-20T22:13:46.423Z - debug: START routing
+2018-11-20T22:15:13.076Z - error: uncaughtException: Cannot find module '../controllers/product.js' date=Tue Nov 20 2018 16:15:13 GMT-0600 (Central Standard Time), pid=35032, uid=null, gid=null, cwd=C:\Users\S533909\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533909\44563\ecommerce\app.js], rss=71356416, heapTotal=61329408, heapUsed=40479920, external=19856899, loadavg=[0, 0, 0], uptime=98655.5624289
+Error: Cannot find module '../controllers/product.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533909\44563\ecommerce\routes\index.js:52:25)
+=======
 2018-11-20T19:26:45.324Z - info: Environment variables loaded.
 2018-11-20T19:26:45.365Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:26:45 GMT-0600 (Central Standard Time), pid=17796, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72658944, heapTotal=63352832, heapUsed=30893168, external=18406366, loadavg=[0, 0, 0], uptime=95557.8484134
 Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
@@ -3946,11 +4115,17 @@ Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563
     at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
     at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
     at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+>>>>>>> a0f299722cb5042c8647b890b90434beb2b568f9
     at Module._compile (module.js:653:30)
     at Object.Module._extensions..js (module.js:664:10)
     at Module.load (module.js:566:32)
     at tryModuleLoad (module.js:506:12)
     at Function.Module._load (module.js:498:3)
+<<<<<<< HEAD
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533909\44563\ecommerce\app.js:79:16)
+=======
     at Function.Module.runMain (module.js:694:10)
     at startup (bootstrap_node.js:204:16)
     at bootstrap_node.js:625:3
@@ -4172,6 +4347,7 @@ Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563
     at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
     at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
     at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+>>>>>>> a0f299722cb5042c8647b890b90434beb2b568f9
     at Module._compile (module.js:653:30)
     at Object.Module._extensions..js (module.js:664:10)
     at Module.load (module.js:566:32)
@@ -4180,6 +4356,396 @@ Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563
     at Function.Module.runMain (module.js:694:10)
     at startup (bootstrap_node.js:204:16)
     at bootstrap_node.js:625:3
+<<<<<<< HEAD
+2018-11-20T22:15:12.961Z - info: Environment variables loaded.
+2018-11-20T22:15:12.975Z - debug: START routing
+2018-11-20T22:15:54.905Z - info: Environment variables loaded.
+2018-11-20T22:15:54.914Z - debug: START routing
+2018-11-20T22:15:54.937Z - debug: END routing
+2018-11-20T22:15:54.937Z - info: Loaded routing.
+2018-11-20T22:15:54.977Z - info: START seeder.
+2018-11-20T22:15:54.982Z - debug: 5 customers seeded
+2018-11-20T22:15:54.986Z - debug: 6 products seeded
+2018-11-20T22:15:54.986Z - info: END Seeder. Sample data read and verified.
+2018-11-20T22:16:00.521Z - debug: GET /products
+2018-11-20T22:16:00.769Z - debug: GET /CSS/shirts.jpg
+2018-11-20T22:16:00.974Z - debug: GET /images/favicon-32x32.png
+2018-11-20T22:16:02.725Z - debug: GET /products
+2018-11-20T22:16:04.322Z - debug: GET /product/delete/6
+2018-11-20T22:16:04.440Z - debug: GET /product/delete/CSS/main.css
+2018-11-20T22:16:04.571Z - debug: GET /product/delete/CSS/main.css
+2018-11-20T22:16:09.746Z - debug: GET /
+2018-11-20T22:16:11.741Z - debug: GET /products
+2018-11-20T22:16:16.301Z - debug: GET /product/delete/6
+2018-11-20T22:16:16.531Z - debug: GET /product/delete/CSS/main.css
+2018-11-20T22:16:16.648Z - debug: GET /product/delete/CSS/main.css
+2018-11-20T22:16:16.696Z - debug: GET /CSS/shirts.jpg
+2018-11-20T22:16:19.655Z - debug: GET /product/details/6
+2018-11-20T22:16:19.878Z - debug: GET /product/details/CSS/main.css
+2018-11-20T22:16:19.979Z - debug: GET /product/details/CSS/main.css
+2018-11-20T22:16:20.039Z - debug: GET /CSS/shirts.jpg
+2018-11-20T22:16:22.213Z - debug: GET /product/edit/6
+2018-11-20T22:16:22.435Z - debug: GET /product/edit/CSS/main.css
+2018-11-20T22:16:22.518Z - debug: GET /product/edit/CSS/main.css
+2018-11-20T22:16:22.555Z - debug: GET /CSS/shirts.jpg
+2018-11-20T22:17:41.862Z - debug: GET /product/details/6
+2018-11-20T22:17:41.913Z - debug: GET /product/details/CSS/main.css
+2018-11-20T22:17:42.018Z - debug: GET /CSS/shirts.jpg
+2018-11-20T22:17:42.032Z - debug: GET /product/details/CSS/main.css
+2018-11-20T22:20:11.183Z - debug: GET /product/details/6
+2018-11-20T22:20:11.316Z - debug: GET /product/details/CSS/main.css
+2018-11-20T22:20:11.408Z - debug: GET /CSS/shirts.jpg
+2018-11-20T22:20:11.420Z - debug: GET /product/details/CSS/main.css
+2018-11-20T22:20:11.582Z - debug: GET /images/favicon-32x32.png
+2018-11-20T22:20:14.187Z - debug: GET /products
+2018-11-20T22:20:14.411Z - debug: GET /CSS/shirts.jpg
+2018-11-20T22:20:18.487Z - debug: GET /products/delete/6
+2018-11-20T22:20:18.492Z - info: Handling GET /delete/:id [object Object]
+2018-11-20T22:20:28.663Z - debug: GET /products/details/6
+2018-11-20T22:20:28.669Z - info: Handling GET /details/:id [object Object]
+2018-11-20T22:20:36.107Z - debug: GET /products/edit/6
+2018-11-20T22:20:36.111Z - info: Handling GET /edit/:id [object Object]
+2018-11-20T22:25:35.734Z - info: Environment variables loaded.
+2018-11-20T22:25:35.743Z - debug: START routing
+2018-11-20T22:25:35.768Z - debug: END routing
+2018-11-20T22:25:35.768Z - info: Loaded routing.
+2018-11-20T22:25:35.810Z - info: START seeder.
+2018-11-20T22:25:35.813Z - debug: 5 customers seeded
+2018-11-20T22:25:35.815Z - debug: 6 products seeded
+2018-11-20T22:25:35.815Z - info: END Seeder. Sample data read and verified.
+2018-11-20T22:25:42.587Z - debug: GET /
+2018-11-20T22:25:42.742Z - debug: GET /CSS/shirts.jpg
+2018-11-20T22:25:46.542Z - debug: GET /products
+2018-11-20T22:25:50.635Z - debug: GET /products/delete/6
+2018-11-20T22:25:50.641Z - info: Handling GET /delete/:id [object Object]
+2018-11-20T22:28:44.358Z - info: Environment variables loaded.
+2018-11-20T22:28:44.374Z - debug: START routing
+2018-11-20T22:28:44.434Z - debug: END routing
+2018-11-20T22:28:44.435Z - info: Loaded routing.
+2018-11-20T22:28:44.498Z - info: START seeder.
+2018-11-20T22:28:44.507Z - debug: 5 customers seeded
+2018-11-20T22:28:44.511Z - debug: 6 products seeded
+2018-11-20T22:28:44.511Z - info: END Seeder. Sample data read and verified.
+2018-11-20T22:28:52.859Z - debug: GET /
+2018-11-20T22:28:53.068Z - debug: GET /CSS/shirts.jpg
+2018-11-20T22:28:55.053Z - debug: GET /products
+2018-11-20T22:28:56.684Z - debug: GET /products/delete/6
+2018-11-20T22:28:56.687Z - info: Handling GET /delete/:id [object Object]
+2018-11-20T22:29:47.334Z - debug: GET /product/create
+2018-11-20T22:29:47.430Z - debug: GET /product/CSS/main.css
+2018-11-20T22:29:47.585Z - debug: GET /product/CSS/main.css
+2018-11-20T22:29:53.183Z - debug: GET /products
+2018-11-20T22:31:12.894Z - info: Environment variables loaded.
+2018-11-20T22:31:12.912Z - debug: START routing
+2018-11-20T22:31:12.976Z - debug: END routing
+2018-11-20T22:31:12.976Z - info: Loaded routing.
+2018-11-20T22:31:13.049Z - info: START seeder.
+2018-11-20T22:31:13.054Z - debug: 5 customers seeded
+2018-11-20T22:31:13.058Z - debug: 6 products seeded
+2018-11-20T22:31:13.059Z - info: END Seeder. Sample data read and verified.
+2018-11-20T22:31:15.603Z - debug: GET /products
+2018-11-20T22:31:15.984Z - debug: GET /images/favicon-32x32.png
+2018-11-20T22:31:19.115Z - debug: GET /product/create
+2018-11-20T22:31:19.240Z - debug: GET /product/CSS/main.css
+2018-11-20T22:31:19.334Z - debug: GET /product/CSS/main.css
+2018-11-20T22:32:56.724Z - info: Environment variables loaded.
+2018-11-20T22:32:56.734Z - debug: START routing
+2018-11-20T22:32:56.756Z - debug: END routing
+2018-11-20T22:32:56.757Z - info: Loaded routing.
+2018-11-20T22:32:56.792Z - info: START seeder.
+2018-11-20T22:32:56.799Z - debug: 5 customers seeded
+2018-11-20T22:32:56.801Z - debug: 6 products seeded
+2018-11-20T22:32:56.801Z - info: END Seeder. Sample data read and verified.
+2018-11-20T22:33:01.742Z - debug: GET /
+2018-11-20T22:33:02.043Z - debug: GET /CSS/shirts.jpg
+2018-11-20T22:33:04.039Z - debug: GET /products
+2018-11-20T22:33:05.941Z - debug: GET /products/create
+2018-11-20T22:33:05.947Z - info: Handling GET /create[object Object]
+2018-11-20T22:38:58.259Z - info: Environment variables loaded.
+2018-11-20T22:38:58.277Z - debug: START routing
+2018-11-20T22:38:58.356Z - debug: END routing
+2018-11-20T22:38:58.356Z - info: Loaded routing.
+2018-11-20T22:38:58.475Z - info: START seeder.
+2018-11-20T22:38:58.487Z - debug: 5 customers seeded
+2018-11-20T22:38:58.492Z - debug: 6 products seeded
+2018-11-20T22:38:58.492Z - info: END Seeder. Sample data read and verified.
+2018-11-20T22:39:05.739Z - debug: GET /
+2018-11-20T22:39:06.608Z - debug: GET /CSS/shirts.jpg
+2018-11-20T22:39:08.296Z - debug: GET /products
+2018-11-20T22:39:10.181Z - debug: GET /products/create
+2018-11-20T22:39:10.183Z - info: Handling GET /create[object Object]
+2018-11-20T22:41:20.543Z - info: Environment variables loaded.
+2018-11-20T22:41:20.554Z - debug: START routing
+2018-11-20T22:41:20.605Z - debug: END routing
+2018-11-20T22:41:20.605Z - info: Loaded routing.
+2018-11-20T22:41:20.669Z - info: START seeder.
+2018-11-20T22:41:20.681Z - debug: 5 customers seeded
+2018-11-20T22:41:20.684Z - debug: 6 products seeded
+2018-11-20T22:41:20.684Z - info: END Seeder. Sample data read and verified.
+2018-11-20T22:41:31.384Z - debug: GET /
+2018-11-20T22:41:32.478Z - debug: GET /CSS/shirts.jpg
+2018-11-20T22:41:36.093Z - debug: GET /products
+2018-11-20T22:41:38.300Z - debug: GET /products/create
+2018-11-20T22:41:38.302Z - info: Handling GET /create[object Object]
+2018-11-20T22:42:40.475Z - info: Environment variables loaded.
+2018-11-20T22:42:40.486Z - debug: START routing
+2018-11-20T22:42:40.519Z - debug: END routing
+2018-11-20T22:42:40.519Z - info: Loaded routing.
+2018-11-20T22:42:40.579Z - info: START seeder.
+2018-11-20T22:42:40.583Z - debug: 5 customers seeded
+2018-11-20T22:42:40.588Z - debug: 6 products seeded
+2018-11-20T22:42:40.588Z - info: END Seeder. Sample data read and verified.
+2018-11-20T22:42:47.217Z - debug: GET /products/create
+2018-11-20T22:42:47.237Z - info: Handling GET /create[object Object]
+2018-11-20T22:42:52.754Z - debug: GET /
+2018-11-20T22:42:53.003Z - debug: GET /CSS/shirts.jpg
+2018-11-20T22:42:54.721Z - debug: GET /products
+2018-11-20T22:42:56.285Z - debug: GET /products/create
+2018-11-20T22:42:56.289Z - info: Handling GET /create[object Object]
+2018-11-20T22:44:36.484Z - info: Environment variables loaded.
+2018-11-20T22:44:36.503Z - debug: START routing
+2018-11-20T22:44:36.552Z - debug: END routing
+2018-11-20T22:44:36.552Z - info: Loaded routing.
+2018-11-20T22:44:36.621Z - info: START seeder.
+2018-11-20T22:44:36.630Z - debug: 5 customers seeded
+2018-11-20T22:44:36.634Z - debug: 6 products seeded
+2018-11-20T22:44:36.634Z - info: END Seeder. Sample data read and verified.
+2018-11-20T22:44:42.368Z - debug: GET /
+2018-11-20T22:44:42.461Z - debug: GET /CSS/shirts.jpg
+2018-11-20T22:44:44.034Z - debug: GET /products
+2018-11-20T22:44:45.562Z - debug: GET /products/create
+2018-11-20T22:44:45.572Z - info: Handling GET /create[object Object]
+2018-11-20T22:47:48.738Z - info: Environment variables loaded.
+2018-11-20T22:47:48.755Z - debug: START routing
+2018-11-20T22:47:48.788Z - debug: END routing
+2018-11-20T22:47:48.789Z - info: Loaded routing.
+2018-11-20T22:47:48.829Z - info: START seeder.
+2018-11-20T22:47:48.833Z - debug: 5 customers seeded
+2018-11-20T22:47:48.836Z - debug: 6 products seeded
+2018-11-20T22:47:48.836Z - info: END Seeder. Sample data read and verified.
+2018-11-20T22:47:57.679Z - debug: GET /
+2018-11-20T22:47:58.427Z - debug: GET /CSS/shirts.jpg
+2018-11-20T22:48:02.390Z - debug: GET /products
+2018-11-20T22:48:08.238Z - debug: GET /products/delete/6
+2018-11-20T22:48:08.249Z - info: Handling GET /delete/:id [object Object]
+2018-11-20T22:48:14.495Z - debug: GET /products/details/6
+2018-11-20T22:48:14.499Z - info: Handling GET /details/:id [object Object]
+2018-11-20T22:48:19.520Z - debug: GET /products/edit/6
+2018-11-20T22:48:19.531Z - info: Handling GET /edit/:id [object Object]
+2018-11-20T22:48:24.094Z - debug: GET /products/create
+2018-11-20T22:48:24.097Z - info: Handling GET /create[object Object]
+2018-11-20T22:49:17.509Z - debug: GET /products/edit/6
+2018-11-20T22:49:17.515Z - info: Handling GET /edit/:id [object Object]
+2018-11-20T22:49:44.969Z - debug: GET /products/create
+2018-11-20T22:49:44.972Z - info: Handling GET /create[object Object]
+2018-11-20T22:59:06.869Z - info: Environment variables loaded.
+2018-11-20T22:59:06.880Z - debug: START routing
+2018-11-20T22:59:06.911Z - debug: END routing
+2018-11-20T22:59:06.911Z - info: Loaded routing.
+2018-11-20T22:59:06.965Z - info: START seeder.
+2018-11-20T22:59:06.969Z - debug: 5 customers seeded
+2018-11-20T22:59:06.972Z - debug: 6 products seeded
+2018-11-20T22:59:06.972Z - info: END Seeder. Sample data read and verified.
+2018-11-20T22:59:15.729Z - debug: GET /
+2018-11-20T22:59:16.584Z - debug: GET /CSS/shirts.jpg
+2018-11-20T22:59:56.012Z - info: Environment variables loaded.
+2018-11-20T22:59:56.022Z - debug: START routing
+2018-11-20T22:59:56.046Z - debug: END routing
+2018-11-20T22:59:56.046Z - info: Loaded routing.
+2018-11-20T22:59:56.084Z - info: START seeder.
+2018-11-20T22:59:56.088Z - debug: 5 customers seeded
+2018-11-20T22:59:56.089Z - debug: 6 products seeded
+2018-11-20T22:59:56.089Z - info: END Seeder. Sample data read and verified.
+2018-11-20T22:59:59.431Z - debug: GET /
+2018-11-20T23:00:11.729Z - debug: GET /products
+2018-11-20T23:00:16.976Z - debug: GET /products/delete/6
+2018-11-20T23:00:16.981Z - info: Handling GET /delete/:id [object Object]
+2018-11-20T23:00:58.218Z - debug: GET /products
+2018-11-20T23:01:00.623Z - debug: GET /products/delete/6
+2018-11-20T23:01:00.629Z - info: Handling GET /delete/:id [object Object]
+2018-11-20T23:01:29.311Z - debug: GET /products/delete/6
+2018-11-20T23:01:29.317Z - info: Handling GET /delete/:id [object Object]
+2018-11-20T23:03:31.825Z - info: Environment variables loaded.
+2018-11-20T23:03:31.842Z - debug: START routing
+2018-11-20T23:03:31.907Z - debug: END routing
+2018-11-20T23:03:31.908Z - info: Loaded routing.
+2018-11-20T23:03:31.987Z - info: START seeder.
+2018-11-20T23:03:31.996Z - debug: 5 customers seeded
+2018-11-20T23:03:32.006Z - debug: 6 products seeded
+2018-11-20T23:03:32.006Z - info: END Seeder. Sample data read and verified.
+2018-11-20T23:03:41.909Z - debug: GET /
+2018-11-20T23:03:42.411Z - debug: GET /CSS/shirts.jpg
+2018-11-20T23:03:44.281Z - debug: GET /products
+2018-11-20T23:03:46.841Z - debug: GET /products
+2018-11-20T23:03:48.424Z - debug: GET /products/delete/6
+2018-11-20T23:03:48.430Z - info: Handling GET /delete/:id [object Object]
+2018-11-20T23:05:57.194Z - info: Environment variables loaded.
+2018-11-20T23:05:57.212Z - debug: START routing
+2018-11-20T23:05:57.272Z - debug: END routing
+2018-11-20T23:05:57.272Z - info: Loaded routing.
+2018-11-20T23:05:57.359Z - info: START seeder.
+2018-11-20T23:05:57.368Z - debug: 5 customers seeded
+2018-11-20T23:05:57.373Z - debug: 6 products seeded
+2018-11-20T23:05:57.373Z - info: END Seeder. Sample data read and verified.
+2018-11-20T23:06:04.007Z - debug: GET /
+2018-11-20T23:06:04.819Z - debug: GET /CSS/shirts.jpg
+2018-11-20T23:06:06.914Z - debug: GET /products
+2018-11-20T23:06:08.797Z - debug: GET /products/delete/6
+2018-11-20T23:06:08.802Z - info: Handling GET /delete/:id [object Object]
+2018-11-20T23:06:08.802Z - info: RETURNING VIEW FOR 6
+2018-11-20T23:06:08.803Z - info: RETURNING VIEW FOR [{"_id":1,"productKey":"Coffee Mug","description":"Best mug ever!","unitPrice":9.99,"color":"black","rating":5},{"_id":2,"productKey":"Tshirt","description":"Even better shirt","unitPrice":24.99,"color":"red","rating":4},{"_id":3,"productKey":"Boots","description":"Best boots ever!","unitPrice":10.99,"color":"blue","rating":5},{"_id":4,"productKey":"Jacket","description":"Even better jacket","unitPrice":20.99,"color":"pink","rating":4},{"_id":5,"productKey":"Cap","description":"Best cap ever!","unitPrice":5.99,"color":"yellow","rating":5},{"_id":6,"productKey":"Umbrella","description":"Even better umbrella","unitPrice":15.99,"color":"green","rating":4}]
+2018-11-20T23:06:08.807Z - info: RETURNING VIEW FOR undefined
+2018-11-20T23:06:52.064Z - debug: GET /
+2018-11-20T23:06:53.093Z - debug: GET /CSS/shirts.jpg
+2018-11-20T23:06:55.093Z - debug: GET /products
+2018-11-20T23:06:57.031Z - debug: GET /products/create
+2018-11-20T23:06:57.035Z - info: Handling GET /create[object Object]
+2018-11-20T23:07:03.661Z - debug: GET /products/delete/6
+2018-11-20T23:07:03.665Z - info: Handling GET /delete/:id [object Object]
+2018-11-20T23:07:03.667Z - info: RETURNING VIEW FOR 6
+2018-11-20T23:07:03.671Z - info: RETURNING VIEW FOR [{"_id":1,"productKey":"Coffee Mug","description":"Best mug ever!","unitPrice":9.99,"color":"black","rating":5},{"_id":2,"productKey":"Tshirt","description":"Even better shirt","unitPrice":24.99,"color":"red","rating":4},{"_id":3,"productKey":"Boots","description":"Best boots ever!","unitPrice":10.99,"color":"blue","rating":5},{"_id":4,"productKey":"Jacket","description":"Even better jacket","unitPrice":20.99,"color":"pink","rating":4},{"_id":5,"productKey":"Cap","description":"Best cap ever!","unitPrice":5.99,"color":"yellow","rating":5},{"_id":6,"productKey":"Umbrella","description":"Even better umbrella","unitPrice":15.99,"color":"green","rating":4}]
+2018-11-20T23:07:03.673Z - info: RETURNING VIEW FOR undefined
+2018-11-20T23:10:03.652Z - info: Environment variables loaded.
+2018-11-20T23:10:03.663Z - debug: START routing
+2018-11-20T23:10:03.695Z - debug: END routing
+2018-11-20T23:10:03.696Z - info: Loaded routing.
+2018-11-20T23:10:03.746Z - info: START seeder.
+2018-11-20T23:10:03.758Z - debug: 5 customers seeded
+2018-11-20T23:10:03.763Z - debug: 6 products seeded
+2018-11-20T23:10:03.763Z - info: END Seeder. Sample data read and verified.
+2018-11-20T23:10:10.415Z - debug: GET /
+2018-11-20T23:10:11.225Z - debug: GET /CSS/shirts.jpg
+2018-11-20T23:10:12.973Z - debug: GET /products
+2018-11-20T23:10:16.222Z - debug: GET /products/create
+2018-11-20T23:10:16.226Z - info: Handling GET /create[object Object]
+2018-11-20T23:10:16.245Z - debug: {"productKey":"product","description":"description","unitPrice":9.99,"color":"color","rating":5}
+2018-11-20T23:10:16.361Z - debug: GET /products/CSS/main.css
+2018-11-20T23:10:16.474Z - debug: GET /products/CSS/main.css
+2018-11-20T23:11:15.658Z - info: Environment variables loaded.
+2018-11-20T23:11:15.668Z - debug: START routing
+2018-11-20T23:11:15.700Z - debug: END routing
+2018-11-20T23:11:15.700Z - info: Loaded routing.
+2018-11-20T23:11:15.744Z - info: START seeder.
+2018-11-20T23:11:15.750Z - debug: 5 customers seeded
+2018-11-20T23:11:15.753Z - debug: 6 products seeded
+2018-11-20T23:11:15.753Z - info: END Seeder. Sample data read and verified.
+2018-11-20T23:11:27.986Z - debug: GET /
+2018-11-20T23:11:28.765Z - debug: GET /CSS/shirts.jpg
+2018-11-20T23:11:30.447Z - debug: GET /products
+2018-11-20T23:11:36.221Z - debug: GET /products/delete/6
+2018-11-20T23:11:36.224Z - info: Handling GET /delete/:id [object Object]
+2018-11-20T23:11:36.224Z - info: RETURNING VIEW FOR 6
+2018-11-20T23:11:36.224Z - info: RETURNING VIEW FOR [{"_id":1,"productKey":"Coffee Mug","description":"Best mug ever!","unitPrice":9.99,"color":"black","rating":5},{"_id":2,"productKey":"Tshirt","description":"Even better shirt","unitPrice":24.99,"color":"red","rating":4},{"_id":3,"productKey":"Boots","description":"Best boots ever!","unitPrice":10.99,"color":"blue","rating":5},{"_id":4,"productKey":"Jacket","description":"Even better jacket","unitPrice":20.99,"color":"pink","rating":4},{"_id":5,"productKey":"Cap","description":"Best cap ever!","unitPrice":5.99,"color":"yellow","rating":5},{"_id":6,"productKey":"Umbrella","description":"Even better umbrella","unitPrice":15.99,"color":"green","rating":4}]
+2018-11-20T23:11:36.228Z - info: RETURNING VIEW FOR undefined
+2018-11-20T23:13:54.529Z - debug: GET /
+2018-11-20T23:13:56.328Z - debug: GET /CSS/shirts.jpg
+2018-11-20T23:13:58.196Z - debug: GET /products
+2018-11-20T23:14:01.810Z - debug: GET /products/delete/6
+2018-11-20T23:14:01.818Z - info: Handling GET /delete/:id [object Object]
+2018-11-20T23:14:01.819Z - info: RETURNING VIEW FOR 6
+2018-11-20T23:14:01.821Z - info: RETURNING VIEW FOR [{"_id":1,"productKey":"Coffee Mug","description":"Best mug ever!","unitPrice":9.99,"color":"black","rating":5},{"_id":2,"productKey":"Tshirt","description":"Even better shirt","unitPrice":24.99,"color":"red","rating":4},{"_id":3,"productKey":"Boots","description":"Best boots ever!","unitPrice":10.99,"color":"blue","rating":5},{"_id":4,"productKey":"Jacket","description":"Even better jacket","unitPrice":20.99,"color":"pink","rating":4},{"_id":5,"productKey":"Cap","description":"Best cap ever!","unitPrice":5.99,"color":"yellow","rating":5},{"_id":6,"productKey":"Umbrella","description":"Even better umbrella","unitPrice":15.99,"color":"green","rating":4}]
+2018-11-20T23:14:01.822Z - info: RETURNING VIEW FOR undefined
+2018-11-20T23:14:07.393Z - debug: GET /products/details/6
+2018-11-20T23:14:07.395Z - info: Handling GET /details/:id [object Object]
+2018-11-20T23:17:06.652Z - debug: GET /products/edit/4
+2018-11-20T23:17:06.664Z - info: Handling GET /edit/:id [object Object]
+2018-11-20T23:18:59.700Z - debug: GET /products/delete/6
+2018-11-20T23:18:59.705Z - info: Handling GET /delete/:id [object Object]
+2018-11-20T23:18:59.706Z - info: RETURNING VIEW FOR 6
+2018-11-20T23:18:59.708Z - info: RETURNING VIEW FOR [{"_id":1,"productKey":"Coffee Mug","description":"Best mug ever!","unitPrice":9.99,"color":"black","rating":5},{"_id":2,"productKey":"Tshirt","description":"Even better shirt","unitPrice":24.99,"color":"red","rating":4},{"_id":3,"productKey":"Boots","description":"Best boots ever!","unitPrice":10.99,"color":"blue","rating":5},{"_id":4,"productKey":"Jacket","description":"Even better jacket","unitPrice":20.99,"color":"pink","rating":4},{"_id":5,"productKey":"Cap","description":"Best cap ever!","unitPrice":5.99,"color":"yellow","rating":5},{"_id":6,"productKey":"Umbrella","description":"Even better umbrella","unitPrice":15.99,"color":"green","rating":4}]
+2018-11-20T23:18:59.709Z - info: RETURNING VIEW FOR undefined
+2018-11-20T23:21:37.409Z - info: Environment variables loaded.
+2018-11-20T23:21:37.417Z - debug: START routing
+2018-11-20T23:21:37.442Z - debug: END routing
+2018-11-20T23:21:37.442Z - info: Loaded routing.
+2018-11-20T23:21:37.472Z - info: START seeder.
+2018-11-20T23:21:37.476Z - debug: 5 customers seeded
+2018-11-20T23:21:37.480Z - debug: 6 products seeded
+2018-11-20T23:21:37.480Z - info: END Seeder. Sample data read and verified.
+2018-11-20T23:21:45.555Z - debug: GET /
+2018-11-20T23:21:46.380Z - debug: GET /CSS/shirts.jpg
+2018-11-20T23:21:49.730Z - debug: GET /products
+2018-11-20T23:21:52.848Z - debug: GET /products/delete/6
+2018-11-20T23:21:52.851Z - info: Handling GET /delete/:id [object Object]
+2018-11-20T23:21:52.854Z - info: RETURNING VIEW FOR {"_id":6,"productKey":"Umbrella","description":"Even better umbrella","unitPrice":15.99,"color":"green","rating":4}
+2018-11-20T23:21:52.984Z - debug: GET /products/delete/CSS/main.css
+2018-11-20T23:21:53.117Z - debug: GET /products/delete/CSS/main.css
+2018-11-20T23:21:53.166Z - debug: GET /CSS/shirts.jpg
+2018-11-20T23:22:01.695Z - debug: GET /products/details/6
+2018-11-20T23:22:01.699Z - info: Handling GET /details/:id [object Object]
+2018-11-20T23:22:01.701Z - info: RETURNING VIEW FOR {"_id":6,"productKey":"Umbrella","description":"Even better umbrella","unitPrice":15.99,"color":"green","rating":4}
+2018-11-20T23:22:01.977Z - debug: GET /products/details/CSS/main.css
+2018-11-20T23:22:02.098Z - debug: GET /products/details/CSS/main.css
+2018-11-20T23:22:02.219Z - debug: GET /CSS/shirts.jpg
+2018-11-20T23:22:08.607Z - debug: GET /products/edit/6
+2018-11-20T23:22:08.613Z - info: Handling GET /edit/:id [object Object]
+2018-11-20T23:22:08.615Z - info: RETURNING VIEW FOR{"_id":6,"productKey":"Umbrella","description":"Even better umbrella","unitPrice":15.99,"color":"green","rating":4}
+2018-11-20T23:22:08.902Z - debug: GET /products/edit/CSS/main.css
+2018-11-20T23:22:08.999Z - debug: GET /products/edit/CSS/main.css
+2018-11-20T23:22:09.054Z - debug: GET /CSS/shirts.jpg
+2018-11-20T23:38:25.756Z - info: Environment variables loaded.
+2018-11-20T23:38:25.763Z - debug: START routing
+2018-11-20T23:38:25.789Z - debug: END routing
+2018-11-20T23:38:25.789Z - info: Loaded routing.
+2018-11-20T23:38:25.814Z - info: START seeder.
+2018-11-20T23:38:25.816Z - debug: 5 customers seeded
+2018-11-20T23:38:25.819Z - debug: 6 products seeded
+2018-11-20T23:38:25.819Z - info: END Seeder. Sample data read and verified.
+2018-11-20T23:38:34.502Z - debug: GET /
+2018-11-20T23:38:36.647Z - debug: GET /CSS/shirts.jpg
+2018-11-20T23:38:44.365Z - debug: GET /products
+2018-11-20T23:38:49.797Z - debug: GET /products/delete/6
+2018-11-20T23:38:49.802Z - info: Handling GET /delete/:id [object Object]
+2018-11-20T23:38:49.808Z - info: RETURNING VIEW FOR {"_id":6,"productKey":"Umbrella","description":"Even better umbrella","unitPrice":15.99,"color":"green","rating":4}
+2018-11-20T23:38:49.891Z - debug: GET /products/delete/CSS/main.css
+2018-11-20T23:38:49.987Z - debug: GET /products/delete/CSS/main.css
+2018-11-20T23:38:50.037Z - debug: GET /CSS/shirts.jpg
+2018-11-20T23:38:53.600Z - debug: POST /products/delete/6
+2018-11-20T23:38:53.628Z - info: Handling DELETE request [object Object]
+2018-11-20T23:38:53.629Z - info: Handling REMOVING ID=6
+2018-11-20T23:38:53.640Z - debug: GET /products
+2018-11-20T23:38:53.699Z - debug: GET /CSS/shirts.jpg
+2018-11-20T23:39:01.586Z - debug: GET /products/details/5
+2018-11-20T23:39:01.589Z - info: Handling GET /details/:id [object Object]
+2018-11-20T23:39:01.590Z - info: RETURNING VIEW FOR {"_id":5,"productKey":"Cap","description":"Best cap ever!","unitPrice":5.99,"color":"yellow","rating":5}
+2018-11-20T23:39:01.688Z - debug: GET /products/details/CSS/main.css
+2018-11-20T23:39:01.802Z - debug: GET /products/details/CSS/main.css
+2018-11-20T23:39:01.833Z - debug: GET /CSS/shirts.jpg
+2018-11-20T23:39:05.423Z - debug: GET /products?
+2018-11-20T23:39:05.469Z - debug: GET /CSS/shirts.jpg
+2018-11-20T23:39:08.315Z - debug: GET /products/edit/5
+2018-11-20T23:39:08.317Z - info: Handling GET /edit/:id [object Object]
+2018-11-20T23:39:08.318Z - info: RETURNING VIEW FOR{"_id":5,"productKey":"Cap","description":"Best cap ever!","unitPrice":5.99,"color":"yellow","rating":5}
+2018-11-20T23:39:08.396Z - debug: GET /products/edit/CSS/main.css
+2018-11-20T23:39:08.505Z - debug: GET /products/edit/CSS/main.css
+2018-11-20T23:39:08.560Z - debug: GET /CSS/shirts.jpg
+2018-11-20T23:39:27.001Z - debug: GET /
+2018-11-20T23:39:27.996Z - debug: GET /CSS/shirts.jpg
+2018-11-20T23:39:30.198Z - debug: GET /products
+2018-11-20T23:41:04.988Z - info: Environment variables loaded.
+2018-11-20T23:41:04.995Z - debug: START routing
+2018-11-20T23:41:05.023Z - debug: END routing
+2018-11-20T23:41:05.023Z - info: Loaded routing.
+2018-11-20T23:41:05.049Z - info: START seeder.
+2018-11-20T23:41:05.052Z - debug: 5 customers seeded
+2018-11-20T23:41:05.054Z - debug: 6 products seeded
+2018-11-20T23:41:05.054Z - info: END Seeder. Sample data read and verified.
+2018-11-20T23:41:13.680Z - debug: GET /
+2018-11-20T23:41:14.283Z - debug: GET /CSS/shirts.jpg
+2018-11-20T23:41:16.038Z - debug: GET /products
+2018-11-20T23:48:12.857Z - debug: GET /products/create
+2018-11-20T23:48:12.860Z - info: Handling GET /create[object Object]
+2018-11-20T23:48:12.870Z - debug: {"productKey":"product","description":"description","unitPrice":9.99,"color":"color","rating":5}
+2018-11-20T23:48:12.940Z - debug: GET /products/CSS/main.css
+2018-11-20T23:48:13.018Z - debug: GET /products/CSS/main.css
+2018-11-20T23:48:13.067Z - debug: GET /CSS/shirts.jpg
+2018-11-20T23:48:22.044Z - debug: GET /products/delete/6
+2018-11-20T23:48:22.047Z - info: Handling GET /delete/:id [object Object]
+2018-11-20T23:48:22.048Z - info: RETURNING VIEW FOR {"_id":6,"productKey":"Umbrella","description":"Even better umbrella","unitPrice":15.99,"color":"green","rating":4}
+2018-11-20T23:48:22.100Z - debug: GET /products/delete/CSS/main.css
+2018-11-20T23:48:22.168Z - debug: GET /products/delete/CSS/main.css
+2018-11-20T23:48:22.199Z - debug: GET /CSS/shirts.jpg
+=======
 2018-11-20T19:33:30.111Z - info: Environment variables loaded.
 2018-11-20T19:33:30.119Z - debug: START routing
 2018-11-20T19:33:30.139Z - debug: END routing
@@ -4290,6 +4856,7 @@ Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563
 2018-11-20T19:53:35.601Z - debug: 6 products seeded
 2018-11-20T19:53:35.601Z - info: END Seeder. Sample data read and verified.
 >>>>>>> 27637b20d32ed7fb64b2240332870b4ada3c820f
+<<<<<<< HEAD
 2018-11-20T21:44:23.645Z - info: Environment variables loaded.
 2018-11-20T21:44:23.659Z - debug: START routing
 2018-11-20T21:44:23.688Z - debug: END routing
@@ -4481,3 +5048,151 @@ Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563
 2018-11-21T00:22:37.473Z - debug: GET /customers
 2018-11-21T00:22:37.551Z - debug: GET /images/manifest.json
 2018-11-21T00:22:43.697Z - debug: GET /order
+=======
+>>>>>>> a0f299722cb5042c8647b890b90434beb2b568f9
+2018-11-21T00:12:29.682Z - info: Environment variables loaded.
+2018-11-21T00:12:29.724Z - error: uncaughtException: Unexpected token << date=Tue Nov 20 2018 18:12:29 GMT-0600 (Central Standard Time), pid=45436, uid=null, gid=null, cwd=C:\Users\S533909\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533909\44563\ecommerce\app.js], rss=71372800, heapTotal=60805120, heapUsed=40265000, external=19919707, loadavg=[0, 0, 0], uptime=105692.2226305
+C:\Users\S533909\44563\ecommerce\controllers\customer.js:76
+<<<<<<< HEAD
+  ^^
+
+SyntaxError: Unexpected token <<
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533909\44563\ecommerce\routes\index.js:48:26)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533909\44563\ecommerce\app.js:79:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+2018-11-21T00:12:29.694Z - debug: START routing
+>>>>>>> 8329f012b9f8f814f213beac27e593ef8a30da6d
+2018-11-21T00:29:01.264Z - info: Environment variables loaded.
+2018-11-21T00:29:01.290Z - error: uncaughtException: Unexpected token << date=Tue Nov 20 2018 18:29:01 GMT-0600 (Central Standard Time), pid=8612, uid=null, gid=null, cwd=C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\app.js], rss=74440704, heapTotal=63950848, heapUsed=35884840, external=18641280, loadavg=[0, 0, 0], uptime=10322.7950087
+C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\controllers\customer.js:76
+<<<<<<< HEAD
+  ^^
+
+SyntaxError: Unexpected token <<
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\routes\index.js:48:26)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\app.js:79:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+2018-11-21T00:29:01.275Z - debug: START routing
+2018-11-21T00:29:18.205Z - info: Environment variables loaded.
+2018-11-21T00:29:18.227Z - error: uncaughtException: Unexpected token << date=Tue Nov 20 2018 18:29:18 GMT-0600 (Central Standard Time), pid=7104, uid=null, gid=null, cwd=C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\app.js], rss=74018816, heapTotal=63426560, heapUsed=42530400, external=19523630, loadavg=[0, 0, 0], uptime=10339.7326764
+C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\controllers\customer.js:76
+<<<<<<< HEAD
+  ^^
+
+SyntaxError: Unexpected token <<
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\routes\index.js:48:26)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\app.js:79:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+2018-11-21T00:29:18.214Z - debug: START routing
+2018-11-21T00:31:15.647Z - info: Environment variables loaded.
+2018-11-21T00:31:15.670Z - error: uncaughtException: Unexpected token << date=Tue Nov 20 2018 18:31:15 GMT-0600 (Central Standard Time), pid=11844, uid=null, gid=null, cwd=C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\app.js], rss=74514432, heapTotal=63426560, heapUsed=35936448, external=18649472, loadavg=[0, 0, 0], uptime=10457.175513
+C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\controllers\customer.js:76
+<<<<<<< HEAD
+  ^^
+
+SyntaxError: Unexpected token <<
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\routes\index.js:48:26)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\app.js:79:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+2018-11-21T00:31:15.656Z - debug: START routing
+2018-11-21T00:38:45.081Z - info: Environment variables loaded.
+2018-11-21T00:38:45.125Z - error: uncaughtException: Cannot find module '../controllers/products.js' date=Tue Nov 20 2018 18:38:45 GMT-0600 (Central Standard Time), pid=244, uid=null, gid=null, cwd=C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\app.js], rss=76738560, heapTotal=63426560, heapUsed=37754032, external=18921653, loadavg=[0, 0, 0], uptime=10906.6291776
+Error: Cannot find module '../controllers/products.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\routes\index.js:52:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\app.js:79:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-21T00:38:45.090Z - debug: START routing

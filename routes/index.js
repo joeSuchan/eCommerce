@@ -49,7 +49,7 @@ router.use('/customers', require('../controllers/customer.js'))
 
 
 //router.use('/customers', require('../controllers/controller.js'))
-router.use('/product', require('../controllers/product.js'))
+router.use('/products', require('../controllers/products.js'))
 
 LOG.debug('END routing')
 module.exports = router

@@ -73,13 +73,17 @@ api.get('/edit/:id', (req, res) => {
   const item = find(data, { _id: id })
   if (!item) { return res.end(notfoundstring) }
   LOG.info(`RETURNING VIEW FOR${JSON.stringify(item)}`)
-  return res.render('customers/edit',
+ LOG.info(`RETURNING VIEW FOR${JSON.stringify(item)}`)
+
+  return res.render('customers/edit.ejs',
+
     {
       title: 'customer',
       layout: 'layout.ejs',
       customer: item
     })
 })
+
 
 // HANDLE EXECUTE DATA MODIFICATION REQUESTS --------------------------------------------
 

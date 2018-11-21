@@ -1,4 +1,44 @@
 
-
-<p> Products Index </p>
-
+<!--@Author Meghana Putta-->
+<br/>
+<br/>
+<div class="container-fluid">
+  <div class=row>
+    <div class="col col-md-12">
+      <a href="products/create" class="btn btn-primary new">
+        Create a new product
+      </a>
+      <h2>Recent product entries</h2>
+      <p>There are
+        <%= products.query.length %> products.
+          <br/>
+      </p>
+      <% for (var i = products.query.length-1; i >= 0; i--) {   
+        product = products.query[i];   %>
+        <div class="panel panel-default">
+          <div class="panel-heading"></div>
+          <div class="text-muted pull-right"></div>
+          <div class="panel-body">
+            ID:
+<%=  product._id %>
+<br> productKey:
+<%=product.productKey%>
+<br /> description:
+<%=product.description%>
+<br /> unitPrice:
+<%=product.unitPrice%>
+<br /> color:
+<%=product.color%>
+<br /> rating:
+<%=product.rating%>
+<br />
+<br />
+                          <a href="/products/delete/<%= product._id  %>" class="btn btn-danger"> Delete </a>
+                          <a href="/products/details/<%= product._id %>" class="btn btn-info"> Details </a>
+                          <a href="/products/edit/<%= product._id %>" class="btn btn-warning"> Edit </a>
+          </div>
+        </div>
+        <% } %>
+    </div>
+  </div>
+</div>
