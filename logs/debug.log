@@ -4290,3 +4290,194 @@ Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563
 2018-11-20T19:53:35.601Z - debug: 6 products seeded
 2018-11-20T19:53:35.601Z - info: END Seeder. Sample data read and verified.
 >>>>>>> 27637b20d32ed7fb64b2240332870b4ada3c820f
+2018-11-20T21:44:23.645Z - info: Environment variables loaded.
+2018-11-20T21:44:23.659Z - debug: START routing
+2018-11-20T21:44:23.688Z - debug: END routing
+2018-11-20T21:44:23.688Z - info: Loaded routing.
+2018-11-20T21:44:23.726Z - info: START seeder.
+2018-11-20T21:44:23.729Z - debug: 5 customers seeded
+2018-11-20T21:44:23.731Z - debug: 6 products seeded
+2018-11-20T21:44:23.731Z - info: END Seeder. Sample data read and verified.
+2018-11-20T21:44:30.005Z - debug: GET /
+2018-11-20T21:44:30.086Z - debug: GET /CSS/main.css
+2018-11-20T21:44:30.127Z - debug: GET /CSS/favicon-32x32.png
+2018-11-20T21:44:30.209Z - debug: GET /images/favicon-32x32.png
+2018-11-20T21:44:30.210Z - debug: GET /images/manifest.json
+2018-11-20T21:44:30.221Z - debug: GET /images/favicon-16x16.png
+2018-11-20T21:44:30.229Z - debug: GET /images/favicon-96x96.png
+2018-11-20T21:44:30.236Z - debug: GET /images/android-icon-192x192.png
+2018-11-20T21:44:33.277Z - debug: GET /orders
+2018-11-20T21:44:33.352Z - debug: GET /images/manifest.json
+2018-11-20T21:44:35.162Z - debug: GET /images/manifest.json
+2018-11-20T21:44:35.898Z - debug: GET /customers
+2018-11-20T21:44:35.993Z - debug: GET /images/manifest.json
+2018-11-20T21:44:39.571Z - debug: GET /images/manifest.json
+2018-11-20T21:44:42.332Z - debug: GET /orders
+2018-11-20T21:44:42.404Z - debug: GET /images/manifest.json
+2018-11-20T21:44:47.845Z - debug: GET /images/manifest.json
+2018-11-20T21:44:55.970Z - debug: GET /orderLineItems
+2018-11-20T21:44:56.058Z - debug: GET /images/manifest.json
+2018-11-20T21:44:57.345Z - debug: GET /images/manifest.json
+2018-11-20T21:44:58.245Z - debug: GET /customers
+2018-11-20T21:44:58.326Z - debug: GET /images/manifest.json
+2018-11-20T21:45:03.803Z - debug: GET /images/manifest.json
+2018-11-20T21:45:05.721Z - debug: GET /products
+2018-11-20T21:45:05.798Z - debug: GET /images/manifest.json
+2018-11-20T21:45:08.079Z - debug: GET /images/manifest.json
+2018-11-20T21:46:06.225Z - debug: GET /customers
+2018-11-20T21:46:06.388Z - debug: GET /CSS/favicon-32x32.png
+2018-11-20T21:46:06.425Z - debug: GET /images/manifest.json
+2018-11-20T21:46:11.127Z - debug: GET /customers/edit/
+2018-11-20T21:46:11.146Z - debug: GET /customers/edit/CSS/main.css
+2018-11-20T21:46:11.194Z - debug: GET /customers/edit/CSS/main.css
+2018-11-20T21:46:11.230Z - debug: GET /images/manifest.json
+2018-11-20T21:46:12.653Z - debug: GET /images/manifest.json
+2018-11-20T21:46:18.194Z - debug: GET /customers/create
+2018-11-20T21:46:18.195Z - info: Handling GET /create[object Object]
+2018-11-20T21:46:18.198Z - debug: {"firstname":"First Name","lastname":"Last Name","street1":"Street 1","street2":"Street 2","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-11-20T21:46:18.242Z - debug: GET /customers/CSS/main.css
+2018-11-20T21:46:18.279Z - debug: GET /customers/CSS/main.css
+2018-11-20T21:46:18.321Z - debug: GET /images/manifest.json
+2018-11-20T22:59:15.533Z - info: Environment variables loaded.
+2018-11-20T22:59:15.547Z - debug: START routing
+2018-11-20T22:59:15.572Z - debug: END routing
+2018-11-20T22:59:15.572Z - info: Loaded routing.
+2018-11-20T22:59:15.605Z - info: START seeder.
+2018-11-20T22:59:15.608Z - debug: 5 customers seeded
+2018-11-20T22:59:15.609Z - debug: 6 products seeded
+2018-11-20T22:59:15.609Z - info: END Seeder. Sample data read and verified.
+2018-11-20T22:59:21.935Z - debug: GET /
+2018-11-20T22:59:22.058Z - debug: GET /CSS/favicon-32x32.png
+2018-11-20T22:59:22.120Z - debug: GET /images/manifest.json
+2018-11-20T22:59:24.129Z - debug: GET /orders
+2018-11-20T22:59:24.201Z - debug: GET /images/manifest.json
+2018-11-20T22:59:26.869Z - debug: GET /orders
+2018-11-20T22:59:26.935Z - debug: GET /images/manifest.json
+2018-11-20T22:59:28.300Z - debug: GET /images/manifest.json
+2018-11-20T22:59:33.783Z - debug: GET /images/manifest.json
+2018-11-20T22:59:35.921Z - debug: GET /
+2018-11-20T22:59:36.003Z - debug: GET /images/manifest.json
+2018-11-20T22:59:38.510Z - debug: GET /orders
+2018-11-20T22:59:38.580Z - debug: GET /images/manifest.json
+2018-11-20T22:59:39.724Z - debug: GET /images/manifest.json
+2018-11-20T23:04:20.245Z - info: Environment variables loaded.
+2018-11-20T23:04:20.254Z - debug: START routing
+2018-11-20T23:04:20.279Z - debug: END routing
+2018-11-20T23:04:20.279Z - info: Loaded routing.
+2018-11-20T23:04:20.311Z - info: START seeder.
+2018-11-20T23:04:20.314Z - debug: 5 customers seeded
+2018-11-20T23:04:20.316Z - debug: 6 products seeded
+2018-11-20T23:04:20.316Z - info: END Seeder. Sample data read and verified.
+2018-11-20T23:04:33.342Z - debug: GET /
+2018-11-20T23:04:33.444Z - debug: GET /CSS/favicon-32x32.png
+2018-11-20T23:04:33.506Z - debug: GET /images/manifest.json
+2018-11-20T23:04:37.681Z - debug: GET /orders
+2018-11-20T23:04:37.756Z - debug: GET /images/manifest.json
+2018-11-20T23:04:39.143Z - debug: GET /images/manifest.json
+2018-11-20T23:04:40.155Z - debug: GET /customers
+2018-11-20T23:04:40.234Z - debug: GET /images/manifest.json
+2018-11-20T23:04:42.904Z - debug: GET /orders
+2018-11-20T23:04:42.972Z - debug: GET /images/manifest.json
+2018-11-20T23:04:43.648Z - debug: GET /
+2018-11-20T23:04:43.719Z - debug: GET /images/manifest.json
+2018-11-20T23:04:44.164Z - debug: GET /customers
+2018-11-20T23:04:44.243Z - debug: GET /images/manifest.json
+2018-11-20T23:07:13.656Z - info: Environment variables loaded.
+2018-11-20T23:07:13.668Z - debug: START routing
+2018-11-20T23:07:13.695Z - debug: END routing
+2018-11-20T23:07:13.695Z - info: Loaded routing.
+2018-11-20T23:07:13.723Z - info: START seeder.
+2018-11-20T23:07:13.726Z - debug: 5 customers seeded
+2018-11-20T23:07:13.727Z - debug: 6 products seeded
+2018-11-20T23:07:13.727Z - info: END Seeder. Sample data read and verified.
+2018-11-20T23:07:18.766Z - debug: GET /customers
+2018-11-20T23:07:18.836Z - debug: GET /CSS/favicon-32x32.png
+2018-11-20T23:07:18.893Z - debug: GET /images/manifest.json
+2018-11-20T23:07:18.896Z - debug: GET /images/favicon-32x32.png
+2018-11-20T23:07:20.006Z - debug: GET /
+2018-11-20T23:07:20.080Z - debug: GET /images/manifest.json
+2018-11-20T23:07:21.355Z - debug: GET /orders
+2018-11-20T23:07:21.421Z - debug: GET /images/manifest.json
+2018-11-20T23:08:41.639Z - info: Environment variables loaded.
+2018-11-20T23:08:41.648Z - debug: START routing
+2018-11-20T23:08:41.673Z - debug: END routing
+2018-11-20T23:08:41.673Z - info: Loaded routing.
+2018-11-20T23:08:41.704Z - info: START seeder.
+2018-11-20T23:08:41.707Z - debug: 5 customers seeded
+2018-11-20T23:08:41.708Z - debug: 6 products seeded
+2018-11-20T23:08:41.708Z - info: END Seeder. Sample data read and verified.
+2018-11-20T23:08:50.120Z - debug: GET /
+2018-11-20T23:08:50.227Z - debug: GET /CSS/favicon-32x32.png
+2018-11-20T23:08:50.294Z - debug: GET /images/manifest.json
+2018-11-20T23:08:53.010Z - debug: GET /orders
+2018-11-20T23:08:53.084Z - debug: GET /images/manifest.json
+2018-11-20T23:08:54.005Z - debug: GET /
+2018-11-20T23:08:54.068Z - debug: GET /images/manifest.json
+2018-11-20T23:08:55.495Z - debug: GET /customers
+2018-11-20T23:08:55.577Z - debug: GET /images/manifest.json
+2018-11-20T23:08:56.264Z - debug: GET /products
+2018-11-20T23:08:56.329Z - debug: GET /images/manifest.json
+2018-11-20T23:08:56.784Z - debug: GET /products
+2018-11-20T23:08:56.849Z - debug: GET /images/manifest.json
+2018-11-20T23:08:57.324Z - debug: GET /orderLineItem
+2018-11-20T23:08:57.389Z - debug: GET /images/manifest.json
+2018-11-20T23:08:57.816Z - debug: GET /orderLineItem
+2018-11-20T23:08:57.878Z - debug: GET /images/manifest.json
+2018-11-20T23:08:58.376Z - debug: GET /orders
+2018-11-20T23:08:58.442Z - debug: GET /images/manifest.json
+2018-11-20T23:08:58.799Z - debug: GET /products
+2018-11-20T23:08:58.877Z - debug: GET /images/manifest.json
+2018-11-20T23:08:59.199Z - debug: GET /customers
+2018-11-20T23:08:59.291Z - debug: GET /images/manifest.json
+2018-11-20T23:08:59.669Z - debug: GET /products
+2018-11-20T23:08:59.734Z - debug: GET /images/manifest.json
+2018-11-20T23:09:00.209Z - debug: GET /orders
+2018-11-20T23:09:00.325Z - debug: GET /images/manifest.json
+2018-11-20T23:09:01.407Z - debug: GET /customers
+2018-11-20T23:09:01.478Z - debug: GET /images/manifest.json
+2018-11-20T23:40:35.907Z - info: Environment variables loaded.
+2018-11-20T23:40:35.916Z - debug: START routing
+2018-11-20T23:40:35.943Z - debug: END routing
+2018-11-20T23:40:35.944Z - info: Loaded routing.
+2018-11-20T23:40:35.975Z - info: START seeder.
+2018-11-20T23:40:35.978Z - debug: 5 customers seeded
+2018-11-20T23:40:35.979Z - debug: 6 products seeded
+2018-11-20T23:40:35.979Z - info: END Seeder. Sample data read and verified.
+2018-11-20T23:40:40.498Z - debug: GET /
+2018-11-20T23:40:40.604Z - debug: GET /CSS/favicon-32x32.png
+2018-11-20T23:40:40.664Z - debug: GET /images/manifest.json
+2018-11-20T23:40:42.759Z - debug: GET /orders
+2018-11-20T23:40:42.829Z - debug: GET /images/manifest.json
+2018-11-20T23:40:50.793Z - debug: GET /
+2018-11-20T23:40:50.872Z - debug: GET /images/manifest.json
+2018-11-20T23:40:56.664Z - debug: GET /customers
+2018-11-20T23:40:56.748Z - debug: GET /images/manifest.json
+2018-11-20T23:41:04.467Z - debug: GET /
+2018-11-20T23:41:04.543Z - debug: GET /images/manifest.json
+2018-11-21T00:20:24.455Z - info: Environment variables loaded.
+2018-11-21T00:20:24.464Z - debug: START routing
+2018-11-21T00:20:24.488Z - debug: END routing
+2018-11-21T00:20:24.489Z - info: Loaded routing.
+2018-11-21T00:20:24.517Z - info: START seeder.
+2018-11-21T00:20:24.521Z - debug: 5 customers seeded
+2018-11-21T00:20:24.522Z - debug: 6 products seeded
+2018-11-21T00:20:24.522Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:20:33.487Z - debug: GET /
+2018-11-21T00:20:33.622Z - debug: GET /CSS/favicon-32x32.png
+2018-11-21T00:20:33.706Z - debug: GET /images/manifest.json
+2018-11-21T00:20:35.427Z - debug: GET /order
+2018-11-21T00:22:21.383Z - info: Environment variables loaded.
+2018-11-21T00:22:21.394Z - debug: START routing
+2018-11-21T00:22:21.419Z - debug: END routing
+2018-11-21T00:22:21.419Z - info: Loaded routing.
+2018-11-21T00:22:21.449Z - info: START seeder.
+2018-11-21T00:22:21.452Z - debug: 5 customers seeded
+2018-11-21T00:22:21.453Z - debug: 6 products seeded
+2018-11-21T00:22:21.453Z - info: END Seeder. Sample data read and verified.
+2018-11-21T00:22:35.134Z - debug: GET /
+2018-11-21T00:22:35.229Z - debug: GET /CSS/favicon-32x32.png
+2018-11-21T00:22:35.291Z - debug: GET /images/favicon-32x32.png
+2018-11-21T00:22:35.293Z - debug: GET /images/manifest.json
+2018-11-21T00:22:37.473Z - debug: GET /customers
+2018-11-21T00:22:37.551Z - debug: GET /images/manifest.json
+2018-11-21T00:22:43.697Z - debug: GET /order
