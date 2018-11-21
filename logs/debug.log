@@ -4857,3 +4857,33 @@ Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563
 2018-11-20T19:53:35.601Z - info: END Seeder. Sample data read and verified.
 >>>>>>> 27637b20d32ed7fb64b2240332870b4ada3c820f
 >>>>>>> a0f299722cb5042c8647b890b90434beb2b568f9
+2018-11-21T00:12:29.682Z - info: Environment variables loaded.
+2018-11-21T00:12:29.724Z - error: uncaughtException: Unexpected token << date=Tue Nov 20 2018 18:12:29 GMT-0600 (Central Standard Time), pid=45436, uid=null, gid=null, cwd=C:\Users\S533909\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533909\44563\ecommerce\app.js], rss=71372800, heapTotal=60805120, heapUsed=40265000, external=19919707, loadavg=[0, 0, 0], uptime=105692.2226305
+C:\Users\S533909\44563\ecommerce\controllers\customer.js:76
+<<<<<<< HEAD
+  ^^
+
+SyntaxError: Unexpected token <<
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533909\44563\ecommerce\routes\index.js:48:26)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533909\44563\ecommerce\app.js:79:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+2018-11-21T00:12:29.694Z - debug: START routing
