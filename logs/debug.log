@@ -2629,6 +2629,20 @@ Error: listen EACCES C:\Users\S533622\Documents\44563\ecommerce\views
 2018-11-20T00:03:20.801Z - info: END Seeder. Sample data read and verified.
 2018-11-20T00:03:28.739Z - debug: GET /
 2018-11-20T00:03:29.211Z - debug: GET /CSS/shirts.jpg
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+2018-11-20T05:36:45.696Z - info: Environment variables loaded.
+2018-11-20T05:36:45.757Z - info: START seeder.
+2018-11-20T05:36:45.760Z - debug: 6 products seeded
+2018-11-20T05:36:45.763Z - debug: 5 customers seeded
+2018-11-20T05:36:45.763Z - info: END Seeder. Sample data read and verified.
+2018-11-20T05:37:08.493Z - debug: GET /
+2018-11-20T05:37:08.580Z - debug: GET /CSS/main.css
+2018-11-20T05:37:08.718Z - debug: GET /CSS/shirts.jpg
+2018-11-20T05:37:08.780Z - debug: GET /favicon.ico
+=======
+>>>>>>> a0f299722cb5042c8647b890b90434beb2b568f9
 2018-11-20T00:12:52.880Z - info: Environment variables loaded.
 2018-11-20T00:12:52.913Z - info: START seeder.
 2018-11-20T00:12:52.916Z - debug: 6 products seeded
@@ -3698,6 +3712,7 @@ Error: listen EACCES C:\Users\S533622\Documents\44563\ecommerce\views
 2018-11-20T16:55:11.766Z - debug: GET /orders
 2018-11-20T16:55:13.016Z - debug: GET /orderLineItem
 2018-11-20T16:55:14.410Z - debug: GET /customers
+<<<<<<< HEAD
 2018-11-20T21:34:28.054Z - info: Environment variables loaded.
 2018-11-20T21:34:28.064Z - debug: START routing
 2018-11-20T21:34:28.095Z - debug: END routing
@@ -3736,19 +3751,197 @@ Error: Cannot find module '../models/products.js'
     at Module.require (module.js:597:17)
     at require (internal/module.js:11:18)
     at Object.<anonymous> (C:\Users\S533909\44563\ecommerce\controllers\product.js:7:15)
+=======
+2018-11-20T19:01:06.805Z - info: Environment variables loaded.
+2018-11-20T19:01:06.819Z - debug: START routing
+2018-11-20T19:01:06.844Z - debug: END routing
+2018-11-20T19:01:06.844Z - info: Loaded routing.
+2018-11-20T19:01:06.870Z - info: START seeder.
+2018-11-20T19:01:06.873Z - debug: 5 customers seeded
+2018-11-20T19:01:06.874Z - debug: 6 products seeded
+2018-11-20T19:01:06.874Z - info: END Seeder. Sample data read and verified.
+2018-11-20T19:02:07.069Z - debug: GET /
+2018-11-20T19:02:08.002Z - debug: GET /CSS/shirts.jpg
+2018-11-20T19:02:10.736Z - debug: GET /customers
+2018-11-20T19:02:14.858Z - debug: GET /customers/create
+2018-11-20T19:02:14.860Z - info: Handling GET /create[object Object]
+2018-11-20T19:02:14.863Z - debug: {"firstname":"First Name","lastname":"Last Name","street1":"Street 1","street2":"Street 2","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-11-20T19:02:14.903Z - debug: GET /customers/CSS/main.css
+2018-11-20T19:02:14.991Z - debug: GET /customers/CSS/main.css
+2018-11-20T19:02:26.139Z - debug: GET /customers/delete/
+2018-11-20T19:02:26.168Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T19:02:26.282Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T19:02:38.195Z - debug: GET /customers/details/
+2018-11-20T19:02:38.565Z - debug: GET /customers/details/CSS/main.css
+2018-11-20T19:02:38.598Z - debug: GET /customers/details/CSS/main.css
+2018-11-20T19:02:38.694Z - debug: GET /CSS/shirts.jpg
+2018-11-20T19:15:27.711Z - info: Environment variables loaded.
+2018-11-20T19:15:27.718Z - debug: START routing
+2018-11-20T19:15:27.739Z - debug: END routing
+2018-11-20T19:15:27.739Z - info: Loaded routing.
+2018-11-20T19:15:27.770Z - info: START seeder.
+2018-11-20T19:15:27.773Z - debug: 5 customers seeded
+2018-11-20T19:15:27.774Z - debug: 6 products seeded
+2018-11-20T19:15:27.774Z - info: END Seeder. Sample data read and verified.
+2018-11-20T19:15:38.756Z - info: Environment variables loaded.
+2018-11-20T19:15:38.763Z - debug: START routing
+2018-11-20T19:15:38.783Z - debug: END routing
+2018-11-20T19:15:38.783Z - info: Loaded routing.
+2018-11-20T19:15:38.810Z - info: START seeder.
+2018-11-20T19:15:38.813Z - debug: 5 customers seeded
+2018-11-20T19:15:38.814Z - debug: 6 products seeded
+2018-11-20T19:15:38.814Z - info: END Seeder. Sample data read and verified.
+2018-11-20T19:15:42.720Z - info: Environment variables loaded.
+2018-11-20T19:15:42.728Z - debug: START routing
+2018-11-20T19:15:42.752Z - debug: END routing
+2018-11-20T19:15:42.752Z - info: Loaded routing.
+2018-11-20T19:15:42.779Z - info: START seeder.
+2018-11-20T19:15:42.782Z - debug: 5 customers seeded
+2018-11-20T19:15:42.783Z - debug: 6 products seeded
+2018-11-20T19:15:42.783Z - info: END Seeder. Sample data read and verified.
+2018-11-20T19:15:45.814Z - info: Environment variables loaded.
+2018-11-20T19:15:45.823Z - debug: START routing
+2018-11-20T19:15:45.845Z - debug: END routing
+2018-11-20T19:15:45.845Z - info: Loaded routing.
+2018-11-20T19:15:45.876Z - info: START seeder.
+2018-11-20T19:15:45.879Z - debug: 5 customers seeded
+2018-11-20T19:15:45.880Z - debug: 6 products seeded
+2018-11-20T19:15:45.881Z - info: END Seeder. Sample data read and verified.
+2018-11-20T19:16:17.144Z - info: Environment variables loaded.
+2018-11-20T19:16:17.151Z - debug: START routing
+2018-11-20T19:16:17.178Z - debug: END routing
+2018-11-20T19:16:17.178Z - info: Loaded routing.
+2018-11-20T19:16:17.210Z - info: START seeder.
+2018-11-20T19:16:17.216Z - debug: 5 customers seeded
+2018-11-20T19:16:17.218Z - debug: 6 products seeded
+2018-11-20T19:16:17.218Z - info: END Seeder. Sample data read and verified.
+2018-11-20T19:16:24.664Z - info: Environment variables loaded.
+2018-11-20T19:16:24.673Z - debug: START routing
+2018-11-20T19:16:24.708Z - debug: END routing
+2018-11-20T19:16:24.708Z - info: Loaded routing.
+2018-11-20T19:16:24.745Z - info: START seeder.
+2018-11-20T19:16:24.749Z - debug: 5 customers seeded
+2018-11-20T19:16:24.751Z - debug: 6 products seeded
+2018-11-20T19:16:24.751Z - info: END Seeder. Sample data read and verified.
+2018-11-20T19:16:31.619Z - debug: GET /customers/details/
+2018-11-20T19:16:31.653Z - debug: GET /customers/details/CSS/main.css
+2018-11-20T19:16:31.913Z - debug: GET /CSS/shirts.jpg
+2018-11-20T19:16:31.921Z - debug: GET /customers/details/CSS/main.css
+2018-11-20T19:16:34.127Z - debug: GET /customers
+2018-11-20T19:16:34.251Z - debug: GET /CSS/shirts.jpg
+2018-11-20T19:16:36.265Z - debug: GET /customers/delete/
+2018-11-20T19:16:36.292Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T19:16:36.384Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T19:19:00.295Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:19:00 GMT-0600 (Central Standard Time), pid=21428, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=71544832, heapTotal=60731392, heapUsed=40339712, external=19792538, loadavg=[0, 0, 0], uptime=95092.7838188
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+>>>>>>> a0f299722cb5042c8647b890b90434beb2b568f9
     at Module._compile (module.js:653:30)
     at Object.Module._extensions..js (module.js:664:10)
     at Module.load (module.js:566:32)
     at tryModuleLoad (module.js:506:12)
     at Function.Module._load (module.js:498:3)
+<<<<<<< HEAD
     at Module.require (module.js:597:17)
     at require (internal/module.js:11:18)
     at Object.<anonymous> (C:\Users\S533909\44563\ecommerce\routes\index.js:52:25)
+=======
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:19:00.272Z - info: Environment variables loaded.
+2018-11-20T19:20:57.437Z - info: Environment variables loaded.
+2018-11-20T19:20:57.462Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:20:57 GMT-0600 (Central Standard Time), pid=14224, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72630272, heapTotal=62828544, heapUsed=31825128, external=18479347, loadavg=[0, 0, 0], uptime=95209.9516965
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
     at Module._compile (module.js:653:30)
     at Object.Module._extensions..js (module.js:664:10)
     at Module.load (module.js:566:32)
     at tryModuleLoad (module.js:506:12)
     at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:25:23.608Z - info: Environment variables loaded.
+2018-11-20T19:25:23.632Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:25:23 GMT-0600 (Central Standard Time), pid=41996, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72802304, heapTotal=62828544, heapUsed=30058928, external=18296516, loadavg=[0, 0, 0], uptime=95476.1195761
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:25:29.619Z - info: Environment variables loaded.
+2018-11-20T19:25:29.640Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:25:29 GMT-0600 (Central Standard Time), pid=57588, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72708096, heapTotal=62828544, heapUsed=31828160, external=18479347, loadavg=[0, 0, 0], uptime=95482.1295197
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:25:45.799Z - info: Environment variables loaded.
+2018-11-20T19:25:45.824Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:25:45 GMT-0600 (Central Standard Time), pid=60180, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=70103040, heapTotal=60731392, heapUsed=39382416, external=19674136, loadavg=[0, 0, 0], uptime=95498.3115732
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:26:35.328Z - info: Environment variables loaded.
+2018-11-20T19:26:35.352Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:26:35 GMT-0600 (Central Standard Time), pid=8544, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72425472, heapTotal=62828544, heapUsed=31826528, external=18479347, loadavg=[0, 0, 0], uptime=95547.8404944
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:26:36.735Z - info: Environment variables loaded.
+2018-11-20T19:26:36.761Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:26:36 GMT-0600 (Central Standard Time), pid=44520, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72556544, heapTotal=62828544, heapUsed=31818080, external=18479347, loadavg=[0, 0, 0], uptime=95549.2484349
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+>>>>>>> a0f299722cb5042c8647b890b90434beb2b568f9
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+<<<<<<< HEAD
     at Module.require (module.js:597:17)
     at require (internal/module.js:11:18)
     at Object.<anonymous> (C:\Users\S533909\44563\ecommerce\app.js:79:16)
@@ -3849,14 +4042,16 @@ Error: Cannot find module '../controllers/product.js'
     at Module.require (module.js:597:17)
     at require (internal/module.js:11:18)
     at Object.<anonymous> (C:\Users\S533909\44563\ecommerce\routes\index.js:52:25)
-    at Module._compile (module.js:653:30)
-    at Object.Module._extensions..js (module.js:664:10)
-    at Module.load (module.js:566:32)
-    at tryModuleLoad (module.js:506:12)
-    at Function.Module._load (module.js:498:3)
-    at Module.require (module.js:597:17)
-    at require (internal/module.js:11:18)
-    at Object.<anonymous> (C:\Users\S533909\44563\ecommerce\app.js:79:16)
+=======
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:26:38.636Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:26:38 GMT-0600 (Central Standard Time), pid=53372, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72376320, heapTotal=62828544, heapUsed=31814792, external=18479347, loadavg=[0, 0, 0], uptime=95551.1208062
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
     at Module._compile (module.js:653:30)
     at Object.Module._extensions..js (module.js:664:10)
     at Module.load (module.js:566:32)
@@ -3865,6 +4060,45 @@ Error: Cannot find module '../controllers/product.js'
     at Function.Module.runMain (module.js:694:10)
     at startup (bootstrap_node.js:204:16)
     at bootstrap_node.js:625:3
+2018-11-20T19:26:38.605Z - info: Environment variables loaded.
+2018-11-20T19:26:40.138Z - info: Environment variables loaded.
+2018-11-20T19:26:40.160Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:26:40 GMT-0600 (Central Standard Time), pid=10820, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72769536, heapTotal=62828544, heapUsed=30925144, external=18406366, loadavg=[0, 0, 0], uptime=95552.6487181
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+>>>>>>> a0f299722cb5042c8647b890b90434beb2b568f9
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+<<<<<<< HEAD
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\S533909\44563\ecommerce\app.js:79:16)
+=======
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:26:43.498Z - info: Environment variables loaded.
+2018-11-20T19:26:43.520Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:26:43 GMT-0600 (Central Standard Time), pid=42208, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72822784, heapTotal=62828544, heapUsed=30433976, external=18389982, loadavg=[0, 0, 0], uptime=95556.0088052
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+>>>>>>> a0f299722cb5042c8647b890b90434beb2b568f9
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+<<<<<<< HEAD
 2018-11-20T22:13:46.423Z - debug: START routing
 2018-11-20T22:15:13.076Z - error: uncaughtException: Cannot find module '../controllers/product.js' date=Tue Nov 20 2018 16:15:13 GMT-0600 (Central Standard Time), pid=35032, uid=null, gid=null, cwd=C:\Users\S533909\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533909\44563\ecommerce\app.js], rss=71356416, heapTotal=61329408, heapUsed=40479920, external=19856899, loadavg=[0, 0, 0], uptime=98655.5624289
 Error: Cannot find module '../controllers/product.js'
@@ -3873,14 +4107,35 @@ Error: Cannot find module '../controllers/product.js'
     at Module.require (module.js:597:17)
     at require (internal/module.js:11:18)
     at Object.<anonymous> (C:\Users\S533909\44563\ecommerce\routes\index.js:52:25)
+=======
+2018-11-20T19:26:45.324Z - info: Environment variables loaded.
+2018-11-20T19:26:45.365Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:26:45 GMT-0600 (Central Standard Time), pid=17796, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72658944, heapTotal=63352832, heapUsed=30893168, external=18406366, loadavg=[0, 0, 0], uptime=95557.8484134
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+>>>>>>> a0f299722cb5042c8647b890b90434beb2b568f9
     at Module._compile (module.js:653:30)
     at Object.Module._extensions..js (module.js:664:10)
     at Module.load (module.js:566:32)
     at tryModuleLoad (module.js:506:12)
     at Function.Module._load (module.js:498:3)
+<<<<<<< HEAD
     at Module.require (module.js:597:17)
     at require (internal/module.js:11:18)
     at Object.<anonymous> (C:\Users\S533909\44563\ecommerce\app.js:79:16)
+=======
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:26:46.886Z - info: Environment variables loaded.
+2018-11-20T19:26:46.907Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:26:46 GMT-0600 (Central Standard Time), pid=3684, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72646656, heapTotal=63352832, heapUsed=31317080, external=18442892, loadavg=[0, 0, 0], uptime=95559.3962714
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
     at Module._compile (module.js:653:30)
     at Object.Module._extensions..js (module.js:664:10)
     at Module.load (module.js:566:32)
@@ -3889,6 +4144,219 @@ Error: Cannot find module '../controllers/product.js'
     at Function.Module.runMain (module.js:694:10)
     at startup (bootstrap_node.js:204:16)
     at bootstrap_node.js:625:3
+2018-11-20T19:26:51.916Z - info: Environment variables loaded.
+2018-11-20T19:26:51.938Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:26:51 GMT-0600 (Central Standard Time), pid=63056, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72380416, heapTotal=62304256, heapUsed=31846544, external=18479347, loadavg=[0, 0, 0], uptime=95564.4275645
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:26:57.803Z - info: Environment variables loaded.
+2018-11-20T19:26:57.823Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:26:57 GMT-0600 (Central Standard Time), pid=5204, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72433664, heapTotal=62828544, heapUsed=31855328, external=18479347, loadavg=[0, 0, 0], uptime=95570.3132735
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:27:00.851Z - info: Environment variables loaded.
+2018-11-20T19:27:00.877Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:27:00 GMT-0600 (Central Standard Time), pid=60776, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72646656, heapTotal=62828544, heapUsed=31805544, external=18479347, loadavg=[0, 0, 0], uptime=95573.3629212
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:27:08.267Z - info: Environment variables loaded.
+2018-11-20T19:27:08.293Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:27:08 GMT-0600 (Central Standard Time), pid=9264, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72740864, heapTotal=62304256, heapUsed=32577648, external=18492313, loadavg=[0, 0, 0], uptime=95580.7781037
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:27:09.997Z - info: Environment variables loaded.
+2018-11-20T19:27:10.026Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:27:09 GMT-0600 (Central Standard Time), pid=35072, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72892416, heapTotal=62828544, heapUsed=31349656, external=18442892, loadavg=[0, 0, 0], uptime=95582.5078495
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:27:11.433Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:27:11 GMT-0600 (Central Standard Time), pid=3312, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72736768, heapTotal=62828544, heapUsed=30962232, external=18406366, loadavg=[0, 0, 0], uptime=95583.9196637
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:27:11.410Z - info: Environment variables loaded.
+2018-11-20T19:27:13.356Z - info: Environment variables loaded.
+2018-11-20T19:27:13.377Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:27:13 GMT-0600 (Central Standard Time), pid=16784, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72880128, heapTotal=62828544, heapUsed=32581264, external=18492313, loadavg=[0, 0, 0], uptime=95585.8665418
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:27:14.881Z - info: Environment variables loaded.
+2018-11-20T19:27:14.906Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:27:14 GMT-0600 (Central Standard Time), pid=8084, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72646656, heapTotal=62828544, heapUsed=31832616, external=18479347, loadavg=[0, 0, 0], uptime=95587.3935853
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:27:19.153Z - info: Environment variables loaded.
+2018-11-20T19:27:19.182Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:27:19 GMT-0600 (Central Standard Time), pid=20900, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72740864, heapTotal=62304256, heapUsed=30914728, external=18406366, loadavg=[0, 0, 0], uptime=95591.6676145
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:27:20.889Z - info: Environment variables loaded.
+2018-11-20T19:27:20.914Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:27:20 GMT-0600 (Central Standard Time), pid=11468, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72826880, heapTotal=62828544, heapUsed=31933224, external=18479347, loadavg=[0, 0, 0], uptime=95593.4000869
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:29:31.775Z - info: Environment variables loaded.
+2018-11-20T19:29:31.796Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:29:31 GMT-0600 (Central Standard Time), pid=14556, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72491008, heapTotal=63352832, heapUsed=31830936, external=18479347, loadavg=[0, 0, 0], uptime=95724.284913
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:30:27.909Z - info: Environment variables loaded.
+2018-11-20T19:30:27.936Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:30:27 GMT-0600 (Central Standard Time), pid=59632, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=73003008, heapTotal=62304256, heapUsed=30509496, external=18389982, loadavg=[0, 0, 0], uptime=95780.4233851
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-20T19:31:05.469Z - info: Environment variables loaded.
+2018-11-20T19:31:05.476Z - debug: START routing
+2018-11-20T19:31:05.500Z - debug: END routing
+2018-11-20T19:31:05.500Z - info: Loaded routing.
+2018-11-20T19:31:05.531Z - info: START seeder.
+2018-11-20T19:31:05.535Z - debug: 5 customers seeded
+2018-11-20T19:31:05.538Z - debug: 6 products seeded
+2018-11-20T19:31:05.538Z - info: END Seeder. Sample data read and verified.
+2018-11-20T19:31:13.046Z - info: Environment variables loaded.
+2018-11-20T19:31:13.053Z - debug: START routing
+2018-11-20T19:31:13.073Z - debug: END routing
+2018-11-20T19:31:13.073Z - info: Loaded routing.
+2018-11-20T19:31:13.106Z - info: START seeder.
+2018-11-20T19:31:13.110Z - debug: 5 customers seeded
+2018-11-20T19:31:13.111Z - debug: 6 products seeded
+2018-11-20T19:31:13.111Z - info: END Seeder. Sample data read and verified.
+2018-11-20T19:31:46.096Z - info: Environment variables loaded.
+2018-11-20T19:31:46.118Z - error: uncaughtException: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico' date=Tue Nov 20 2018 13:31:46 GMT-0600 (Central Standard Time), pid=26112, uid=null, gid=null, cwd=C:\Users\S533622\Documents\44563\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533622\Documents\44563\ecommerce\app.js], rss=72622080, heapTotal=62828544, heapUsed=30843656, external=18406366, loadavg=[0, 0, 0], uptime=95858.6059809
+Error: ENOENT: no such file or directory, stat 'C:\Users\S533622\Documents\44563\ecommerce\public\images\favicon.ico'
+    at Object.fs.statSync (fs.js:948:11)
+    at resolveSync (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:187:17)
+    at favicon (C:\Users\S533622\Documents\44563\ecommerce\node_modules\serve-favicon\index.js:61:12)
+    at Object.<anonymous> (C:\Users\S533622\Documents\44563\ecommerce\app.js:45:9)
+>>>>>>> a0f299722cb5042c8647b890b90434beb2b568f9
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+<<<<<<< HEAD
 2018-11-20T22:15:12.961Z - info: Environment variables loaded.
 2018-11-20T22:15:12.975Z - debug: START routing
 2018-11-20T22:15:54.905Z - info: Environment variables loaded.
@@ -4277,3 +4745,115 @@ Error: Cannot find module '../controllers/product.js'
 2018-11-20T23:48:22.100Z - debug: GET /products/delete/CSS/main.css
 2018-11-20T23:48:22.168Z - debug: GET /products/delete/CSS/main.css
 2018-11-20T23:48:22.199Z - debug: GET /CSS/shirts.jpg
+=======
+2018-11-20T19:33:30.111Z - info: Environment variables loaded.
+2018-11-20T19:33:30.119Z - debug: START routing
+2018-11-20T19:33:30.139Z - debug: END routing
+2018-11-20T19:33:30.139Z - info: Loaded routing.
+2018-11-20T19:33:30.168Z - info: START seeder.
+2018-11-20T19:33:30.170Z - debug: 5 customers seeded
+2018-11-20T19:33:30.173Z - debug: 6 products seeded
+2018-11-20T19:33:30.174Z - info: END Seeder. Sample data read and verified.
+2018-11-20T19:33:39.815Z - debug: GET /customers
+2018-11-20T19:33:40.151Z - debug: GET /CSS/shirts.jpg
+2018-11-20T19:33:40.260Z - debug: GET /images/manifest.json
+2018-11-20T19:33:55.723Z - debug: GET /customers
+2018-11-20T19:33:56.161Z - debug: GET /images/manifest.json
+2018-11-20T19:33:57.879Z - debug: GET /
+2018-11-20T19:33:58.048Z - debug: GET /images/manifest.json
+2018-11-20T19:33:59.012Z - debug: GET /customers
+2018-11-20T19:33:59.164Z - debug: GET /images/manifest.json
+2018-11-20T19:34:02.062Z - debug: GET /customers/delete/
+2018-11-20T19:34:02.081Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T19:34:02.183Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T19:34:02.218Z - debug: GET /images/manifest.json
+2018-11-20T19:34:05.885Z - debug: GET /customers
+2018-11-20T19:34:06.057Z - debug: GET /images/manifest.json
+2018-11-20T19:34:12.196Z - debug: GET /customers/edit/
+2018-11-20T19:34:12.222Z - debug: GET /customers/edit/CSS/main.css
+2018-11-20T19:34:12.320Z - debug: GET /customers/edit/CSS/main.css
+2018-11-20T19:34:12.364Z - debug: GET /images/manifest.json
+2018-11-20T19:34:15.145Z - debug: GET /images/manifest.json
+2018-11-20T19:34:21.625Z - debug: GET /products
+2018-11-20T19:34:21.779Z - debug: GET /images/manifest.json
+2018-11-20T19:34:23.003Z - debug: GET /customers
+2018-11-20T19:34:23.146Z - debug: GET /images/manifest.json
+2018-11-20T19:34:28.909Z - debug: GET /orders
+2018-11-20T19:34:29.073Z - debug: GET /images/manifest.json
+2018-11-20T19:34:30.742Z - debug: GET /orderLineItem
+2018-11-20T19:34:30.884Z - debug: GET /images/manifest.json
+2018-11-20T19:34:32.463Z - debug: GET /customers
+2018-11-20T19:34:32.606Z - debug: GET /images/manifest.json
+2018-11-20T19:34:45.077Z - debug: GET /customers/edit/
+2018-11-20T19:34:45.138Z - debug: GET /customers/edit/CSS/main.css
+2018-11-20T19:34:45.505Z - debug: GET /CSS/shirts.jpg
+2018-11-20T19:34:45.513Z - debug: GET /customers/edit/CSS/main.css
+2018-11-20T19:34:45.660Z - debug: GET /images/manifest.json
+2018-11-20T19:36:59.799Z - debug: GET /customers/create
+2018-11-20T19:36:59.800Z - info: Handling GET /create[object Object]
+2018-11-20T19:36:59.803Z - debug: {"firstname":"First Name","lastname":"Last Name","street1":"Street 1","street2":"Street 2","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-11-20T19:36:59.849Z - debug: GET /customers/CSS/main.css
+2018-11-20T19:37:00.317Z - debug: GET /CSS/shirts.jpg
+2018-11-20T19:37:00.351Z - debug: GET /customers/CSS/main.css
+2018-11-20T19:37:00.510Z - debug: GET /images/manifest.json
+2018-11-20T19:40:38.079Z - debug: GET /customers/create
+2018-11-20T19:40:38.079Z - info: Handling GET /create[object Object]
+2018-11-20T19:40:38.080Z - debug: {"firstname":"First Name","lastname":"Last Name","street1":"Street 1","street2":"Street 2","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-11-20T19:40:38.130Z - debug: GET /customers/CSS/main.css
+2018-11-20T19:40:38.470Z - debug: GET /CSS/shirts.jpg
+2018-11-20T19:40:38.487Z - debug: GET /customers/CSS/main.css
+2018-11-20T19:40:38.669Z - debug: GET /images/manifest.json
+2018-11-20T19:41:06.680Z - debug: GET /customers
+2018-11-20T19:41:07.071Z - debug: GET /CSS/shirts.jpg
+2018-11-20T19:41:07.235Z - debug: GET /images/manifest.json
+2018-11-20T19:41:08.966Z - debug: GET /customers/delete/
+2018-11-20T19:41:08.993Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T19:41:09.405Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T19:41:09.521Z - debug: GET /images/manifest.json
+2018-11-20T19:41:22.561Z - debug: GET /customers/delete/
+2018-11-20T19:41:22.598Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T19:41:22.924Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T19:41:23.078Z - debug: GET /images/manifest.json
+2018-11-20T19:41:26.335Z - debug: GET /customers/delete/
+2018-11-20T19:41:26.370Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T19:41:26.718Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T19:41:26.863Z - debug: GET /images/manifest.json
+2018-11-20T19:41:26.893Z - debug: GET /images/favicon-32x32.png
+2018-11-20T19:41:26.904Z - debug: GET /images/favicon-16x16.png
+2018-11-20T19:41:26.916Z - debug: GET /images/favicon-96x96.png
+2018-11-20T19:41:26.927Z - debug: GET /images/android-icon-192x192.png
+2018-11-20T19:41:32.329Z - debug: GET /customers
+2018-11-20T19:41:32.807Z - debug: GET /images/manifest.json
+2018-11-20T19:42:48.226Z - debug: GET /customers
+2018-11-20T19:42:48.733Z - debug: GET /images/manifest.json
+2018-11-20T19:42:49.793Z - debug: GET /products
+2018-11-20T19:42:50.331Z - debug: GET /images/manifest.json
+2018-11-20T19:42:51.211Z - debug: GET /orders
+2018-11-20T19:42:51.691Z - debug: GET /images/manifest.json
+2018-11-20T19:42:52.487Z - debug: GET /orderLineItem
+2018-11-20T19:42:52.948Z - debug: GET /images/manifest.json
+2018-11-20T19:43:30.409Z - debug: GET /
+2018-11-20T19:43:30.787Z - debug: GET /images/manifest.json
+2018-11-20T19:43:47.853Z - debug: GET /customers
+2018-11-20T19:43:48.411Z - debug: GET /CSS/shirts.jpg
+2018-11-20T19:43:48.465Z - debug: GET /images/manifest.json
+2018-11-20T19:44:02.258Z - debug: GET /customers/delete/
+2018-11-20T19:44:02.622Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T19:44:02.654Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T19:44:02.753Z - debug: GET /CSS/shirts.jpg
+2018-11-20T19:44:02.787Z - debug: GET /images/manifest.json
+2018-11-20T19:44:17.712Z - debug: GET /customers/delete/1
+2018-11-20T19:44:18.688Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T19:44:18.775Z - debug: GET /CSS/shirts.jpg
+2018-11-20T19:44:18.785Z - debug: GET /customers/delete/CSS/main.css
+2018-11-20T19:44:18.821Z - debug: GET /images/manifest.json
+2018-11-20T19:53:35.533Z - info: Environment variables loaded.
+2018-11-20T19:53:35.543Z - debug: START routing
+2018-11-20T19:53:35.568Z - debug: END routing
+2018-11-20T19:53:35.568Z - info: Loaded routing.
+2018-11-20T19:53:35.596Z - info: START seeder.
+2018-11-20T19:53:35.599Z - debug: 5 customers seeded
+2018-11-20T19:53:35.601Z - debug: 6 products seeded
+2018-11-20T19:53:35.601Z - info: END Seeder. Sample data read and verified.
+>>>>>>> 27637b20d32ed7fb64b2240332870b4ada3c820f
+>>>>>>> a0f299722cb5042c8647b890b90434beb2b568f9

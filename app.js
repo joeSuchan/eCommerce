@@ -42,7 +42,7 @@ app.set('view engine', 'ejs')
 app.engine('ejs', engines.ejs)
 
 // configure middleware.....................................................
-//app.use(favicon(path.join(__dirname, '/public/images/favicon.ico')))
+app.use(favicon(path.join(__dirname, '/public/images/favicon.ico')))
 app.use(expressStatusMonitor())
 
 // log calls
