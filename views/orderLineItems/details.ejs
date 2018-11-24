@@ -1,0 +1,23 @@
+<% include header %>
+
+<br/>
+<br/>
+<h2>orderLineItem details</h2>
+<br/>
+br/> ID:
+<%=  orderLineItems._id %>
+  <br> orderID:
+  <%=orderLineItems.orderID%>
+    <br/> productQuantity:
+    <%=orderLineItems.productQuantity%>
+      <br/> productID:
+      <%=orderLineItems.productID%>
+      <br/>productPrice:
+      <%=orderLineItems.productPrice%>
+        <br/>
+            <br/>
+            <br/>
+            <form method="get" action="/orderLineItems">
+              <input type="submit" value="Return to list" class="btn btn-caution" />
+            </form>
+
