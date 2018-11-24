@@ -66,30 +66,30 @@ api.get("/delete", (req,res) => {
         orderLineItem: item
       })
 })
-//get /read
-api.get("/read", (req,res) => {
+//get /details
+api.get("/details", (req,res) => {
     LOG.info(`Handling GET /details/:id ${req}`)
     const id = parseInt(req.params.id, 10) // base 10
     const data = req.app.locals.orderLineItems.query
     const item = find(data, { _id: id })
     if (!item) { return res.end(notfoundstring) }
     LOG.info(`RETURNING VIEW FOR ${JSON.stringify(item)}`)
-    return res.render('orderLineItems/read.ejs',
+    return res.render('orderLineItems/details.ejs',
       {
         title: 'orderLineItem Read',
         layout: 'layout.ejs',
         orderLineItem: item
       })
 })
-//get one and update??
-api.get("/update", (req,res) => {
+//get one 
+api.get("/edit", (req,res) => {
     LOG.info(`Handling GET /edit/:id ${req}`)
     const id = parseInt(req.params.id, 10) // base 10
     const data = req.app.locals.orderLineItems.query
     const item = find(data, { _id: id })
     if (!item) { return res.end(notfoundstring) }
     LOG.info(`RETURNING VIEW FOR${JSON.stringify(item)}`)
-    return res.render('orderLineItems/update.ejs',
+    return res.render('orderLineItems/edit.ejs',
       {
         title: 'orderLineItem',
         layout: 'layout.ejs',
@@ -105,8 +105,8 @@ api.post('/save', (req, res) => {
     LOG.debug(JSON.stringify(req.body))
     const data = req.app.locals.orderLineItems.query
     const item = new Model()
-    LOG.info(`NEW ID ${req.body.orderLineID}`)
-    item.orderLineID = parseInt(req.body.orderLineID, 10) // base 10
+    LOG.info(`NEW ID ${req.body._id}`)
+    item._id = parseInt(req.body._id, 10) // base 10
     item.orderID = req.body.orderID
     item.productQuantity = parseInt(req.body.productQuantity, 10)
     item.productID = req.body.productID
@@ -123,7 +123,7 @@ api.post('/save', (req, res) => {
     const id = parseInt(req.params.id, 10) // base 10
     LOG.info(`Handling SAVING ID=${id}`)
     const data = req.app.locals.orderLineItems.query
-    const item = find(data, { orderLineID: id })
+    const item = find(data, { _id: id })
     if (!item) { return res.end(notfoundstring) }
     LOG.info(`ORIGINAL VALUES ${JSON.stringify(item)}`)
     LOG.info(`UPDATED VALUES: ${JSON.stringify(req.body)}`)
@@ -142,7 +142,7 @@ api.post('/save', (req, res) => {
     const id = parseInt(req.params.id, 10) // base 10
     LOG.info(`Handling REMOVING ID=${id}`)
     const data = req.app.locals.orderLineItems.query
-    const item = find(data, { orderLineID: id })
+    const item = find(data, { _id: id })
     if (!item) {
       return res.end(notfoundstring)
     }
@@ -150,7 +150,7 @@ api.post('/save', (req, res) => {
       item.isActive = false
       console.log(`Deacctivated item ${JSON.stringify(item)}`)
     } else {
-      const item = remove(data, { orderLineID: id })
+      const item = remove(data, { _id: id })
       console.log(`Permanently deleted item ${JSON.stringify(item)}`)
     }
     return res.redirect('/orderLineItems')

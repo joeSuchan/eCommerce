@@ -1,5 +1,27 @@
 <% include header %>
 
-<h1>orderLineItem delete</h1>
+<br/>
+<br/>
+<h2>Confirm deletion of orderLineItem</h2>
+<br/>
+<br/> ID:
+<%=  orderLineItems._id %>
+  <br> orderID:
+  <%=orderLineItems.orderID%>
+    <br/> productQuantity:
+    <%=orderLineItems.productQuantity%>
+      <br/> productID:
+      <%=orderLineItems.productID%>
+      <br/>productPrice:
+      <%=orderLineItems.productPrice%>
+        <br/>
+        <br/>
+        
+            <form method="get" action="/orderLineItems">
+              <input type="submit" value="Return to list" class="btn btn-caution" />
+            </form>
 
-<% include footer %>
+            <br/>
+            <form method="POST" action="/orderLineItems/delete/<%= orderLineItems._id %>">
+              <input type="submit" value="Delete this item" class="btn btn-danger pull-right" />
+            </form>

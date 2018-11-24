@@ -5441,3 +5441,78 @@ Error: Cannot find module '../models/product.js'
 2018-11-21T03:12:48.580Z - debug: GET /products/edit/CSS/main.css
 2018-11-21T03:12:48.635Z - debug: GET /images/manifest.json
 2018-11-21T03:12:51.785Z - debug: GET /images/manifest.json
+2018-11-24T20:02:19.280Z - error: uncaughtException: Cannot find module '../controllers/products.js' date=Sat Nov 24 2018 14:02:19 GMT-0600 (Central Standard Time), pid=14440, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps\ecommerce\app.js, js], rss=74080256, heapTotal=62902272, heapUsed=34433224, external=18665955, loadavg=[0, 0, 0], uptime=317714.7822358
+Error: Cannot find module '../controllers/products.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps\ecommerce\routes\index.js:52:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps\ecommerce\app.js:79:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-24T20:02:19.228Z - info: Environment variables loaded.
+2018-11-24T20:02:19.238Z - debug: START routing
+2018-11-24T20:03:39.678Z - info: Environment variables loaded.
+2018-11-24T20:03:39.725Z - error: uncaughtException: Cannot find module '../controllers/products.js' date=Sat Nov 24 2018 14:03:39 GMT-0600 (Central Standard Time), pid=1388, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps\ecommerce\app, js], rss=73797632, heapTotal=62902272, heapUsed=34502416, external=18665955, loadavg=[0, 0, 0], uptime=317795.2301462
+Error: Cannot find module '../controllers/products.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps\ecommerce\routes\index.js:52:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps\ecommerce\app.js:79:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-24T20:03:39.688Z - debug: START routing
+2018-11-24T20:58:17.705Z - info: Environment variables loaded.
+2018-11-24T20:58:17.755Z - error: uncaughtException: Cannot find module '../controllers/products.js' date=Sat Nov 24 2018 14:58:17 GMT-0600 (Central Standard Time), pid=11280, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps\ecommerce\app, js], rss=73666560, heapTotal=62377984, heapUsed=32681936, external=18564681, loadavg=[0, 0, 0], uptime=321073.2587675
+Error: Cannot find module '../controllers/products.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps\ecommerce\routes\index.js:52:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps\ecommerce\app.js:79:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-24T20:58:17.719Z - debug: START routing
