@@ -5556,3 +5556,28 @@ Error: Cannot find module '../controllers/products.js'
     at bootstrap_node.js:625:3
 2018-11-24T20:58:17.719Z - debug: START routing
 >>>>>>> 280f658bc1124fd12c2bca1e2686bd9cac19f2b4
+2018-11-25T22:51:52.134Z - info: Environment variables loaded.
+2018-11-25T22:51:52.188Z - error: uncaughtException: Cannot find module '../controllers/products.js' date=Sun Nov 25 2018 16:51:52 GMT-0600 (Central Standard Time), pid=13904, uid=null, gid=null, cwd=C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\app.js], rss=75554816, heapTotal=64999424, heapUsed=33160744, external=18462184, loadavg=[0, 0, 0], uptime=436493.690325
+Error: Cannot find module '../controllers/products.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\routes\index.js:52:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\app.js:79:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-25T22:51:52.148Z - debug: START routing
