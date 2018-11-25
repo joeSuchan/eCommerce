@@ -5,7 +5,7 @@
 <div class="container-fluid">
   <div class=row>
     <div class="col col-md-12">
-      <a href="orderLineItems/create" class="btn btn-primary new">
+      <a href="orderLineItem/create" class="btn btn-primary new">
         Create a orderLineItem
       </a>
       <h2>Recent orderLineItem entries</h2>
@@ -20,21 +20,21 @@
           <div class="text-muted pull-right"></div>
           <div class="panel-body">
             br/> ID:
-            <%=  orderLineItems._id %>
+            <%=  orderLineItem._id %>
               <br> orderID:
-              <%=orderLineItems.orderID%>
+              <%=orderLineItem.orderID%>
                 <br/> productQuantity:
-                <%=orderLineItems.productQuantity%>
+                <%=orderLineItem.productQuantity%>
                   <br/> productID:
-                  <%=orderLineItems.productID%>
+                  <%=orderLineItem.productID%>
                   <br/>productPrice:
-                  <%=orderLineItems.productPrice%>
+                  <%=orderLineItem.productPrice%>
                     <br/>
                           <br/>
                           <br/>
-                          <a href="/orderLineItems/delete/<%= orderLineItems._id  %>" class="btn btn-danger"> Delete </a>
-                          <a href="/orderLineItems/details/<%= orderLineItems._id %>" class="btn btn-info"> Details </a>
-                          <a href="/orderLineItems/edit/<%= orderLineItems._id %>" class="btn btn-warning"> Edit </a>
+                          <a href="/orderLineItem/delete/<%= orderLineItem._id  %>" class="btn btn-danger"> Delete </a>
+                          <a href="/orderLineItem/details/<%= orderLineItem._id %>" class="btn btn-info"> Details </a>
+                          <a href="/orderLineItem/edit/<%= orderLineItem._id %>" class="btn btn-warning"> Edit </a>
           </div>
         </div>
         <% } %>

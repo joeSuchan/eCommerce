@@ -5,7 +5,7 @@
 
 const express = require('express')
 const api = express.Router()
-const Model = require('../models/orderLineItems.js')
+const Model = require('../models/orderLineItem.js')
 const LOG = require('../utils/logger.js')
 const find = require('lodash.find')
 const remove = require('lodash.remove')
@@ -34,8 +34,8 @@ api.get('/findall', (req, res) => {
 
 // GET to this controller base URI (the default)
   
-api.get("/index", (req,res) => {
-    res.render ("orderLineItems/index.ejs");
+api.get("/", (req,res) => {
+    res.render ("orderLineItem/index.ejs");
 })
 //get create
 
@@ -43,7 +43,7 @@ api.get("/create", (req,res) => {
     LOG.info(`Handling GET /create${req}`)
     const item = new Model()
     LOG.debug(JSON.stringify(item))
-    res.render('orderLineItems/create',
+    res.render('orderLineItem/create',
       {
         title: 'Create orderLineItem',
         layout: 'layout.ejs',
@@ -51,47 +51,47 @@ api.get("/create", (req,res) => {
       })
     ;
 })
-//get /delete
-api.get("/delete", (req,res) => {
+//get /delete/:id
+api.get("/delete/:id", (req,res) => {
     LOG.info(`Handling GET /delete/:id ${req}`)
     const id = parseInt(req.params.id, 10) // base 10
     const data = req.app.locals.orderLineItems.query
     const item = find(data, { _id: id })
     if (!item) { return res.end(notfoundstring) }
     LOG.info(`RETURNING VIEW FOR ${JSON.stringify(item)}`)
-    return res.render('orderLineItems/delete.ejs',
+    return res.render('orderLineItem/delete.ejs',
       {
         title: 'Delete orderLineItem',
         layout: 'layout.ejs',
         orderLineItem: item
       })
 })
-//get /details
-api.get("/details", (req,res) => {
+//get /details/:id
+api.get("/details/:id", (req,res) => {
     LOG.info(`Handling GET /details/:id ${req}`)
     const id = parseInt(req.params.id, 10) // base 10
     const data = req.app.locals.orderLineItems.query
     const item = find(data, { _id: id })
     if (!item) { return res.end(notfoundstring) }
     LOG.info(`RETURNING VIEW FOR ${JSON.stringify(item)}`)
-    return res.render('orderLineItems/details.ejs',
+    return res.render('orderLineItem/details.ejs',
       {
-        title: 'orderLineItem Read',
+        title: 'orderLineItem Details',
         layout: 'layout.ejs',
         orderLineItem: item
       })
 })
 //get one 
-api.get("/edit", (req,res) => {
+api.get("/edit/:id", (req,res) => {
     LOG.info(`Handling GET /edit/:id ${req}`)
     const id = parseInt(req.params.id, 10) // base 10
     const data = req.app.locals.orderLineItems.query
     const item = find(data, { _id: id })
     if (!item) { return res.end(notfoundstring) }
     LOG.info(`RETURNING VIEW FOR${JSON.stringify(item)}`)
-    return res.render('orderLineItems/edit.ejs',
+    return res.render('orderLineItem/edit.ejs',
       {
-        title: 'orderLineItem',
+        title: 'orderLineItems',
         layout: 'layout.ejs',
         puppy: item
       })
@@ -113,7 +113,7 @@ api.post('/save', (req, res) => {
     item.productPrice = req.body.productPrice
       data.push(item)
       LOG.info(`SAVING NEW orderLineItem ${JSON.stringify(item)}`)
-      return res.redirect('/orderLineItems')
+      return res.redirect('/orderLineItem')
     
   })
   
@@ -132,7 +132,7 @@ api.post('/save', (req, res) => {
     item.productID = req.body.productID
     item.productPrice = req.body.productPrice
       LOG.info(`SAVING UPDATED orderLineItem ${JSON.stringify(item)}`)
-      return res.redirect('/orderLineItems')
+      return res.redirect('/orderLineItem')
     
   })
   
@@ -153,7 +153,7 @@ api.post('/save', (req, res) => {
       const item = remove(data, { _id: id })
       console.log(`Permanently deleted item ${JSON.stringify(item)}`)
     }
-    return res.redirect('/orderLineItems')
+    return res.redirect('/orderLineItem')
   })
   
   module.exports = api

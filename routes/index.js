@@ -35,8 +35,8 @@ router.get("/customers", function (req, res) {
   res.render("order.ejs")
  })
 
- router.get("/orderLine", function (req, res) {
-  res.render("orderLine.ejs")
+ router.get("/orderLineItem", function (req, res) {
+  res.render("orderLineItem.ejs")
  })
  router.get(function (req, res) {
   res.render("404.ejs")
