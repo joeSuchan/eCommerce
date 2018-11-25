@@ -5289,3 +5289,63 @@ Error: Cannot find module '../controllers/products.js'
 2018-11-21T00:26:00.812Z - debug: GET /products
 2018-11-21T00:26:01.141Z - debug: GET /images/manifest.json
 >>>>>>> 9b0065f40db228a187b4a63311703f52760d7318
+2018-11-21T01:16:20.839Z - error: uncaughtException: Unexpected token << date=Tue Nov 20 2018 19:16:20 GMT-0600 (Central Standard Time), pid=8944, uid=null, gid=null, cwd=C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\app.js], rss=75259904, heapTotal=63950848, heapUsed=36263624, external=18696785, loadavg=[0, 0, 0], uptime=13162.3451917
+C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\controllers\customer.js:76
+<<<<<<< HEAD
+  ^^
+
+SyntaxError: Unexpected token <<
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\routes\index.js:48:26)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\app.js:79:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+2018-11-21T01:16:20.815Z - info: Environment variables loaded.
+2018-11-21T01:16:20.825Z - debug: START routing
+2018-11-22T22:33:15.604Z - info: Environment variables loaded.
+2018-11-22T22:33:15.638Z - error: uncaughtException: Unexpected token << date=Thu Nov 22 2018 16:33:15 GMT-0600 (Central Standard Time), pid=12396, uid=null, gid=null, cwd=C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\app.js], rss=75276288, heapTotal=65523712, heapUsed=31832320, external=18310262, loadavg=[0, 0, 0], uptime=176177.1440983
+C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\controllers\customer.js:76
+<<<<<<< HEAD
+  ^^
+
+SyntaxError: Unexpected token <<
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\routes\index.js:48:26)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\app.js:79:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+2018-11-22T22:33:15.623Z - debug: START routing
