@@ -5581,3 +5581,96 @@ Error: Cannot find module '../controllers/products.js'
     at startup (bootstrap_node.js:204:16)
     at bootstrap_node.js:625:3
 2018-11-25T22:51:52.148Z - debug: START routing
+2018-11-28T18:56:50.697Z - info: Environment variables loaded.
+2018-11-28T18:56:50.752Z - error: uncaughtException: Unexpected token const date=Wed Nov 28 2018 12:56:50 GMT-0600 (Central Standard Time), pid=11848, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=74137600, heapTotal=63426560, heapUsed=34437432, external=18682339, loadavg=[0, 0, 0], uptime=659386.2639256
+C:\Users\s523323\Documents\webapps2\ecommerce\controllers\products.js:8
++const express = require('express')
+ ^^^^^
+
+SyntaxError: Unexpected token const
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\routes\index.js:52:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\app.js:79:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+2018-11-28T18:56:50.713Z - debug: START routing
+2018-11-28T18:58:00.485Z - info: Environment variables loaded.
+2018-11-28T18:58:00.558Z - error: uncaughtException: Unexpected token const date=Wed Nov 28 2018 12:58:00 GMT-0600 (Central Standard Time), pid=2936, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=74215424, heapTotal=62902272, heapUsed=35136000, external=18777659, loadavg=[0, 0, 0], uptime=659456.0682604
+C:\Users\s523323\Documents\webapps2\ecommerce\models\product.js:8
+-const mongoose = require('mongoose')
+ ^^^^^
+
+SyntaxError: Unexpected token const
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\controllers\products.js:10:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\routes\index.js:52:25)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+2018-11-28T18:58:00.497Z - debug: START routing
+2018-11-28T18:58:22.349Z - info: Environment variables loaded.
+2018-11-28T18:58:22.367Z - debug: START routing
+2018-11-28T18:58:22.412Z - debug: END routing
+2018-11-28T18:58:22.412Z - info: Loaded routing.
+2018-11-28T18:58:22.452Z - info: START seeder.
+2018-11-28T18:58:22.454Z - debug: 5 customers seeded
+2018-11-28T18:58:22.456Z - debug: 6 products seeded
+2018-11-28T18:58:22.456Z - info: END Seeder. Sample data read and verified.
+2018-11-28T18:58:30.401Z - info: Environment variables loaded.
+2018-11-28T18:58:30.414Z - debug: START routing
+2018-11-28T18:58:30.464Z - debug: END routing
+2018-11-28T18:58:30.465Z - info: Loaded routing.
+2018-11-28T18:58:30.506Z - info: START seeder.
+2018-11-28T18:58:30.510Z - debug: 5 customers seeded
+2018-11-28T18:58:30.511Z - debug: 6 products seeded
+2018-11-28T18:58:30.511Z - info: END Seeder. Sample data read and verified.
+2018-11-28T18:58:32.955Z - info: Environment variables loaded.
+2018-11-28T18:58:32.964Z - debug: START routing
+2018-11-28T18:58:32.993Z - debug: END routing
+2018-11-28T18:58:32.993Z - info: Loaded routing.
+2018-11-28T18:58:33.028Z - info: START seeder.
+2018-11-28T18:58:33.031Z - debug: 5 customers seeded
+2018-11-28T18:58:33.033Z - debug: 6 products seeded
+2018-11-28T18:58:33.033Z - info: END Seeder. Sample data read and verified.
+2018-11-28T18:58:57.830Z - debug: GET /
+2018-11-28T18:58:57.993Z - debug: GET /CSS/favicon-32x32.png
+2018-11-28T18:58:58.130Z - debug: GET /images/manifest.json
+2018-11-28T18:58:59.709Z - debug: GET /orderLineItem
+2018-11-28T18:59:02.678Z - debug: GET /images/manifest.json
+2018-11-28T18:59:03.638Z - debug: GET /order
+2018-11-28T18:59:04.984Z - debug: GET /images/manifest.json
+2018-11-28T18:59:24.425Z - debug: GET /orderLineItem
+2018-11-28T18:59:25.625Z - debug: GET /images/manifest.json
