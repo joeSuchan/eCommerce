@@ -7,8 +7,8 @@ const LOG = require('../utils/logger.js')
 
 const customers = require('../data/customer.json')
 const products = require('../data/products.json')
-//const orders = require('../data/orders.json')
-//const orderLineItems = require('../data/orderLineItems.json')
+const orders = require('../data/order.json')
+const orderLineItems = require('../data/orderLineItems.json')
 
 //........................................................
 
@@ -31,15 +31,15 @@ module.exports = (app) => {
 
   // Customers don't depend on anything else............
 
-  // db.customers = new Datastore()
-  // db.customers.loadDatabase()
+   db.customers = new Datastore()
+   db.customers.loadDatabase()
 
   // // insert the sample data into our data store
-  // db.customers.insert(customers)
+   db.customers.insert(customers)
 
   // // initialize app.locals (these objects will be available to our controllers)
-  // app.locals.customers = db.customers.find(customers)
-  // LOG.debug(`${app.locals.customers.query.length} customers seeded`)
+   app.locals.customers = db.customers.find(customers)
+   LOG.debug(`${app.locals.customers.query.length} customers seeded`)
   db.customers=new Datastore()
   db.customers.loadDatabase()
   db.customers.insert(customers)
@@ -62,27 +62,27 @@ module.exports = (app) => {
 
   // Orders need a customer .................................
 
-  // db.orders = new Datastore()
-  // db.orders.loadDatabase()
+   db.orders = new Datastore()
+   db.orders.loadDatabase()
 
   // // insert the sample data into our data store
-  // db.orders.insert(orders)
+   db.orders.insert(orders)
 
   // // initialize app.locals (these objects will be available to our controllers)
-  // app.locals.orders = db.orders.find(orders)
-  // LOG.debug(`${app.locals.orders.query.length} orders seeded`)
+   app.locals.orders = db.orders.find(orders)
+   LOG.debug(`${app.locals.orders.query.length} orders seeded`)
 
   // // Each Order Line Item needs a product and an order...................
 
-  // db.orderLineItems = new Datastore()
-  // db.orderLineItems.loadDatabase()
+   db.orderLineItems = new Datastore()
+   db.orderLineItems.loadDatabase()
 
   // // insert the sample data into our data store
-  // db.orderLineItems.insert(orderLineItems)
+   db.orderLineItems.insert(orderLineItems)
 
   // // initialize app.locals (these objects will be available to our controllers)
-  // app.locals.orderLineItems = db.orderLineItems.find(orderLineItems)
-  // LOG.debug(`${app.locals.orderLineItems.query.length} orderLineItems seeded`)
+   app.locals.orderLineItems = db.orderLineItems.find(orderLineItems)
+   LOG.debug(`${app.locals.orderLineItems.query.length} orderLineItems seeded`)
 
   
   LOG.info('END Seeder. Sample data read and verified.');

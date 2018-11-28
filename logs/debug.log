@@ -5674,3 +5674,936 @@ SyntaxError: Unexpected token const
 2018-11-28T18:59:04.984Z - debug: GET /images/manifest.json
 2018-11-28T18:59:24.425Z - debug: GET /orderLineItem
 2018-11-28T18:59:25.625Z - debug: GET /images/manifest.json
+2018-11-28T19:02:00.375Z - info: Environment variables loaded.
+2018-11-28T19:02:00.462Z - error: uncaughtException: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152 date=Wed Nov 28 2018 13:02:00 GMT-0600 (Central Standard Time), pid=14280, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=75124736, heapTotal=62902272, heapUsed=36131896, external=18879075, loadavg=[0, 0, 0], uptime=659695.9711081
+SyntaxError: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152
+    at JSON.parse (<anonymous>)
+    at Object.Module._extensions..json (module.js:672:27)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\utils\seeder.js:11:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\app.js:86:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+2018-11-28T19:02:00.385Z - debug: START routing
+2018-11-28T19:02:00.412Z - debug: END routing
+2018-11-28T19:02:00.412Z - info: Loaded routing.
+2018-11-28T19:02:02.138Z - info: Environment variables loaded.
+2018-11-28T19:02:02.215Z - error: uncaughtException: Cannot find module '../data/orders.json' date=Wed Nov 28 2018 13:02:02 GMT-0600 (Central Standard Time), pid=17220, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=75837440, heapTotal=62902272, heapUsed=36569944, external=18974395, loadavg=[0, 0, 0], uptime=659697.7247395
+Error: Cannot find module '../data/orders.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\utils\seeder.js:10:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\app.js:86:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-28T19:02:02.148Z - debug: START routing
+2018-11-28T19:02:02.173Z - debug: END routing
+2018-11-28T19:02:02.173Z - info: Loaded routing.
+2018-11-28T19:02:16.450Z - error: uncaughtException: Cannot find module '../data/orders.json' date=Wed Nov 28 2018 13:02:16 GMT-0600 (Central Standard Time), pid=768, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=75362304, heapTotal=62902272, heapUsed=36111912, external=18879075, loadavg=[0, 0, 0], uptime=659711.9607182
+Error: Cannot find module '../data/orders.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\utils\seeder.js:10:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\app.js:86:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-28T19:02:16.372Z - info: Environment variables loaded.
+2018-11-28T19:02:16.382Z - debug: START routing
+2018-11-28T19:02:16.408Z - debug: END routing
+2018-11-28T19:02:16.408Z - info: Loaded routing.
+2018-11-28T19:02:21.335Z - info: Environment variables loaded.
+2018-11-28T19:02:21.418Z - error: uncaughtException: Cannot find module '../data/orders.json' date=Wed Nov 28 2018 13:02:21 GMT-0600 (Central Standard Time), pid=17372, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=75173888, heapTotal=62902272, heapUsed=36151936, external=18879075, loadavg=[0, 0, 0], uptime=659716.9282488
+Error: Cannot find module '../data/orders.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\utils\seeder.js:10:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\app.js:86:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-28T19:02:21.346Z - debug: START routing
+2018-11-28T19:02:21.372Z - debug: END routing
+2018-11-28T19:02:21.372Z - info: Loaded routing.
+2018-11-28T19:02:23.389Z - info: Environment variables loaded.
+2018-11-28T19:02:23.477Z - error: uncaughtException: Cannot find module '../data/orders.json' date=Wed Nov 28 2018 13:02:23 GMT-0600 (Central Standard Time), pid=11592, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=74760192, heapTotal=62902272, heapUsed=35414280, external=18852709, loadavg=[0, 0, 0], uptime=659718.9868192
+Error: Cannot find module '../data/orders.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\utils\seeder.js:10:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\app.js:86:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-28T19:02:23.403Z - debug: START routing
+2018-11-28T19:02:23.434Z - debug: END routing
+2018-11-28T19:02:23.434Z - info: Loaded routing.
+2018-11-28T19:02:26.302Z - info: Environment variables loaded.
+2018-11-28T19:02:26.389Z - error: uncaughtException: Cannot find module '../data/orders.json' date=Wed Nov 28 2018 13:02:26 GMT-0600 (Central Standard Time), pid=6964, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=74559488, heapTotal=63426560, heapUsed=32515816, external=18485892, loadavg=[0, 0, 0], uptime=659721.8985574
+Error: Cannot find module '../data/orders.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\utils\seeder.js:10:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\app.js:86:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-28T19:02:26.313Z - debug: START routing
+2018-11-28T19:02:26.341Z - debug: END routing
+2018-11-28T19:02:26.341Z - info: Loaded routing.
+2018-11-28T19:02:31.815Z - info: Environment variables loaded.
+2018-11-28T19:02:31.898Z - error: uncaughtException: Cannot find module '../data/orders.json' date=Wed Nov 28 2018 13:02:31 GMT-0600 (Central Standard Time), pid=16804, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=74272768, heapTotal=62902272, heapUsed=34637880, external=18777801, loadavg=[0, 0, 0], uptime=659727.4079701
+Error: Cannot find module '../data/orders.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\utils\seeder.js:10:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\app.js:86:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-28T19:02:31.825Z - debug: START routing
+2018-11-28T19:02:31.853Z - debug: END routing
+2018-11-28T19:02:31.853Z - info: Loaded routing.
+2018-11-28T19:02:33.583Z - info: Environment variables loaded.
+2018-11-28T19:02:33.663Z - error: uncaughtException: Cannot find module '../data/orders.json' date=Wed Nov 28 2018 13:02:33 GMT-0600 (Central Standard Time), pid=9348, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=75431936, heapTotal=62902272, heapUsed=36264072, external=18879075, loadavg=[0, 0, 0], uptime=659729.1719174
+Error: Cannot find module '../data/orders.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\utils\seeder.js:10:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\app.js:86:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-28T19:02:33.594Z - debug: START routing
+2018-11-28T19:02:33.620Z - debug: END routing
+2018-11-28T19:02:33.621Z - info: Loaded routing.
+2018-11-28T19:02:35.434Z - info: Environment variables loaded.
+2018-11-28T19:02:35.510Z - error: uncaughtException: Cannot find module '../data/orders.json' date=Wed Nov 28 2018 13:02:35 GMT-0600 (Central Standard Time), pid=10176, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=75657216, heapTotal=62902272, heapUsed=36153136, external=18879075, loadavg=[0, 0, 0], uptime=659731.0203605
+Error: Cannot find module '../data/orders.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\utils\seeder.js:10:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\app.js:86:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-28T19:02:35.444Z - debug: START routing
+2018-11-28T19:02:35.468Z - debug: END routing
+2018-11-28T19:02:35.468Z - info: Loaded routing.
+2018-11-28T19:02:39.284Z - info: Environment variables loaded.
+2018-11-28T19:02:39.375Z - error: uncaughtException: Cannot find module '../data/orders.json' date=Wed Nov 28 2018 13:02:39 GMT-0600 (Central Standard Time), pid=13488, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=74575872, heapTotal=63950848, heapUsed=32579984, external=18485892, loadavg=[0, 0, 0], uptime=659734.8849392
+Error: Cannot find module '../data/orders.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\utils\seeder.js:10:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\app.js:86:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-28T19:02:39.297Z - debug: START routing
+2018-11-28T19:02:39.327Z - debug: END routing
+2018-11-28T19:02:39.327Z - info: Loaded routing.
+2018-11-28T19:03:29.853Z - info: Environment variables loaded.
+2018-11-28T19:03:29.950Z - error: uncaughtException: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152 date=Wed Nov 28 2018 13:03:29 GMT-0600 (Central Standard Time), pid=13952, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=75374592, heapTotal=63426560, heapUsed=36143616, external=18879075, loadavg=[0, 0, 0], uptime=659785.4604561
+SyntaxError: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152
+    at JSON.parse (<anonymous>)
+    at Object.Module._extensions..json (module.js:672:27)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\utils\seeder.js:11:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\app.js:86:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+2018-11-28T19:03:29.868Z - debug: START routing
+2018-11-28T19:03:29.906Z - debug: END routing
+2018-11-28T19:03:29.906Z - info: Loaded routing.
+2018-11-28T19:03:43.135Z - info: Environment variables loaded.
+2018-11-28T19:03:43.220Z - error: uncaughtException: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152 date=Wed Nov 28 2018 13:03:43 GMT-0600 (Central Standard Time), pid=404, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=74534912, heapTotal=63426560, heapUsed=35423456, external=18852709, loadavg=[0, 0, 0], uptime=659798.7292342
+SyntaxError: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152
+    at JSON.parse (<anonymous>)
+    at Object.Module._extensions..json (module.js:672:27)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\utils\seeder.js:11:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\app.js:86:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+2018-11-28T19:03:43.145Z - debug: START routing
+2018-11-28T19:03:43.172Z - debug: END routing
+2018-11-28T19:03:43.172Z - info: Loaded routing.
+2018-11-28T19:03:46.041Z - info: Environment variables loaded.
+2018-11-28T19:03:46.128Z - error: uncaughtException: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152 date=Wed Nov 28 2018 13:03:46 GMT-0600 (Central Standard Time), pid=12164, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=75403264, heapTotal=62902272, heapUsed=36143328, external=18879075, loadavg=[0, 0, 0], uptime=659801.6371973
+SyntaxError: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152
+    at JSON.parse (<anonymous>)
+    at Object.Module._extensions..json (module.js:672:27)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\utils\seeder.js:11:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\app.js:86:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+2018-11-28T19:03:46.051Z - debug: START routing
+2018-11-28T19:03:46.078Z - debug: END routing
+2018-11-28T19:03:46.078Z - info: Loaded routing.
+2018-11-28T19:03:48.546Z - info: Environment variables loaded.
+2018-11-28T19:03:48.650Z - error: uncaughtException: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152 date=Wed Nov 28 2018 13:03:48 GMT-0600 (Central Standard Time), pid=6360, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=75481088, heapTotal=63426560, heapUsed=36132888, external=18879075, loadavg=[0, 0, 0], uptime=659804.1583739
+SyntaxError: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152
+    at JSON.parse (<anonymous>)
+    at Object.Module._extensions..json (module.js:672:27)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\utils\seeder.js:11:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\app.js:86:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+2018-11-28T19:03:48.556Z - debug: START routing
+2018-11-28T19:03:48.590Z - debug: END routing
+2018-11-28T19:03:48.590Z - info: Loaded routing.
+2018-11-28T19:03:50.771Z - info: Environment variables loaded.
+2018-11-28T19:03:50.852Z - error: uncaughtException: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152 date=Wed Nov 28 2018 13:03:50 GMT-0600 (Central Standard Time), pid=16788, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=74571776, heapTotal=62902272, heapUsed=35414800, external=18852709, loadavg=[0, 0, 0], uptime=659806.3627359
+SyntaxError: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152
+    at JSON.parse (<anonymous>)
+    at Object.Module._extensions..json (module.js:672:27)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\utils\seeder.js:11:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\app.js:86:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+2018-11-28T19:03:50.781Z - debug: START routing
+2018-11-28T19:03:50.806Z - debug: END routing
+2018-11-28T19:03:50.806Z - info: Loaded routing.
+2018-11-28T19:03:53.948Z - info: Environment variables loaded.
+2018-11-28T19:03:54.031Z - error: uncaughtException: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152 date=Wed Nov 28 2018 13:03:54 GMT-0600 (Central Standard Time), pid=16412, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=75890688, heapTotal=63426560, heapUsed=36173704, external=18899781, loadavg=[0, 0, 0], uptime=659809.5419359
+SyntaxError: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152
+    at JSON.parse (<anonymous>)
+    at Object.Module._extensions..json (module.js:672:27)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\utils\seeder.js:11:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\app.js:86:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+2018-11-28T19:03:53.957Z - debug: START routing
+2018-11-28T19:03:53.985Z - debug: END routing
+2018-11-28T19:03:53.985Z - info: Loaded routing.
+2018-11-28T19:04:18.380Z - error: uncaughtException: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152 date=Wed Nov 28 2018 13:04:18 GMT-0600 (Central Standard Time), pid=9720, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=74760192, heapTotal=64999424, heapUsed=32541320, external=18459319, loadavg=[0, 0, 0], uptime=659833.8898545
+SyntaxError: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152
+    at JSON.parse (<anonymous>)
+    at Object.Module._extensions..json (module.js:672:27)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\utils\seeder.js:11:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\app.js:86:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+2018-11-28T19:04:18.293Z - info: Environment variables loaded.
+2018-11-28T19:04:18.304Z - debug: START routing
+2018-11-28T19:04:18.330Z - debug: END routing
+2018-11-28T19:04:18.330Z - info: Loaded routing.
+2018-11-28T19:04:20.167Z - error: uncaughtException: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152 date=Wed Nov 28 2018 13:04:20 GMT-0600 (Central Standard Time), pid=14924, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=75329536, heapTotal=62902272, heapUsed=36093392, external=18879075, loadavg=[0, 0, 0], uptime=659835.677057
+SyntaxError: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152
+    at JSON.parse (<anonymous>)
+    at Object.Module._extensions..json (module.js:672:27)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\utils\seeder.js:11:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\app.js:86:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+2018-11-28T19:04:20.070Z - info: Environment variables loaded.
+2018-11-28T19:04:20.083Z - debug: START routing
+2018-11-28T19:04:20.116Z - debug: END routing
+2018-11-28T19:04:20.116Z - info: Loaded routing.
+2018-11-28T19:04:22.113Z - info: Environment variables loaded.
+2018-11-28T19:04:22.250Z - error: uncaughtException: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152 date=Wed Nov 28 2018 13:04:22 GMT-0600 (Central Standard Time), pid=4556, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=75599872, heapTotal=62902272, heapUsed=36178360, external=18879075, loadavg=[0, 0, 0], uptime=659837.7578005
+SyntaxError: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152
+    at JSON.parse (<anonymous>)
+    at Object.Module._extensions..json (module.js:672:27)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\utils\seeder.js:11:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\app.js:86:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+2018-11-28T19:04:22.126Z - debug: START routing
+2018-11-28T19:04:22.177Z - debug: END routing
+2018-11-28T19:04:22.177Z - info: Loaded routing.
+2018-11-28T19:04:24.535Z - info: Environment variables loaded.
+2018-11-28T19:04:24.647Z - error: uncaughtException: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152 date=Wed Nov 28 2018 13:04:24 GMT-0600 (Central Standard Time), pid=17988, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=75288576, heapTotal=62902272, heapUsed=36142480, external=18879075, loadavg=[0, 0, 0], uptime=659840.1554941
+SyntaxError: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152
+    at JSON.parse (<anonymous>)
+    at Object.Module._extensions..json (module.js:672:27)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\utils\seeder.js:11:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\app.js:86:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+2018-11-28T19:04:24.550Z - debug: START routing
+2018-11-28T19:04:24.594Z - debug: END routing
+2018-11-28T19:04:24.594Z - info: Loaded routing.
+2018-11-28T19:04:34.614Z - info: Environment variables loaded.
+2018-11-28T19:04:34.714Z - error: uncaughtException: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152 date=Wed Nov 28 2018 13:04:34 GMT-0600 (Central Standard Time), pid=16492, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=75157504, heapTotal=62902272, heapUsed=36133672, external=18879075, loadavg=[0, 0, 0], uptime=659850.2223547
+SyntaxError: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152
+    at JSON.parse (<anonymous>)
+    at Object.Module._extensions..json (module.js:672:27)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\utils\seeder.js:11:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\app.js:86:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+2018-11-28T19:04:34.623Z - debug: START routing
+2018-11-28T19:04:34.648Z - debug: END routing
+2018-11-28T19:04:34.648Z - info: Loaded routing.
+2018-11-28T19:04:37.083Z - info: Environment variables loaded.
+2018-11-28T19:04:37.170Z - error: uncaughtException: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152 date=Wed Nov 28 2018 13:04:37 GMT-0600 (Central Standard Time), pid=6348, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=74715136, heapTotal=64475136, heapUsed=32550120, external=18459319, loadavg=[0, 0, 0], uptime=659852.6802181
+SyntaxError: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152
+    at JSON.parse (<anonymous>)
+    at Object.Module._extensions..json (module.js:672:27)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\utils\seeder.js:11:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\app.js:86:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+2018-11-28T19:04:37.093Z - debug: START routing
+2018-11-28T19:04:37.121Z - debug: END routing
+2018-11-28T19:04:37.121Z - info: Loaded routing.
+2018-11-28T19:04:40.884Z - info: Environment variables loaded.
+2018-11-28T19:04:40.963Z - error: uncaughtException: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152 date=Wed Nov 28 2018 13:04:40 GMT-0600 (Central Standard Time), pid=16752, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=75456512, heapTotal=62902272, heapUsed=36115296, external=18879075, loadavg=[0, 0, 0], uptime=659856.4748552
+SyntaxError: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152
+    at JSON.parse (<anonymous>)
+    at Object.Module._extensions..json (module.js:672:27)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\utils\seeder.js:11:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\app.js:86:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+2018-11-28T19:04:40.895Z - debug: START routing
+2018-11-28T19:04:40.921Z - debug: END routing
+2018-11-28T19:04:40.921Z - info: Loaded routing.
+2018-11-28T19:04:44.083Z - info: Environment variables loaded.
+2018-11-28T19:04:44.169Z - error: uncaughtException: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152 date=Wed Nov 28 2018 13:04:44 GMT-0600 (Central Standard Time), pid=10460, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=74870784, heapTotal=64475136, heapUsed=32526104, external=18485892, loadavg=[0, 0, 0], uptime=659859.6764933
+SyntaxError: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152
+    at JSON.parse (<anonymous>)
+    at Object.Module._extensions..json (module.js:672:27)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\utils\seeder.js:11:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\app.js:86:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+2018-11-28T19:04:44.092Z - debug: START routing
+2018-11-28T19:04:44.118Z - debug: END routing
+2018-11-28T19:04:44.118Z - info: Loaded routing.
+2018-11-28T19:04:50.995Z - info: Environment variables loaded.
+2018-11-28T19:04:51.089Z - error: uncaughtException: Cannot find module '../data/orders.json' date=Wed Nov 28 2018 13:04:51 GMT-0600 (Central Standard Time), pid=15452, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=75259904, heapTotal=63426560, heapUsed=36120064, external=18879075, loadavg=[0, 0, 0], uptime=659866.5987656
+Error: Cannot find module '../data/orders.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\utils\seeder.js:10:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\app.js:86:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-28T19:04:51.005Z - debug: START routing
+2018-11-28T19:04:51.044Z - debug: END routing
+2018-11-28T19:04:51.045Z - info: Loaded routing.
+2018-11-28T19:05:05.470Z - error: uncaughtException: Cannot find module '../data/orders.json' date=Wed Nov 28 2018 13:05:05 GMT-0600 (Central Standard Time), pid=16324, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=75235328, heapTotal=62902272, heapUsed=36100128, external=18879075, loadavg=[0, 0, 0], uptime=659880.9782915
+Error: Cannot find module '../data/orders.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\utils\seeder.js:10:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\app.js:86:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-28T19:05:05.347Z - info: Environment variables loaded.
+2018-11-28T19:05:05.365Z - debug: START routing
+2018-11-28T19:05:05.408Z - debug: END routing
+2018-11-28T19:05:05.408Z - info: Loaded routing.
+2018-11-28T19:05:28.153Z - info: Environment variables loaded.
+2018-11-28T19:05:28.234Z - error: uncaughtException: Cannot find module '../data/orders.json' date=Wed Nov 28 2018 13:05:28 GMT-0600 (Central Standard Time), pid=15212, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=75313152, heapTotal=63426560, heapUsed=36152432, external=18879075, loadavg=[0, 0, 0], uptime=659903.744553
+Error: Cannot find module '../data/orders.json'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\utils\seeder.js:10:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\app.js:86:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-28T19:05:28.162Z - debug: START routing
+2018-11-28T19:05:28.191Z - debug: END routing
+2018-11-28T19:05:28.191Z - info: Loaded routing.
+2018-11-28T19:06:29.610Z - info: Environment variables loaded.
+2018-11-28T19:06:29.690Z - error: uncaughtException: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152 date=Wed Nov 28 2018 13:06:29 GMT-0600 (Central Standard Time), pid=16340, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=75354112, heapTotal=62902272, heapUsed=36156360, external=18899781, loadavg=[0, 0, 0], uptime=659965.1997085
+SyntaxError: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152
+    at JSON.parse (<anonymous>)
+    at Object.Module._extensions..json (module.js:672:27)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\utils\seeder.js:11:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\app.js:86:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+2018-11-28T19:06:29.620Z - debug: START routing
+2018-11-28T19:06:29.645Z - debug: END routing
+2018-11-28T19:06:29.645Z - info: Loaded routing.
+2018-11-28T19:06:35.460Z - info: Environment variables loaded.
+2018-11-28T19:06:35.559Z - error: uncaughtException: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152 date=Wed Nov 28 2018 13:06:35 GMT-0600 (Central Standard Time), pid=12608, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=74924032, heapTotal=64475136, heapUsed=32585256, external=18485892, loadavg=[0, 0, 0], uptime=659971.0693581
+SyntaxError: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152
+    at JSON.parse (<anonymous>)
+    at Object.Module._extensions..json (module.js:672:27)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\utils\seeder.js:11:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\app.js:86:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+2018-11-28T19:06:35.472Z - debug: START routing
+2018-11-28T19:06:35.503Z - debug: END routing
+2018-11-28T19:06:35.503Z - info: Loaded routing.
+2018-11-28T19:06:50.604Z - info: Environment variables loaded.
+2018-11-28T19:06:50.699Z - error: uncaughtException: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152 date=Wed Nov 28 2018 13:06:50 GMT-0600 (Central Standard Time), pid=1288, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=75571200, heapTotal=63426560, heapUsed=36158088, external=18879075, loadavg=[0, 0, 0], uptime=659986.2083853
+SyntaxError: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152
+    at JSON.parse (<anonymous>)
+    at Object.Module._extensions..json (module.js:672:27)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\utils\seeder.js:11:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\app.js:86:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+2018-11-28T19:06:50.615Z - debug: START routing
+2018-11-28T19:06:50.648Z - debug: END routing
+2018-11-28T19:06:50.648Z - info: Loaded routing.
+2018-11-28T19:08:16.927Z - info: Environment variables loaded.
+2018-11-28T19:08:17.022Z - error: uncaughtException: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152 date=Wed Nov 28 2018 13:08:17 GMT-0600 (Central Standard Time), pid=11452, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=75227136, heapTotal=62902272, heapUsed=36137296, external=18879075, loadavg=[0, 0, 0], uptime=660072.5317325
+SyntaxError: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152
+    at JSON.parse (<anonymous>)
+    at Object.Module._extensions..json (module.js:672:27)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\utils\seeder.js:11:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\app.js:86:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+2018-11-28T19:08:16.942Z - debug: START routing
+2018-11-28T19:08:16.971Z - debug: END routing
+2018-11-28T19:08:16.972Z - info: Loaded routing.
+2018-11-28T19:08:19.402Z - info: Environment variables loaded.
+2018-11-28T19:08:19.516Z - error: uncaughtException: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152 date=Wed Nov 28 2018 13:08:19 GMT-0600 (Central Standard Time), pid=6404, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=75501568, heapTotal=62902272, heapUsed=36164656, external=18879075, loadavg=[0, 0, 0], uptime=660075.0231655
+SyntaxError: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152
+    at JSON.parse (<anonymous>)
+    at Object.Module._extensions..json (module.js:672:27)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\utils\seeder.js:11:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\app.js:86:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+2018-11-28T19:08:19.415Z - debug: START routing
+2018-11-28T19:08:19.452Z - debug: END routing
+2018-11-28T19:08:19.452Z - info: Loaded routing.
+2018-11-28T19:08:25.199Z - info: Environment variables loaded.
+2018-11-28T19:08:25.277Z - error: uncaughtException: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152 date=Wed Nov 28 2018 13:08:25 GMT-0600 (Central Standard Time), pid=5240, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=75276288, heapTotal=62902272, heapUsed=36163640, external=18879075, loadavg=[0, 0, 0], uptime=660080.7871064
+SyntaxError: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.json: Unexpected token { in JSON at position 152
+    at JSON.parse (<anonymous>)
+    at Object.Module._extensions..json (module.js:672:27)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\utils\seeder.js:11:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\app.js:86:1)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+2018-11-28T19:08:25.209Z - debug: START routing
+2018-11-28T19:08:25.234Z - debug: END routing
+2018-11-28T19:08:25.234Z - info: Loaded routing.
+2018-11-28T19:08:28.999Z - info: Environment variables loaded.
+2018-11-28T19:08:29.012Z - debug: START routing
+2018-11-28T19:08:29.039Z - debug: END routing
+2018-11-28T19:08:29.040Z - info: Loaded routing.
+2018-11-28T19:08:29.071Z - info: START seeder.
+2018-11-28T19:08:29.075Z - debug: 5 customers seeded
+2018-11-28T19:08:29.077Z - debug: 5 customers seeded
+2018-11-28T19:08:29.079Z - debug: 6 products seeded
+2018-11-28T19:08:29.080Z - debug: 5 orders seeded
+2018-11-28T19:08:29.082Z - debug: 5 orderLineItems seeded
+2018-11-28T19:08:29.082Z - info: END Seeder. Sample data read and verified.
+2018-11-28T19:08:38.699Z - debug: GET /
+2018-11-28T19:08:38.809Z - debug: GET /CSS/favicon-32x32.png
+2018-11-28T19:08:38.912Z - debug: GET /images/manifest.json
+2018-11-28T19:08:38.914Z - debug: GET /images/favicon-32x32.png
+2018-11-28T19:08:39.950Z - debug: GET /orderLineItem
+2018-11-28T19:08:40.137Z - debug: GET /images/manifest.json
+2018-11-28T19:08:43.521Z - debug: GET /order
+2018-11-28T19:08:43.684Z - debug: GET /images/manifest.json
+2018-11-28T19:08:44.839Z - debug: GET /orderLineItem
+2018-11-28T19:08:45.030Z - debug: GET /images/manifest.json

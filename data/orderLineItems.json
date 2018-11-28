@@ -5,7 +5,7 @@
         "productQuantity":5,
         "productID":111,
         "productPrice":7.00
-    }
+    },
 
     {
         "_id":222,
@@ -13,7 +13,7 @@
         "productQuantity":9,
         "productID":222,
         "productPrice":6.00
-    }
+    },
 
     {
         "_id":333,
@@ -21,7 +21,7 @@
         "productQuantity":2,
         "productID":333,
         "productPrice":11.00
-    }
+    },
 
     {
         "_id":444,
@@ -29,7 +29,7 @@
         "productQuantity":4,
         "productID":444,
         "productPrice":4.00
-    }
+    },
 
     {
         "_id":555,
