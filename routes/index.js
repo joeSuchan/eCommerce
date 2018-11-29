@@ -38,6 +38,9 @@ router.get("/customers", function (req, res) {
  router.get("/orderLineItem", function (req, res) {
   res.render("orderLineItem.ejs")
  })
+ router.get("/about", function (req, res) {
+  res.render("about/index.ejs")
+ })
  router.get(function (req, res) {
   res.render("404.ejs")
 })
