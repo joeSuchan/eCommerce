@@ -7687,3 +7687,14 @@ SyntaxError: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.j
 2018-11-29T22:13:48.773Z - info: SAVING UPDATED customer {"_id":5,"firstname":"Meghanaedit","lastname":"Puttaedit","email":"S444444@nwmissouri.edu","age":"26","street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
 2018-11-29T22:13:48.777Z - debug: GET /customers
 2018-11-29T22:13:49.326Z - debug: GET /images/manifest.json
+2018-11-29T22:47:19.549Z - info: Environment variables loaded.
+2018-11-29T22:47:19.564Z - debug: START routing
+2018-11-29T22:47:19.603Z - debug: END routing
+2018-11-29T22:47:19.603Z - info: Loaded routing.
+2018-11-29T22:47:19.653Z - info: START seeder.
+2018-11-29T22:47:19.657Z - debug: 5 customers seeded
+2018-11-29T22:47:19.659Z - debug: 5 customers seeded
+2018-11-29T22:47:19.661Z - debug: 6 products seeded
+2018-11-29T22:47:19.663Z - debug: 5 orders seeded
+2018-11-29T22:47:19.667Z - debug: 5 orderLineItems seeded
+2018-11-29T22:47:19.669Z - info: END Seeder. Sample data read and verified.
