@@ -6607,3 +6607,1083 @@ SyntaxError: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.j
 2018-11-28T19:08:43.684Z - debug: GET /images/manifest.json
 2018-11-28T19:08:44.839Z - debug: GET /orderLineItem
 2018-11-28T19:08:45.030Z - debug: GET /images/manifest.json
+2018-11-29T19:43:41.102Z - info: Environment variables loaded.
+2018-11-29T19:43:41.122Z - debug: START routing
+2018-11-29T19:43:41.155Z - debug: END routing
+2018-11-29T19:43:41.155Z - info: Loaded routing.
+2018-11-29T19:43:41.208Z - info: START seeder.
+2018-11-29T19:43:41.211Z - debug: 5 customers seeded
+2018-11-29T19:43:41.213Z - debug: 5 customers seeded
+2018-11-29T19:43:41.214Z - debug: 6 products seeded
+2018-11-29T19:43:41.216Z - debug: 5 orders seeded
+2018-11-29T19:43:41.217Z - debug: 5 orderLineItems seeded
+2018-11-29T19:43:41.217Z - info: END Seeder. Sample data read and verified.
+2018-11-29T19:43:56.036Z - debug: GET /
+2018-11-29T19:43:56.684Z - debug: GET /CSS/shirts.jpg
+2018-11-29T19:43:56.891Z - debug: GET /images/favicon-32x32.png
+2018-11-29T19:43:56.892Z - debug: GET /images/manifest.json
+2018-11-29T19:43:56.926Z - debug: GET /images/favicon-16x16.png
+2018-11-29T19:43:56.939Z - debug: GET /images/favicon-96x96.png
+2018-11-29T19:43:56.946Z - debug: GET /images/android-icon-192x192.png
+2018-11-29T19:43:59.541Z - debug: GET /
+2018-11-29T19:43:59.736Z - debug: GET /images/manifest.json
+2018-11-29T19:44:01.005Z - debug: GET /customers
+2018-11-29T19:44:01.366Z - debug: GET /images/manifest.json
+2018-11-29T19:44:07.686Z - debug: GET /customers/create
+2018-11-29T19:44:07.687Z - info: Handling GET /create[object Object]
+2018-11-29T19:44:07.693Z - debug: {"firstname":"First Name","lastname":"Last Name","street1":"Street 1","street2":"Street 2","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-11-29T19:44:07.758Z - debug: GET /customers/CSS/main.css
+2018-11-29T19:44:07.892Z - debug: GET /customers/CSS/main.css
+2018-11-29T19:44:07.962Z - debug: GET /images/manifest.json
+2018-11-29T19:44:15.272Z - debug: GET /images/manifest.json
+2018-11-29T19:44:24.781Z - debug: GET /customers/create
+2018-11-29T19:44:24.782Z - info: Handling GET /create[object Object]
+2018-11-29T19:44:24.783Z - debug: {"firstname":"First Name","lastname":"Last Name","street1":"Street 1","street2":"Street 2","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-11-29T19:44:24.815Z - debug: GET /customers/CSS/main.css
+2018-11-29T19:44:24.957Z - debug: GET /customers/CSS/main.css
+2018-11-29T19:44:25.032Z - debug: GET /images/manifest.json
+2018-11-29T19:44:27.572Z - debug: GET /images/manifest.json
+2018-11-29T19:44:30.594Z - debug: GET /customers/edit/
+2018-11-29T19:44:30.621Z - debug: GET /customers/edit/CSS/main.css
+2018-11-29T19:44:30.741Z - debug: GET /customers/edit/CSS/main.css
+2018-11-29T19:44:30.794Z - debug: GET /images/manifest.json
+2018-11-29T19:44:33.539Z - debug: GET /images/manifest.json
+2018-11-29T19:44:35.157Z - debug: GET /customers/delete/
+2018-11-29T19:44:35.183Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T19:44:35.334Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T19:44:35.393Z - debug: GET /images/manifest.json
+2018-11-29T19:44:37.443Z - debug: GET /images/manifest.json
+2018-11-29T19:44:38.824Z - debug: GET /customers/details/
+2018-11-29T19:44:38.850Z - debug: GET /customers/details/CSS/main.css
+2018-11-29T19:44:38.972Z - debug: GET /customers/details/CSS/main.css
+2018-11-29T19:44:39.023Z - debug: GET /images/manifest.json
+2018-11-29T19:44:41.169Z - debug: GET /images/manifest.json
+2018-11-29T19:47:11.321Z - info: Environment variables loaded.
+2018-11-29T19:47:11.331Z - debug: START routing
+2018-11-29T19:47:11.363Z - debug: END routing
+2018-11-29T19:47:11.363Z - info: Loaded routing.
+2018-11-29T19:47:11.393Z - info: START seeder.
+2018-11-29T19:47:11.397Z - debug: 5 customers seeded
+2018-11-29T19:47:11.399Z - debug: 5 customers seeded
+2018-11-29T19:47:11.401Z - debug: 6 products seeded
+2018-11-29T19:47:11.403Z - debug: 5 orders seeded
+2018-11-29T19:47:11.405Z - debug: 5 orderLineItems seeded
+2018-11-29T19:47:11.405Z - info: END Seeder. Sample data read and verified.
+2018-11-29T19:47:15.449Z - debug: GET /customers
+2018-11-29T19:47:15.776Z - debug: GET /CSS/shirts.jpg
+2018-11-29T19:47:15.913Z - debug: GET /images/manifest.json
+2018-11-29T19:47:17.391Z - debug: GET /customers/edit/
+2018-11-29T19:47:17.426Z - debug: GET /customers/edit/CSS/main.css
+2018-11-29T19:47:17.597Z - debug: GET /customers/edit/CSS/main.css
+2018-11-29T19:47:17.669Z - debug: GET /images/manifest.json
+2018-11-29T19:47:19.944Z - debug: GET /images/manifest.json
+2018-11-29T19:47:21.360Z - debug: GET /customers/delete/
+2018-11-29T19:47:21.396Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T19:47:21.546Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T19:47:21.619Z - debug: GET /images/manifest.json
+2018-11-29T19:53:14.691Z - debug: GET /customer/delete/
+2018-11-29T19:53:14.720Z - debug: GET /customer/delete/CSS/main.css
+2018-11-29T19:53:15.136Z - debug: GET /CSS/shirts.jpg
+2018-11-29T19:53:15.148Z - debug: GET /customer/delete/CSS/main.css
+2018-11-29T19:53:15.279Z - debug: GET /images/manifest.json
+2018-11-29T19:53:23.635Z - debug: GET /customers/delete/
+2018-11-29T19:53:23.664Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T19:53:23.829Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T19:53:23.897Z - debug: GET /images/manifest.json
+2018-11-29T19:53:28.948Z - debug: GET /customers/Delete/
+2018-11-29T19:53:28.977Z - debug: GET /customers/Delete/CSS/main.css
+2018-11-29T19:53:29.297Z - debug: GET /customers/Delete/CSS/main.css
+2018-11-29T19:53:29.401Z - debug: GET /images/manifest.json
+2018-11-29T19:53:32.896Z - debug: GET /customers
+2018-11-29T19:53:33.850Z - debug: GET /images/manifest.json
+2018-11-29T19:55:29.210Z - debug: GET /customers
+2018-11-29T19:55:29.571Z - debug: GET /CSS/shirts.jpg
+2018-11-29T19:55:29.728Z - debug: GET /images/manifest.json
+2018-11-29T19:55:31.081Z - debug: GET /customers/edit/1
+2018-11-29T19:55:31.083Z - info: Handling GET /edit/:id [object Object]
+2018-11-29T19:55:31.084Z - info: RETURNING VIEW FOR{"_id":1,"firstname":"Srujana","lastname":"Gattu","email":"S533622@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-29T19:55:31.084Z - info: RETURNING VIEW FOR{"_id":1,"firstname":"Srujana","lastname":"Gattu","email":"S533622@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-29T19:55:31.127Z - debug: GET /customers/edit/CSS/main.css
+2018-11-29T19:55:31.250Z - debug: GET /customers/edit/CSS/main.css
+2018-11-29T19:55:31.323Z - debug: GET /images/manifest.json
+2018-11-29T19:55:44.568Z - debug: GET /images/manifest.json
+2018-11-29T19:55:46.174Z - debug: GET /customers/delete/1
+2018-11-29T19:55:46.216Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T19:55:46.340Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T19:55:46.392Z - debug: GET /images/manifest.json
+2018-11-29T19:55:49.827Z - debug: GET /customers
+2018-11-29T19:55:50.069Z - debug: GET /images/manifest.json
+2018-11-29T19:55:52.354Z - debug: GET /customers/details/1
+2018-11-29T19:55:52.355Z - info: Handling GET /details/:id [object Object]
+2018-11-29T19:55:52.355Z - info: RETURNING VIEW FOR {"_id":1,"firstname":"Srujana","lastname":"Gattu","email":"S533622@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-29T19:55:52.383Z - debug: GET /customers/details/CSS/main.css
+2018-11-29T19:55:52.499Z - debug: GET /customers/details/CSS/main.css
+2018-11-29T19:55:52.549Z - debug: GET /images/manifest.json
+2018-11-29T19:55:58.538Z - debug: GET /customer?
+2018-11-29T19:55:58.718Z - debug: GET /images/manifest.json
+2018-11-29T19:56:01.662Z - debug: GET /images/manifest.json
+2018-11-29T19:57:01.763Z - debug: GET /customers/details/1
+2018-11-29T19:57:01.764Z - info: Handling GET /details/:id [object Object]
+2018-11-29T19:57:01.764Z - info: RETURNING VIEW FOR {"_id":1,"firstname":"Srujana","lastname":"Gattu","email":"S533622@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-29T19:57:01.835Z - debug: GET /customers/details/CSS/main.css
+2018-11-29T19:57:01.932Z - debug: GET /customers/details/CSS/main.css
+2018-11-29T19:57:01.993Z - debug: GET /images/manifest.json
+2018-11-29T19:57:03.863Z - debug: GET /customer?
+2018-11-29T19:57:04.098Z - debug: GET /images/manifest.json
+2018-11-29T19:57:06.331Z - debug: GET /customers
+2018-11-29T19:57:06.529Z - debug: GET /images/manifest.json
+2018-11-29T19:57:07.879Z - debug: GET /customers/delete/1
+2018-11-29T19:57:07.907Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T19:57:08.055Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T19:57:08.114Z - debug: GET /images/manifest.json
+2018-11-29T19:58:17.376Z - debug: GET /customers
+2018-11-29T19:58:17.735Z - debug: GET /CSS/shirts.jpg
+2018-11-29T19:58:17.909Z - debug: GET /images/manifest.json
+2018-11-29T19:58:19.538Z - debug: GET /customers/details/1
+2018-11-29T19:58:19.539Z - info: Handling GET /details/:id [object Object]
+2018-11-29T19:58:19.539Z - info: RETURNING VIEW FOR {"_id":1,"firstname":"Srujana","lastname":"Gattu","email":"S533622@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-29T19:58:19.577Z - debug: GET /customers/details/CSS/main.css
+2018-11-29T19:58:19.707Z - debug: GET /customers/details/CSS/main.css
+2018-11-29T19:58:19.771Z - debug: GET /images/manifest.json
+2018-11-29T19:58:20.889Z - debug: GET /customer?
+2018-11-29T19:58:21.117Z - debug: GET /images/manifest.json
+2018-11-29T19:58:51.202Z - debug: GET /customers
+2018-11-29T19:58:51.683Z - debug: GET /images/manifest.json
+2018-11-29T19:58:53.607Z - debug: GET /customers/details/1
+2018-11-29T19:58:53.608Z - info: Handling GET /details/:id [object Object]
+2018-11-29T19:58:53.608Z - info: RETURNING VIEW FOR {"_id":1,"firstname":"Srujana","lastname":"Gattu","email":"S533622@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-29T19:58:53.644Z - debug: GET /customers/details/CSS/main.css
+2018-11-29T19:58:53.769Z - debug: GET /customers/details/CSS/main.css
+2018-11-29T19:58:53.860Z - debug: GET /images/manifest.json
+2018-11-29T19:58:55.086Z - debug: GET /customers?
+2018-11-29T19:58:55.331Z - debug: GET /images/manifest.json
+2018-11-29T19:59:16.162Z - debug: GET /customers?
+2018-11-29T19:59:16.507Z - debug: GET /CSS/shirts.jpg
+2018-11-29T19:59:16.647Z - debug: GET /images/manifest.json
+2018-11-29T19:59:18.313Z - debug: GET /customers/delete/1
+2018-11-29T19:59:18.337Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T19:59:18.479Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T19:59:18.532Z - debug: GET /images/manifest.json
+2018-11-29T19:59:21.174Z - debug: GET /images/manifest.json
+2018-11-29T19:59:41.166Z - debug: GET /customers?
+2018-11-29T19:59:41.529Z - debug: GET /CSS/shirts.jpg
+2018-11-29T19:59:41.705Z - debug: GET /images/manifest.json
+2018-11-29T19:59:42.882Z - debug: GET /customers/edit/1
+2018-11-29T19:59:42.884Z - info: Handling GET /edit/:id [object Object]
+2018-11-29T19:59:42.884Z - info: RETURNING VIEW FOR{"_id":1,"firstname":"Srujana","lastname":"Gattu","email":"S533622@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-29T19:59:42.884Z - info: RETURNING VIEW FOR{"_id":1,"firstname":"Srujana","lastname":"Gattu","email":"S533622@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-29T19:59:42.920Z - debug: GET /customers/edit/CSS/main.css
+2018-11-29T19:59:43.066Z - debug: GET /customers/edit/CSS/main.css
+2018-11-29T19:59:43.140Z - debug: GET /images/manifest.json
+2018-11-29T19:59:47.548Z - debug: GET /images/manifest.json
+2018-11-29T20:00:56.403Z - debug: GET /customers?
+2018-11-29T20:00:56.891Z - debug: GET /images/manifest.json
+2018-11-29T20:00:58.446Z - debug: GET /customers/delete/1
+2018-11-29T20:00:58.474Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:00:58.604Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:00:58.659Z - debug: GET /images/manifest.json
+2018-11-29T20:01:02.633Z - debug: GET /images/manifest.json
+2018-11-29T20:01:37.891Z - debug: GET /customers/delete/1
+2018-11-29T20:01:37.934Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:01:38.070Z - debug: GET /CSS/shirts.jpg
+2018-11-29T20:01:38.083Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:01:38.142Z - debug: GET /images/manifest.json
+2018-11-29T20:02:14.544Z - debug: GET /customers/
+2018-11-29T20:02:14.589Z - debug: GET /customers/CSS/main.css
+2018-11-29T20:02:14.955Z - debug: GET /CSS/shirts.jpg
+2018-11-29T20:02:14.971Z - debug: GET /customers/CSS/main.css
+2018-11-29T20:02:15.143Z - debug: GET /images/manifest.json
+2018-11-29T20:02:16.774Z - debug: GET /customers/customers/delete/1
+2018-11-29T20:02:16.802Z - debug: GET /customers/CSS/main.css
+2018-11-29T20:02:16.813Z - debug: GET /customers/customers/delete/CSS/main.css
+2018-11-29T20:02:16.960Z - debug: GET /customers/customers/delete/CSS/main.css
+2018-11-29T20:02:17.028Z - debug: GET /customers/images/manifest.json
+2018-11-29T20:02:17.041Z - debug: GET /customers/images/favicon-32x32.png
+2018-11-29T20:02:17.049Z - debug: GET /customers/images/favicon-16x16.png
+2018-11-29T20:02:17.057Z - debug: GET /customers/images/favicon-96x96.png
+2018-11-29T20:02:17.063Z - debug: GET /customers/images/android-icon-192x192.png
+2018-11-29T20:02:31.598Z - debug: GET /images/manifest.json
+2018-11-29T20:02:33.952Z - debug: GET /customers/customers/delete/1
+2018-11-29T20:02:33.978Z - debug: GET /customers/CSS/main.css
+2018-11-29T20:02:33.993Z - debug: GET /customers/customers/delete/CSS/main.css
+2018-11-29T20:02:34.134Z - debug: GET /customers/customers/delete/CSS/main.css
+2018-11-29T20:02:34.199Z - debug: GET /customers/images/manifest.json
+2018-11-29T20:03:08.495Z - debug: GET /images/manifest.json
+2018-11-29T20:03:09.981Z - debug: GET /customers/customers/delete/1
+2018-11-29T20:03:10.006Z - debug: GET /customers/CSS/main.css
+2018-11-29T20:03:10.020Z - debug: GET /customers/customers/delete/CSS/main.css
+2018-11-29T20:03:10.165Z - debug: GET /customers/customers/delete/CSS/main.css
+2018-11-29T20:03:10.214Z - debug: GET /customers/images/manifest.json
+2018-11-29T20:04:28.693Z - debug: GET /customers/customers/delete
+2018-11-29T20:04:28.725Z - debug: GET /customers/customers/CSS/main.css
+2018-11-29T20:04:29.103Z - debug: GET /CSS/shirts.jpg
+2018-11-29T20:04:29.115Z - debug: GET /customers/customers/CSS/main.css
+2018-11-29T20:04:29.242Z - debug: GET /images/manifest.json
+2018-11-29T20:04:53.985Z - debug: GET /customers/customers/delete
+2018-11-29T20:04:54.014Z - debug: GET /customers/customers/CSS/main.css
+2018-11-29T20:04:54.367Z - debug: GET /CSS/shirts.jpg
+2018-11-29T20:04:54.377Z - debug: GET /customers/customers/CSS/main.css
+2018-11-29T20:04:54.502Z - debug: GET /images/manifest.json
+2018-11-29T20:07:04.574Z - info: Environment variables loaded.
+2018-11-29T20:07:04.583Z - debug: START routing
+2018-11-29T20:07:04.611Z - debug: END routing
+2018-11-29T20:07:04.611Z - info: Loaded routing.
+2018-11-29T20:07:04.651Z - info: START seeder.
+2018-11-29T20:07:04.655Z - debug: 5 customers seeded
+2018-11-29T20:07:04.657Z - debug: 5 customers seeded
+2018-11-29T20:07:04.659Z - debug: 6 products seeded
+2018-11-29T20:07:04.660Z - debug: 5 orders seeded
+2018-11-29T20:07:04.662Z - debug: 5 orderLineItems seeded
+2018-11-29T20:07:04.662Z - info: END Seeder. Sample data read and verified.
+2018-11-29T20:07:09.707Z - debug: GET /customers/customers/delete
+2018-11-29T20:07:09.745Z - debug: GET /customers/customers/CSS/main.css
+2018-11-29T20:07:10.041Z - debug: GET /CSS/shirts.jpg
+2018-11-29T20:07:10.051Z - debug: GET /customers/customers/CSS/main.css
+2018-11-29T20:07:10.170Z - debug: GET /images/manifest.json
+2018-11-29T20:07:12.150Z - debug: GET /customers
+2018-11-29T20:07:12.305Z - debug: GET /CSS/shirts.jpg
+2018-11-29T20:07:12.375Z - debug: GET /images/manifest.json
+2018-11-29T20:07:14.066Z - debug: GET /customers/delete/1
+2018-11-29T20:07:14.100Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:07:14.217Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:07:14.279Z - debug: GET /images/manifest.json
+2018-11-29T20:07:16.165Z - debug: GET /images/manifest.json
+2018-11-29T20:07:17.383Z - debug: GET /customers/details/1
+2018-11-29T20:07:17.384Z - info: Handling GET /details/:id [object Object]
+2018-11-29T20:07:17.385Z - info: RETURNING VIEW FOR {"_id":1,"firstname":"Srujana","lastname":"Gattu","email":"S533622@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-29T20:07:17.420Z - debug: GET /customers/details/CSS/main.css
+2018-11-29T20:07:17.551Z - debug: GET /customers/details/CSS/main.css
+2018-11-29T20:07:17.603Z - debug: GET /images/manifest.json
+2018-11-29T20:07:22.054Z - debug: GET /images/manifest.json
+2018-11-29T20:07:23.130Z - debug: GET /customers/edit/1
+2018-11-29T20:07:23.132Z - info: Handling GET /edit/:id [object Object]
+2018-11-29T20:07:23.132Z - info: RETURNING VIEW FOR{"_id":1,"firstname":"Srujana","lastname":"Gattu","email":"S533622@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-29T20:07:23.132Z - info: RETURNING VIEW FOR{"_id":1,"firstname":"Srujana","lastname":"Gattu","email":"S533622@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-29T20:07:23.178Z - debug: GET /customers/edit/CSS/main.css
+2018-11-29T20:07:23.302Z - debug: GET /customers/edit/CSS/main.css
+2018-11-29T20:07:23.366Z - debug: GET /images/manifest.json
+2018-11-29T20:07:34.068Z - debug: POST /customers/save/1
+2018-11-29T20:07:34.108Z - info: Handling SAVE request [object Object]
+2018-11-29T20:07:34.109Z - info: Handling SAVING ID=1
+2018-11-29T20:07:34.109Z - info: ORIGINAL VALUES {"_id":1,"firstname":"Srujana","lastname":"Gattu","email":"S533622@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-29T20:07:34.109Z - info: UPDATED VALUES: {"email":"S533622@nwmissouri.edu","Firstname":"Srujana","Lastname":"Gattu","Age":"25","street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","zip":"64468","country":"China"}
+2018-11-29T20:07:34.109Z - info: SAVING UPDATED customer {"_id":1,"firstname":"Srujana","lastname":"Gattu","email":"S533622@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"China","zip":"64468","Firstname":"Srujana","Lastname":"Gattu"}
+2018-11-29T20:07:34.119Z - debug: GET /customers
+2018-11-29T20:07:34.601Z - debug: GET /images/manifest.json
+2018-11-29T20:07:38.469Z - debug: GET /customers/edit/CSS/main.css
+2018-11-29T20:07:38.661Z - debug: GET /images/manifest.json
+2018-11-29T20:07:49.926Z - debug: GET /customers
+2018-11-29T20:07:50.435Z - debug: GET /images/manifest.json
+2018-11-29T20:09:42.588Z - debug: GET /customers
+2018-11-29T20:09:42.948Z - debug: GET /CSS/shirts.jpg
+2018-11-29T20:09:43.125Z - debug: GET /images/manifest.json
+2018-11-29T20:09:44.960Z - debug: GET /customers/delete/1
+2018-11-29T20:09:44.986Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:09:45.168Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:09:45.224Z - debug: GET /images/manifest.json
+2018-11-29T20:09:47.588Z - debug: GET /customers
+2018-11-29T20:09:47.779Z - debug: GET /images/manifest.json
+2018-11-29T20:09:48.892Z - debug: GET /products
+2018-11-29T20:09:49.149Z - debug: GET /images/manifest.json
+2018-11-29T20:09:50.934Z - debug: GET /products/delete/6
+2018-11-29T20:09:53.578Z - debug: GET /images/manifest.json
+2018-11-29T20:09:55.939Z - debug: GET /products
+2018-11-29T20:09:56.152Z - debug: GET /images/manifest.json
+2018-11-29T20:09:57.269Z - debug: GET /products/details/6
+2018-11-29T20:10:04.912Z - debug: GET /images/manifest.json
+2018-11-29T20:10:06.255Z - debug: GET /products/edit/6
+2018-11-29T20:10:08.179Z - debug: GET /images/manifest.json
+2018-11-29T20:10:09.795Z - debug: GET /orderLineItem
+2018-11-29T20:10:10.153Z - debug: GET /images/manifest.json
+2018-11-29T20:10:11.571Z - debug: GET /orderLineItem/delete/555
+2018-11-29T20:10:11.601Z - debug: GET /orderLineItem/delete/CSS/main.css
+2018-11-29T20:10:11.718Z - debug: GET /orderLineItem/delete/CSS/main.css
+2018-11-29T20:10:11.762Z - debug: GET /images/manifest.json
+2018-11-29T20:10:14.158Z - debug: GET /images/manifest.json
+2018-11-29T20:10:16.586Z - debug: GET /orderLineItem/details/555
+2018-11-29T20:10:16.623Z - debug: GET /orderLineItem/details/CSS/main.css
+2018-11-29T20:10:16.729Z - debug: GET /orderLineItem/details/CSS/main.css
+2018-11-29T20:10:16.774Z - debug: GET /images/manifest.json
+2018-11-29T20:10:18.488Z - debug: GET /images/manifest.json
+2018-11-29T20:10:20.169Z - debug: GET /orderLineItem/edit/555
+2018-11-29T20:10:20.203Z - debug: GET /orderLineItem/edit/CSS/main.css
+2018-11-29T20:10:20.323Z - debug: GET /orderLineItem/edit/CSS/main.css
+2018-11-29T20:10:20.376Z - debug: GET /images/manifest.json
+2018-11-29T20:10:22.232Z - debug: GET /images/manifest.json
+2018-11-29T20:10:24.389Z - debug: GET /
+2018-11-29T20:10:24.577Z - debug: GET /images/manifest.json
+2018-11-29T20:10:25.781Z - debug: GET /customers
+2018-11-29T20:10:26.008Z - debug: GET /images/manifest.json
+2018-11-29T20:12:39.085Z - debug: GET /customers
+2018-11-29T20:12:39.212Z - debug: GET /CSS/shirts.jpg
+2018-11-29T20:12:39.287Z - debug: GET /images/manifest.json
+2018-11-29T20:12:41.136Z - debug: GET /customers/delete/1
+2018-11-29T20:12:41.166Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:12:41.285Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:12:41.351Z - debug: GET /images/manifest.json
+2018-11-29T20:12:43.137Z - debug: GET /images/manifest.json
+2018-11-29T20:14:31.554Z - info: Environment variables loaded.
+2018-11-29T20:14:31.564Z - debug: START routing
+2018-11-29T20:14:31.592Z - debug: END routing
+2018-11-29T20:14:31.592Z - info: Loaded routing.
+2018-11-29T20:14:31.626Z - info: START seeder.
+2018-11-29T20:14:31.631Z - debug: 5 customers seeded
+2018-11-29T20:14:31.633Z - debug: 5 customers seeded
+2018-11-29T20:14:31.635Z - debug: 6 products seeded
+2018-11-29T20:14:31.637Z - debug: 5 orders seeded
+2018-11-29T20:14:31.639Z - debug: 5 orderLineItems seeded
+2018-11-29T20:14:31.639Z - info: END Seeder. Sample data read and verified.
+2018-11-29T20:14:34.918Z - debug: GET /customers
+2018-11-29T20:14:35.262Z - debug: GET /CSS/shirts.jpg
+2018-11-29T20:14:35.388Z - debug: GET /images/manifest.json
+2018-11-29T20:14:37.230Z - debug: GET /customers/delete/1
+2018-11-29T20:14:37.265Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:14:37.404Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:14:37.467Z - debug: GET /images/manifest.json
+2018-11-29T20:14:39.321Z - debug: GET /images/manifest.json
+2018-11-29T20:14:40.572Z - debug: GET /customers/details/1
+2018-11-29T20:14:40.574Z - info: Handling GET /details/:id [object Object]
+2018-11-29T20:14:40.576Z - info: RETURNING VIEW FOR {"_id":1,"firstname":"Srujana","lastname":"Gattu","email":"S533622@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-29T20:14:40.611Z - debug: GET /customers/details/CSS/main.css
+2018-11-29T20:14:40.749Z - debug: GET /customers/details/CSS/main.css
+2018-11-29T20:14:40.807Z - debug: GET /images/manifest.json
+2018-11-29T20:14:43.141Z - debug: GET /images/manifest.json
+2018-11-29T20:14:44.870Z - debug: GET /customers/details/1
+2018-11-29T20:14:44.870Z - info: Handling GET /details/:id [object Object]
+2018-11-29T20:14:44.871Z - info: RETURNING VIEW FOR {"_id":1,"firstname":"Srujana","lastname":"Gattu","email":"S533622@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-29T20:14:44.905Z - debug: GET /customers/details/CSS/main.css
+2018-11-29T20:14:45.120Z - debug: GET /customers/details/CSS/main.css
+2018-11-29T20:14:45.201Z - debug: GET /images/manifest.json
+2018-11-29T20:14:46.212Z - debug: GET /customers?
+2018-11-29T20:14:46.417Z - debug: GET /images/manifest.json
+2018-11-29T20:14:48.873Z - debug: GET /images/manifest.json
+2018-11-29T20:14:51.573Z - debug: GET /images/manifest.json
+2018-11-29T20:14:52.957Z - debug: GET /customers/edit/1
+2018-11-29T20:14:52.959Z - info: Handling GET /edit/:id [object Object]
+2018-11-29T20:14:52.960Z - info: RETURNING VIEW FOR{"_id":1,"firstname":"Srujana","lastname":"Gattu","email":"S533622@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-29T20:14:52.960Z - info: RETURNING VIEW FOR{"_id":1,"firstname":"Srujana","lastname":"Gattu","email":"S533622@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-29T20:14:53.041Z - debug: GET /customers/edit/CSS/main.css
+2018-11-29T20:14:53.167Z - debug: GET /customers/edit/CSS/main.css
+2018-11-29T20:14:53.233Z - debug: GET /images/manifest.json
+2018-11-29T20:15:01.734Z - debug: GET /images/manifest.json
+2018-11-29T20:16:02.073Z - debug: GET /customers/delete/1
+2018-11-29T20:16:02.112Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:16:02.611Z - debug: GET /CSS/shirts.jpg
+2018-11-29T20:16:02.625Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:16:02.790Z - debug: GET /images/manifest.json
+2018-11-29T20:16:07.596Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:19:47.607Z - debug: GET /customers/delete/1
+2018-11-29T20:19:47.647Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:19:48.091Z - debug: GET /CSS/shirts.jpg
+2018-11-29T20:19:48.160Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:19:48.381Z - debug: GET /images/manifest.json
+2018-11-29T20:19:54.348Z - debug: GET /customers/delete
+2018-11-29T20:19:54.394Z - debug: GET /customers/CSS/main.css
+2018-11-29T20:19:54.818Z - debug: GET /CSS/shirts.jpg
+2018-11-29T20:19:54.860Z - debug: GET /customers/CSS/main.css
+2018-11-29T20:19:55.044Z - debug: GET /images/manifest.json
+2018-11-29T20:19:58.888Z - debug: GET /customers
+2018-11-29T20:20:00.093Z - debug: GET /CSS/shirts.jpg
+2018-11-29T20:20:00.424Z - debug: GET /images/manifest.json
+2018-11-29T20:20:01.964Z - debug: GET /customers/edit/1
+2018-11-29T20:20:01.966Z - info: Handling GET /edit/:id [object Object]
+2018-11-29T20:20:01.966Z - info: RETURNING VIEW FOR{"_id":1,"firstname":"Srujana","lastname":"Gattu","email":"S533622@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-29T20:20:01.966Z - info: RETURNING VIEW FOR{"_id":1,"firstname":"Srujana","lastname":"Gattu","email":"S533622@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-29T20:20:02.014Z - debug: GET /customers/edit/CSS/main.css
+2018-11-29T20:20:02.533Z - debug: GET /customers/edit/CSS/main.css
+2018-11-29T20:20:02.711Z - debug: GET /images/manifest.json
+2018-11-29T20:20:05.242Z - debug: GET /images/manifest.json
+2018-11-29T20:20:29.175Z - debug: GET /customers
+2018-11-29T20:20:29.664Z - debug: GET /CSS/shirts.jpg
+2018-11-29T20:20:29.853Z - debug: GET /images/manifest.json
+2018-11-29T20:20:31.202Z - debug: GET /customers/delete/1
+2018-11-29T20:20:31.251Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:20:31.734Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:20:31.916Z - debug: GET /images/manifest.json
+2018-11-29T20:20:34.829Z - debug: GET /images/manifest.json
+2018-11-29T20:23:48.945Z - debug: GET /customers
+2018-11-29T20:23:49.467Z - debug: GET /CSS/shirts.jpg
+2018-11-29T20:23:49.668Z - debug: GET /images/manifest.json
+2018-11-29T20:23:53.689Z - debug: GET /customers/delete/1
+2018-11-29T20:23:53.712Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:23:54.089Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:23:54.262Z - debug: GET /images/manifest.json
+2018-11-29T20:24:06.402Z - debug: GET /customers/delete/1
+2018-11-29T20:24:06.431Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:24:06.742Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:24:06.853Z - debug: GET /images/manifest.json
+2018-11-29T20:24:10.257Z - debug: GET /customers/delete/1
+2018-11-29T20:24:10.290Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:24:10.413Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:24:10.481Z - debug: GET /images/manifest.json
+2018-11-29T20:24:19.175Z - debug: GET /customers/delete/1
+2018-11-29T20:24:19.225Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:24:19.343Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:24:19.405Z - debug: GET /images/manifest.json
+2018-11-29T20:24:28.245Z - debug: GET /customers/delete/1
+2018-11-29T20:24:28.284Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:24:28.419Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:24:28.482Z - debug: GET /images/manifest.json
+2018-11-29T20:27:23.752Z - debug: GET /customers
+2018-11-29T20:27:24.238Z - debug: GET /CSS/shirts.jpg
+2018-11-29T20:27:24.555Z - debug: GET /images/manifest.json
+2018-11-29T20:27:37.525Z - debug: GET /customers/delete/1
+2018-11-29T20:27:37.565Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:27:38.048Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:27:38.225Z - debug: GET /images/manifest.json
+2018-11-29T20:27:42.867Z - debug: GET /images/manifest.json
+2018-11-29T20:27:44.053Z - debug: GET /customers/edit/1
+2018-11-29T20:27:44.054Z - info: Handling GET /edit/:id [object Object]
+2018-11-29T20:27:44.054Z - info: RETURNING VIEW FOR{"_id":1,"firstname":"Srujana","lastname":"Gattu","email":"S533622@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-29T20:27:44.054Z - info: RETURNING VIEW FOR{"_id":1,"firstname":"Srujana","lastname":"Gattu","email":"S533622@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-29T20:27:44.108Z - debug: GET /customers/edit/CSS/main.css
+2018-11-29T20:27:44.592Z - debug: GET /customers/edit/CSS/main.css
+2018-11-29T20:27:44.765Z - debug: GET /images/manifest.json
+2018-11-29T20:27:50.271Z - debug: GET /images/manifest.json
+2018-11-29T20:27:51.562Z - debug: GET /customers/details/1
+2018-11-29T20:27:51.562Z - info: Handling GET /details/:id [object Object]
+2018-11-29T20:27:51.563Z - info: RETURNING VIEW FOR {"_id":1,"firstname":"Srujana","lastname":"Gattu","email":"S533622@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-29T20:27:51.613Z - debug: GET /customers/details/CSS/main.css
+2018-11-29T20:27:52.066Z - debug: GET /customers/details/CSS/main.css
+2018-11-29T20:27:52.218Z - debug: GET /images/manifest.json
+2018-11-29T20:27:57.493Z - debug: GET /customers?
+2018-11-29T20:27:58.106Z - debug: GET /images/manifest.json
+2018-11-29T20:28:00.726Z - debug: GET /images/manifest.json
+2018-11-29T20:29:12.848Z - debug: GET /images/manifest.json
+2018-11-29T20:29:18.729Z - debug: GET /customers
+2018-11-29T20:29:19.266Z - debug: GET /images/manifest.json
+2018-11-29T20:29:19.352Z - debug: GET /images/favicon-32x32.png
+2018-11-29T20:29:21.912Z - debug: GET /customers/delete/1
+2018-11-29T20:29:21.942Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:29:22.069Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:29:22.124Z - debug: GET /images/manifest.json
+2018-11-29T20:29:28.217Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:29:28.953Z - debug: GET /images/manifest.json
+2018-11-29T20:32:49.489Z - info: Environment variables loaded.
+2018-11-29T20:32:49.497Z - debug: START routing
+2018-11-29T20:32:49.521Z - debug: END routing
+2018-11-29T20:32:49.521Z - info: Loaded routing.
+2018-11-29T20:32:49.559Z - info: START seeder.
+2018-11-29T20:32:49.563Z - debug: 5 customers seeded
+2018-11-29T20:32:49.565Z - debug: 5 customers seeded
+2018-11-29T20:32:49.566Z - debug: 6 products seeded
+2018-11-29T20:32:49.568Z - debug: 5 orders seeded
+2018-11-29T20:32:49.571Z - debug: 5 orderLineItems seeded
+2018-11-29T20:32:49.571Z - info: END Seeder. Sample data read and verified.
+2018-11-29T20:32:59.519Z - debug: GET /customers/delete/1
+2018-11-29T20:32:59.562Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:32:59.656Z - debug: GET /CSS/shirts.jpg
+2018-11-29T20:32:59.666Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:32:59.719Z - debug: GET /images/manifest.json
+2018-11-29T20:33:02.355Z - debug: GET /customers
+2018-11-29T20:33:02.510Z - debug: GET /CSS/shirts.jpg
+2018-11-29T20:33:02.623Z - debug: GET /images/manifest.json
+2018-11-29T20:33:05.196Z - debug: GET /customers/delete/1
+2018-11-29T20:33:05.227Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:33:05.352Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:33:05.404Z - debug: GET /images/manifest.json
+2018-11-29T20:33:08.258Z - debug: GET /images/manifest.json
+2018-11-29T20:33:09.832Z - debug: GET /customers/details/1
+2018-11-29T20:33:09.833Z - info: Handling GET /details/:id [object Object]
+2018-11-29T20:33:09.834Z - info: RETURNING VIEW FOR {"_id":1,"firstname":"Srujana","lastname":"Gattu","email":"S533622@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-29T20:33:09.862Z - debug: GET /customers/details/CSS/main.css
+2018-11-29T20:33:09.993Z - debug: GET /customers/details/CSS/main.css
+2018-11-29T20:33:10.050Z - debug: GET /images/manifest.json
+2018-11-29T20:33:19.053Z - debug: GET /customers?
+2018-11-29T20:33:19.280Z - debug: GET /images/manifest.json
+2018-11-29T20:33:22.196Z - debug: GET /customers/details/CSS/main.css
+2018-11-29T20:33:22.377Z - debug: GET /images/manifest.json
+2018-11-29T20:34:27.509Z - debug: GET /images/manifest.json
+2018-11-29T20:34:33.447Z - debug: GET /customers/delete/1
+2018-11-29T20:34:33.478Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:34:33.651Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:34:33.714Z - debug: GET /images/manifest.json
+2018-11-29T20:45:06.549Z - debug: GET /images/manifest.json
+2018-11-29T20:45:08.085Z - debug: GET /customers/delete/1
+2018-11-29T20:45:08.110Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:45:08.269Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:45:08.335Z - debug: GET /images/manifest.json
+2018-11-29T20:46:24.193Z - info: Environment variables loaded.
+2018-11-29T20:46:24.202Z - debug: START routing
+2018-11-29T20:46:24.225Z - debug: END routing
+2018-11-29T20:46:24.225Z - info: Loaded routing.
+2018-11-29T20:46:24.263Z - info: START seeder.
+2018-11-29T20:46:24.267Z - debug: 5 customers seeded
+2018-11-29T20:46:24.268Z - debug: 5 customers seeded
+2018-11-29T20:46:24.273Z - debug: 6 products seeded
+2018-11-29T20:46:24.276Z - debug: 5 orders seeded
+2018-11-29T20:46:24.281Z - debug: 5 orderLineItems seeded
+2018-11-29T20:46:24.281Z - info: END Seeder. Sample data read and verified.
+2018-11-29T20:46:31.403Z - info: Environment variables loaded.
+2018-11-29T20:46:31.412Z - debug: START routing
+2018-11-29T20:46:31.434Z - debug: END routing
+2018-11-29T20:46:31.434Z - info: Loaded routing.
+2018-11-29T20:46:31.472Z - info: START seeder.
+2018-11-29T20:46:31.475Z - debug: 5 customers seeded
+2018-11-29T20:46:31.478Z - debug: 5 customers seeded
+2018-11-29T20:46:31.479Z - debug: 6 products seeded
+2018-11-29T20:46:31.480Z - debug: 5 orders seeded
+2018-11-29T20:46:31.482Z - debug: 5 orderLineItems seeded
+2018-11-29T20:46:31.482Z - info: END Seeder. Sample data read and verified.
+2018-11-29T20:46:40.505Z - info: Environment variables loaded.
+2018-11-29T20:46:40.515Z - debug: START routing
+2018-11-29T20:46:40.540Z - debug: END routing
+2018-11-29T20:46:40.540Z - info: Loaded routing.
+2018-11-29T20:46:40.588Z - info: START seeder.
+2018-11-29T20:46:40.593Z - debug: 5 customers seeded
+2018-11-29T20:46:40.596Z - debug: 5 customers seeded
+2018-11-29T20:46:40.598Z - debug: 6 products seeded
+2018-11-29T20:46:40.599Z - debug: 5 orders seeded
+2018-11-29T20:46:40.601Z - debug: 5 orderLineItems seeded
+2018-11-29T20:46:40.601Z - info: END Seeder. Sample data read and verified.
+2018-11-29T20:46:43.589Z - debug: GET /customers/delete/1
+2018-11-29T20:46:43.643Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:46:43.938Z - debug: GET /CSS/shirts.jpg
+2018-11-29T20:46:43.948Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:46:44.071Z - debug: GET /images/manifest.json
+2018-11-29T20:46:45.765Z - debug: GET /
+2018-11-29T20:46:45.927Z - debug: GET /CSS/shirts.jpg
+2018-11-29T20:46:46.000Z - debug: GET /images/manifest.json
+2018-11-29T20:46:47.101Z - debug: GET /customers
+2018-11-29T20:46:55.191Z - info: Environment variables loaded.
+2018-11-29T20:46:55.202Z - debug: START routing
+2018-11-29T20:46:55.245Z - debug: END routing
+2018-11-29T20:46:55.245Z - info: Loaded routing.
+2018-11-29T20:46:55.284Z - info: START seeder.
+2018-11-29T20:46:55.292Z - debug: 5 customers seeded
+2018-11-29T20:46:55.295Z - debug: 5 customers seeded
+2018-11-29T20:46:55.296Z - debug: 6 products seeded
+2018-11-29T20:46:55.298Z - debug: 5 orders seeded
+2018-11-29T20:46:55.300Z - debug: 5 orderLineItems seeded
+2018-11-29T20:46:55.300Z - info: END Seeder. Sample data read and verified.
+2018-11-29T20:46:55.537Z - debug: GET /customers
+2018-11-29T20:46:55.710Z - debug: GET /CSS/shirts.jpg
+2018-11-29T20:46:55.784Z - debug: GET /images/manifest.json
+2018-11-29T20:47:13.033Z - debug: GET /customers/delete/1
+2018-11-29T20:47:13.074Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:47:13.242Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:47:13.311Z - debug: GET /images/manifest.json
+2018-11-29T20:47:59.592Z - debug: GET /customers/delete/1
+2018-11-29T20:47:59.622Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:48:00.009Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:48:00.151Z - debug: GET /images/manifest.json
+2018-11-29T20:48:02.254Z - debug: GET /images/manifest.json
+2018-11-29T20:48:28.561Z - debug: GET /customers/delete/1
+2018-11-29T20:48:28.608Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:48:29.008Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:48:29.130Z - debug: GET /images/manifest.json
+2018-11-29T20:48:39.213Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:51:49.794Z - debug: GET /customers/delete/1
+2018-11-29T20:51:49.833Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:51:50.245Z - debug: GET /CSS/shirts.jpg
+2018-11-29T20:51:50.258Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:51:50.407Z - debug: GET /images/manifest.json
+2018-11-29T20:51:50.445Z - debug: GET /images/favicon-32x32.png
+2018-11-29T20:51:53.074Z - debug: GET /customers/delete/1
+2018-11-29T20:51:53.097Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:51:53.215Z - debug: GET /CSS/shirts.jpg
+2018-11-29T20:51:53.225Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T20:51:53.287Z - debug: GET /images/manifest.json
+2018-11-29T21:03:17.834Z - debug: GET /images/manifest.json
+2018-11-29T21:03:21.215Z - debug: GET /customers/delete/1
+2018-11-29T21:03:21.253Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T21:03:21.392Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T21:03:21.458Z - debug: GET /images/manifest.json
+2018-11-29T21:04:16.445Z - debug: GET /images/manifest.json
+2018-11-29T21:04:17.878Z - debug: GET /customers
+2018-11-29T21:04:18.084Z - debug: GET /images/manifest.json
+2018-11-29T21:04:20.280Z - debug: GET /customers/delete/1
+2018-11-29T21:04:20.311Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T21:04:20.438Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T21:04:20.495Z - debug: GET /images/manifest.json
+2018-11-29T21:06:28.871Z - info: Environment variables loaded.
+2018-11-29T21:06:28.880Z - debug: START routing
+2018-11-29T21:06:28.904Z - debug: END routing
+2018-11-29T21:06:28.904Z - info: Loaded routing.
+2018-11-29T21:06:28.937Z - info: START seeder.
+2018-11-29T21:06:28.940Z - debug: 5 customers seeded
+2018-11-29T21:06:28.941Z - debug: 5 customers seeded
+2018-11-29T21:06:28.942Z - debug: 6 products seeded
+2018-11-29T21:06:28.944Z - debug: 5 orders seeded
+2018-11-29T21:06:28.946Z - debug: 5 orderLineItems seeded
+2018-11-29T21:06:28.946Z - info: END Seeder. Sample data read and verified.
+2018-11-29T21:06:35.946Z - debug: GET /customers/delete/1
+2018-11-29T21:06:35.982Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T21:06:36.274Z - debug: GET /CSS/shirts.jpg
+2018-11-29T21:06:36.286Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T21:06:36.401Z - debug: GET /images/manifest.json
+2018-11-29T21:06:39.236Z - debug: GET /images/manifest.json
+2018-11-29T21:06:40.879Z - debug: GET /customers/delete/1
+2018-11-29T21:06:40.909Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T21:06:41.101Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T21:06:41.171Z - debug: GET /images/manifest.json
+2018-11-29T21:08:06.194Z - debug: GET /images/manifest.json
+2018-11-29T21:08:36.155Z - debug: GET /customers
+2018-11-29T21:08:36.768Z - debug: GET /images/manifest.json
+2018-11-29T21:08:38.224Z - debug: GET /customers/delete/1
+2018-11-29T21:08:38.275Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T21:08:38.408Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T21:08:38.464Z - debug: GET /images/manifest.json
+2018-11-29T21:08:43.517Z - debug: GET /images/manifest.json
+2018-11-29T21:08:46.580Z - debug: GET /customers/delete/2
+2018-11-29T21:08:46.618Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T21:08:46.735Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T21:08:46.797Z - debug: GET /images/manifest.json
+2018-11-29T21:08:48.413Z - debug: GET /images/manifest.json
+2018-11-29T21:09:56.293Z - debug: GET /customers
+2018-11-29T21:09:56.792Z - debug: GET /images/manifest.json
+2018-11-29T21:09:57.615Z - debug: GET /customers/delete/1
+2018-11-29T21:09:57.651Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T21:09:57.780Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T21:09:57.843Z - debug: GET /images/manifest.json
+2018-11-29T21:09:59.642Z - debug: GET /images/manifest.json
+2018-11-29T21:10:00.912Z - debug: GET /customers/delete/2
+2018-11-29T21:10:00.951Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T21:10:01.133Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T21:10:01.249Z - debug: GET /images/manifest.json
+2018-11-29T21:10:09.212Z - info: Environment variables loaded.
+2018-11-29T21:10:09.223Z - debug: START routing
+2018-11-29T21:10:09.252Z - debug: END routing
+2018-11-29T21:10:09.254Z - info: Loaded routing.
+2018-11-29T21:10:09.291Z - info: START seeder.
+2018-11-29T21:10:09.296Z - debug: 5 customers seeded
+2018-11-29T21:10:09.300Z - debug: 5 customers seeded
+2018-11-29T21:10:09.303Z - debug: 6 products seeded
+2018-11-29T21:10:09.306Z - debug: 5 orders seeded
+2018-11-29T21:10:09.309Z - debug: 5 orderLineItems seeded
+2018-11-29T21:10:09.311Z - info: END Seeder. Sample data read and verified.
+2018-11-29T21:10:15.086Z - debug: GET /customers
+2018-11-29T21:10:16.674Z - debug: GET /images/manifest.json
+2018-11-29T21:10:19.695Z - debug: GET /customers/delete/1
+2018-11-29T21:10:19.730Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T21:10:19.856Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T21:10:19.907Z - debug: GET /images/manifest.json
+2018-11-29T21:10:21.568Z - debug: GET /images/manifest.json
+2018-11-29T21:10:36.273Z - debug: GET /customers/edit/1
+2018-11-29T21:10:36.275Z - info: Handling GET /edit/:id [object Object]
+2018-11-29T21:10:36.278Z - info: RETURNING VIEW FOR{"_id":1,"firstname":"Srujana","lastname":"Gattu","email":"S533622@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-29T21:10:36.278Z - info: RETURNING VIEW FOR{"_id":1,"firstname":"Srujana","lastname":"Gattu","email":"S533622@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-29T21:10:36.344Z - debug: GET /customers/edit/CSS/main.css
+2018-11-29T21:10:36.836Z - debug: GET /customers/edit/CSS/main.css
+2018-11-29T21:10:37.047Z - debug: GET /images/manifest.json
+2018-11-29T21:10:39.279Z - debug: GET /images/manifest.json
+2018-11-29T21:10:40.352Z - debug: GET /customers/delete/1
+2018-11-29T21:10:40.434Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T21:10:40.958Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T21:10:41.178Z - debug: GET /images/manifest.json
+2018-11-29T21:10:55.113Z - debug: GET /products
+2018-11-29T21:10:55.983Z - debug: GET /images/manifest.json
+2018-11-29T21:10:57.939Z - debug: GET /products/edit/6
+2018-11-29T21:11:04.256Z - debug: GET /images/manifest.json
+2018-11-29T21:11:04.959Z - debug: GET /customers
+2018-11-29T21:11:05.721Z - debug: GET /images/manifest.json
+2018-11-29T21:11:07.532Z - debug: GET /customers/edit/1
+2018-11-29T21:11:07.534Z - info: Handling GET /edit/:id [object Object]
+2018-11-29T21:11:07.535Z - info: RETURNING VIEW FOR{"_id":1,"firstname":"Srujana","lastname":"Gattu","email":"S533622@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-29T21:11:07.537Z - info: RETURNING VIEW FOR{"_id":1,"firstname":"Srujana","lastname":"Gattu","email":"S533622@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-29T21:11:07.585Z - debug: GET /customers/edit/CSS/main.css
+2018-11-29T21:11:08.010Z - debug: GET /customers/edit/CSS/main.css
+2018-11-29T21:11:08.163Z - debug: GET /images/manifest.json
+2018-11-29T21:11:21.383Z - debug: GET /images/manifest.json
+2018-11-29T21:11:23.346Z - debug: GET /customers/delete/1
+2018-11-29T21:11:23.422Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T21:11:23.881Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T21:11:24.071Z - debug: GET /images/manifest.json
+2018-11-29T21:13:36.920Z - debug: GET /customers/delete/1
+2018-11-29T21:13:36.963Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T21:13:37.428Z - debug: GET /CSS/shirts.jpg
+2018-11-29T21:13:37.480Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T21:13:37.669Z - debug: GET /images/manifest.json
+2018-11-29T21:13:41.610Z - debug: GET /customer
+2018-11-29T21:13:42.238Z - debug: GET /images/manifest.json
+2018-11-29T21:13:43.412Z - debug: GET /
+2018-11-29T21:13:44.058Z - debug: GET /images/manifest.json
+2018-11-29T21:13:45.633Z - debug: GET /customers
+2018-11-29T21:13:46.232Z - debug: GET /images/manifest.json
+2018-11-29T21:13:47.793Z - debug: GET /customers/delete/1
+2018-11-29T21:13:47.842Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T21:13:48.328Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T21:13:48.511Z - debug: GET /images/manifest.json
+2018-11-29T21:14:51.863Z - info: Environment variables loaded.
+2018-11-29T21:14:51.873Z - debug: START routing
+2018-11-29T21:14:51.898Z - debug: END routing
+2018-11-29T21:14:51.898Z - info: Loaded routing.
+2018-11-29T21:14:51.930Z - info: START seeder.
+2018-11-29T21:14:51.933Z - debug: 5 customers seeded
+2018-11-29T21:14:51.936Z - debug: 5 customers seeded
+2018-11-29T21:14:51.938Z - debug: 6 products seeded
+2018-11-29T21:14:51.940Z - debug: 5 orders seeded
+2018-11-29T21:14:51.941Z - debug: 5 orderLineItems seeded
+2018-11-29T21:14:51.941Z - info: END Seeder. Sample data read and verified.
+2018-11-29T21:14:59.653Z - debug: GET /
+2018-11-29T21:15:00.321Z - debug: GET /CSS/shirts.jpg
+2018-11-29T21:15:00.457Z - debug: GET /images/manifest.json
+2018-11-29T21:15:01.338Z - debug: GET /customers
+2018-11-29T21:15:01.553Z - debug: GET /images/manifest.json
+2018-11-29T21:15:02.240Z - debug: GET /customers/create
+2018-11-29T21:15:02.244Z - info: Handling GET /create[object Object]
+2018-11-29T21:15:02.253Z - debug: {"firstname":"First Name","lastname":"Last Name","street1":"Street 1","street2":"Street 2","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-11-29T21:15:02.293Z - debug: GET /customers/CSS/main.css
+2018-11-29T21:15:02.408Z - debug: GET /customers/CSS/main.css
+2018-11-29T21:15:02.483Z - debug: GET /images/manifest.json
+2018-11-29T21:15:03.556Z - debug: GET /images/manifest.json
+2018-11-29T21:15:05.869Z - debug: GET /customers/delete/1
+2018-11-29T21:15:05.873Z - info: Handling GET /delete/:id [object Object]
+2018-11-29T21:15:05.876Z - info: RETURNING VIEW FOR {"_id":1,"firstname":"Srujana","lastname":"Gattu","email":"S533622@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-29T21:15:05.928Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T21:15:06.049Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T21:15:06.107Z - debug: GET /images/manifest.json
+2018-11-29T21:15:10.587Z - debug: GET /customers?
+2018-11-29T21:15:10.853Z - debug: GET /images/manifest.json
+2018-11-29T21:15:14.085Z - debug: GET /images/manifest.json
+2018-11-29T21:17:46.043Z - debug: GET /customers/delete/1
+2018-11-29T21:17:46.046Z - info: Handling GET /delete/:id [object Object]
+2018-11-29T21:17:46.048Z - info: RETURNING VIEW FOR {"_id":1,"firstname":"Srujana","lastname":"Gattu","email":"S533622@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-29T21:17:46.084Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T21:17:46.382Z - debug: GET /CSS/shirts.jpg
+2018-11-29T21:17:46.393Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T21:17:46.520Z - debug: GET /images/manifest.json
+2018-11-29T21:17:48.557Z - debug: POST /customers/delete/1
+2018-11-29T21:17:48.589Z - info: Handling DELETE request [object Object]
+2018-11-29T21:17:48.591Z - info: Handling REMOVING ID=1
+2018-11-29T21:17:48.603Z - debug: GET /customers
+2018-11-29T21:17:48.743Z - debug: GET /CSS/shirts.jpg
+2018-11-29T21:17:48.840Z - debug: GET /images/manifest.json
+2018-11-29T21:17:56.028Z - debug: GET /customers
+2018-11-29T21:17:56.271Z - debug: GET /images/manifest.json
+2018-11-29T21:17:56.290Z - debug: GET /images/favicon-32x32.png
+2018-11-29T21:34:36.846Z - debug: GET /customers/details/2
+2018-11-29T21:34:36.850Z - info: Handling GET /details/:id [object Object]
+2018-11-29T21:34:36.851Z - info: RETURNING VIEW FOR {"_id":2,"firstname":"Dristi","lastname":"Marasini","email":"S111111@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-29T21:34:36.900Z - debug: GET /customers/details/CSS/main.css
+2018-11-29T21:34:37.302Z - debug: GET /customers/details/CSS/main.css
+2018-11-29T21:34:37.439Z - debug: GET /images/manifest.json
+2018-11-29T21:35:00.744Z - debug: GET /customers
+2018-11-29T21:35:01.149Z - debug: GET /CSS/shirts.jpg
+2018-11-29T21:35:01.294Z - debug: GET /images/manifest.json
+2018-11-29T21:35:04.668Z - debug: GET /customers/create
+2018-11-29T21:35:04.671Z - info: Handling GET /create[object Object]
+2018-11-29T21:35:04.673Z - debug: {"firstname":"First Name","lastname":"Last Name","street1":"Street 1","street2":"Street 2","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-11-29T21:35:04.721Z - debug: GET /customers/CSS/main.css
+2018-11-29T21:35:04.876Z - debug: GET /customers/CSS/main.css
+2018-11-29T21:35:04.949Z - debug: GET /images/manifest.json
+2018-11-29T21:36:23.528Z - debug: POST /customers/save
+2018-11-29T21:36:23.534Z - info: Handling POST [object Object]
+2018-11-29T21:36:23.535Z - debug: {"_id":"6","email":"srujana.gattu@gmail.com","Firstname":"Vidhya","Lastname":"Danda","Age":"26","street1":"1117N College Drive","street2":"Apt 11","city":"Sanfransisco","state":"SFO","zip":"67777","country":"California"}
+2018-11-29T21:36:23.538Z - info: NEW ID 6
+2018-11-29T21:36:23.546Z - info: SAVING NEW customer {"firstname":"First Name","lastname":"Last Name","street1":"1117N College Drive","street2":"Apt 11","city":"Sanfransisco","state":"SFO","country":"California","zip":"67777","_id":6,"email":"srujana.gattu@gmail.com"}
+2018-11-29T21:36:23.593Z - debug: GET /customers
+2018-11-29T21:36:24.215Z - debug: GET /images/manifest.json
+2018-11-29T21:37:00.841Z - debug: GET /customers/delete/6
+2018-11-29T21:37:00.842Z - info: Handling GET /delete/:id [object Object]
+2018-11-29T21:37:00.845Z - info: RETURNING VIEW FOR {"firstname":"First Name","lastname":"Last Name","street1":"1117N College Drive","street2":"Apt 11","city":"Sanfransisco","state":"SFO","country":"California","zip":"67777","_id":6,"email":"srujana.gattu@gmail.com"}
+2018-11-29T21:37:00.890Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T21:37:01.216Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T21:37:01.340Z - debug: GET /images/manifest.json
+2018-11-29T21:37:04.977Z - debug: GET /customers
+2018-11-29T21:37:05.195Z - debug: GET /images/manifest.json
+2018-11-29T21:37:07.980Z - debug: GET /customers/create
+2018-11-29T21:37:07.985Z - info: Handling GET /create[object Object]
+2018-11-29T21:37:07.987Z - debug: {"firstname":"First Name","lastname":"Last Name","street1":"Street 1","street2":"Street 2","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-11-29T21:37:08.044Z - debug: GET /customers/CSS/main.css
+2018-11-29T21:37:08.152Z - debug: GET /customers/CSS/main.css
+2018-11-29T21:37:08.211Z - debug: GET /images/manifest.json
+2018-11-29T21:37:31.794Z - debug: POST /customers/save
+2018-11-29T21:37:31.797Z - info: Handling POST [object Object]
+2018-11-29T21:37:31.798Z - debug: {"_id":"7","email":"srujagattu@gmail.com","Firstname":"Srujana new","Lastname":"Gattu new","Age":"27","street1":"1115N College Drive","street2":"Apt 5","city":"Maryville","state":"MO","zip":"64468","country":"USA"}
+2018-11-29T21:37:31.799Z - info: NEW ID 7
+2018-11-29T21:37:31.801Z - info: SAVING NEW customer {"firstname":"First Name","lastname":"Last Name","street1":"1115N College Drive","street2":"Apt 5","city":"Maryville","state":"MO","country":"USA","zip":"64468","_id":7,"email":"srujagattu@gmail.com"}
+2018-11-29T21:37:31.806Z - debug: GET /customers
+2018-11-29T21:37:32.335Z - debug: GET /images/manifest.json
+2018-11-29T21:37:58.633Z - debug: GET /customers/edit/2
+2018-11-29T21:37:58.637Z - info: Handling GET /edit/:id [object Object]
+2018-11-29T21:37:58.638Z - info: RETURNING VIEW FOR{"_id":2,"firstname":"Dristi","lastname":"Marasini","email":"S111111@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-29T21:37:58.640Z - info: RETURNING VIEW FOR{"_id":2,"firstname":"Dristi","lastname":"Marasini","email":"S111111@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-29T21:37:58.701Z - debug: GET /customers/edit/CSS/main.css
+2018-11-29T21:37:59.072Z - debug: GET /customers/edit/CSS/main.css
+2018-11-29T21:37:59.192Z - debug: GET /images/manifest.json
+2018-11-29T21:38:10.675Z - debug: POST /customers/save/2
+2018-11-29T21:38:10.679Z - info: Handling SAVE request [object Object]
+2018-11-29T21:38:10.682Z - info: Handling SAVING ID=2
+2018-11-29T21:38:10.685Z - info: ORIGINAL VALUES {"_id":2,"firstname":"Dristi","lastname":"Marasini","email":"S111111@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-29T21:38:10.687Z - info: UPDATED VALUES: {"email":"S111111@nwmissouri.edu","Firstname":"Dristi","Lastname":"Marasini","Age":"25","street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","zip":"64468","country":"China"}
+2018-11-29T21:38:10.690Z - info: SAVING UPDATED customer {"_id":2,"firstname":"Dristi","lastname":"Marasini","email":"S111111@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"China","zip":"64468","Firstname":"Dristi","Lastname":"Marasini"}
+2018-11-29T21:38:10.694Z - debug: GET /customers
+2018-11-29T21:38:11.216Z - debug: GET /images/manifest.json
+2018-11-29T21:41:12.576Z - debug: GET /customers/edit/2
+2018-11-29T21:41:12.579Z - info: Handling GET /edit/:id [object Object]
+2018-11-29T21:41:12.581Z - info: RETURNING VIEW FOR{"_id":2,"firstname":"Dristi","lastname":"Marasini","email":"S111111@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"China","zip":"64468","Firstname":"Dristi","Lastname":"Marasini"}
+2018-11-29T21:41:12.582Z - info: RETURNING VIEW FOR{"_id":2,"firstname":"Dristi","lastname":"Marasini","email":"S111111@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"China","zip":"64468","Firstname":"Dristi","Lastname":"Marasini"}
+2018-11-29T21:41:12.631Z - debug: GET /customers/edit/CSS/main.css
+2018-11-29T21:41:13.044Z - debug: GET /CSS/shirts.jpg
+2018-11-29T21:41:13.056Z - debug: GET /customers/edit/CSS/main.css
+2018-11-29T21:41:13.193Z - debug: GET /images/manifest.json
+2018-11-29T21:41:19.936Z - debug: GET /images/manifest.json
+2018-11-29T21:41:24.297Z - debug: GET /customers/edit/7
+2018-11-29T21:41:24.300Z - info: Handling GET /edit/:id [object Object]
+2018-11-29T21:41:24.301Z - info: RETURNING VIEW FOR{"firstname":"First Name","lastname":"Last Name","street1":"1115N College Drive","street2":"Apt 5","city":"Maryville","state":"MO","country":"USA","zip":"64468","_id":7,"email":"srujagattu@gmail.com"}
+2018-11-29T21:41:24.303Z - info: RETURNING VIEW FOR{"firstname":"First Name","lastname":"Last Name","street1":"1115N College Drive","street2":"Apt 5","city":"Maryville","state":"MO","country":"USA","zip":"64468","_id":7,"email":"srujagattu@gmail.com"}
+2018-11-29T21:41:24.343Z - debug: GET /customers/edit/CSS/main.css
+2018-11-29T21:41:24.462Z - debug: GET /customers/edit/CSS/main.css
+2018-11-29T21:41:24.527Z - debug: GET /images/manifest.json
+2018-11-29T21:41:44.788Z - debug: POST /customers/save/7
+2018-11-29T21:41:44.791Z - info: Handling SAVE request [object Object]
+2018-11-29T21:41:44.793Z - info: Handling SAVING ID=7
+2018-11-29T21:41:44.798Z - info: ORIGINAL VALUES {"firstname":"First Name","lastname":"Last Name","street1":"1115N College Drive","street2":"Apt 5","city":"Maryville","state":"MO","country":"USA","zip":"64468","_id":7,"email":"srujagattu@gmail.com"}
+2018-11-29T21:41:44.799Z - info: UPDATED VALUES: {"email":"srujagattu@gmail.com","Firstname":"Drsiti new","Lastname":"marasini","Age":"26","street1":"1115N College Drive","street2":"Apt 5","city":"Maryville","state":"MO","zip":"64468","country":"USA"}
+2018-11-29T21:41:44.802Z - info: SAVING UPDATED customer {"firstname":"First Name","lastname":"Last Name","street1":"1115N College Drive","street2":"Apt 5","city":"Maryville","state":"MO","country":"USA","zip":"64468","_id":7,"email":"srujagattu@gmail.com"}
+2018-11-29T21:41:44.807Z - debug: GET /customers
+2018-11-29T21:41:45.354Z - debug: GET /images/manifest.json
+2018-11-29T21:42:01.381Z - debug: GET /customers/delete/7
+2018-11-29T21:42:01.384Z - info: Handling GET /delete/:id [object Object]
+2018-11-29T21:42:01.386Z - info: RETURNING VIEW FOR {"firstname":"First Name","lastname":"Last Name","street1":"1115N College Drive","street2":"Apt 5","city":"Maryville","state":"MO","country":"USA","zip":"64468","_id":7,"email":"srujagattu@gmail.com"}
+2018-11-29T21:42:01.426Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T21:42:01.740Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T21:42:01.899Z - debug: GET /images/manifest.json
+2018-11-29T21:42:04.378Z - debug: POST /customers/delete/7
+2018-11-29T21:42:04.380Z - info: Handling DELETE request [object Object]
+2018-11-29T21:42:04.382Z - info: Handling REMOVING ID=7
+2018-11-29T21:42:04.391Z - debug: GET /customers
+2018-11-29T21:42:04.588Z - debug: GET /images/manifest.json
+2018-11-29T21:42:10.907Z - debug: GET /customers/delete/6
+2018-11-29T21:42:10.909Z - info: Handling GET /delete/:id [object Object]
+2018-11-29T21:42:10.910Z - info: RETURNING VIEW FOR {"firstname":"First Name","lastname":"Last Name","street1":"1117N College Drive","street2":"Apt 11","city":"Sanfransisco","state":"SFO","country":"California","zip":"67777","_id":6,"email":"srujana.gattu@gmail.com"}
+2018-11-29T21:42:10.967Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T21:42:11.088Z - debug: GET /customers/delete/CSS/main.css
+2018-11-29T21:42:11.141Z - debug: GET /images/manifest.json
+2018-11-29T21:42:12.602Z - debug: POST /customers/delete/6
+2018-11-29T21:42:12.605Z - info: Handling DELETE request [object Object]
+2018-11-29T21:42:12.608Z - info: Handling REMOVING ID=6
+2018-11-29T21:42:12.619Z - debug: GET /customers
+2018-11-29T21:42:12.837Z - debug: GET /images/manifest.json
+2018-11-29T21:42:28.028Z - debug: GET /customers/create
+2018-11-29T21:42:28.031Z - info: Handling GET /create[object Object]
+2018-11-29T21:42:28.033Z - debug: {"firstname":"First Name","lastname":"Last Name","street1":"Street 1","street2":"Street 2","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-11-29T21:42:28.077Z - debug: GET /customers/CSS/main.css
+2018-11-29T21:42:28.426Z - debug: GET /customers/CSS/main.css
+2018-11-29T21:42:28.553Z - debug: GET /images/manifest.json
+2018-11-29T21:42:47.861Z - debug: POST /customers/save
+2018-11-29T21:42:47.864Z - info: Handling POST [object Object]
+2018-11-29T21:42:47.867Z - debug: {"_id":"6","email":"srujanareddy2.gattu@gmail.com","Firstname":"Dristi new","Lastname":"gaa","Age":"26","street1":"1115N College Drive","street2":"Apt 5","city":"Maryville","state":"MO","zip":"64468","country":"USA"}
+2018-11-29T21:42:47.868Z - info: NEW ID 6
+2018-11-29T21:42:47.873Z - info: SAVING NEW customer {"firstname":"First Name","lastname":"Last Name","street1":"1115N College Drive","street2":"Apt 5","city":"Maryville","state":"MO","country":"USA","zip":"64468","_id":6,"email":"srujanareddy2.gattu@gmail.com"}
+2018-11-29T21:42:47.878Z - debug: GET /customers
+2018-11-29T21:42:48.461Z - debug: GET /images/manifest.json
+2018-11-29T21:50:12.496Z - debug: GET /customers
+2018-11-29T21:50:12.871Z - debug: GET /CSS/shirts.jpg
+2018-11-29T21:50:13.018Z - debug: GET /images/manifest.json
+2018-11-29T21:50:23.131Z - debug: GET /customers/create
+2018-11-29T21:50:23.135Z - info: Handling GET /create[object Object]
+2018-11-29T21:50:23.136Z - debug: {"firstname":"First Name","lastname":"Last Name","street1":"Street 1","street2":"Street 2","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-11-29T21:50:23.188Z - debug: GET /customers/CSS/main.css
+2018-11-29T21:50:23.542Z - debug: GET /customers/CSS/main.css
+2018-11-29T21:50:23.678Z - debug: GET /images/manifest.json
+2018-11-29T21:51:02.404Z - debug: POST /customers/save
+2018-11-29T21:51:02.408Z - info: Handling POST [object Object]
+2018-11-29T21:51:02.409Z - debug: {"_id":"7","email":"ss@gmail.com","Firstname":"Srujana NEW","Lastname":"Gattu NEW","Age":"26","street1":"abc","street2":"def","city":"Maryville","state":"MO","zip":"64468","country":"USA"}
+2018-11-29T21:51:02.410Z - info: NEW ID 7
+2018-11-29T21:51:02.414Z - info: SAVING NEW customer {"firstname":"First Name","lastname":"Last Name","street1":"abc","street2":"def","city":"Maryville","state":"MO","country":"USA","zip":"64468","_id":7,"email":"ss@gmail.com"}
+2018-11-29T21:51:02.419Z - debug: GET /customers
+2018-11-29T21:51:02.962Z - debug: GET /images/manifest.json
+2018-11-29T21:51:26.844Z - debug: GET /customers
+2018-11-29T21:51:27.448Z - debug: GET /images/manifest.json
+2018-11-29T21:51:27.450Z - debug: GET /images/favicon-32x32.png
+2018-11-29T21:52:31.321Z - info: Environment variables loaded.
+2018-11-29T21:52:31.333Z - debug: START routing
+2018-11-29T21:52:31.361Z - debug: END routing
+2018-11-29T21:52:31.364Z - info: Loaded routing.
+2018-11-29T21:52:31.400Z - info: START seeder.
+2018-11-29T21:52:31.407Z - debug: 5 customers seeded
+2018-11-29T21:52:31.410Z - debug: 5 customers seeded
+2018-11-29T21:52:31.414Z - debug: 6 products seeded
+2018-11-29T21:52:31.420Z - debug: 5 orders seeded
+2018-11-29T21:52:31.423Z - debug: 5 orderLineItems seeded
+2018-11-29T21:52:31.425Z - info: END Seeder. Sample data read and verified.
+2018-11-29T21:52:34.826Z - debug: GET /customers
+2018-11-29T21:52:35.266Z - debug: GET /images/manifest.json
+2018-11-29T21:52:42.048Z - debug: GET /customers/create
+2018-11-29T21:52:42.052Z - info: Handling GET /create[object Object]
+2018-11-29T21:52:42.060Z - debug: {"firstname":"First Name","lastname":"Last Name","street1":"Street 1","street2":"Street 2","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-11-29T21:52:42.095Z - debug: GET /customers/CSS/main.css
+2018-11-29T21:52:42.217Z - debug: GET /customers/CSS/main.css
+2018-11-29T21:52:42.276Z - debug: GET /images/manifest.json
+2018-11-29T21:53:01.808Z - debug: POST /customers/save
+2018-11-29T21:53:01.848Z - info: Handling POST [object Object]
+2018-11-29T21:53:01.850Z - debug: {"_id":"6","email":"sruj.gattu@gmail.com","Firstname":"Srujana new","Lastname":"hha","Age":"23","street1":"1115N College Drive","street2":"Apt 5","city":"Maryville","state":"MO","zip":"64468","country":"USA"}
+2018-11-29T21:53:01.851Z - info: NEW ID 6
+2018-11-29T21:53:01.857Z - info: SAVING NEW customer {"street1":"1115N College Drive","street2":"Apt 5","city":"Maryville","state":"MO","country":"USA","zip":"64468","_id":6,"email":"sruj.gattu@gmail.com"}
+2018-11-29T21:53:01.870Z - debug: GET /customers
+2018-11-29T21:53:02.500Z - debug: GET /images/manifest.json
+2018-11-29T21:57:11.179Z - info: Environment variables loaded.
+2018-11-29T21:57:11.192Z - debug: START routing
+2018-11-29T21:57:11.225Z - debug: END routing
+2018-11-29T21:57:11.227Z - info: Loaded routing.
+2018-11-29T21:57:11.259Z - info: START seeder.
+2018-11-29T21:57:11.264Z - debug: 5 customers seeded
+2018-11-29T21:57:11.267Z - debug: 5 customers seeded
+2018-11-29T21:57:11.270Z - debug: 6 products seeded
+2018-11-29T21:57:11.273Z - debug: 5 orders seeded
+2018-11-29T21:57:11.276Z - debug: 5 orderLineItems seeded
+2018-11-29T21:57:11.276Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:02:39.510Z - info: Environment variables loaded.
+2018-11-29T22:02:39.520Z - debug: START routing
+2018-11-29T22:02:39.549Z - debug: END routing
+2018-11-29T22:02:39.552Z - info: Loaded routing.
+2018-11-29T22:02:39.612Z - info: START seeder.
+2018-11-29T22:02:39.618Z - debug: 5 customers seeded
+2018-11-29T22:02:39.624Z - debug: 5 customers seeded
+2018-11-29T22:02:39.633Z - debug: 6 products seeded
+2018-11-29T22:02:39.636Z - debug: 5 orders seeded
+2018-11-29T22:02:39.639Z - debug: 5 orderLineItems seeded
+2018-11-29T22:02:39.641Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:03:06.865Z - info: Environment variables loaded.
+2018-11-29T22:03:06.878Z - debug: START routing
+2018-11-29T22:03:06.905Z - debug: END routing
+2018-11-29T22:03:06.907Z - info: Loaded routing.
+2018-11-29T22:03:06.942Z - info: START seeder.
+2018-11-29T22:03:06.947Z - debug: 5 customers seeded
+2018-11-29T22:03:06.950Z - debug: 5 customers seeded
+2018-11-29T22:03:06.956Z - debug: 6 products seeded
+2018-11-29T22:03:06.958Z - debug: 5 orders seeded
+2018-11-29T22:03:06.961Z - debug: 5 orderLineItems seeded
+2018-11-29T22:03:06.963Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:03:13.574Z - debug: GET /customers
+2018-11-29T22:03:13.914Z - debug: GET /CSS/shirts.jpg
+2018-11-29T22:03:14.046Z - debug: GET /images/manifest.json
+2018-11-29T22:03:24.457Z - debug: GET /customers/create
+2018-11-29T22:03:24.461Z - info: Handling GET /create[object Object]
+2018-11-29T22:03:24.470Z - debug: {"street1":"Street 1","street2":"Street 2","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-11-29T22:03:24.507Z - debug: GET /customers/CSS/main.css
+2018-11-29T22:03:24.940Z - debug: GET /customers/CSS/main.css
+2018-11-29T22:03:25.120Z - debug: GET /images/manifest.json
+2018-11-29T22:03:51.359Z - debug: POST /customers/save
+2018-11-29T22:03:51.398Z - info: Handling POST [object Object]
+2018-11-29T22:03:51.400Z - debug: {"_id":"6","email":"sr@gmail.com","Firstname":"Srujana NEW","Lastname":"Gattu nEW","Age":"23","street1":"1115N College Drive","street2":"Apt 55","city":"Maryville","state":"MO","zip":"64468","country":"USA"}
+2018-11-29T22:03:51.401Z - info: NEW ID 6
+2018-11-29T22:03:51.406Z - info: SAVING NEW customer {"street1":"1115N College Drive","street2":"Apt 55","city":"Maryville","state":"MO","country":"USA","zip":"64468","_id":6,"email":"sr@gmail.com"}
+2018-11-29T22:03:51.419Z - debug: GET /customers
+2018-11-29T22:03:52.012Z - debug: GET /images/manifest.json
+2018-11-29T22:06:31.766Z - info: Environment variables loaded.
+2018-11-29T22:06:31.779Z - debug: START routing
+2018-11-29T22:06:31.817Z - debug: END routing
+2018-11-29T22:06:31.818Z - info: Loaded routing.
+2018-11-29T22:06:31.857Z - info: START seeder.
+2018-11-29T22:06:31.861Z - debug: 5 customers seeded
+2018-11-29T22:06:31.865Z - debug: 5 customers seeded
+2018-11-29T22:06:31.868Z - debug: 6 products seeded
+2018-11-29T22:06:31.871Z - debug: 5 orders seeded
+2018-11-29T22:06:31.873Z - debug: 5 orderLineItems seeded
+2018-11-29T22:06:31.876Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:08:24.411Z - info: Environment variables loaded.
+2018-11-29T22:08:24.427Z - debug: START routing
+2018-11-29T22:08:24.462Z - debug: END routing
+2018-11-29T22:08:24.464Z - info: Loaded routing.
+2018-11-29T22:08:24.512Z - info: START seeder.
+2018-11-29T22:08:24.524Z - debug: 5 customers seeded
+2018-11-29T22:08:24.530Z - debug: 5 customers seeded
+2018-11-29T22:08:24.533Z - debug: 6 products seeded
+2018-11-29T22:08:24.539Z - debug: 5 orders seeded
+2018-11-29T22:08:24.545Z - debug: 5 orderLineItems seeded
+2018-11-29T22:08:24.546Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:08:53.561Z - info: Environment variables loaded.
+2018-11-29T22:08:53.573Z - debug: START routing
+2018-11-29T22:08:53.601Z - debug: END routing
+2018-11-29T22:08:53.603Z - info: Loaded routing.
+2018-11-29T22:08:53.655Z - info: START seeder.
+2018-11-29T22:08:53.661Z - debug: 5 customers seeded
+2018-11-29T22:08:53.664Z - debug: 5 customers seeded
+2018-11-29T22:08:53.669Z - debug: 6 products seeded
+2018-11-29T22:08:53.673Z - debug: 5 orders seeded
+2018-11-29T22:08:53.676Z - debug: 5 orderLineItems seeded
+2018-11-29T22:08:53.678Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:08:56.895Z - debug: GET /customers
+2018-11-29T22:08:57.262Z - debug: GET /CSS/shirts.jpg
+2018-11-29T22:08:57.413Z - debug: GET /images/manifest.json
+2018-11-29T22:08:59.790Z - debug: GET /
+2018-11-29T22:09:00.301Z - debug: GET /images/manifest.json
+2018-11-29T22:09:01.988Z - debug: GET /customers
+2018-11-29T22:09:02.290Z - debug: GET /images/manifest.json
+2018-11-29T22:09:14.865Z - debug: GET /customers/create
+2018-11-29T22:09:14.869Z - info: Handling GET /create[object Object]
+2018-11-29T22:09:14.879Z - debug: {"street1":"Street 1","street2":"Street 2","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-11-29T22:09:14.915Z - debug: GET /customers/CSS/main.css
+2018-11-29T22:09:15.334Z - debug: GET /customers/CSS/main.css
+2018-11-29T22:09:15.455Z - debug: GET /images/manifest.json
+2018-11-29T22:09:48.728Z - debug: POST /customers/save
+2018-11-29T22:09:48.765Z - info: Handling POST [object Object]
+2018-11-29T22:09:48.767Z - debug: {"_id":"6","email":"s@gmail.com","Firstname":"snew","Lastname":"gnew","Age":"32","street1":"abc","street2":"def","city":"Maryville","state":"MO","zip":"64468","country":"USA"}
+2018-11-29T22:09:48.769Z - info: NEW ID 6
+2018-11-29T22:09:48.775Z - info: SAVING NEW customer {"street1":"abc","street2":"def","city":"Maryville","state":"MO","country":"USA","zip":"64468","_id":6,"email":"s@gmail.com"}
+2018-11-29T22:09:48.787Z - debug: GET /customers
+2018-11-29T22:09:49.380Z - debug: GET /images/manifest.json
+2018-11-29T22:09:59.130Z - debug: GET /customers/edit/6
+2018-11-29T22:09:59.135Z - info: Handling GET /edit/:id [object Object]
+2018-11-29T22:09:59.138Z - info: RETURNING VIEW FOR{"street1":"abc","street2":"def","city":"Maryville","state":"MO","country":"USA","zip":"64468","_id":6,"email":"s@gmail.com"}
+2018-11-29T22:09:59.140Z - info: RETURNING VIEW FOR{"street1":"abc","street2":"def","city":"Maryville","state":"MO","country":"USA","zip":"64468","_id":6,"email":"s@gmail.com"}
+2018-11-29T22:09:59.196Z - debug: GET /customers/edit/CSS/main.css
+2018-11-29T22:09:59.546Z - debug: GET /customers/edit/CSS/main.css
+2018-11-29T22:09:59.686Z - debug: GET /images/manifest.json
+2018-11-29T22:10:11.713Z - debug: POST /customers/save/6
+2018-11-29T22:10:11.716Z - info: Handling SAVE request [object Object]
+2018-11-29T22:10:11.718Z - info: Handling SAVING ID=6
+2018-11-29T22:10:11.720Z - info: ORIGINAL VALUES {"street1":"abc","street2":"def","city":"Maryville","state":"MO","country":"USA","zip":"64468","_id":6,"email":"s@gmail.com"}
+2018-11-29T22:10:11.721Z - info: UPDATED VALUES: {"email":"s@gmail.com","Firstname":"awdasda","Lastname":"asdas","Age":"12","street1":"abc","street2":"def","city":"Maryville","state":"MO","zip":"64468","country":"USA"}
+2018-11-29T22:10:11.725Z - info: SAVING UPDATED customer {"street1":"abc","street2":"def","city":"Maryville","state":"MO","country":"USA","zip":"64468","_id":6,"email":"s@gmail.com"}
+2018-11-29T22:10:11.731Z - debug: GET /customers
+2018-11-29T22:10:12.534Z - debug: GET /images/manifest.json
+2018-11-29T22:11:48.766Z - info: Environment variables loaded.
+2018-11-29T22:11:48.783Z - debug: START routing
+2018-11-29T22:11:48.833Z - debug: END routing
+2018-11-29T22:11:48.835Z - info: Loaded routing.
+2018-11-29T22:11:48.888Z - info: START seeder.
+2018-11-29T22:11:48.893Z - debug: 5 customers seeded
+2018-11-29T22:11:48.896Z - debug: 5 customers seeded
+2018-11-29T22:11:48.899Z - debug: 6 products seeded
+2018-11-29T22:11:48.903Z - debug: 5 orders seeded
+2018-11-29T22:11:48.909Z - debug: 5 orderLineItems seeded
+2018-11-29T22:11:48.912Z - info: END Seeder. Sample data read and verified.
+2018-11-29T22:11:51.374Z - debug: GET /customers
+2018-11-29T22:11:51.794Z - debug: GET /images/manifest.json
+2018-11-29T22:11:54.811Z - debug: GET /customers/edit/5
+2018-11-29T22:11:54.814Z - info: Handling GET /edit/:id [object Object]
+2018-11-29T22:11:54.818Z - info: RETURNING VIEW FOR{"_id":5,"firstname":"Meghana","lastname":"Putta","email":"S444444@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-29T22:11:54.820Z - info: RETURNING VIEW FOR{"_id":5,"firstname":"Meghana","lastname":"Putta","email":"S444444@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-29T22:11:54.861Z - debug: GET /customers/edit/CSS/main.css
+2018-11-29T22:11:54.977Z - debug: GET /customers/edit/CSS/main.css
+2018-11-29T22:11:55.048Z - debug: GET /images/manifest.json
+2018-11-29T22:12:09.313Z - debug: POST /customers/save/5
+2018-11-29T22:12:09.347Z - info: Handling SAVE request [object Object]
+2018-11-29T22:12:09.350Z - info: Handling SAVING ID=5
+2018-11-29T22:12:09.352Z - info: ORIGINAL VALUES {"_id":5,"firstname":"Meghana","lastname":"Putta","email":"S444444@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-29T22:12:09.353Z - info: UPDATED VALUES: {"email":"S444444@nwmissouri.edu","firstname":"Meghananew","lastname":"Puttanew","age":"26","street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","zip":"64468","country":"USA"}
+2018-11-29T22:12:09.354Z - info: SAVING UPDATED customer {"_id":5,"firstname":"Meghananew","lastname":"Puttanew","email":"S444444@nwmissouri.edu","age":"26","street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-11-29T22:12:09.363Z - debug: GET /customers
+2018-11-29T22:12:09.910Z - debug: GET /images/manifest.json
+2018-11-29T22:12:20.579Z - debug: GET /customers/create
+2018-11-29T22:12:20.583Z - info: Handling GET /create[object Object]
+2018-11-29T22:12:20.590Z - debug: {"street1":"Street 1","street2":"Street 2","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-11-29T22:12:20.645Z - debug: GET /customers/CSS/main.css
+2018-11-29T22:12:21.003Z - debug: GET /customers/CSS/main.css
+2018-11-29T22:12:21.133Z - debug: GET /images/manifest.json
+2018-11-29T22:13:00.293Z - debug: POST /customers/save
+2018-11-29T22:13:00.297Z - info: Handling POST [object Object]
+2018-11-29T22:13:00.298Z - debug: {"_id":"6","email":"s@gmail.com","firstname":"Srujananew","lastname":"Gattunew","age":"22","street1":"abc","street2":"def","city":"Maryville","state":"MO","zip":"64468","country":"USA"}
+2018-11-29T22:13:00.300Z - info: NEW ID 6
+2018-11-29T22:13:00.310Z - info: SAVING NEW customer {"street1":"abc","street2":"def","city":"Maryville","state":"MO","country":"USA","zip":"64468","_id":6,"email":"s@gmail.com","firstname":"Srujananew","lastname":"Gattunew","age":22}
+2018-11-29T22:13:00.316Z - debug: GET /customers
+2018-11-29T22:13:00.901Z - debug: GET /images/manifest.json
+2018-11-29T22:13:32.986Z - debug: GET /customers/edit/5
+2018-11-29T22:13:32.990Z - info: Handling GET /edit/:id [object Object]
+2018-11-29T22:13:32.992Z - info: RETURNING VIEW FOR{"_id":5,"firstname":"Meghananew","lastname":"Puttanew","email":"S444444@nwmissouri.edu","age":"26","street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-11-29T22:13:32.993Z - info: RETURNING VIEW FOR{"_id":5,"firstname":"Meghananew","lastname":"Puttanew","email":"S444444@nwmissouri.edu","age":"26","street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-11-29T22:13:33.047Z - debug: GET /customers/edit/CSS/main.css
+2018-11-29T22:13:33.416Z - debug: GET /customers/edit/CSS/main.css
+2018-11-29T22:13:33.569Z - debug: GET /images/manifest.json
+2018-11-29T22:13:48.761Z - debug: POST /customers/save/5
+2018-11-29T22:13:48.765Z - info: Handling SAVE request [object Object]
+2018-11-29T22:13:48.767Z - info: Handling SAVING ID=5
+2018-11-29T22:13:48.768Z - info: ORIGINAL VALUES {"_id":5,"firstname":"Meghananew","lastname":"Puttanew","email":"S444444@nwmissouri.edu","age":"26","street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-11-29T22:13:48.771Z - info: UPDATED VALUES: {"email":"S444444@nwmissouri.edu","firstname":"Meghanaedit","lastname":"Puttaedit","age":"26","street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","zip":"64468","country":"USA"}
+2018-11-29T22:13:48.773Z - info: SAVING UPDATED customer {"_id":5,"firstname":"Meghanaedit","lastname":"Puttaedit","email":"S444444@nwmissouri.edu","age":"26","street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-11-29T22:13:48.777Z - debug: GET /customers
+2018-11-29T22:13:49.326Z - debug: GET /images/manifest.json

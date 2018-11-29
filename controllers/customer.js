@@ -65,6 +65,21 @@ api.get('/details/:id', (req, res) => {
     })
 })
 
+api.get('/delete/:id', (req, res) => {
+  LOG.info(`Handling GET /delete/:id ${req}`)
+  const id = parseInt(req.params.id, 10) // base 10
+  const data = req.app.locals.customers.query
+  const item = find(data, { _id: id })
+  if (!item) { return res.end(notfoundstring) }
+  LOG.info(`RETURNING VIEW FOR ${JSON.stringify(item)}`)
+  return res.render('customers/delete.ejs',
+    {
+      title: 'Delete customer',
+      layout: 'layout.ejs',
+      customer: item
+    })
+})
+
 // GET one
 api.get('/edit/:id', (req, res) => {
   LOG.info(`Handling GET /edit/:id ${req}`)
@@ -96,8 +111,9 @@ api.post('/save', (req, res) => {
   LOG.info(`NEW ID ${req.body._id}`)
   item._id = parseInt(req.body._id, 10) // base 10
   item.email = req.body.email
-  item.Firstname = req.body.Firstname
-  item.Lastname = req.body.Lastname
+  item.firstname = req.body.firstname
+  item.lastname = req.body.lastname
+  item.age = req.body.age
   item.street1 = req.body.street1
   item.street2 = req.body.street2
   item.city = req.body.city
@@ -122,8 +138,9 @@ api.post('/save/:id', (req, res) => {
   LOG.info(`ORIGINAL VALUES ${JSON.stringify(item)}`)
   LOG.info(`UPDATED VALUES: ${JSON.stringify(req.body)}`)
   item.email = req.body.email
-  item.Firstname = req.body.Firstname
-  item.Lastname = req.body.Lastname
+  item.firstname = req.body.firstname
+  item.lastname = req.body.lastname
+  item.age = req.body.age
   item.street1 = req.body.street1
   item.street2 = req.body.street2
   item.city = req.body.city

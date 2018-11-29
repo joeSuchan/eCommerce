@@ -21,13 +21,11 @@ const CustomerSchema = new mongoose.Schema({
     firstname: {
         type: String,
         required: true,
-        default: 'First Name'
        
     },
     lastname: {
         type: String,
         required: true,
-        default: 'Last Name'
        
     },
     email: {
