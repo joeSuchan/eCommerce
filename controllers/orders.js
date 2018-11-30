@@ -5,7 +5,7 @@
 
 const express = require('express')
 const api = express.Router()
-const Model = require('../models/orders.js')
+const Model = require('../models/order.js')
 const LOG = require('../utils/logger.js')
 const find = require('lodash.find')
 const remove = require('lodash.remove')

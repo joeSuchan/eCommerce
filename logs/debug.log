@@ -511,3 +511,190 @@ ReferenceError: OrderLineItemSchema is not defined
 2018-11-30T18:10:02.580Z - debug: GET /orderLineItem/delete/CSS/main.css
 2018-11-30T18:10:02.644Z - debug: GET /images/manifest.json
 2018-11-30T18:10:04.161Z - debug: GET /images/manifest.json
+2018-11-30T18:14:13.766Z - info: Environment variables loaded.
+2018-11-30T18:14:13.828Z - error: uncaughtException: Cannot find module '../controllers/order.js' date=Fri Nov 30 2018 12:14:13 GMT-0600 (Central Standard Time), pid=19432, uid=null, gid=null, cwd=C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\app.js], rss=77324288, heapTotal=63426560, heapUsed=38203120, external=18935810, loadavg=[0, 0, 0], uptime=851835.3448228
+Error: Cannot find module '../controllers/order.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\routes\index.js:57:22)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\app.js:79:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-30T18:14:13.776Z - debug: START routing
+2018-11-30T18:14:59.726Z - info: Environment variables loaded.
+2018-11-30T18:14:59.785Z - error: uncaughtException: Cannot find module '../controllers/order.js' date=Fri Nov 30 2018 12:14:59 GMT-0600 (Central Standard Time), pid=5408, uid=null, gid=null, cwd=C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\app.js], rss=77127680, heapTotal=63426560, heapUsed=38195680, external=18935810, loadavg=[0, 0, 0], uptime=851881.3013249
+Error: Cannot find module '../controllers/order.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\routes\index.js:57:22)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\app.js:79:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-30T18:14:59.736Z - debug: START routing
+2018-11-30T18:15:55.075Z - info: Environment variables loaded.
+2018-11-30T18:15:55.138Z - error: uncaughtException: Cannot find module '../models/orders.js' date=Fri Nov 30 2018 12:15:55 GMT-0600 (Central Standard Time), pid=5812, uid=null, gid=null, cwd=C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\app.js], rss=75907072, heapTotal=66048000, heapUsed=32728888, external=18388898, loadavg=[0, 0, 0], uptime=851936.6546709
+Error: Cannot find module '../models/orders.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\controllers\orders.js:8:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\routes\index.js:57:22)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\app.js:79:16)
+    at Module._compile (module.js:653:30)
+2018-11-30T18:15:55.087Z - debug: START routing
+2018-11-30T18:18:52.711Z - error: uncaughtException: Cannot find module '../models/orders.js' date=Fri Nov 30 2018 12:18:52 GMT-0600 (Central Standard Time), pid=2236, uid=null, gid=null, cwd=C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\app.js], rss=77164544, heapTotal=63426560, heapUsed=38194840, external=18924395, loadavg=[0, 0, 0], uptime=852114.2266406
+Error: Cannot find module '../models/orders.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\controllers\orders.js:8:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\routes\index.js:57:23)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\app.js:79:16)
+    at Module._compile (module.js:653:30)
+2018-11-30T18:18:52.657Z - info: Environment variables loaded.
+2018-11-30T18:18:52.667Z - debug: START routing
+2018-11-30T18:19:24.190Z - info: Environment variables loaded.
+2018-11-30T18:19:24.257Z - error: uncaughtException: Cannot find module '../models/orders.js' date=Fri Nov 30 2018 12:19:24 GMT-0600 (Central Standard Time), pid=19728, uid=null, gid=null, cwd=C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\app.js], rss=75898880, heapTotal=66048000, heapUsed=32737288, external=18388898, loadavg=[0, 0, 0], uptime=852145.7738197
+Error: Cannot find module '../models/orders.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\controllers\orders.js:8:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\routes\index.js:57:22)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\app.js:79:16)
+    at Module._compile (module.js:653:30)
+2018-11-30T18:19:24.203Z - debug: START routing
+2018-11-30T18:19:59.457Z - info: Environment variables loaded.
+2018-11-30T18:19:59.516Z - error: uncaughtException: Cannot find module '../models/orders.js' date=Fri Nov 30 2018 12:19:59 GMT-0600 (Central Standard Time), pid=18196, uid=null, gid=null, cwd=C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\app.js], rss=77066240, heapTotal=63426560, heapUsed=38107696, external=18848916, loadavg=[0, 0, 0], uptime=852181.0313474
+Error: Cannot find module '../models/orders.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\controllers\orders.js:8:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\routes\index.js:57:22)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s516611\Desktop\NWMSU\College Junior Year\Fall 2018\Web_Apps\Module_5\ecommerce\app.js:79:16)
+    at Module._compile (module.js:653:30)
+2018-11-30T18:19:59.467Z - debug: START routing
+2018-11-30T18:21:00.047Z - info: Environment variables loaded.
+2018-11-30T18:21:00.058Z - debug: START routing
+2018-11-30T18:21:00.098Z - debug: END routing
+2018-11-30T18:21:00.099Z - info: Loaded routing.
+2018-11-30T18:21:00.138Z - info: START seeder.
+2018-11-30T18:21:00.145Z - debug: 5 customers seeded
+2018-11-30T18:21:00.148Z - debug: 5 customers seeded
+2018-11-30T18:21:00.152Z - debug: 6 products seeded
+2018-11-30T18:21:00.155Z - debug: 5 orders seeded
+2018-11-30T18:21:00.158Z - debug: 5 orderLineItems seeded
+2018-11-30T18:21:00.159Z - info: END Seeder. Sample data read and verified.
+2018-11-30T18:21:03.849Z - debug: GET /
+2018-11-30T18:21:04.401Z - debug: GET /CSS/favicon-32x32.png
+2018-11-30T18:21:04.497Z - debug: GET /images/manifest.json
+2018-11-30T18:21:05.862Z - debug: GET /order
+2018-11-30T18:21:05.976Z - debug: GET /images/manifest.json
+2018-11-30T18:21:08.094Z - debug: GET /order/create
+2018-11-30T18:21:08.096Z - info: Handling GET /create[object Object]
+2018-11-30T18:21:08.104Z - debug: {"orderID":555,"datePlaced":"2018-11-30T18:21:00.095Z","paymentType":"not selected yet","paid":false}
+2018-11-30T18:21:08.155Z - debug: GET /order/CSS/main.css
+2018-11-30T18:21:08.196Z - debug: GET /order/CSS/main.css
+2018-11-30T18:21:08.244Z - debug: GET /images/manifest.json
+2018-11-30T18:21:24.814Z - info: Environment variables loaded.
+2018-11-30T18:21:24.829Z - debug: START routing
+2018-11-30T18:21:24.881Z - debug: END routing
+2018-11-30T18:21:24.883Z - info: Loaded routing.
+2018-11-30T18:21:24.929Z - info: START seeder.
+2018-11-30T18:21:24.934Z - debug: 5 customers seeded
+2018-11-30T18:21:24.937Z - debug: 5 customers seeded
+2018-11-30T18:21:24.940Z - debug: 6 products seeded
+2018-11-30T18:21:24.942Z - debug: 5 orders seeded
+2018-11-30T18:21:24.945Z - debug: 5 orderLineItems seeded
+2018-11-30T18:21:24.946Z - info: END Seeder. Sample data read and verified.

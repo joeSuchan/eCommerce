@@ -31,9 +31,9 @@ router.get("/customers", function (req, res) {
   res.render("products.ejs")
  })
 
- router.get("/order", function (req, res) {
-  res.render("order.ejs")
- })
+ //router.get("/order", function (req, res) {
+  //res.render("order.ejs")
+ //})
 
 //  router.get("/orderLineItem", function (req, res) {
 //   res.render("orderLineItem.ejs")
@@ -54,6 +54,7 @@ router.use('/customers', require('../controllers/customer.js'))
 //router.use('/customers', require('../controllers/controller.js'))
 router.use('/products', require('../controllers/products.js'))
 router.use('/orderLineItem', require('../controllers/orderLineItems.js'))
+router.use('/order', require('../controllers/orders.js'))
 
 LOG.debug('END routing')
 module.exports = router
