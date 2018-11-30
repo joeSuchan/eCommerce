@@ -7770,3 +7770,19 @@ SyntaxError: C:\Users\s523323\Documents\webapps2\ecommerce\data\orderLineItems.j
 2018-11-29T23:56:12.338Z - debug: GET /images/manifest.json
 2018-11-29T23:56:14.326Z - debug: GET /about
 2018-11-29T23:56:14.519Z - debug: GET /images/manifest.json
+2018-11-30T01:13:17.237Z - info: Environment variables loaded.
+2018-11-30T01:13:17.250Z - debug: START routing
+2018-11-30T01:13:17.272Z - debug: END routing
+2018-11-30T01:13:17.272Z - info: Loaded routing.
+2018-11-30T01:13:17.300Z - info: START seeder.
+2018-11-30T01:13:17.303Z - debug: 5 customers seeded
+2018-11-30T01:13:17.304Z - debug: 5 customers seeded
+2018-11-30T01:13:17.306Z - debug: 6 products seeded
+2018-11-30T01:13:17.308Z - debug: 5 orders seeded
+2018-11-30T01:13:17.309Z - debug: 5 orderLineItems seeded
+2018-11-30T01:13:17.309Z - info: END Seeder. Sample data read and verified.
+2018-11-30T01:13:22.438Z - debug: GET /
+2018-11-30T01:13:22.600Z - debug: GET /CSS/favicon-32x32.png
+2018-11-30T01:13:22.738Z - debug: GET /images/manifest.json
+2018-11-30T01:13:25.839Z - debug: GET /about
+2018-11-30T01:13:25.968Z - debug: GET /images/manifest.json
