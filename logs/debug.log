@@ -68,3 +68,446 @@
 2018-11-30T16:28:44.302Z - debug: GET /images/manifest.json
 2018-11-30T16:28:45.271Z - debug: GET /about
 2018-11-30T16:28:45.512Z - debug: GET /images/manifest.json
+2018-11-30T16:29:47.331Z - debug: GET /about
+2018-11-30T16:29:47.508Z - debug: GET /images/manifest.json
+2018-11-30T16:29:47.508Z - debug: GET /images/favicon-32x32.png
+2018-11-30T16:29:48.915Z - debug: GET /
+2018-11-30T16:29:49.064Z - debug: GET /images/manifest.json
+2018-11-30T16:29:56.020Z - debug: GET /products
+2018-11-30T16:29:56.154Z - debug: GET /images/manifest.json
+2018-11-30T16:29:57.387Z - debug: GET /order
+2018-11-30T16:29:57.530Z - debug: GET /images/manifest.json
+2018-11-30T16:29:58.201Z - debug: GET /orderLineItem
+2018-11-30T16:29:58.364Z - debug: GET /images/manifest.json
+2018-11-30T16:30:00.002Z - debug: GET /orderLineItem/create
+2018-11-30T16:30:00.031Z - debug: GET /orderLineItem/CSS/main.css
+2018-11-30T16:30:00.080Z - debug: GET /orderLineItem/CSS/main.css
+2018-11-30T16:30:00.143Z - debug: GET /images/manifest.json
+2018-11-30T16:30:01.311Z - debug: GET /order
+2018-11-30T16:30:01.556Z - debug: GET /images/manifest.json
+2018-11-30T16:30:02.156Z - debug: GET /order/create
+2018-11-30T16:30:02.236Z - debug: GET /order/CSS/main.css
+2018-11-30T16:30:02.285Z - debug: GET /order/CSS/main.css
+2018-11-30T16:30:02.344Z - debug: GET /images/manifest.json
+2018-11-30T16:30:03.060Z - debug: GET /products
+2018-11-30T16:30:03.238Z - debug: GET /images/manifest.json
+2018-11-30T16:30:03.819Z - debug: GET /products/create
+2018-11-30T16:30:05.636Z - debug: GET /images/manifest.json
+2018-11-30T16:30:08.090Z - debug: GET /customers
+2018-11-30T16:30:08.209Z - debug: GET /images/manifest.json
+2018-11-30T16:30:09.065Z - debug: GET /customers/create
+2018-11-30T16:30:09.066Z - info: Handling GET /create[object Object]
+2018-11-30T16:30:09.074Z - debug: {"street1":"Street 1","street2":"Street 2","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-11-30T16:30:09.126Z - debug: GET /customers/CSS/main.css
+2018-11-30T16:30:09.169Z - debug: GET /customers/CSS/main.css
+2018-11-30T16:30:09.238Z - debug: GET /images/manifest.json
+2018-11-30T16:32:01.902Z - debug: GET /orderLineItem
+2018-11-30T16:32:02.007Z - debug: GET /CSS/favicon-32x32.png
+2018-11-30T16:32:02.118Z - debug: GET /images/manifest.json
+2018-11-30T16:32:03.699Z - debug: GET /orderLineItem/details/555
+2018-11-30T16:32:03.729Z - debug: GET /orderLineItem/details/CSS/main.css
+2018-11-30T16:32:03.785Z - debug: GET /orderLineItem/details/CSS/main.css
+2018-11-30T16:32:03.856Z - debug: GET /images/manifest.json
+2018-11-30T16:32:05.188Z - debug: GET /order
+2018-11-30T16:32:05.326Z - debug: GET /images/manifest.json
+2018-11-30T16:32:05.987Z - debug: GET /order/create
+2018-11-30T16:32:06.016Z - debug: GET /order/CSS/main.css
+2018-11-30T16:32:06.064Z - debug: GET /order/CSS/main.css
+2018-11-30T16:32:06.119Z - debug: GET /images/manifest.json
+2018-11-30T16:32:07.108Z - debug: GET /orderLineItem
+2018-11-30T16:32:07.269Z - debug: GET /images/manifest.json
+2018-11-30T16:32:10.402Z - debug: GET /orderLineItem/edit/222
+2018-11-30T16:32:10.432Z - debug: GET /orderLineItem/edit/CSS/main.css
+2018-11-30T16:32:10.485Z - debug: GET /orderLineItem/edit/CSS/main.css
+2018-11-30T16:32:10.568Z - debug: GET /images/manifest.json
+2018-11-30T16:32:11.830Z - debug: GET /products
+2018-11-30T16:32:11.957Z - debug: GET /images/manifest.json
+2018-11-30T16:32:13.021Z - debug: GET /products/create
+2018-11-30T16:32:18.050Z - debug: GET /images/manifest.json
+2018-11-30T16:32:19.658Z - debug: GET /orderLineItem
+2018-11-30T16:32:19.802Z - debug: GET /images/manifest.json
+2018-11-30T16:32:20.561Z - debug: GET /orderLineItem/create
+2018-11-30T16:32:20.606Z - debug: GET /orderLineItem/CSS/main.css
+2018-11-30T16:32:20.652Z - debug: GET /orderLineItem/CSS/main.css
+2018-11-30T16:32:20.739Z - debug: GET /images/manifest.json
+2018-11-30T16:32:22.258Z - debug: GET /
+2018-11-30T16:32:22.419Z - debug: GET /images/manifest.json
+2018-11-30T17:53:19.124Z - info: Environment variables loaded.
+2018-11-30T17:53:19.133Z - debug: START routing
+2018-11-30T17:53:19.158Z - debug: END routing
+2018-11-30T17:53:19.158Z - info: Loaded routing.
+2018-11-30T17:53:19.189Z - info: START seeder.
+2018-11-30T17:53:19.192Z - debug: 5 customers seeded
+2018-11-30T17:53:19.193Z - debug: 5 customers seeded
+2018-11-30T17:53:19.195Z - debug: 6 products seeded
+2018-11-30T17:53:19.196Z - debug: 5 orders seeded
+2018-11-30T17:53:19.198Z - debug: 5 orderLineItems seeded
+2018-11-30T17:53:19.198Z - info: END Seeder. Sample data read and verified.
+2018-11-30T17:53:24.719Z - debug: GET /
+2018-11-30T17:53:24.875Z - debug: GET /CSS/favicon-32x32.png
+2018-11-30T17:53:25.018Z - debug: GET /images/manifest.json
+2018-11-30T17:53:27.141Z - debug: GET /
+2018-11-30T17:53:27.285Z - debug: GET /images/manifest.json
+2018-11-30T17:53:27.767Z - debug: GET /about
+2018-11-30T17:53:27.925Z - debug: GET /images/manifest.json
+2018-11-30T17:53:29.080Z - debug: GET /customers
+2018-11-30T17:53:29.225Z - debug: GET /images/manifest.json
+2018-11-30T17:53:31.574Z - debug: GET /customers/create
+2018-11-30T17:53:31.574Z - info: Handling GET /create[object Object]
+2018-11-30T17:53:31.578Z - debug: {"street1":"Street 1","street2":"Street 2","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-11-30T17:53:31.609Z - debug: GET /customers/CSS/main.css
+2018-11-30T17:53:31.652Z - debug: GET /customers/CSS/main.css
+2018-11-30T17:53:31.724Z - debug: GET /images/manifest.json
+2018-11-30T17:53:35.054Z - debug: GET /images/manifest.json
+2018-11-30T17:53:37.546Z - debug: GET /orderLineItem
+2018-11-30T17:53:37.680Z - debug: GET /images/manifest.json
+2018-11-30T17:53:42.672Z - debug: GET /about
+2018-11-30T17:53:42.815Z - debug: GET /images/manifest.json
+2018-11-30T17:53:43.886Z - debug: GET /customers
+2018-11-30T17:53:44.019Z - debug: GET /images/manifest.json
+2018-11-30T17:55:06.108Z - debug: GET /orderLineItem
+2018-11-30T17:55:06.224Z - debug: GET /CSS/favicon-32x32.png
+2018-11-30T17:55:06.306Z - debug: GET /images/manifest.json
+2018-11-30T17:55:07.214Z - debug: GET /orderLineItem/create
+2018-11-30T17:55:07.288Z - debug: GET /orderLineItem/CSS/main.css
+2018-11-30T17:55:07.351Z - debug: GET /orderLineItem/CSS/main.css
+2018-11-30T17:55:07.430Z - debug: GET /images/manifest.json
+2018-11-30T17:55:10.342Z - debug: GET /orderLineItem
+2018-11-30T17:55:10.550Z - debug: GET /images/manifest.json
+2018-11-30T17:55:12.013Z - debug: GET /orderLineItem
+2018-11-30T17:55:12.143Z - debug: GET /images/manifest.json
+2018-11-30T17:55:53.057Z - debug: GET /about
+2018-11-30T17:55:53.226Z - debug: GET /images/manifest.json
+2018-11-30T17:55:53.847Z - debug: GET /customers
+2018-11-30T17:55:54.011Z - debug: GET /images/manifest.json
+2018-11-30T17:55:55.517Z - debug: GET /customers/create
+2018-11-30T17:55:55.521Z - info: Handling GET /create[object Object]
+2018-11-30T17:55:55.524Z - debug: {"street1":"Street 1","street2":"Street 2","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-11-30T17:55:55.608Z - debug: GET /customers/CSS/main.css
+2018-11-30T17:55:55.664Z - debug: GET /customers/CSS/main.css
+2018-11-30T17:55:55.739Z - debug: GET /images/manifest.json
+2018-11-30T17:55:57.140Z - debug: GET /images/manifest.json
+2018-11-30T17:55:58.045Z - debug: GET /products
+2018-11-30T17:55:58.177Z - debug: GET /images/manifest.json
+2018-11-30T17:55:58.933Z - debug: GET /products/create
+2018-11-30T17:56:04.131Z - debug: GET /images/manifest.json
+2018-11-30T17:56:05.286Z - debug: GET /order
+2018-11-30T17:56:05.540Z - debug: GET /images/manifest.json
+2018-11-30T17:56:05.943Z - debug: GET /order/create
+2018-11-30T17:56:05.976Z - debug: GET /order/CSS/main.css
+2018-11-30T17:56:06.032Z - debug: GET /order/CSS/main.css
+2018-11-30T17:56:06.109Z - debug: GET /images/manifest.json
+2018-11-30T17:56:07.692Z - debug: GET /orderLineItem
+2018-11-30T17:56:07.879Z - debug: GET /images/manifest.json
+2018-11-30T17:56:08.300Z - debug: GET /orderLineItem/create
+2018-11-30T17:56:08.375Z - debug: GET /orderLineItem/CSS/main.css
+2018-11-30T17:56:08.431Z - debug: GET /orderLineItem/CSS/main.css
+2018-11-30T17:56:08.497Z - debug: GET /images/manifest.json
+2018-11-30T17:56:09.317Z - debug: GET /products
+2018-11-30T17:56:09.472Z - debug: GET /images/manifest.json
+2018-11-30T17:56:10.669Z - debug: GET /customers
+2018-11-30T17:56:10.819Z - debug: GET /images/manifest.json
+2018-11-30T17:56:19.445Z - debug: GET /customers
+2018-11-30T17:56:19.592Z - debug: GET /images/manifest.json
+2018-11-30T17:58:19.895Z - debug: GET /orderLineItem
+2018-11-30T17:58:20.009Z - debug: GET /CSS/favicon-32x32.png
+2018-11-30T17:58:20.117Z - debug: GET /images/manifest.json
+2018-11-30T17:58:20.998Z - debug: GET /orderLineItem/create
+2018-11-30T17:58:21.033Z - debug: GET /orderLineItem/CSS/main.css
+2018-11-30T17:58:21.104Z - debug: GET /orderLineItem/CSS/main.css
+2018-11-30T17:58:21.177Z - debug: GET /images/manifest.json
+2018-11-30T17:58:23.319Z - debug: GET /images/manifest.json
+2018-11-30T17:58:24.398Z - debug: GET /orderLineItem/details/555
+2018-11-30T17:58:24.479Z - debug: GET /orderLineItem/details/CSS/main.css
+2018-11-30T17:58:24.537Z - debug: GET /orderLineItem/details/CSS/main.css
+2018-11-30T17:58:24.599Z - debug: GET /images/manifest.json
+2018-11-30T17:58:25.781Z - debug: GET /images/manifest.json
+2018-11-30T17:58:27.344Z - debug: GET /orderLineItem/delete/555
+2018-11-30T17:58:27.398Z - debug: GET /orderLineItem/delete/CSS/main.css
+2018-11-30T17:58:27.444Z - debug: GET /orderLineItem/delete/CSS/main.css
+2018-11-30T17:58:27.508Z - debug: GET /images/manifest.json
+2018-11-30T17:58:28.765Z - debug: GET /images/manifest.json
+2018-11-30T17:58:29.916Z - debug: GET /customers
+2018-11-30T17:58:30.098Z - debug: GET /images/manifest.json
+2018-11-30T17:58:32.028Z - debug: GET /customers/edit/1
+2018-11-30T17:58:32.029Z - info: Handling GET /edit/:id [object Object]
+2018-11-30T17:58:32.030Z - info: RETURNING VIEW FOR{"_id":1,"firstname":"Srujana","lastname":"Gattu","email":"S533622@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-30T17:58:32.031Z - info: RETURNING VIEW FOR{"_id":1,"firstname":"Srujana","lastname":"Gattu","email":"S533622@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-30T17:58:32.081Z - debug: GET /customers/edit/CSS/main.css
+2018-11-30T17:58:32.136Z - debug: GET /customers/edit/CSS/main.css
+2018-11-30T17:58:32.208Z - debug: GET /images/manifest.json
+2018-11-30T17:58:33.625Z - debug: GET /images/manifest.json
+2018-11-30T17:58:34.613Z - debug: GET /customers/delete/1
+2018-11-30T17:58:34.616Z - info: Handling GET /delete/:id [object Object]
+2018-11-30T17:58:34.617Z - info: RETURNING VIEW FOR {"_id":1,"firstname":"Srujana","lastname":"Gattu","email":"S533622@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-11-30T17:58:34.698Z - debug: GET /customers/delete/CSS/main.css
+2018-11-30T17:58:34.747Z - debug: GET /customers/delete/CSS/main.css
+2018-11-30T17:58:34.847Z - debug: GET /images/manifest.json
+2018-11-30T17:58:36.848Z - debug: GET /images/manifest.json
+2018-11-30T18:01:29.731Z - debug: GET /order
+2018-11-30T18:01:29.908Z - debug: GET /CSS/favicon-32x32.png
+2018-11-30T18:01:30.066Z - debug: GET /images/manifest.json
+2018-11-30T18:01:30.866Z - debug: GET /products
+2018-11-30T18:01:31.092Z - debug: GET /images/manifest.json
+2018-11-30T18:01:32.192Z - debug: GET /products/create
+2018-11-30T18:02:04.735Z - debug: GET /
+2018-11-30T18:02:04.867Z - debug: GET /CSS/favicon-32x32.png
+2018-11-30T18:02:05.024Z - debug: GET /images/manifest.json
+2018-11-30T18:02:06.892Z - debug: GET /products
+2018-11-30T18:02:07.034Z - debug: GET /images/manifest.json
+2018-11-30T18:02:08.393Z - debug: GET /products/create
+2018-11-30T18:02:50.334Z - debug: GET /products/create
+2018-11-30T18:02:50.395Z - debug: GET /products/CSS/main.css
+2018-11-30T18:02:50.450Z - debug: GET /CSS/favicon-32x32.png
+2018-11-30T18:02:50.459Z - debug: GET /products/CSS/main.css
+2018-11-30T18:02:50.558Z - debug: GET /images/manifest.json
+2018-11-30T18:02:50.558Z - debug: GET /images/favicon-32x32.png
+2018-11-30T18:02:52.889Z - debug: GET /products/create
+2018-11-30T18:02:52.936Z - debug: GET /products/CSS/main.css
+2018-11-30T18:02:52.973Z - debug: GET /CSS/favicon-32x32.png
+2018-11-30T18:02:52.987Z - debug: GET /products/CSS/main.css
+2018-11-30T18:02:53.074Z - debug: GET /images/manifest.json
+2018-11-30T18:02:53.077Z - debug: GET /images/favicon-32x32.png
+2018-11-30T18:02:57.247Z - debug: GET /products
+2018-11-30T18:02:59.337Z - debug: GET /products/CSS/main.css
+2018-11-30T18:02:59.465Z - debug: GET /images/manifest.json
+2018-11-30T18:03:00.432Z - debug: GET /products
+2018-11-30T18:03:02.284Z - debug: GET /images/manifest.json
+2018-11-30T18:04:29.308Z - debug: GET /products
+2018-11-30T18:04:31.003Z - debug: GET /images/manifest.json
+2018-11-30T18:04:39.114Z - debug: GET /products
+2018-11-30T18:04:39.263Z - debug: GET /CSS/favicon-32x32.png
+2018-11-30T18:04:39.367Z - debug: GET /images/manifest.json
+2018-11-30T18:04:48.156Z - debug: GET /products/edit/6
+2018-11-30T18:04:48.237Z - debug: GET /products/edit/CSS/main.css
+2018-11-30T18:04:48.299Z - debug: GET /products/edit/CSS/main.css
+2018-11-30T18:04:48.392Z - debug: GET /images/manifest.json
+2018-11-30T18:04:52.750Z - debug: GET /images/manifest.json
+2018-11-30T18:04:53.926Z - debug: GET /products/details/6
+2018-11-30T18:04:53.959Z - debug: GET /products/details/CSS/main.css
+2018-11-30T18:04:54.002Z - debug: GET /products/details/CSS/main.css
+2018-11-30T18:04:54.080Z - debug: GET /images/manifest.json
+2018-11-30T18:04:57.232Z - debug: GET /images/manifest.json
+2018-11-30T18:04:57.912Z - debug: GET /products/delete/6
+2018-11-30T18:04:57.998Z - debug: GET /products/delete/CSS/main.css
+2018-11-30T18:04:58.042Z - debug: GET /products/delete/CSS/main.css
+2018-11-30T18:04:58.100Z - debug: GET /images/manifest.json
+2018-11-30T18:04:59.275Z - debug: GET /products
+2018-11-30T18:05:00.940Z - debug: GET /products/delete/CSS/main.css
+2018-11-30T18:05:01.099Z - debug: GET /images/manifest.json
+2018-11-30T18:05:21.226Z - debug: GET /orderLineItem
+2018-11-30T18:05:21.463Z - debug: GET /images/manifest.json
+2018-11-30T18:05:22.331Z - debug: GET /orderLineItem/create
+2018-11-30T18:05:22.392Z - debug: GET /orderLineItem/CSS/main.css
+2018-11-30T18:05:22.458Z - debug: GET /orderLineItem/CSS/main.css
+2018-11-30T18:05:22.544Z - debug: GET /images/manifest.json
+2018-11-30T18:05:27.140Z - debug: GET /order
+2018-11-30T18:05:27.304Z - debug: GET /images/manifest.json
+2018-11-30T18:05:27.746Z - debug: GET /products
+2018-11-30T18:05:27.950Z - debug: GET /images/manifest.json
+2018-11-30T18:05:37.134Z - debug: GET /products/create
+2018-11-30T18:06:12.711Z - info: Environment variables loaded.
+2018-11-30T18:06:12.722Z - debug: START routing
+2018-11-30T18:06:12.747Z - debug: END routing
+2018-11-30T18:06:12.747Z - info: Loaded routing.
+2018-11-30T18:06:12.778Z - info: START seeder.
+2018-11-30T18:06:12.781Z - debug: 5 customers seeded
+2018-11-30T18:06:12.782Z - debug: 5 customers seeded
+2018-11-30T18:06:12.785Z - debug: 6 products seeded
+2018-11-30T18:06:12.788Z - debug: 5 orders seeded
+2018-11-30T18:06:12.790Z - debug: 5 orderLineItems seeded
+2018-11-30T18:06:12.790Z - info: END Seeder. Sample data read and verified.
+2018-11-30T18:06:13.630Z - debug: GET /products/create
+2018-11-30T18:06:21.920Z - info: Environment variables loaded.
+2018-11-30T18:06:21.931Z - debug: START routing
+2018-11-30T18:06:21.963Z - debug: END routing
+2018-11-30T18:06:21.963Z - info: Loaded routing.
+2018-11-30T18:06:21.998Z - info: START seeder.
+2018-11-30T18:06:22.003Z - debug: 5 customers seeded
+2018-11-30T18:06:22.005Z - debug: 5 customers seeded
+2018-11-30T18:06:22.007Z - debug: 6 products seeded
+2018-11-30T18:06:22.009Z - debug: 5 orders seeded
+2018-11-30T18:06:22.011Z - debug: 5 orderLineItems seeded
+2018-11-30T18:06:22.011Z - info: END Seeder. Sample data read and verified.
+2018-11-30T18:07:01.142Z - debug: GET /products/create
+2018-11-30T18:07:02.252Z - debug: GET /images/manifest.json
+2018-11-30T18:07:03.794Z - debug: GET /orderLineItem
+2018-11-30T18:07:03.983Z - debug: GET /images/manifest.json
+2018-11-30T18:07:06.520Z - debug: GET /orderLineItem/create
+2018-11-30T18:07:06.602Z - debug: GET /orderLineItem/CSS/main.css
+2018-11-30T18:07:06.678Z - debug: GET /orderLineItem/CSS/main.css
+2018-11-30T18:07:06.736Z - debug: GET /images/manifest.json
+2018-11-30T18:07:08.378Z - debug: GET /images/manifest.json
+2018-11-30T18:07:09.404Z - debug: GET /orderLineItem/details/555
+2018-11-30T18:07:09.440Z - debug: GET /orderLineItem/details/CSS/main.css
+2018-11-30T18:07:09.493Z - debug: GET /orderLineItem/details/CSS/main.css
+2018-11-30T18:07:09.540Z - debug: GET /images/manifest.json
+2018-11-30T18:07:52.158Z - info: Environment variables loaded.
+2018-11-30T18:07:52.169Z - debug: START routing
+2018-11-30T18:07:52.195Z - debug: END routing
+2018-11-30T18:07:52.195Z - info: Loaded routing.
+2018-11-30T18:07:52.225Z - info: START seeder.
+2018-11-30T18:07:52.228Z - debug: 5 customers seeded
+2018-11-30T18:07:52.230Z - debug: 5 customers seeded
+2018-11-30T18:07:52.231Z - debug: 6 products seeded
+2018-11-30T18:07:52.232Z - debug: 5 orders seeded
+2018-11-30T18:07:52.234Z - debug: 5 orderLineItems seeded
+2018-11-30T18:07:52.234Z - info: END Seeder. Sample data read and verified.
+2018-11-30T18:08:07.993Z - info: Environment variables loaded.
+2018-11-30T18:08:08.004Z - debug: START routing
+2018-11-30T18:08:08.029Z - debug: END routing
+2018-11-30T18:08:08.029Z - info: Loaded routing.
+2018-11-30T18:08:08.058Z - info: START seeder.
+2018-11-30T18:08:08.061Z - debug: 5 customers seeded
+2018-11-30T18:08:08.064Z - debug: 5 customers seeded
+2018-11-30T18:08:08.065Z - debug: 6 products seeded
+2018-11-30T18:08:08.067Z - debug: 5 orders seeded
+2018-11-30T18:08:08.068Z - debug: 5 orderLineItems seeded
+2018-11-30T18:08:08.068Z - info: END Seeder. Sample data read and verified.
+2018-11-30T18:08:19.106Z - info: Environment variables loaded.
+2018-11-30T18:08:19.115Z - debug: START routing
+2018-11-30T18:08:19.142Z - debug: END routing
+2018-11-30T18:08:19.142Z - info: Loaded routing.
+2018-11-30T18:08:19.171Z - info: START seeder.
+2018-11-30T18:08:19.174Z - debug: 5 customers seeded
+2018-11-30T18:08:19.176Z - debug: 5 customers seeded
+2018-11-30T18:08:19.178Z - debug: 6 products seeded
+2018-11-30T18:08:19.179Z - debug: 5 orders seeded
+2018-11-30T18:08:19.181Z - debug: 5 orderLineItems seeded
+2018-11-30T18:08:19.181Z - info: END Seeder. Sample data read and verified.
+2018-11-30T18:08:26.198Z - info: Environment variables loaded.
+2018-11-30T18:08:26.207Z - debug: START routing
+2018-11-30T18:08:26.233Z - debug: END routing
+2018-11-30T18:08:26.233Z - info: Loaded routing.
+2018-11-30T18:08:26.262Z - info: START seeder.
+2018-11-30T18:08:26.265Z - debug: 5 customers seeded
+2018-11-30T18:08:26.266Z - debug: 5 customers seeded
+2018-11-30T18:08:26.268Z - debug: 6 products seeded
+2018-11-30T18:08:26.270Z - debug: 5 orders seeded
+2018-11-30T18:08:26.271Z - debug: 5 orderLineItems seeded
+2018-11-30T18:08:26.271Z - info: END Seeder. Sample data read and verified.
+2018-11-30T18:08:34.187Z - info: Environment variables loaded.
+2018-11-30T18:08:34.236Z - error: uncaughtException: Cannot find module '../controllers/orderLineItem.js' date=Fri Nov 30 2018 12:08:34 GMT-0600 (Central Standard Time), pid=2040, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=73830400, heapTotal=63426560, heapUsed=34652016, external=18674685, loadavg=[0, 0, 0], uptime=151826.745801
+Error: Cannot find module '../controllers/orderLineItem.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\routes\index.js:56:30)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\app.js:79:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-11-30T18:08:34.198Z - debug: START routing
+2018-11-30T18:08:37.091Z - info: Environment variables loaded.
+2018-11-30T18:08:37.140Z - error: uncaughtException: OrderLineItemSchema is not defined date=Fri Nov 30 2018 12:08:37 GMT-0600 (Central Standard Time), pid=10692, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=74264576, heapTotal=63426560, heapUsed=34773576, external=18688304, loadavg=[0, 0, 0], uptime=151829.6497569
+ReferenceError: OrderLineItemSchema is not defined
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\models\orderLineItem.js:41:50)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\controllers\orderLineItems.js:8:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\routes\index.js:56:30)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+2018-11-30T18:08:37.100Z - debug: START routing
+2018-11-30T18:08:51.277Z - info: Environment variables loaded.
+2018-11-30T18:08:51.326Z - error: uncaughtException: OrderLineItemSchema is not defined date=Fri Nov 30 2018 12:08:51 GMT-0600 (Central Standard Time), pid=8920, uid=null, gid=null, cwd=C:\Users\s523323\Documents\webapps2\ecommerce, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s523323\Documents\webapps2\ecommerce\app.js, js], rss=74481664, heapTotal=62902272, heapUsed=34245008, external=18661938, loadavg=[0, 0, 0], uptime=151843.8350633
+ReferenceError: OrderLineItemSchema is not defined
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\models\orderLineItem.js:41:50)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\controllers\orderLineItems.js:8:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s523323\Documents\webapps2\ecommerce\routes\index.js:56:30)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+2018-11-30T18:08:51.287Z - debug: START routing
+2018-11-30T18:09:32.896Z - info: Environment variables loaded.
+2018-11-30T18:09:32.906Z - debug: START routing
+2018-11-30T18:09:32.939Z - debug: END routing
+2018-11-30T18:09:32.939Z - info: Loaded routing.
+2018-11-30T18:09:32.973Z - info: START seeder.
+2018-11-30T18:09:32.977Z - debug: 5 customers seeded
+2018-11-30T18:09:32.978Z - debug: 5 customers seeded
+2018-11-30T18:09:32.981Z - debug: 6 products seeded
+2018-11-30T18:09:32.983Z - debug: 5 orders seeded
+2018-11-30T18:09:32.984Z - debug: 5 orderLineItems seeded
+2018-11-30T18:09:32.984Z - info: END Seeder. Sample data read and verified.
+2018-11-30T18:09:35.247Z - info: Environment variables loaded.
+2018-11-30T18:09:35.256Z - debug: START routing
+2018-11-30T18:09:35.281Z - debug: END routing
+2018-11-30T18:09:35.281Z - info: Loaded routing.
+2018-11-30T18:09:35.309Z - info: START seeder.
+2018-11-30T18:09:35.313Z - debug: 5 customers seeded
+2018-11-30T18:09:35.314Z - debug: 5 customers seeded
+2018-11-30T18:09:35.316Z - debug: 6 products seeded
+2018-11-30T18:09:35.317Z - debug: 5 orders seeded
+2018-11-30T18:09:35.318Z - debug: 5 orderLineItems seeded
+2018-11-30T18:09:35.318Z - info: END Seeder. Sample data read and verified.
+2018-11-30T18:09:40.860Z - debug: GET /
+2018-11-30T18:09:40.995Z - debug: GET /CSS/favicon-32x32.png
+2018-11-30T18:09:41.125Z - debug: GET /images/manifest.json
+2018-11-30T18:09:42.344Z - debug: GET /orderLineItem
+2018-11-30T18:09:42.553Z - debug: GET /images/manifest.json
+2018-11-30T18:09:43.450Z - debug: GET /orderLineItem/create
+2018-11-30T18:09:43.452Z - info: Handling GET /create[object Object]
+2018-11-30T18:09:43.457Z - debug: {"productQuantity":1,"productPrice":5}
+2018-11-30T18:09:43.490Z - debug: GET /orderLineItem/CSS/main.css
+2018-11-30T18:09:43.538Z - debug: GET /orderLineItem/CSS/main.css
+2018-11-30T18:09:43.628Z - debug: GET /images/manifest.json
+2018-11-30T18:09:56.648Z - debug: GET /images/manifest.json
+2018-11-30T18:09:57.768Z - debug: GET /orderLineItem/details/555
+2018-11-30T18:09:57.773Z - info: Handling GET /details/:id [object Object]
+2018-11-30T18:09:57.777Z - info: RETURNING VIEW FOR {"_id":555,"orderID":555,"productQuantity":1,"productID":555,"productPrice":2}
+2018-11-30T18:09:57.859Z - debug: GET /orderLineItem/details/CSS/main.css
+2018-11-30T18:09:57.916Z - debug: GET /orderLineItem/details/CSS/main.css
+2018-11-30T18:09:58.000Z - debug: GET /images/manifest.json
+2018-11-30T18:10:00.146Z - debug: GET /images/manifest.json
+2018-11-30T18:10:02.461Z - debug: GET /orderLineItem/delete/555
+2018-11-30T18:10:02.463Z - info: Handling GET /delete/:id [object Object]
+2018-11-30T18:10:02.464Z - info: RETURNING VIEW FOR {"_id":555,"orderID":555,"productQuantity":1,"productID":555,"productPrice":2}
+2018-11-30T18:10:02.533Z - debug: GET /orderLineItem/delete/CSS/main.css
+2018-11-30T18:10:02.580Z - debug: GET /orderLineItem/delete/CSS/main.css
+2018-11-30T18:10:02.644Z - debug: GET /images/manifest.json
+2018-11-30T18:10:04.161Z - debug: GET /images/manifest.json

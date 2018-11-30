@@ -11,7 +11,7 @@
 
 const mongoose = require('mongoose')
 
-const OrderSchema = new mongoose.Schema({
+const OrderLineItemSchema = new mongoose.Schema({
 
 _id: { 
     type: Number,
