@@ -698,3 +698,17 @@ Error: Cannot find module '../models/orders.js'
 2018-11-30T18:21:24.942Z - debug: 5 orders seeded
 2018-11-30T18:21:24.945Z - debug: 5 orderLineItems seeded
 2018-11-30T18:21:24.946Z - info: END Seeder. Sample data read and verified.
+2018-11-30T18:24:15.733Z - info: Environment variables loaded.
+2018-11-30T18:24:15.745Z - debug: START routing
+2018-11-30T18:24:15.775Z - debug: END routing
+2018-11-30T18:24:15.775Z - info: Loaded routing.
+2018-11-30T18:24:15.805Z - info: START seeder.
+2018-11-30T18:24:15.808Z - debug: 5 customers seeded
+2018-11-30T18:24:15.809Z - debug: 5 customers seeded
+2018-11-30T18:24:15.811Z - debug: 6 products seeded
+2018-11-30T18:24:15.812Z - debug: 5 orders seeded
+2018-11-30T18:24:15.814Z - debug: 5 orderLineItems seeded
+2018-11-30T18:24:15.814Z - info: END Seeder. Sample data read and verified.
+2018-11-30T18:24:21.301Z - debug: GET /images/manifest.json
+2018-11-30T18:24:22.105Z - debug: GET /orderLineItem
+2018-11-30T18:24:22.241Z - debug: GET /images/manifest.json
