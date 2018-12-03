@@ -749,3 +749,40 @@ Error: Cannot find module '../models/orders.js'
 2018-12-03T20:37:36.098Z - debug: GET /customers/CSS/main.css
 2018-12-03T20:37:36.237Z - debug: GET /customers/CSS/main.css
 2018-12-03T20:37:36.297Z - debug: GET /images/manifest.json
+2018-12-03T20:50:24.958Z - info: Environment variables loaded.
+2018-12-03T20:50:24.968Z - debug: START routing
+2018-12-03T20:50:25.001Z - debug: END routing
+2018-12-03T20:50:25.001Z - info: Loaded routing.
+2018-12-03T20:50:25.046Z - info: START seeder.
+2018-12-03T20:50:25.049Z - debug: 5 customers seeded
+2018-12-03T20:50:25.051Z - debug: 5 customers seeded
+2018-12-03T20:50:25.052Z - debug: 6 products seeded
+2018-12-03T20:50:25.055Z - debug: 5 orders seeded
+2018-12-03T20:50:25.056Z - debug: 5 orderLineItems seeded
+2018-12-03T20:50:25.056Z - info: END Seeder. Sample data read and verified.
+2018-12-03T20:50:28.740Z - debug: GET /customers/create
+2018-12-03T20:50:28.745Z - info: Handling GET /create[object Object]
+2018-12-03T20:50:28.748Z - debug: {"street1":"Street 1","street2":"Street 2","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-12-03T20:50:28.788Z - debug: GET /customers/CSS/main.css
+2018-12-03T20:50:29.097Z - debug: GET /CSS/shirts.jpg
+2018-12-03T20:50:29.109Z - debug: GET /customers/CSS/main.css
+2018-12-03T20:50:29.233Z - debug: GET /images/manifest.json
+2018-12-03T20:50:30.587Z - debug: GET /
+2018-12-03T20:50:30.861Z - debug: GET /images/manifest.json
+2018-12-03T20:50:34.636Z - debug: GET /customers/findall
+2018-12-03T20:50:37.980Z - debug: GET /images/manifest.json
+2018-12-03T20:50:39.545Z - debug: GET /customers/finone/1
+2018-12-03T20:50:39.584Z - debug: GET /customers/finone/CSS/main.css
+2018-12-03T20:50:39.732Z - debug: GET /customers/finone/CSS/main.css
+2018-12-03T20:50:39.825Z - debug: GET /images/manifest.json
+2018-12-03T20:51:01.445Z - debug: GET /customers/finone/1
+2018-12-03T20:51:01.474Z - debug: GET /customers/finone/CSS/main.css
+2018-12-03T20:51:01.788Z - debug: GET /customers/finone/CSS/main.css
+2018-12-03T20:51:01.928Z - debug: GET /images/manifest.json
+2018-12-03T20:51:05.707Z - debug: GET /customers/findone/1
+2018-12-03T20:51:52.323Z - debug: GET /
+2018-12-03T20:51:52.809Z - debug: GET /CSS/shirts.jpg
+2018-12-03T20:51:53.055Z - debug: GET /images/manifest.json
+2018-12-03T20:51:57.074Z - debug: GET /customers/findall
+2018-12-03T20:51:59.425Z - debug: GET /images/manifest.json
+2018-12-03T20:52:01.186Z - debug: GET /customers/findone/1
