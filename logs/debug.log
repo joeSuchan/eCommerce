@@ -786,6 +786,7 @@ Error: Cannot find module '../models/orders.js'
 2018-12-03T20:51:57.074Z - debug: GET /customers/findall
 2018-12-03T20:51:59.425Z - debug: GET /images/manifest.json
 2018-12-03T20:52:01.186Z - debug: GET /customers/findone/1
+<<<<<<< HEAD
 2018-12-03T21:46:10.034Z - info: Environment variables loaded.
 2018-12-03T21:46:10.045Z - debug: START routing
 2018-12-03T21:46:10.081Z - debug: END routing
@@ -1629,3 +1630,63 @@ SyntaxError: Unexpected identifier
 2018-12-03T22:45:15.252Z - info: SAVING NEW PRODUCT {"productKey":"aaa","description":"Best mug ever!","unitPrice":9,"color":"black","rating":5,"_id":6}
 2018-12-03T22:45:15.257Z - debug: GET /products
 2018-12-03T22:45:15.464Z - debug: GET /images/manifest.json
+=======
+2018-12-03T20:57:54.204Z - debug: GET /images/manifest.json
+2018-12-03T20:57:55.855Z - debug: GET /order
+2018-12-03T20:57:56.147Z - debug: GET /images/manifest.json
+2018-12-03T20:57:58.554Z - debug: GET /images/manifest.json
+2018-12-03T20:58:00.008Z - debug: GET /orderLineItem
+2018-12-03T20:58:00.334Z - debug: GET /images/manifest.json
+2018-12-03T20:58:02.773Z - debug: GET /images/manifest.json
+2018-12-03T20:58:04.376Z - debug: GET /products
+2018-12-03T20:58:04.611Z - debug: GET /images/manifest.json
+2018-12-03T20:58:06.061Z - debug: GET /products/delete/6
+2018-12-03T20:58:08.626Z - debug: GET /images/manifest.json
+2018-12-03T20:58:09.894Z - debug: GET /products/details/6
+2018-12-03T20:58:12.017Z - debug: GET /images/manifest.json
+2018-12-03T20:58:13.260Z - debug: GET /products/edit/6
+2018-12-03T20:58:15.927Z - debug: GET /images/manifest.json
+2018-12-03T20:58:22.545Z - debug: GET /order
+2018-12-03T20:58:22.748Z - debug: GET /images/manifest.json
+2018-12-03T20:58:24.149Z - debug: GET /order/delete/5
+2018-12-03T20:58:24.150Z - info: Handling GET /delete/:id [object Object]
+2018-12-03T20:58:24.151Z - info: RETURNING VIEW FOR {"_id":5,"email":"S444444@nwmissouri.edu","datePlaced":"2018-11-01","dateShipped":"2018-11-04","paymentType":"Credit Card","amountDue":58.98,"paid":true}
+2018-12-03T20:58:24.192Z - debug: GET /order/delete/CSS/main.css
+2018-12-03T20:58:24.326Z - debug: GET /order/delete/CSS/main.css
+2018-12-03T20:58:24.383Z - debug: GET /images/manifest.json
+2018-12-03T20:58:26.803Z - debug: GET /images/manifest.json
+2018-12-03T20:58:28.342Z - debug: GET /order/details/5
+2018-12-03T20:58:28.343Z - info: Handling GET /details/:id [object Object]
+2018-12-03T20:58:28.343Z - info: RETURNING VIEW FOR {"_id":5,"email":"S444444@nwmissouri.edu","datePlaced":"2018-11-01","dateShipped":"2018-11-04","paymentType":"Credit Card","amountDue":58.98,"paid":true}
+2018-12-03T20:58:28.389Z - debug: GET /order/details/CSS/main.css
+2018-12-03T20:58:28.521Z - debug: GET /order/details/CSS/main.css
+2018-12-03T20:58:28.583Z - debug: GET /images/manifest.json
+2018-12-03T20:58:30.490Z - debug: GET /images/manifest.json
+2018-12-03T20:58:31.701Z - debug: GET /order/edit/5
+2018-12-03T20:58:31.701Z - info: Handling GET /edit/:id [object Object]
+2018-12-03T20:58:31.701Z - info: RETURNING VIEW FOR{"_id":5,"email":"S444444@nwmissouri.edu","datePlaced":"2018-11-01","dateShipped":"2018-11-04","paymentType":"Credit Card","amountDue":58.98,"paid":true}
+2018-12-03T20:58:33.834Z - debug: GET /images/manifest.json
+2018-12-03T20:58:35.083Z - debug: GET /orderLineItem
+2018-12-03T20:58:35.298Z - debug: GET /images/manifest.json
+2018-12-03T20:58:36.941Z - debug: GET /orderLineItem/delete/555
+2018-12-03T20:58:36.943Z - info: Handling GET /delete/:id [object Object]
+2018-12-03T20:58:36.944Z - info: RETURNING VIEW FOR {"_id":555,"orderID":555,"productQuantity":1,"productID":555,"productPrice":2}
+2018-12-03T20:58:37.030Z - debug: GET /orderLineItem/delete/CSS/main.css
+2018-12-03T20:58:37.179Z - debug: GET /orderLineItem/delete/CSS/main.css
+2018-12-03T20:58:37.249Z - debug: GET /images/manifest.json
+2018-12-03T20:58:38.930Z - debug: GET /images/manifest.json
+2018-12-03T20:58:40.278Z - debug: GET /orderLineItem/details/555
+2018-12-03T20:58:40.281Z - info: Handling GET /details/:id [object Object]
+2018-12-03T20:58:40.281Z - info: RETURNING VIEW FOR {"_id":555,"orderID":555,"productQuantity":1,"productID":555,"productPrice":2}
+2018-12-03T20:58:40.342Z - debug: GET /orderLineItem/details/CSS/main.css
+2018-12-03T20:58:40.465Z - debug: GET /orderLineItem/details/CSS/main.css
+2018-12-03T20:58:40.518Z - debug: GET /images/manifest.json
+2018-12-03T20:58:42.222Z - debug: GET /images/manifest.json
+2018-12-03T20:58:43.485Z - debug: GET /orderLineItem/edit/555
+2018-12-03T20:58:43.486Z - info: Handling GET /edit/:id [object Object]
+2018-12-03T20:58:43.486Z - info: RETURNING VIEW FOR{"_id":555,"orderID":555,"productQuantity":1,"productID":555,"productPrice":2}
+2018-12-03T20:58:43.543Z - debug: GET /orderLineItem/edit/CSS/main.css
+2018-12-03T20:58:43.675Z - debug: GET /orderLineItem/edit/CSS/main.css
+2018-12-03T20:58:43.736Z - debug: GET /images/manifest.json
+2018-12-03T20:58:50.044Z - debug: GET /images/manifest.json
+>>>>>>> 10200dc704ae446310e37b07b3dca5e001d3cd8b
