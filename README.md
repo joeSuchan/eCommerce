@@ -8,6 +8,11 @@
 ### Product - Meghana Putta
 
 #Overview
+
 # Srujana Gattu
 # Worked with resource Customer and did models views and controllers.
-# Though strugged working with controllers finally cleared all issues and came up with a working app
+# Though struggled working with controllers finally cleared all issues and came up with a working app
+
+# Meghana Putta
+# Worked with models, views and controllers of products.
+# Faced few issues but got resolved somehow.
