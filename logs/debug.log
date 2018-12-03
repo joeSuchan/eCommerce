@@ -712,3 +712,40 @@ Error: Cannot find module '../models/orders.js'
 2018-11-30T18:24:21.301Z - debug: GET /images/manifest.json
 2018-11-30T18:24:22.105Z - debug: GET /orderLineItem
 2018-11-30T18:24:22.241Z - debug: GET /images/manifest.json
+2018-12-03T20:37:05.410Z - info: Environment variables loaded.
+2018-12-03T20:37:05.428Z - debug: START routing
+2018-12-03T20:37:05.471Z - debug: END routing
+2018-12-03T20:37:05.471Z - info: Loaded routing.
+2018-12-03T20:37:05.519Z - info: START seeder.
+2018-12-03T20:37:05.522Z - debug: 5 customers seeded
+2018-12-03T20:37:05.523Z - debug: 5 customers seeded
+2018-12-03T20:37:05.525Z - debug: 6 products seeded
+2018-12-03T20:37:05.527Z - debug: 5 orders seeded
+2018-12-03T20:37:05.528Z - debug: 5 orderLineItems seeded
+2018-12-03T20:37:05.528Z - info: END Seeder. Sample data read and verified.
+2018-12-03T20:37:15.613Z - debug: GET /
+2018-12-03T20:37:16.784Z - debug: GET /CSS/shirts.jpg
+2018-12-03T20:37:17.033Z - debug: GET /images/manifest.json
+2018-12-03T20:37:19.174Z - debug: GET /customers
+2018-12-03T20:37:19.397Z - debug: GET /images/manifest.json
+2018-12-03T20:37:24.005Z - debug: GET /customers/details/1
+2018-12-03T20:37:24.008Z - info: Handling GET /details/:id [object Object]
+2018-12-03T20:37:24.009Z - info: RETURNING VIEW FOR {"_id":1,"firstname":"Srujana","lastname":"Gattu","email":"S533622@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-12-03T20:37:24.048Z - debug: GET /customers/details/CSS/main.css
+2018-12-03T20:37:24.180Z - debug: GET /customers/details/CSS/main.css
+2018-12-03T20:37:24.234Z - debug: GET /images/manifest.json
+2018-12-03T20:37:26.700Z - debug: GET /images/manifest.json
+2018-12-03T20:37:28.463Z - debug: GET /customers/edit/1
+2018-12-03T20:37:28.465Z - info: Handling GET /edit/:id [object Object]
+2018-12-03T20:37:28.466Z - info: RETURNING VIEW FOR{"_id":1,"firstname":"Srujana","lastname":"Gattu","email":"S533622@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-12-03T20:37:28.466Z - info: RETURNING VIEW FOR{"_id":1,"firstname":"Srujana","lastname":"Gattu","email":"S533622@nwmissouri.edu","age":25,"street1":"1121N College Drive","street2":"Horizon west apartments","city":"Maryville","state":"MO","country":"USA","zip":64468}
+2018-12-03T20:37:28.510Z - debug: GET /customers/edit/CSS/main.css
+2018-12-03T20:37:28.662Z - debug: GET /customers/edit/CSS/main.css
+2018-12-03T20:37:28.752Z - debug: GET /images/manifest.json
+2018-12-03T20:37:31.522Z - debug: GET /images/manifest.json
+2018-12-03T20:37:36.050Z - debug: GET /customers/create
+2018-12-03T20:37:36.051Z - info: Handling GET /create[object Object]
+2018-12-03T20:37:36.060Z - debug: {"street1":"Street 1","street2":"Street 2","city":"Maryville","state":"MO","country":"USA","zip":"64468"}
+2018-12-03T20:37:36.098Z - debug: GET /customers/CSS/main.css
+2018-12-03T20:37:36.237Z - debug: GET /customers/CSS/main.css
+2018-12-03T20:37:36.297Z - debug: GET /images/manifest.json

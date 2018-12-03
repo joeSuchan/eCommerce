@@ -64,7 +64,7 @@ api.get('/details/:id', (req, res) => {
       customer: item
     })
 })
-
+// GET /details/:id
 api.get('/delete/:id', (req, res) => {
   LOG.info(`Handling GET /delete/:id ${req}`)
   const id = parseInt(req.params.id, 10) // base 10

@@ -7,3 +7,7 @@
 ### Order Line Item - Telio de Castro
 ### Product - Meghana Putta
 
+#Overview
+# Srujana Gattu
+# Worked with resource Customer and did models views and controllers.
+# Though strugged working with controllers finally cleared all issues and came up with a working app
