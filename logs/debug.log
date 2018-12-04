@@ -1722,3 +1722,21 @@ SyntaxError: Unexpected identifier
 2018-12-04T00:02:27.780Z - debug: GET /images/manifest.json
 2018-12-04T00:02:29.623Z - debug: GET /orderLineItem?
 2018-12-04T00:02:29.760Z - debug: GET /images/manifest.json
+2018-12-04T00:03:36.138Z - debug: GET /
+2018-12-04T00:03:36.363Z - debug: GET /images/manifest.json
+2018-12-04T00:04:24.902Z - debug: GET /products
+2018-12-04T00:04:25.026Z - debug: GET /CSS/favicon-32x32.png
+2018-12-04T00:04:25.152Z - debug: GET /images/manifest.json
+2018-12-04T00:04:26.491Z - debug: GET /products/details/6
+2018-12-04T00:04:26.533Z - debug: GET /products/details/CSS/main.css
+2018-12-04T00:04:26.605Z - debug: GET /products/details/CSS/main.css
+2018-12-04T00:04:26.697Z - debug: GET /images/manifest.json
+2018-12-04T00:04:28.692Z - debug: GET /images/manifest.json
+2018-12-04T00:04:29.586Z - debug: GET /orderLineItem
+2018-12-04T00:04:29.770Z - debug: GET /images/manifest.json
+2018-12-04T00:04:31.748Z - debug: GET /orderLineItem/details/555
+2018-12-04T00:04:31.749Z - info: Handling GET /details/:id [object Object]
+2018-12-04T00:04:31.749Z - info: RETURNING VIEW FOR {"_id":555,"orderID":555,"productQuantity":1,"productID":555,"productPrice":2}
+2018-12-04T00:04:31.781Z - debug: GET /orderLineItem/details/CSS/main.css
+2018-12-04T00:04:31.836Z - debug: GET /orderLineItem/details/CSS/main.css
+2018-12-04T00:04:31.898Z - debug: GET /images/manifest.json
