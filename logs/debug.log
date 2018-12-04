@@ -1690,3 +1690,35 @@ SyntaxError: Unexpected identifier
 2018-12-03T20:58:43.736Z - debug: GET /images/manifest.json
 2018-12-03T20:58:50.044Z - debug: GET /images/manifest.json
 >>>>>>> 10200dc704ae446310e37b07b3dca5e001d3cd8b
+2018-12-04T00:02:10.450Z - info: Environment variables loaded.
+2018-12-04T00:02:10.464Z - debug: START routing
+2018-12-04T00:02:10.498Z - debug: END routing
+2018-12-04T00:02:10.498Z - info: Loaded routing.
+2018-12-04T00:02:10.525Z - info: START seeder.
+2018-12-04T00:02:10.529Z - debug: 5 customers seeded
+2018-12-04T00:02:10.530Z - debug: 5 customers seeded
+2018-12-04T00:02:10.531Z - debug: 6 products seeded
+2018-12-04T00:02:10.532Z - debug: 5 orders seeded
+2018-12-04T00:02:10.534Z - debug: 5 orderLineItems seeded
+2018-12-04T00:02:10.534Z - info: END Seeder. Sample data read and verified.
+2018-12-04T00:02:18.387Z - debug: GET /
+2018-12-04T00:02:18.560Z - debug: GET /CSS/favicon-32x32.png
+2018-12-04T00:02:18.725Z - debug: GET /images/manifest.json
+2018-12-04T00:02:20.335Z - debug: GET /orderLineItem
+2018-12-04T00:02:20.548Z - debug: GET /images/manifest.json
+2018-12-04T00:02:21.850Z - debug: GET /orderLineItem/details/555
+2018-12-04T00:02:21.852Z - info: Handling GET /details/:id [object Object]
+2018-12-04T00:02:21.853Z - info: RETURNING VIEW FOR {"_id":555,"orderID":555,"productQuantity":1,"productID":555,"productPrice":2}
+2018-12-04T00:02:21.894Z - debug: GET /orderLineItem/details/CSS/main.css
+2018-12-04T00:02:21.941Z - debug: GET /orderLineItem/details/CSS/main.css
+2018-12-04T00:02:22.008Z - debug: GET /images/manifest.json
+2018-12-04T00:02:24.486Z - debug: GET /orderLineItem?
+2018-12-04T00:02:24.635Z - debug: GET /images/manifest.json
+2018-12-04T00:02:27.626Z - debug: GET /orderLineItem/delete/333
+2018-12-04T00:02:27.628Z - info: Handling GET /delete/:id [object Object]
+2018-12-04T00:02:27.628Z - info: RETURNING VIEW FOR {"_id":333,"orderID":333,"productQuantity":2,"productID":333,"productPrice":11}
+2018-12-04T00:02:27.660Z - debug: GET /orderLineItem/delete/CSS/main.css
+2018-12-04T00:02:27.712Z - debug: GET /orderLineItem/delete/CSS/main.css
+2018-12-04T00:02:27.780Z - debug: GET /images/manifest.json
+2018-12-04T00:02:29.623Z - debug: GET /orderLineItem?
+2018-12-04T00:02:29.760Z - debug: GET /images/manifest.json
